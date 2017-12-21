@@ -1,0 +1,23 @@
+apply plugin: 'com.android.library'
+apply plugin: 'kotlin-android'
+apply plugin: 'io.fabric'
+
+android {
+
+    compileSdkVersion sdk.compile
+    buildToolsVersion versions.build_tools
+
+    defaultConfig {
+        minSdkVersion sdk.min
+        targetSdkVersion sdk.target
+    }
+
+}
+
+dependencies {
+    compile libraries.kotlin.lib
+
+    compile(libraries.crashlytics) {
+        transitive = true
+    }
+}

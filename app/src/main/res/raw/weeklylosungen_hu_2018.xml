@@ -1,0 +1,509 @@
+<?xml version="1.0" standalone="yes"?>
+<FreeXml xmlns="http://tempuri.org/FreeXml.xsd">
+    <WochenLosungen>
+        <StartDatum>2018-01-01</StartDatum>
+        <EndDatum>2018-01-05</EndDatum>
+        <Sonntag>Újév</Sonntag>
+        <Losungstext>Amit pedig szóltok vagy tesztek, mind az Úr Jézus nevében tegyétek, hálát adva
+            az Atya Istennek őáltala.
+        </Losungstext>
+        <Losungsvers>Kol 3,17</Losungsvers>
+    </WochenLosungen>
+    <WochenLosungen>
+        <StartDatum>2018-01-06</StartDatum>
+        <EndDatum>2018-01-06</EndDatum>
+        <Sonntag>Vízkereszt ünnepe</Sonntag>
+        <Losungstext>Múlik a sötétség, és már fénylik az igazi világosság.</Losungstext>
+        <Losungsvers>1Jn 2,8</Losungsvers>
+    </WochenLosungen>
+    <WochenLosungen>
+        <StartDatum>2018-01-07</StartDatum>
+        <EndDatum>2018-01-13</EndDatum>
+        <Sonntag>Vízkereszt ünnepe után 1. vasárnap</Sonntag>
+        <Losungstext>Akiket Isten Lelke vezérel, azok Isten fiai.</Losungstext>
+        <Losungsvers>Róm 8,14</Losungsvers>
+    </WochenLosungen>
+    <WochenLosungen>
+        <StartDatum>2018-01-14</StartDatum>
+        <EndDatum>2018-01-20</EndDatum>
+        <Sonntag>Vízkereszt ünnepe után 2. vasárnap</Sonntag>
+        <Losungstext>A törvény Mózes által adatott, a kegyelem és az igazság Jézus Krisztus által
+            jelent meg.
+        </Losungstext>
+        <Losungsvers>Jn 1,17</Losungsvers>
+    </WochenLosungen>
+    <WochenLosungen>
+        <StartDatum>2018-01-21</StartDatum>
+        <EndDatum>2018-01-27</EndDatum>
+        <Sonntag>Vízkereszt ünnepe után utolsó vasárnap</Sonntag>
+        <Losungstext>Fölötted ott ragyog az Úr, dicsősége meglátszik rajtad.</Losungstext>
+        <Losungsvers>Ézs 60,2</Losungsvers>
+    </WochenLosungen>
+    <WochenLosungen>
+        <StartDatum>2018-01-28</StartDatum>
+        <EndDatum>2018-02-03</EndDatum>
+        <Sonntag>Hetvened vasárnap</Sonntag>
+        <Losungstext>Nem a magunk igaz tetteiben, hanem a te nagy irgalmadban bízva visszük eléd
+            könyörgéseinket.
+        </Losungstext>
+        <Losungsvers>Dán 9,18</Losungsvers>
+    </WochenLosungen>
+    <WochenLosungen>
+        <StartDatum>2018-02-04</StartDatum>
+        <EndDatum>2018-02-10</EndDatum>
+        <Sonntag>Hatvanad vasárnap</Sonntag>
+        <Losungstext>Ma, ha az ő szavát halljátok, ne keményítsétek meg a szíveteket.</Losungstext>
+        <Losungsvers>Zsid 3,15</Losungsvers>
+    </WochenLosungen>
+    <WochenLosungen>
+        <StartDatum>2018-02-11</StartDatum>
+        <EndDatum>2018-02-17</EndDatum>
+        <Sonntag>Ötvened vasárnap | (Esto mihi)</Sonntag>
+        <Losungstext>Légy erős kősziklám!</Losungstext>
+        <Losungsvers>Zsolt 31,3</Losungsvers>
+    </WochenLosungen>
+    <WochenLosungen>
+        <StartDatum>2018-02-18</StartDatum>
+        <EndDatum>2018-02-24</EndDatum>
+        <Sonntag>Böjt 1. vasárnapja (Invocavit)</Sonntag>
+        <Losungstext>Ha kiált hozzám, meghallgatom.</Losungstext>
+        <Losungsvers>Zsolt 91,15</Losungsvers>
+    </WochenLosungen>
+    <WochenLosungen>
+        <StartDatum>2018-02-25</StartDatum>
+        <EndDatum>2018-03-03</EndDatum>
+        <Sonntag>Böjt 2. vasárnapja (Reminiscere)</Sonntag>
+        <Losungstext>Gondolj, Uram, irgalmadra!</Losungstext>
+        <Losungsvers>Zsolt 25,6</Losungsvers>
+    </WochenLosungen>
+    <WochenLosungen>
+        <StartDatum>2018-03-04</StartDatum>
+        <EndDatum>2018-03-10</EndDatum>
+        <Sonntag>Böjt 3. vasárnapja (Oculi)</Sonntag>
+        <Losungstext>Szemem állandóan az Úrra néz.</Losungstext>
+        <Losungsvers>Zsolt 25,15</Losungsvers>
+    </WochenLosungen>
+    <WochenLosungen>
+        <StartDatum>2018-03-11</StartDatum>
+        <EndDatum>2018-03-17</EndDatum>
+        <Sonntag>Böjt 4. vasárnapja (Laetare)</Sonntag>
+        <Losungstext>Örüljetek Jeruzsálemmel!</Losungstext>
+        <Losungsvers>Ézs 66,10</Losungsvers>
+    </WochenLosungen>
+    <WochenLosungen>
+        <StartDatum>2018-03-18</StartDatum>
+        <EndDatum>2018-03-24</EndDatum>
+        <Sonntag>Böjt 5. vasárnapja (Judica)</Sonntag>
+        <Losungstext>Szolgáltass nekem igazságot, Istenem!</Losungstext>
+        <Losungsvers>Zsolt 43,1</Losungsvers>
+    </WochenLosungen>
+    <WochenLosungen>
+        <StartDatum>2018-03-25</StartDatum>
+        <EndDatum>2018-03-28</EndDatum>
+        <Sonntag>Böjt 6. vasárnapja (Palmarum)</Sonntag>
+        <Losungstext>Ahogyan Mózes felemelte a kígyót a pusztában, úgy kell az Emberfiának is
+            felemeltetnie, hogy aki hisz, annak örök élete legyen őbenne.
+        </Losungstext>
+        <Losungsvers>Jn 3,14–15</Losungsvers>
+    </WochenLosungen>
+    <WochenLosungen>
+        <StartDatum>2018-03-29</StartDatum>
+        <EndDatum>2018-03-29</EndDatum>
+        <Sonntag>Nagycsütörtök</Sonntag>
+        <Losungstext>Emlékezetessé tette csodáit, kegyelmes és irgalmas az Úr.</Losungstext>
+        <Losungsvers>Zsolt 111,4</Losungsvers>
+    </WochenLosungen>
+    <WochenLosungen>
+        <StartDatum>2018-03-30</StartDatum>
+        <EndDatum>2018-03-30</EndDatum>
+        <Sonntag>Nagypéntek</Sonntag>
+        <Losungstext>Úgy szerette Isten a világot, hogy egyszülött Fiát adta, hogy aki hisz őbenne,
+            el ne vesszen, hanem örök élete legyen.
+        </Losungstext>
+        <Losungsvers>Jn 3,16</Losungsvers>
+    </WochenLosungen>
+    <WochenLosungen>
+        <StartDatum>2018-03-31</StartDatum>
+        <EndDatum>2018-03-31</EndDatum>
+        <Sonntag>Nagyszombat</Sonntag>
+        <Losungstext>Hallgasd meg, Uram, imádságomat, jusson el hozzád kiáltásom!</Losungstext>
+        <Losungsvers>Zsolt 102,2</Losungsvers>
+    </WochenLosungen>
+    <WochenLosungen>
+        <StartDatum>2018-04-01</StartDatum>
+        <EndDatum>2018-04-01</EndDatum>
+        <Sonntag>Húsvét ünnepe</Sonntag>
+        <Losungstext>Krisztus mondja: Halott voltam, de íme, élek örökkön-örökké, és nálam vannak a
+            halál és a pokol kulcsai.
+        </Losungstext>
+        <Losungsvers>Jel 1,18</Losungsvers>
+    </WochenLosungen>
+    <WochenLosungen>
+        <StartDatum>2018-04-02</StartDatum>
+        <EndDatum>2018-04-07</EndDatum>
+        <Sonntag>Húsvét 2. napja</Sonntag>
+        <Losungstext>Hát nem ezt kellett-e elszenvednie a Krisztusnak, és így megdicsőülnie?
+        </Losungstext>
+        <Losungsvers>Lk 24,26</Losungsvers>
+    </WochenLosungen>
+    <WochenLosungen>
+        <StartDatum>2018-04-08</StartDatum>
+        <EndDatum>2018-04-14</EndDatum>
+        <Sonntag>Húsvét ünnepe után 1. vasárnap</Sonntag>
+        <Losungstext>Mint újszülött csecsemők.</Losungstext>
+        <Losungsvers>1Pt 2,2</Losungsvers>
+    </WochenLosungen>
+    <WochenLosungen>
+        <StartDatum>2018-04-15</StartDatum>
+        <EndDatum>2018-04-21</EndDatum>
+        <Sonntag>Húsvét ünnepe után 2. vasárnap (Misericordia Domini)</Sonntag>
+        <Losungstext>Az Úr szeretetével tele van a föld.</Losungstext>
+        <Losungsvers>Zsolt 33,5</Losungsvers>
+    </WochenLosungen>
+    <WochenLosungen>
+        <StartDatum>2018-04-22</StartDatum>
+        <EndDatum>2018-04-28</EndDatum>
+        <Sonntag>Húsvét ünnepe után 3. vasárnap (Jubilate)</Sonntag>
+        <Losungstext>Örvendj, egész föld, az Istennek!</Losungstext>
+        <Losungsvers>Zsolt 66,1</Losungsvers>
+    </WochenLosungen>
+    <WochenLosungen>
+        <StartDatum>2018-04-29</StartDatum>
+        <EndDatum>2018-05-05</EndDatum>
+        <Sonntag>Húsvét ünnepe után 4. vasárnap (Cantate)</Sonntag>
+        <Losungstext>Énekeljetek az Úrnak új éneket, mert csodákat tett!</Losungstext>
+        <Losungsvers>Zsolt 98,1</Losungsvers>
+    </WochenLosungen>
+    <WochenLosungen>
+        <StartDatum>2018-05-06</StartDatum>
+        <EndDatum>2018-05-09</EndDatum>
+        <Sonntag>Húsvét ünnepe után 5. vasárnap (Rogate)</Sonntag>
+        <Losungstext>Szüntelenül imádkozzatok!</Losungstext>
+        <Losungsvers>1Thessz 5,17</Losungsvers>
+    </WochenLosungen>
+    <WochenLosungen>
+        <StartDatum>2018-05-10</StartDatum>
+        <EndDatum>2018-05-12</EndDatum>
+        <Sonntag>Mennybemenetel ünnepe</Sonntag>
+        <Losungstext>Jézus Krisztus mondja: Ha felemeltetem a földről, magamhoz vonzok mindeneket.
+        </Losungstext>
+        <Losungsvers>Jn 12,32</Losungsvers>
+    </WochenLosungen>
+    <WochenLosungen>
+        <StartDatum>2018-05-13</StartDatum>
+        <EndDatum>2018-05-19</EndDatum>
+        <Sonntag>Húsvét ünnepe után 6. vasárnap (Exaudi)</Sonntag>
+        <Losungstext>Halld meg, Uram, hívó hangomat!</Losungstext>
+        <Losungsvers>Zsolt 27,7</Losungsvers>
+    </WochenLosungen>
+    <WochenLosungen>
+        <StartDatum>2018-05-20</StartDatum>
+        <EndDatum>2018-05-20</EndDatum>
+        <Sonntag>Pünkösd ünnepe</Sonntag>
+        <Losungstext>Nem hatalommal és nem erőszakkal, hanem az én lelkemmel! – mondja a Seregek
+            Ura.
+        </Losungstext>
+        <Losungsvers>Zak 4,6</Losungsvers>
+    </WochenLosungen>
+    <WochenLosungen>
+        <StartDatum>2018-05-21</StartDatum>
+        <EndDatum>2018-05-26</EndDatum>
+        <Sonntag>Pünkösd 2. napja</Sonntag>
+        <Losungstext>Simon Péter így felelt: Te vagy a Krisztus, az élő Isten Fia.</Losungstext>
+        <Losungsvers>Mt 16,16</Losungsvers>
+    </WochenLosungen>
+    <WochenLosungen>
+        <StartDatum>2018-05-27</StartDatum>
+        <EndDatum>2018-06-02</EndDatum>
+        <Sonntag>Szentháromság ünnepe</Sonntag>
+        <Losungstext>Szent, szent, szent a Seregek Ura, dicsősége betölti az egész földet!
+        </Losungstext>
+        <Losungsvers>Ézs 6,3</Losungsvers>
+    </WochenLosungen>
+    <WochenLosungen>
+        <StartDatum>2018-06-03</StartDatum>
+        <EndDatum>2018-06-09</EndDatum>
+        <Sonntag>Szentháromság ünnepe után 1. vasárnap</Sonntag>
+        <Losungstext>Jézus Krisztus mondja: Aki titeket hallgat, engem hallgat, és aki titeket
+            elutasít, engem utasít el.
+        </Losungstext>
+        <Losungsvers>Lk 10,16</Losungsvers>
+    </WochenLosungen>
+    <WochenLosungen>
+        <StartDatum>2018-06-10</StartDatum>
+        <EndDatum>2018-06-16</EndDatum>
+        <Sonntag>Szentháromság ünnepe után 2. vasárnap</Sonntag>
+        <Losungstext>Jézus Krisztus mondja: Jöjjetek énhozzám mindnyájan, akik megfáradtatok, és meg
+            vagytok terhelve, és én megnyugvást adok nektek.
+        </Losungstext>
+        <Losungsvers>Mt 11,28</Losungsvers>
+    </WochenLosungen>
+    <WochenLosungen>
+        <StartDatum>2018-06-17</StartDatum>
+        <EndDatum>2018-06-23</EndDatum>
+        <Sonntag>Szentháromság ünnepe után 3. vasárnap</Sonntag>
+        <Losungstext>Az Emberfia azért jött, hogy megkeresse és megtartsa az elveszettet.
+        </Losungstext>
+        <Losungsvers>Lk 19,10</Losungsvers>
+    </WochenLosungen>
+    <WochenLosungen>
+        <StartDatum>2018-06-24</StartDatum>
+        <EndDatum>2018-06-30</EndDatum>
+        <Sonntag>Szentháromság ünnepe után 4. vasárnap</Sonntag>
+        <Losungstext>Egymás terhét hordozzátok, és így töltsétek be Krisztus törvényét.
+        </Losungstext>
+        <Losungsvers>Gal 6,2</Losungsvers>
+    </WochenLosungen>
+    <WochenLosungen>
+        <StartDatum>2018-07-01</StartDatum>
+        <EndDatum>2018-07-07</EndDatum>
+        <Sonntag>Szentháromság ünnepe után 5. vasárnap</Sonntag>
+        <Losungstext>Kegyelemből van üdvösségetek hit által, és ez nem tőletek van: Isten
+            ajándéka.
+        </Losungstext>
+        <Losungsvers>Ef 2,8</Losungsvers>
+    </WochenLosungen>
+    <WochenLosungen>
+        <StartDatum>2018-07-08</StartDatum>
+        <EndDatum>2018-07-14</EndDatum>
+        <Sonntag>Szentháromság ünnepe után 6. vasárnap</Sonntag>
+        <Losungstext>Így szól az Úr, a te teremtőd…: Ne félj, mert megváltottalak, neveden
+            szólítottalak, enyém vagy!
+        </Losungstext>
+        <Losungsvers>Ézs 43,1</Losungsvers>
+    </WochenLosungen>
+    <WochenLosungen>
+        <StartDatum>2018-07-15</StartDatum>
+        <EndDatum>2018-07-21</EndDatum>
+        <Sonntag>Szentháromság ünnepe után 7. vasárnap</Sonntag>
+        <Losungstext>Nem vagytok többé idegenek és jövevények, hanem polgártársai a szenteknek és
+            háza népe Istennek.
+        </Losungstext>
+        <Losungsvers>Ef 2,19</Losungsvers>
+    </WochenLosungen>
+    <WochenLosungen>
+        <StartDatum>2018-07-22</StartDatum>
+        <EndDatum>2018-07-28</EndDatum>
+        <Sonntag>Szentháromság ünnepe után 8. vasárnap</Sonntag>
+        <Losungstext>Éljetek úgy, mint a világosság gyermekei. A világosság gyümölcse ugyanis csupa
+            jóság, igazság és egyenesség.
+        </Losungstext>
+        <Losungsvers>Ef 5,8–9</Losungsvers>
+    </WochenLosungen>
+    <WochenLosungen>
+        <StartDatum>2018-07-29</StartDatum>
+        <EndDatum>2018-08-04</EndDatum>
+        <Sonntag>Szentháromság ünnepe után 9. vasárnap</Sonntag>
+        <Losungstext>Akinek sokat adtak, attól sokat kívánnak, és akire sokat bíztak, attól többet
+            kérnek számon.
+        </Losungstext>
+        <Losungsvers>Lk 12,48b</Losungsvers>
+    </WochenLosungen>
+    <WochenLosungen>
+        <StartDatum>2018-08-05</StartDatum>
+        <EndDatum>2018-08-11</EndDatum>
+        <Sonntag>Szentháromság ünnepe után 10.</Sonntag>
+        <Losungstext>Boldog az a nemzet, amelynek Istene az Úr, az a nép, amelyet örökségül
+            választott.
+        </Losungstext>
+        <Losungsvers>Zsolt 33,12</Losungsvers>
+    </WochenLosungen>
+    <WochenLosungen>
+        <StartDatum>2018-08-12</StartDatum>
+        <EndDatum>2018-08-18</EndDatum>
+        <Sonntag>Szentháromság ünnepe után 11. vasárnap</Sonntag>
+        <Losungstext>Isten a gőgösöknek ellenáll, az alázatosaknak pedig kegyelmet ad.</Losungstext>
+        <Losungsvers>1Pt 5,5</Losungsvers>
+    </WochenLosungen>
+    <WochenLosungen>
+        <StartDatum>2018-08-19</StartDatum>
+        <EndDatum>2018-08-25</EndDatum>
+        <Sonntag>Szentháromság ünnepe után 12. vasárnap</Sonntag>
+        <Losungstext>A megrepedt nádszálat nem töri össze, a füstölgő mécsest nem oltja ki.
+        </Losungstext>
+        <Losungsvers>Ézs 42,3</Losungsvers>
+    </WochenLosungen>
+    <WochenLosungen>
+        <StartDatum>2018-08-26</StartDatum>
+        <EndDatum>2018-09-01</EndDatum>
+        <Sonntag>Szentháromság ünnepe után 13. vasárnap</Sonntag>
+        <Losungstext>Jézus Krisztus mondja: Valahányszor megtettétek ezeket akár csak eggyel is az
+            én legkisebb testvéreim közül, velem tettétek meg.
+        </Losungstext>
+        <Losungsvers>Mt 25,40</Losungsvers>
+    </WochenLosungen>
+    <WochenLosungen>
+        <StartDatum>2018-09-02</StartDatum>
+        <EndDatum>2018-09-08</EndDatum>
+        <Sonntag>Szentháromság ünnepe után 14. vasárnap</Sonntag>
+        <Losungstext>Áldjad, lelkem, az Urat, és ne feledd el, mennyi jót tett veled!</Losungstext>
+        <Losungsvers>Zsolt 103,2</Losungsvers>
+    </WochenLosungen>
+    <WochenLosungen>
+        <StartDatum>2018-09-09</StartDatum>
+        <EndDatum>2018-09-15</EndDatum>
+        <Sonntag>Szentháromság ünnepe után 15. vasárnap</Sonntag>
+        <Losungstext>Minden gondotokat őreá vessétek, mert neki gondja van rátok.</Losungstext>
+        <Losungsvers>1Pt 5,7</Losungsvers>
+    </WochenLosungen>
+    <WochenLosungen>
+        <StartDatum>2018-09-16</StartDatum>
+        <EndDatum>2018-09-22</EndDatum>
+        <Sonntag>Szentháromság ünnepe után 16. vasárnap</Sonntag>
+        <Losungstext>Krisztus Jézus megtörte a halál erejét, és az evangélium által világosságra
+            hozta az elmúlhatatlan életet.
+        </Losungstext>
+        <Losungsvers>2Tim 1,10</Losungsvers>
+    </WochenLosungen>
+    <WochenLosungen>
+        <StartDatum>2018-09-23</StartDatum>
+        <EndDatum>2018-09-29</EndDatum>
+        <Sonntag>Szentháromság ünnepe után 17. vasárnap</Sonntag>
+        <Losungstext>Az a győzelem, amely legyőzte a világot, a mi hitünk.</Losungstext>
+        <Losungsvers>1Jn 5,4</Losungsvers>
+    </WochenLosungen>
+    <WochenLosungen>
+        <StartDatum>2018-09-30</StartDatum>
+        <EndDatum>2018-10-06</EndDatum>
+        <Sonntag>Szentháromság ünnepe után 18. vasárnap</Sonntag>
+        <Losungstext>Azt a parancsolatot is kaptuk tőle, hogy aki szereti Istent, szeresse a
+            testvérét is.
+        </Losungstext>
+        <Losungsvers>1Jn 4,21</Losungsvers>
+    </WochenLosungen>
+    <WochenLosungen>
+        <StartDatum>2018-10-07</StartDatum>
+        <EndDatum>2018-10-13</EndDatum>
+        <Sonntag>Szentháromság ünnepe után 19.</Sonntag>
+        <Losungstext>Mindenki várakozva néz rád, és te idejében adsz nekik eledelt.</Losungstext>
+        <Losungsvers>Zsolt 145,15</Losungsvers>
+    </WochenLosungen>
+    <WochenLosungen>
+        <StartDatum>2018-10-14</StartDatum>
+        <EndDatum>2018-10-20</EndDatum>
+        <Sonntag>Szentháromság ünnepe után 20. vasárnap</Sonntag>
+        <Losungstext>Ember, megmondta neked, hogy mi a jó, és hogy mit kíván tőled az Úr! Csak azt,
+            hogy élj törvény szerint, törekedj szeretetre, és légy alázatos Isteneddel szemben.
+        </Losungstext>
+        <Losungsvers>Mik 6,8</Losungsvers>
+    </WochenLosungen>
+    <WochenLosungen>
+        <StartDatum>2018-10-21</StartDatum>
+        <EndDatum>2018-10-27</EndDatum>
+        <Sonntag>Szentháromság ünnepe után 21. vasárnap</Sonntag>
+        <Losungstext>Ne győzzön le téged a rossz, hanem te győzd le a jóval a rosszat.</Losungstext>
+        <Losungsvers>Róm 12,21</Losungsvers>
+    </WochenLosungen>
+    <WochenLosungen>
+        <StartDatum>2018-10-28</StartDatum>
+        <EndDatum>2018-10-30</EndDatum>
+        <Sonntag>Szentháromság ünnepe után 22.</Sonntag>
+        <Losungstext>Nálad van a bocsánat, ezért félnek téged.</Losungstext>
+        <Losungsvers>Zsolt 130,4</Losungsvers>
+    </WochenLosungen>
+    <WochenLosungen>
+        <StartDatum>2018-10-31</StartDatum>
+        <EndDatum>2018-11-03</EndDatum>
+        <Sonntag>Reformáció ünnepe</Sonntag>
+        <Losungstext>Más alapot senki sem vethet a meglevőn kívül, amely a Jézus Krisztus.
+        </Losungstext>
+        <Losungsvers>1Kor 3,11</Losungsvers>
+    </WochenLosungen>
+    <WochenLosungen>
+        <StartDatum>2018-11-04</StartDatum>
+        <EndDatum>2018-11-10</EndDatum>
+        <Sonntag>Szentháromság ünnepe után 23. vasárnap</Sonntag>
+        <Losungstext>Ő a királyok Királya és uraknak Ura. Övé egyedül a halhatatlanság…: övé a
+            tisztelet és az örökkévaló hatalom.
+        </Losungstext>
+        <Losungsvers>1Tim 6,15–16</Losungsvers>
+    </WochenLosungen>
+    <WochenLosungen>
+        <StartDatum>2018-11-11</StartDatum>
+        <EndDatum>2018-11-17</EndDatum>
+        <Sonntag>Szentháromság ünnepe után utolsó</Sonntag>
+        <Losungstext>Íme, most van a kegyelem ideje! Íme, most van az üdvösség napja!</Losungstext>
+        <Losungsvers>2Kor 6,2b</Losungsvers>
+    </WochenLosungen>
+    <WochenLosungen>
+        <StartDatum>2018-11-18</StartDatum>
+        <EndDatum>2018-11-24</EndDatum>
+        <Sonntag>Szentháromság ünnepe után utolsó</Sonntag>
+        <Losungstext>Mindnyájunknak leplezetlenül kell odaállnunk Krisztus ítélőszéke elé.
+        </Losungstext>
+        <Losungsvers>2Kor 5,10</Losungsvers>
+    </WochenLosungen>
+    <WochenLosungen>
+        <StartDatum>2018-11-25</StartDatum>
+        <EndDatum>2018-12-01</EndDatum>
+        <Sonntag>Szentháromság ünnepe után utolsó</Sonntag>
+        <Losungstext>Legyen derekatok felövezve, és lámpásotok meggyújtva.</Losungstext>
+        <Losungsvers>Lk 12,35</Losungsvers>
+    </WochenLosungen>
+    <WochenLosungen>
+        <StartDatum>2018-12-02</StartDatum>
+        <EndDatum>2018-12-08</EndDatum>
+        <Sonntag>Advent 1. vasárnapja</Sonntag>
+        <Losungstext>Királyod érkezik hozzád, aki igaz és diadalmas.</Losungstext>
+        <Losungsvers>Zak 9,9b</Losungsvers>
+    </WochenLosungen>
+    <WochenLosungen>
+        <StartDatum>2018-12-09</StartDatum>
+        <EndDatum>2018-12-15</EndDatum>
+        <Sonntag>Advent 2. vasárnapja</Sonntag>
+        <Losungstext>Egyenesedjetek fel, és emeljétek fel a fejeteket, mert közeledik a
+            megváltásotok.
+        </Losungstext>
+        <Losungsvers>Lk 21,28</Losungsvers>
+    </WochenLosungen>
+    <WochenLosungen>
+        <StartDatum>2018-12-16</StartDatum>
+        <EndDatum>2018-12-22</EndDatum>
+        <Sonntag>Advent 3. vasárnapja</Sonntag>
+        <Losungstext>Építsetek utat a pusztában az Úrnak! Az Úr jön hatalommal.</Losungstext>
+        <Losungsvers>Ézs 40,3.10</Losungsvers>
+    </WochenLosungen>
+    <WochenLosungen>
+        <StartDatum>2018-12-23</StartDatum>
+        <EndDatum>2018-12-23</EndDatum>
+        <Sonntag>Advent 4. vasárnapja</Sonntag>
+        <Losungstext>Örüljetek az Úrban mindenkor! Ismét mondom: örüljetek! Az Úr közel!
+        </Losungstext>
+        <Losungsvers>Fil 4,4–5</Losungsvers>
+    </WochenLosungen>
+    <WochenLosungen>
+        <StartDatum>2018-12-24</StartDatum>
+        <EndDatum>2018-12-24</EndDatum>
+        <Sonntag>Szenteste</Sonntag>
+        <Losungstext>Megjelent az Isten üdvözítő kegyelme minden embernek.</Losungstext>
+        <Losungsvers>Tit 2,11</Losungsvers>
+    </WochenLosungen>
+    <WochenLosungen>
+        <StartDatum>2018-12-25</StartDatum>
+        <EndDatum>2018-12-25</EndDatum>
+        <Sonntag>Karácsony ünnepe</Sonntag>
+        <Losungstext>Az Ige testté lett, közöttünk lakott, és láttuk az ő dicsőségét.</Losungstext>
+        <Losungsvers>Jn 1,14</Losungsvers>
+    </WochenLosungen>
+    <WochenLosungen>
+        <StartDatum>2018-12-26</StartDatum>
+        <EndDatum>2018-12-29</EndDatum>
+        <Sonntag>Karácsony 2. napja (István vértanú ünnepe)</Sonntag>
+        <Losungstext>Megjelent a mi üdvözítő Istenünk jósága és emberszeretete.</Losungstext>
+        <Losungsvers>Tit 3,4</Losungsvers>
+    </WochenLosungen>
+    <WochenLosungen>
+        <StartDatum>2018-12-30</StartDatum>
+        <EndDatum>2018-12-30</EndDatum>
+        <Sonntag>Karácsony utáni vasárnap</Sonntag>
+        <Losungstext>Az Ige testté lett, közöttünk lakott, és láttuk az ő dicsőségét.</Losungstext>
+        <Losungsvers>Jn 1,14</Losungsvers>
+    </WochenLosungen>
+    <WochenLosungen>
+        <StartDatum>2018-12-31</StartDatum>
+        <EndDatum>2018-12-31</EndDatum>
+        <Sonntag>Óév este</Sonntag>
+        <Losungstext>Irgalmas és kegyelmes az Úr, türelme hosszú, szeretete nagy.</Losungstext>
+        <Losungsvers>Zsolt 103,8</Losungsvers>
+    </WochenLosungen>
+</FreeXml>

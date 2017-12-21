@@ -1,0 +1,20 @@
+apply plugin: 'com.android.library'
+
+android {
+
+    compileSdkVersion sdk.compile
+    buildToolsVersion versions.build_tools
+
+    defaultConfig {
+        minSdkVersion sdk.min
+        targetSdkVersion sdk.target
+    }
+
+}
+
+dependencies {
+    compile project(':model')
+
+    compile libraries.arch.room.runtime
+    annotationProcessor libraries.arch.room.compiler
+}

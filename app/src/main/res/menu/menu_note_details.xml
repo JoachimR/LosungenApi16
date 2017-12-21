@@ -1,0 +1,22 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/menu_note_details_share"
+        android:icon="@drawable/ic_share_white_24dp"
+        android:title="@string/menu_note_details_share"
+        app:showAsAction="ifRoom" />
+
+    <item
+        android:id="@+id/menu_note_details_delete"
+        android:icon="@drawable/ic_delete_black_24dp"
+        android:title="@string/menu_note_details_delete"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/menu_note_details_edit"
+        android:icon="@drawable/ic_edit_black_24dp"
+        android:title="@string/menu_note_details_edit"
+        app:showAsAction="never" />
+
+</menu>

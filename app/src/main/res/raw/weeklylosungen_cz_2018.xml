@@ -1,0 +1,416 @@
+<?xml version="1.0" standalone="yes"?>
+<FreeXml xmlns="http://tempuri.org/FreeXml.xsd">
+    <WochenLosungen>
+        <StartDatum>2018-01-07</StartDatum>
+        <EndDatum>2018-01-13</EndDatum>
+        <Sonntag>1. neděle po Zjevení Páně</Sonntag>
+        <Losungstext>Ti, kdo se dají vést Duchem Božím, jsou synové Boží.</Losungstext>
+        <Losungsvers>Římanům 8,14</Losungsvers>
+    </WochenLosungen>
+    <WochenLosungen>
+        <StartDatum>2018-01-14</StartDatum>
+        <EndDatum>2018-01-20</EndDatum>
+        <Sonntag>2. neděle po Zjevení Páně</Sonntag>
+        <Losungstext>Zákon byl dán skrze Mojžíše, milost a pravda se stala skrze Ježíše Krista.
+        </Losungstext>
+        <Losungsvers>Jan 1,17</Losungsvers>
+    </WochenLosungen>
+    <WochenLosungen>
+        <StartDatum>2018-01-21</StartDatum>
+        <EndDatum>2018-01-27</EndDatum>
+        <Sonntag>Poslední neděle po Zjevení Páně</Sonntag>
+        <Losungstext>Nad tebou vzejde Hospodin a ukáže se nad tebou jeho sláva.</Losungstext>
+        <Losungsvers>Izaiáš 60,2</Losungsvers>
+    </WochenLosungen>
+    <WochenLosungen>
+        <StartDatum>2018-01-28</StartDatum>
+        <EndDatum>2018-02-03</EndDatum>
+        <Sonntag>Septuagesimae</Sonntag>
+        <Losungstext>Ne pro své spravedlivé činy ti předkládáme své prosby o smilování, ale pro tvé
+            velké slitování.
+        </Losungstext>
+        <Losungsvers>Daniel 9,18</Losungsvers>
+    </WochenLosungen>
+    <WochenLosungen>
+        <StartDatum>2018-02-04</StartDatum>
+        <EndDatum>2018-02-10</EndDatum>
+        <Sonntag>Sexagesimae</Sonntag>
+        <Losungstext>Uslyšíte-li dnes jeho hlas, nezatvrzujte svoje srdce.</Losungstext>
+        <Losungsvers>Židům 3,15 P</Losungsvers>
+    </WochenLosungen>
+    <WochenLosungen>
+        <StartDatum>2018-02-11</StartDatum>
+        <EndDatum>2018-02-17</EndDatum>
+        <Sonntag>Estomihi</Sonntag>
+        <Losungstext>Hle, jdeme do Jeruzaléma a na Synu člověka se naplní všechno, co je psáno u
+            proroků.
+        </Losungstext>
+        <Losungsvers>Lukáš 18,31</Losungsvers>
+    </WochenLosungen>
+    <WochenLosungen>
+        <StartDatum>2018-02-18</StartDatum>
+        <EndDatum>2018-02-24</EndDatum>
+        <Sonntag>Invocavit</Sonntag>
+        <Losungstext>Proto se zjevil Syn Boží, aby zmařil činy ďáblovy.</Losungstext>
+        <Losungsvers>1.Janova 3,8b</Losungsvers>
+    </WochenLosungen>
+    <WochenLosungen>
+        <StartDatum>2018-02-25</StartDatum>
+        <EndDatum>2018-03-03</EndDatum>
+        <Sonntag>Reminiscere</Sonntag>
+        <Losungstext>Bůh prokazuje svou lásku k nám tím, že Kristus za nás zemřel, když jsme ještě
+            byli hříšní.
+        </Losungstext>
+        <Losungsvers>Římanům 5,8</Losungsvers>
+    </WochenLosungen>
+    <WochenLosungen>
+        <StartDatum>2018-03-04</StartDatum>
+        <EndDatum>2018-03-10</EndDatum>
+        <Sonntag>Oculi</Sonntag>
+        <Losungstext>Ježíš řekl: Kdo položí ruku na pluh a ohlíží se zpět, není způsobilý pro
+            království Boží.
+        </Losungstext>
+        <Losungsvers>Lukáš 9,62</Losungsvers>
+    </WochenLosungen>
+    <WochenLosungen>
+        <StartDatum>2018-03-11</StartDatum>
+        <EndDatum>2018-03-17</EndDatum>
+        <Sonntag>Laetare</Sonntag>
+        <Losungstext>Amen, amen, pravím vám, jestliže pšeničné zrno nepadne do země a nezemře,
+            zůstane samo. Zemře-li však, vydá mnohý užitek.
+        </Losungstext>
+        <Losungsvers>Jan 12,24</Losungsvers>
+    </WochenLosungen>
+    <WochenLosungen>
+        <StartDatum>2018-03-18</StartDatum>
+        <EndDatum>2018-03-24</EndDatum>
+        <Sonntag>Judica</Sonntag>
+        <Losungstext>Syn člověka nepřišel, aby si dal sloužit, ale aby sloužil a dal svůj život jako
+            výkupné za mnohé.
+        </Losungstext>
+        <Losungsvers>Matouš 20,28</Losungsvers>
+    </WochenLosungen>
+    <WochenLosungen>
+        <StartDatum>2018-03-25</StartDatum>
+        <EndDatum>2018-03-31</EndDatum>
+        <Sonntag>Květná neděle</Sonntag>
+        <Losungstext>Jako Mojžíš vyvýšil hada na poušti, tak musí být vyvýšen Syn člověka, aby
+            každý, kdo v něho věří, měl život věčný.
+        </Losungstext>
+        <Losungsvers>Jan 3,14.15</Losungsvers>
+    </WochenLosungen>
+    <WochenLosungen>
+        <StartDatum>2018-04-01</StartDatum>
+        <EndDatum>2018-04-07</EndDatum>
+        <Sonntag>Velikonoční neděle</Sonntag>
+        <Losungstext>Byl jsem mrtev – a hle, živ jsem na věky věků. Mám klíče od smrti i hrobu.
+        </Losungstext>
+        <Losungsvers>Zjevení 1,18</Losungsvers>
+    </WochenLosungen>
+    <WochenLosungen>
+        <StartDatum>2018-04-08</StartDatum>
+        <EndDatum>2018-04-14</EndDatum>
+        <Sonntag>Quasimodogeniti</Sonntag>
+        <Losungstext>Veleben buď Bůh a Otec Pána našeho Ježíše Krista, neboť nám ze svého velikého
+            milosrdenství dal vzkříšením Ježíše Krista nově se narodit k živé naději.
+        </Losungstext>
+        <Losungsvers>1.Petrova 1,3</Losungsvers>
+    </WochenLosungen>
+    <WochenLosungen>
+        <StartDatum>2018-04-15</StartDatum>
+        <EndDatum>2018-04-21</EndDatum>
+        <Sonntag>Misericordias Domini</Sonntag>
+        <Losungstext>Já jsem dobrý pastýř. Dobrý pastýř položí svůj život za ovce. Moje ovce slyší
+            můj hlas, já je znám, jdou za mnou a já jim dávám věčný život.
+        </Losungstext>
+        <Losungsvers>Jan 10,11.27.28</Losungsvers>
+    </WochenLosungen>
+    <WochenLosungen>
+        <StartDatum>2018-04-22</StartDatum>
+        <EndDatum>2018-04-28</EndDatum>
+        <Sonntag>Jubilate</Sonntag>
+        <Losungstext>Kdo je v Kristu, je nové stvoření. Co je staré, pominulo, hle, je tu nové!
+        </Losungstext>
+        <Losungsvers>2.Korintským 5,17</Losungsvers>
+    </WochenLosungen>
+    <WochenLosungen>
+        <StartDatum>2018-04-29</StartDatum>
+        <EndDatum>2018-05-05</EndDatum>
+        <Sonntag>Cantate</Sonntag>
+        <Losungstext>Pějte Bohu novou píseň, neboť činí zázraky.</Losungstext>
+        <Losungsvers>Žalm 98,1 F</Losungsvers>
+    </WochenLosungen>
+    <WochenLosungen>
+        <StartDatum>2018-05-06</StartDatum>
+        <EndDatum>2018-05-12</EndDatum>
+        <Sonntag>Rogate</Sonntag>
+        <Losungstext>Požehnán buď Bůh, že mou modlitbu nezamítl a své milosrdenství mi neodepřel.
+        </Losungstext>
+        <Losungsvers>Žalm 66,20</Losungsvers>
+    </WochenLosungen>
+    <WochenLosungen>
+        <StartDatum>2018-05-13</StartDatum>
+        <EndDatum>2018-05-19</EndDatum>
+        <Sonntag>Exaudi</Sonntag>
+        <Losungstext>A já, až budu vyvýšen ze země, přitáhnu všecky k sobě.</Losungstext>
+        <Losungsvers>Jan 12,32</Losungsvers>
+    </WochenLosungen>
+    <WochenLosungen>
+        <StartDatum>2018-05-20</StartDatum>
+        <EndDatum>2018-05-26</EndDatum>
+        <Sonntag>Neděle svatodušní</Sonntag>
+        <Losungstext>Ne silou, ani mocí, ale Duchem mým, praví Hospodin zástupů.</Losungstext>
+        <Losungsvers>Zachariáš 4,6 K</Losungsvers>
+    </WochenLosungen>
+    <WochenLosungen>
+        <StartDatum>2018-05-27</StartDatum>
+        <EndDatum>2018-06-02</EndDatum>
+        <Sonntag>Neděle svaté Trojice</Sonntag>
+        <Losungstext>Svatý, svatý, svatý Hospodin zástupů, plná jest všecka země slávy jeho.
+        </Losungstext>
+        <Losungsvers>Izaiáš 6,3 K</Losungsvers>
+    </WochenLosungen>
+    <WochenLosungen>
+        <StartDatum>2018-06-03</StartDatum>
+        <EndDatum>2018-06-09</EndDatum>
+        <Sonntag>1. neděle po sv. Trojici</Sonntag>
+        <Losungstext>Kdo slyší vás, slyší mne, a kdo odmítá vás, odmítá mne; kdo odmítá mne, odmítá
+            toho, který mě poslal.
+        </Losungstext>
+        <Losungsvers>Lukáš 10,16</Losungsvers>
+    </WochenLosungen>
+    <WochenLosungen>
+        <StartDatum>2018-06-10</StartDatum>
+        <EndDatum>2018-06-16</EndDatum>
+        <Sonntag>2. neděle po sv. Trojici</Sonntag>
+        <Losungstext>Pojďte ke mně, všichni, kdo se namáháte a jste obtíženi břemeny, a já vám dám
+            odpočinout.
+        </Losungstext>
+        <Losungsvers>Matouš 11,28</Losungsvers>
+    </WochenLosungen>
+    <WochenLosungen>
+        <StartDatum>2018-06-17</StartDatum>
+        <EndDatum>2018-06-23</EndDatum>
+        <Sonntag>3. neděle po sv. Trojici</Sonntag>
+        <Losungstext>Syn člověka přišel, aby hledal a spasil, co zahynulo.</Losungstext>
+        <Losungsvers>Lukáš 19,10</Losungsvers>
+    </WochenLosungen>
+    <WochenLosungen>
+        <StartDatum>2018-06-24</StartDatum>
+        <EndDatum>2018-06-30</EndDatum>
+        <Sonntag>4. neděle po sv. Trojici</Sonntag>
+        <Losungstext>Jedni druhých břemena neste a tak plňte zákon Kristův.</Losungstext>
+        <Losungsvers>Galatským 6,2 K</Losungsvers>
+    </WochenLosungen>
+    <WochenLosungen>
+        <StartDatum>2018-07-01</StartDatum>
+        <EndDatum>2018-07-07</EndDatum>
+        <Sonntag>5. neděle po sv. Trojici</Sonntag>
+        <Losungstext>Milostí jste spaseni skrze víru.</Losungstext>
+        <Losungsvers>Efezským 2,8</Losungsvers>
+    </WochenLosungen>
+    <WochenLosungen>
+        <StartDatum>2018-07-08</StartDatum>
+        <EndDatum>2018-07-14</EndDatum>
+        <Sonntag>6. neděle po sv. Trojici</Sonntag>
+        <Losungstext>Toto praví Hospodin, tvůj stvořitel: "Neboj se, já jsem tě vykoupil, povolal
+            jsem tě tvým jménem, jsi můj."
+        </Losungstext>
+        <Losungsvers>Izaiáš 43,1</Losungsvers>
+    </WochenLosungen>
+    <WochenLosungen>
+        <StartDatum>2018-07-15</StartDatum>
+        <EndDatum>2018-07-21</EndDatum>
+        <Sonntag>7. neděle po sv. Trojici</Sonntag>
+        <Losungstext>Nejste již cizinci a přistěhovalci, máte právo Božího lidu a patříte k Boží
+            rodině.
+        </Losungstext>
+        <Losungsvers>Efezským 2,19</Losungsvers>
+    </WochenLosungen>
+    <WochenLosungen>
+        <StartDatum>2018-07-22</StartDatum>
+        <EndDatum>2018-07-28</EndDatum>
+        <Sonntag>8. neděle po sv. Trojici</Sonntag>
+        <Losungstext>Žijte jako děti světla – ovocem světla je vždy dobrota, spravedlnost a
+            pravda.
+        </Losungstext>
+        <Losungsvers>Efezským 5,8.9</Losungsvers>
+    </WochenLosungen>
+    <WochenLosungen>
+        <StartDatum>2018-07-29</StartDatum>
+        <EndDatum>2018-08-04</EndDatum>
+        <Sonntag>9. neděle po sv. Trojici</Sonntag>
+        <Losungstext>Komu bylo mnoho dáno, od toho se mnoho očekává, a komu mnoho svěřili, od toho
+            budou žádat tím více.
+        </Losungstext>
+        <Losungsvers>Lukáš 12,48</Losungsvers>
+    </WochenLosungen>
+    <WochenLosungen>
+        <StartDatum>2018-08-05</StartDatum>
+        <EndDatum>2018-08-11</EndDatum>
+        <Sonntag>10. neděle po sv. Trojici</Sonntag>
+        <Losungstext>Blahoslavený národ, kteréhož Hospodin jest Bohem jeho, lid ten, kterýž sobě on
+            vyvolil za dědictví.
+        </Losungstext>
+        <Losungsvers>Žalm 33,12 K</Losungsvers>
+    </WochenLosungen>
+    <WochenLosungen>
+        <StartDatum>2018-08-12</StartDatum>
+        <EndDatum>2018-08-18</EndDatum>
+        <Sonntag>11. neděle po sv. Trojici</Sonntag>
+        <Losungstext>Bůh se staví proti pyšným, ale pokorným dává milost.</Losungstext>
+        <Losungsvers>1.Petrova 5,5</Losungsvers>
+    </WochenLosungen>
+    <WochenLosungen>
+        <StartDatum>2018-08-19</StartDatum>
+        <EndDatum>2018-08-25</EndDatum>
+        <Sonntag>12. neděle po sv. Trojici</Sonntag>
+        <Losungstext>Nalomenou třtinu nedolomí, nezhasí knot doutnající.</Losungstext>
+        <Losungsvers>Izaiáš 42,3</Losungsvers>
+    </WochenLosungen>
+    <WochenLosungen>
+        <StartDatum>2018-08-26</StartDatum>
+        <EndDatum>2018-09-01</EndDatum>
+        <Sonntag>13. neděle po sv. Trojici</Sonntag>
+        <Losungstext>Amen, pravím vám, cokoliv jste učinili jednomu z těchto mých nepatrných bratří,
+            mně jste učinili.
+        </Losungstext>
+        <Losungsvers>Matouš 25,40</Losungsvers>
+    </WochenLosungen>
+    <WochenLosungen>
+        <StartDatum>2018-09-02</StartDatum>
+        <EndDatum>2018-09-08</EndDatum>
+        <Sonntag>14. neděle po sv. Trojici</Sonntag>
+        <Losungstext>Dobrořeč, má duše, Hospodinu, nezapomínej na žádné jeho dobrodiní!
+        </Losungstext>
+        <Losungsvers>Žalm 103,2</Losungsvers>
+    </WochenLosungen>
+    <WochenLosungen>
+        <StartDatum>2018-09-09</StartDatum>
+        <EndDatum>2018-09-15</EndDatum>
+        <Sonntag>15. neděle po sv. Trojici</Sonntag>
+        <Losungstext>Na něj hoďte všechnu svou starost, vždyť jemu na vás záleží.</Losungstext>
+        <Losungsvers>1.Petrova 5,7 Ž</Losungsvers>
+    </WochenLosungen>
+    <WochenLosungen>
+        <StartDatum>2018-09-16</StartDatum>
+        <EndDatum>2018-09-22</EndDatum>
+        <Sonntag>16. neděle po sv. Trojici</Sonntag>
+        <Losungstext>Kristus zlomil moc smrti a zjevil nepomíjející život v evangeliu.</Losungstext>
+        <Losungsvers>2.Timoteovi 1,10</Losungsvers>
+    </WochenLosungen>
+    <WochenLosungen>
+        <StartDatum>2018-09-23</StartDatum>
+        <EndDatum>2018-09-29</EndDatum>
+        <Sonntag>17. neděle po sv. Trojici</Sonntag>
+        <Losungstext>Vítězství, které přemohlo svět, je naše víra.</Losungstext>
+        <Losungsvers>1.Janova 5,4</Losungsvers>
+    </WochenLosungen>
+    <WochenLosungen>
+        <StartDatum>2018-09-30</StartDatum>
+        <EndDatum>2018-10-06</EndDatum>
+        <Sonntag>18. neděle po sv. Trojici</Sonntag>
+        <Losungstext>Máme od něho toto přikázání: Kdo miluje Boha, ať miluje i svého bratra.
+        </Losungstext>
+        <Losungsvers>1.Janova 4,21</Losungsvers>
+    </WochenLosungen>
+    <WochenLosungen>
+        <StartDatum>2018-10-07</StartDatum>
+        <EndDatum>2018-10-13</EndDatum>
+        <Sonntag>19. neděle po sv. Trojici</Sonntag>
+        <Losungstext>Oči všechněch v tebe doufají, a ty dáváš jim pokrm jejich v čas příhodný.
+        </Losungstext>
+        <Losungsvers>Žalm 145,15 K</Losungsvers>
+    </WochenLosungen>
+    <WochenLosungen>
+        <StartDatum>2018-10-14</StartDatum>
+        <EndDatum>2018-10-20</EndDatum>
+        <Sonntag>20. neděle po sv. Trojici</Sonntag>
+        <Losungstext>Člověče, bylo ti oznámeno, co je dobré a co od tebe Hospodin žádá: jen to, abys
+            zachovával právo, miloval milosrdenství a pokorně chodil se svým Bohem.
+        </Losungstext>
+        <Losungsvers>Micheáš 6,8</Losungsvers>
+    </WochenLosungen>
+    <WochenLosungen>
+        <StartDatum>2018-10-21</StartDatum>
+        <EndDatum>2018-10-27</EndDatum>
+        <Sonntag>21. neděle po sv. Trojici</Sonntag>
+        <Losungstext>Nedej se přemoci zlému, ale přemáhej v dobrém zlé.</Losungstext>
+        <Losungsvers>Římanům 12,21 K</Losungsvers>
+    </WochenLosungen>
+    <WochenLosungen>
+        <StartDatum>2018-10-28</StartDatum>
+        <EndDatum>2018-11-03</EndDatum>
+        <Sonntag>22. neděle po sv. Trojici</Sonntag>
+        <Losungstext>U tebe je odpuštění; tak vzbuzuješ bázeň.</Losungstext>
+        <Losungsvers>Žalm 130,4</Losungsvers>
+    </WochenLosungen>
+    <WochenLosungen>
+        <StartDatum>2018-11-04</StartDatum>
+        <EndDatum>2018-11-10</EndDatum>
+        <Sonntag>23. neděle po sv. Trojici</Sonntag>
+        <Losungstext>Králi králů a Pánu pánů, jenž jediný má nesmrtelnost, buď čest a vláda věčná.
+        </Losungstext>
+        <Losungsvers>1.Timoteovi 6,15-16 Ž</Losungsvers>
+    </WochenLosungen>
+    <WochenLosungen>
+        <StartDatum>2018-11-11</StartDatum>
+        <EndDatum>2018-11-17</EndDatum>
+        <Sonntag>24. neděle po sv. Trojici</Sonntag>
+        <Losungstext>Hle, nyní je čas příhodný, nyní je den spásy!</Losungstext>
+        <Losungsvers>2.Korintským 6,2</Losungsvers>
+    </WochenLosungen>
+    <WochenLosungen>
+        <StartDatum>2018-11-18</StartDatum>
+        <EndDatum>2018-11-24</EndDatum>
+        <Sonntag>25. neděle po sv. Trojici</Sonntag>
+        <Losungstext>Všichni se musíme ukázat před soudným stolcem Kristovým.</Losungstext>
+        <Losungsvers>2.Korintským 5,10</Losungsvers>
+    </WochenLosungen>
+    <WochenLosungen>
+        <StartDatum>2018-11-25</StartDatum>
+        <EndDatum>2018-12-01</EndDatum>
+        <Sonntag>Poslední neděle církevního roku</Sonntag>
+        <Losungstext>Buďtež bedra vaše přepásaná, a svíce hořící.</Losungstext>
+        <Losungsvers>Lukáš 12,35 K</Losungsvers>
+    </WochenLosungen>
+    <WochenLosungen>
+        <StartDatum>2018-12-02</StartDatum>
+        <EndDatum>2018-12-08</EndDatum>
+        <Sonntag>1. neděle adventní</Sonntag>
+        <Losungstext>Hle, přichází k tobě tvůj král, spravedlivý a vítězný.</Losungstext>
+        <Losungsvers>Zachariáš 9,9 J</Losungsvers>
+    </WochenLosungen>
+    <WochenLosungen>
+        <StartDatum>2018-12-09</StartDatum>
+        <EndDatum>2018-12-15</EndDatum>
+        <Sonntag>2. neděle adventní</Sonntag>
+        <Losungstext>Když se toto začne dít, napřimte se a zvedněte hlavy, neboť vaše vykoupení je
+            blízko.
+        </Losungstext>
+        <Losungsvers>Lukáš 21,28</Losungsvers>
+    </WochenLosungen>
+    <WochenLosungen>
+        <StartDatum>2018-12-16</StartDatum>
+        <EndDatum>2018-12-22</EndDatum>
+        <Sonntag>3. neděle adventní</Sonntag>
+        <Losungstext>Připravte cestu Hospodinu! Panovník přichází s mocí.</Losungstext>
+        <Losungsvers>Izaiáš 40,3.10</Losungsvers>
+    </WochenLosungen>
+    <WochenLosungen>
+        <StartDatum>2018-12-23</StartDatum>
+        <EndDatum>2018-12-29</EndDatum>
+        <Sonntag>4. neděle adventní</Sonntag>
+        <Losungstext>Radujte se v Pánu vždycky, znovu říkám, radujte se! Pán je blízko.
+        </Losungstext>
+        <Losungsvers>Filipským 4,4-5</Losungsvers>
+    </WochenLosungen>
+    <WochenLosungen>
+        <StartDatum>2018-12-30</StartDatum>
+        <EndDatum>2018-01-01</EndDatum>
+        <Sonntag>1. neděle po vánocích</Sonntag>
+        <Losungstext>Slovo se stalo tělem a přebývalo mezi námi. Spatřili jsme jeho slávu.
+        </Losungstext>
+        <Losungsvers>Jan 1,14</Losungsvers>
+    </WochenLosungen>
+</FreeXml>

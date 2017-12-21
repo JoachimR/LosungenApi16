@@ -1,0 +1,25 @@
+apply from: '../versions.gradle'
+apply from: '../libraries.gradle'
+apply plugin: 'java'
+
+buildscript {
+    apply from: '../versions.gradle'
+    apply from: '../libraries.gradle'
+
+    repositories {
+        mavenCentral()
+    }
+    dependencies {
+        classpath libraries.kotlin.plugin
+    }
+}
+
+repositories {
+    jcenter()
+}
+
+dependencies{
+    compile libraries.kotlin.lib
+}
+
+apply plugin: 'kotlin'

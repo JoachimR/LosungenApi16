@@ -1,0 +1,41 @@
+﻿<?xml version="1.0" standalone="yes"?>
+<FreeXml xmlns="http://tempuri.org/FreeXml.xsd">
+    <JahresLosungen>
+        <Datum>2013-01-01</Datum>
+        <Losungstext>Mert nincsen itt maradandó városunk, hanem az eljövendőt keressük.
+        </Losungstext>
+        <Losungsvers>Zsid 13,14</Losungsvers>
+    </JahresLosungen>
+    <JahresLosungen>
+        <Datum>2014-01-01</Datum>
+        <Losungstext>De nekem olyan jó Isten közelsége!</Losungstext>
+        <Losungsvers>Zsolt 73,28a</Losungsvers>
+    </JahresLosungen>
+    <JahresLosungen>
+        <Datum>2015-01-01</Datum>
+        <Losungstext>Fogadjátok be egymást, ahogyan Krisztus is befogadott titeket Isten
+            dicsőségére.
+        </Losungstext>
+        <Losungsvers>Róm 15,7</Losungsvers>
+    </JahresLosungen>
+    <JahresLosungen>
+        <Datum>2016-01-01</Datum>
+        <Losungstext>Ahogyan az anya vigasztalja fiát, úgy vigasztallak én titeket.</Losungstext>
+        <Losungsvers>Ézs 66,13</Losungsvers>
+    </JahresLosungen>
+    <JahresLosungen>
+        <Datum>2017-01-01</Datum>
+        <Losungstext>Új szívet adok nektek, és új lelket adok belétek.</Losungstext>
+        <Losungsvers>Ez 36,26a</Losungsvers>
+    </JahresLosungen>
+    <JahresLosungen>
+        <Datum>2018-01-01</Datum>
+        <Losungstext>Isten mondja: Én adok majd a szomjazónak az élet vizének forrásából ingyen.
+        </Losungstext>
+        <Losungsvers>Jel 21,6c</Losungsvers>
+    </JahresLosungen>
+</FreeXml>
+
+
+
+

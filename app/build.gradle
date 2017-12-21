@@ -1,0 +1,106 @@
+import de.reiss.android.losungen.ApkSignatureLoader
+
+apply plugin: "com.android.application"
+apply plugin: 'io.fabric'
+apply plugin: "kotlin-android"
+apply plugin: "kotlin-kapt"
+apply plugin: "kotlin-android-extensions"
+
+android {
+
+    compileSdkVersion sdk.compile
+    buildToolsVersion versions.build_tools
+
+    defaultConfig {
+        applicationId "de.reiss.android.losungen"
+        minSdkVersion sdk.min
+        targetSdkVersion sdk.target
+
+        versionCode isIdeBuild ? 1 : app_version_code
+        versionName app_version_name
+
+        vectorDrawables.useSupportLibrary = true
+
+        testInstrumentationRunner "de.reiss.android.losungen.testutil.AppTestRunner"
+    }
+
+    signingConfigs {
+        release {
+            def propertiesFile = new File('apk_signature.properties')
+            def apkSignatureLoader = new ApkSignatureLoader()
+            def apkSignature = apkSignatureLoader.loadApkSignature(propertiesFile)
+            if (apkSignature != null) {
+                storeFile = apkSignature.storeFile
+                storePassword = apkSignature.storePassword
+                keyAlias = apkSignature.keyAlias
+                keyPassword = apkSignature.keyPassword
+            }
+        }
+    }
+
+    buildTypes {
+        release {
+            minifyEnabled true
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+            signingConfig signingConfigs.release
+        }
+        debug {
+            minifyEnabled false
+            ext.enableCrashlytics = false
+        }
+    }
+
+    sourceSets {
+        androidTest.java.srcDirs += "src/test-common/java"
+        test.java.srcDirs += "src/test-common/java"
+    }
+
+    testOptions {
+        unitTests.returnDefaultValues = true
+    }
+
+}
+
+dependencies {
+    compile libraries.kotlin.lib
+
+    compile project(":database")
+    compile project(":logger")
+    compile project(":events")
+    compile project(":xmlparser")
+
+    compile libraries.support.app_compat
+    compile libraries.support.design
+    compile libraries.support.recycler_view
+    compile libraries.support.card_view
+
+    compile libraries.preference_fix.core
+    compile libraries.preference_fix.extras
+
+    compile libraries.arch.runtime
+    compile libraries.arch.extensions
+    kapt libraries.arch.compiler
+
+    compile libraries.play_services.gcm
+
+    compile libraries.dagger.core
+    kapt libraries.dagger.compiler
+    provided libraries.dagger.glassfish
+
+    compile(libraries.crashlytics) {
+        transitive = true
+    }
+
+    testCompile libraries.junit
+    testCompile libraries.mockito_kotlin
+    testCompile libraries.arch.core_testing
+
+    androidTestCompile libraries.support.test_runner
+    androidTestCompile libraries.support.test_rules
+    androidTestCompile libraries.espresso.core
+    androidTestCompile libraries.espresso.contrib
+    androidTestCompile libraries.espresso.intents
+    androidTestCompile libraries.mockito_android
+    androidTestCompile libraries.mockito_kotlin
+
+}
