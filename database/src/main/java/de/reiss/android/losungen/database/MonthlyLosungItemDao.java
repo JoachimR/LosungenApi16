@@ -14,22 +14,22 @@ import static android.arch.persistence.room.OnConflictStrategy.REPLACE;
 @Dao
 public interface MonthlyLosungItemDao {
 
-    @Query("SELECT * FROM MonthlyLosungItem")
-    List<MonthlyLosungItem> all();
+    @Query("SELECT * FROM MonthlyLosungDatabaseItem")
+    List<MonthlyLosungDatabaseItem> all();
 
     @SuppressWarnings(RoomWarnings.CURSOR_MISMATCH)
-    @Query("SELECT * FROM MonthlyLosungItem" +
-            " INNER JOIN LanguageItem ON MonthlyLosungItem.languageId = LanguageItem.id" +
-            " WHERE LanguageItem.id = :languageId AND MonthlyLosungItem.date = :date")
-    MonthlyLosungItem byDate(int languageId, Date date);
+    @Query("SELECT * FROM MonthlyLosungDatabaseItem" +
+            " INNER JOIN LanguageItem ON MonthlyLosungDatabaseItem.languageId = LanguageItem.id" +
+            " WHERE LanguageItem.id = :languageId AND MonthlyLosungDatabaseItem.date = :date")
+    MonthlyLosungDatabaseItem byDate(int languageId, Date date);
 
     @Insert(onConflict = REPLACE)
-    List<Long> insertOrReplace(MonthlyLosungItem... items);
+    List<Long> insertOrReplace(MonthlyLosungDatabaseItem... items);
 
     @Delete
-    void delete(MonthlyLosungItem... item);
+    void delete(MonthlyLosungDatabaseItem... item);
 
-    @Query("DELETE FROM MonthlyLosungItem")
+    @Query("DELETE FROM MonthlyLosungDatabaseItem")
     void clear();
 
 }

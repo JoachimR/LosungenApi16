@@ -5,7 +5,7 @@ import android.arch.lifecycle.ViewModel
 import android.arch.lifecycle.ViewModelProvider
 import de.reiss.android.losungen.architecture.AsyncLoad
 import de.reiss.android.losungen.architecture.AsyncLoadStatus
-import de.reiss.android.losungen.model.LosungContent
+import de.reiss.android.losungen.model.BibleTextPair
 import de.reiss.android.losungen.model.Note
 import java.util.*
 
@@ -21,8 +21,8 @@ open class EditNoteViewModel(private val repository: EditNoteRepository) : ViewM
         repository.loadNote(date, loadNoteLiveData())
     }
 
-    open fun storeNote(date: Date, text: String, losungContent: LosungContent) {
-        repository.updateNote(date, text, losungContent, storeNoteLiveData())
+    open fun storeNote(date: Date, text: String, bibleTextPair: BibleTextPair) {
+        repository.updateNote(date, text, bibleTextPair, storeNoteLiveData())
     }
 
     fun note() = loadNoteLiveData().value?.data

@@ -6,6 +6,7 @@ import android.arch.lifecycle.ViewModelProvider
 import android.arch.lifecycle.ViewModelProviders
 import android.support.v7.widget.DividerItemDecoration
 import android.support.v7.widget.LinearLayoutManager
+import android.view.View
 import android.view.View.GONE
 import android.view.View.VISIBLE
 import de.reiss.android.losungen.App
@@ -28,7 +29,7 @@ class NoteListFragment : AppFragment<NoteListViewModel>(R.layout.note_list_fragm
 
     private val listItemAdapter = NoteListItemAdapter(noteClickListener = this)
 
-    override fun initViews() {
+    override fun initViews(layout: View) {
         with(note_list_recycler_view) {
             layoutManager = LinearLayoutManager(context)
             adapter = listItemAdapter

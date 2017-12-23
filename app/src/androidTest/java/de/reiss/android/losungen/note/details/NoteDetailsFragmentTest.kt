@@ -60,7 +60,7 @@ class NoteDetailsFragmentTest : FragmentTest<NoteDetailsFragment>() {
         noteLiveData.postValue(AsyncLoad.success(note))
 
         checkTextsAreDisplayed(
-                contentAsString(activity, note.date.time, note.losungContent, ""),
+                contentAsString(activity, note.date.time, note.bibleTextPair, ""),
                 note.noteText)
 
         assertNotDisplayed(R.id.note_details_loading)

@@ -66,10 +66,10 @@ class NoteListRepositoryTest {
 
             assertEquals(databaseItem.date, note.date)
             assertEquals(databaseItem.note, note.noteText)
-            assertEquals(databaseItem.text1, note.losungContent.text1)
-            assertEquals(databaseItem.source1, note.losungContent.source1)
-            assertEquals(databaseItem.text2, note.losungContent.text2)
-            assertEquals(databaseItem.source2, note.losungContent.source2)
+            assertEquals(databaseItem.text1, note.bibleTextPair.first.text)
+            assertEquals(databaseItem.source1, note.bibleTextPair.first.source)
+            assertEquals(databaseItem.text2, note.bibleTextPair.second.text)
+            assertEquals(databaseItem.source2, note.bibleTextPair.second.source)
         }
     }
 

@@ -15,7 +15,7 @@ import de.reiss.android.losungen.preferences.AppPreferences
 import de.reiss.android.losungen.util.htmlize
 import java.util.*
 
-class ListProvider(private val context: Context) : RemoteViewsService.RemoteViewsFactory {
+abstract class ListProvider(private val context: Context) : RemoteViewsService.RemoteViewsFactory {
 
     private val list = ArrayList<CharSequence>()
 
@@ -27,9 +27,11 @@ class ListProvider(private val context: Context) : RemoteViewsService.RemoteView
         refreshContent()
     }
 
+    abstract fun widgetText(): String
+
     private fun refreshContent() {
         list.clear()
-        list.add(htmlize(WidgetRefresher.currentWidgetText))
+        list.add(htmlize(widgetText()))
     }
 
     override fun onCreate() {

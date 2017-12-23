@@ -8,7 +8,6 @@ import de.reiss.android.losungen.language.LanguageRepository
 import de.reiss.android.losungen.main.content.LosungRepository
 import de.reiss.android.losungen.main.viewpager.ViewPagerRepository
 import de.reiss.android.losungen.migration.ApkMigrator
-import de.reiss.android.losungen.rawdata.RawToDatabaseWriter
 import de.reiss.android.losungen.note.details.NoteDetailsRepository
 import de.reiss.android.losungen.note.edit.EditNoteRepository
 import de.reiss.android.losungen.note.export.NoteExportRepository
@@ -16,6 +15,7 @@ import de.reiss.android.losungen.note.list.NoteListRepository
 import de.reiss.android.losungen.notification.NotificationHelper
 import de.reiss.android.losungen.preferences.AppPreferences
 import de.reiss.android.losungen.preferences.AppPreferencesRepository
+import de.reiss.android.losungen.rawdata.RawToDatabaseWriter
 import de.reiss.android.losungen.widget.WidgetRefresher
 
 @ApplicationScope

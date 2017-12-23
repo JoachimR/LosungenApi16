@@ -20,6 +20,18 @@ open class DatabaseModule(val application: Application) {
 
     @Provides
     @ApplicationScope
+    open fun weeklyLosungItemDao() = getDatabase().weeklyLosungItemDao()
+
+    @Provides
+    @ApplicationScope
+    open fun monthlyLosungItemDao() = getDatabase().monthlyLosungItemDao()
+
+    @Provides
+    @ApplicationScope
+    open fun yearlyLosungItemDao() = getDatabase().yearlyLosungItemDao()
+
+    @Provides
+    @ApplicationScope
     open fun languageItemDao() = getDatabase().languageItemDao()
 
     @Provides

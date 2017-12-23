@@ -4,21 +4,26 @@
     <string name="navigation_drawer_open">Open navigation drawer</string>
     <string name="navigation_drawer_close">Close navigation drawer</string>
     <string name="app_name">Watchwords</string>
-    <string name="info_general">Unofficial Android app for Watchwords</string>
+    <string name="info_general">Inofficial Android app for Watchwords</string>
     <string name="source_code_prefix">Source code:</string>
     <string name="info_participate">If you want to participate in creating new content, please visit:</string>
     <string name="pref_screen_settings_title">Settings</string>
     <string name="pref_theme_title">Theme</string>
     <string-array name="pref_theme_themes_displayed">
-        <item>Red/Teal</item>
         <item>Blue/Orange</item>
+        <item>Red/Teal</item>
         <item>Grey/Cyan</item>
         <item>Green/Brown</item>
     </string-array>
     <string name="pref_language_title">Translation</string>
     <string name="pref_app_category_title">Application settings</string>
-    <string name="pref_fontsize_title">Content Font Size</string>
-    <string name="pref_shownotes_title">Show Notes</string>
+    <string name="pref_fontsize_title">Font Size</string>
+    <string name="pref_fontcolor_title">Font Color</string>
+    <string name="pref_backgroundcolor_title">Background Color</string>
+    <string name="pref_cardbackgroundcolor_title">Card Background Color</string>
+    <string name="pref_show_notes_title">Show Notes</string>
+    <string name="pref_show_toolbar_title">Show Toolbar</string>
+    <string name="pref_show_cards_title">Show Cards</string>
     <string name="pref_widget_category_title">Widget Settings</string>
     <string name="pref_widget_showdate_title">Widget Show Date</string>
     <string name="pref_widget_centered_text_title">Widget Centered Text</string>
@@ -126,8 +131,12 @@
     <string name="share_app_title">Share app</string>
     <string name="pref_app_show_daily_notification_summary_off">No Notifications</string>
     <string name="pref_app_show_daily_notification_summary_on">Display daily text as a notification every day</string>
-    <string name="pref_shownotes_summary_off">Notizen hidden</string>
-    <string name="pref_shownotes_summary_on">Notizen visible below the language verses</string>
+    <string name="pref_show_notes_summary_off">Notes hidden</string>
+    <string name="pref_show_notes_summary_on">Notes visible below the language verses</string>
+    <string name="pref_show_toolbar_summary_off">Toolbar hidden</string>
+    <string name="pref_show_toolbar_summary_on">Toolbar visible</string>
+    <string name="pref_show_cards_summary_off">Text displayed without cards</string>
+    <string name="pref_show_cards_summary_on">Text written on cards</string>
     <string name="fontsize_dialog_title">Set font size</string>
     <string name="fontsize_dialog_ok">Done</string>
     <string name="menu_font_size">Change font size</string>
@@ -141,4 +150,9 @@
     <string name="menu_note_details_edit">Edit</string>
     <string name="note_details_error_reload_note">Could not reload this note…</string>
     <string name="note_details_note_header">Notes:</string>
+    <string name="widget_daily">Watchword for the day</string>
+    <string name="widget_weekly">Watchword for the week</string>
+    <string name="widget_monthly">Watchword for the month</string>
+    <string name="widget_yearly">Watchword for the year</string>
+    <string name="widget_weekly_date_range">%1$s - %2$s</string>
 </resources>

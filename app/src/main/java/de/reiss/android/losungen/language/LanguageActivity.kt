@@ -8,6 +8,7 @@ import android.support.v7.app.AppCompatActivity
 import de.reiss.android.losungen.App
 import de.reiss.android.losungen.R
 import de.reiss.android.losungen.main.MainActivity
+import de.reiss.android.losungen.main.MainActivityNoToolbar
 import de.reiss.android.losungen.util.extensions.findFragmentIn
 import de.reiss.android.losungen.util.extensions.replaceFragmentIn
 import kotlinx.android.synthetic.main.language_activity.*
@@ -54,7 +55,10 @@ class LanguageActivity : AppCompatActivity() {
 
     private fun redirectIfLanguageChosen(): Boolean {
         if (appPreferences.chosenLanguage != null) {
-            startActivity(MainActivity.createIntent(this))
+            startActivity(
+                    if (appPreferences.showToolbar()) MainActivity.createIntent(this)
+                    else MainActivityNoToolbar.createIntent(this)
+            )
             supportFinishAfterTransition()
             return true
         }

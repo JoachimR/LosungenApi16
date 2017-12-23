@@ -82,12 +82,11 @@ class LosungRepositoryTest {
         val data = result.data ?: throw NullPointerException()
 
         assertEquals(languageItem.language, data.language)
-        assertEquals(date, data.date)
-        assertEquals(item.text1, data.content.text1)
-        assertEquals(item.source1, data.content.source1)
-        assertEquals(item.text2, data.content.text2)
-        assertEquals(item.source2, data.content.source2)
-
+        assertEquals(date, data.startDate())
+        assertEquals(item.text1, data.bibleTextPair.first.text)
+        assertEquals(item.source1, data.bibleTextPair.first.source)
+        assertEquals(item.text2, data.bibleTextPair.second.text)
+        assertEquals(item.source2, data.bibleTextPair.second.source)
     }
 
     @Test
@@ -115,10 +114,10 @@ class LosungRepositoryTest {
 
         assertEquals(date, data.date)
         assertEquals(item.note, data.noteText)
-        assertEquals(item.text1, data.losungContent.text1)
-        assertEquals(item.source1, data.losungContent.source1)
-        assertEquals(item.text2, data.losungContent.text2)
-        assertEquals(item.source2, data.losungContent.source2)
+        assertEquals(item.text1, data.bibleTextPair.first.text)
+        assertEquals(item.source1, data.bibleTextPair.first.source)
+        assertEquals(item.text2, data.bibleTextPair.second.text)
+        assertEquals(item.source2, data.bibleTextPair.second.source)
     }
 
     private fun loadLosungFromRepo(): AsyncLoad<DailyLosung> {

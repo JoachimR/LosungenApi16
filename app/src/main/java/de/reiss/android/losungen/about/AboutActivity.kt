@@ -5,8 +5,10 @@ import android.content.Intent
 import android.os.Bundle
 import android.view.Menu
 import android.view.MenuItem
+import de.reiss.android.losungen.App
 import de.reiss.android.losungen.R
 import de.reiss.android.losungen.architecture.AppActivity
+import de.reiss.android.losungen.preferences.AppPreferences
 import kotlinx.android.synthetic.main.about_activity.*
 
 class AboutActivity : AppActivity() {
@@ -18,6 +20,10 @@ class AboutActivity : AppActivity() {
 
     }
 
+    private val appPreferences: AppPreferences by lazy {
+        App.component.appPreferences
+    }
+
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.about_activity)
@@ -25,6 +31,20 @@ class AboutActivity : AppActivity() {
         supportActionBar?.setDisplayHomeAsUpEnabled(true)
 
         about_app_version.text = appVersion()
+
+        about_root.setBackgroundColor(appPreferences.backgroundColor())
+
+        val fontColor = appPreferences.fontColor()
+        about_app_name.setTextColor(fontColor)
+        about_app_version.setTextColor(fontColor)
+        about_info_prefix.setTextColor(fontColor)
+        about_info_general.setTextColor(fontColor)
+        about_source_code_prefix.setTextColor(fontColor)
+        about_source_code_url.setLinkTextColor(fontColor)
+        about_developer_prefix.setTextColor(fontColor)
+        about_developer_name.setTextColor(fontColor)
+        about_developer_mail.setLinkTextColor(fontColor)
+        about_developer_github.setLinkTextColor(fontColor)
     }
 
     override fun onCreateOptionsMenu(menu: Menu): Boolean {

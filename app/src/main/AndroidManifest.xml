@@ -38,6 +38,11 @@
             android:theme="@style/AppTheme.NoActionBar" />
 
         <activity
+            android:name=".main.MainActivityNoToolbar"
+            android:label="@string/main_activity_title"
+            android:theme="@style/AppTheme.NoActionBar" />
+
+        <activity
             android:name=".preferences.AppPreferencesActivity"
             android:label="@string/preferences_title" />
 
@@ -88,16 +93,63 @@
         </service>
 
         <service
-            android:name=".widget.WidgetService"
+            android:name=".widget.daily.DailyWidgetService"
             android:permission="android.permission.BIND_REMOTEVIEWS" />
 
-        <receiver android:name=".widget.WidgetProvider">
+        <service
+            android:name=".widget.weekly.WeeklyWidgetService"
+            android:permission="android.permission.BIND_REMOTEVIEWS" />
+
+        <service
+            android:name=".widget.monthly.MonthlyWidgetService"
+            android:permission="android.permission.BIND_REMOTEVIEWS" />
+
+        <service
+            android:name=".widget.yearly.YearlyWidgetService"
+            android:permission="android.permission.BIND_REMOTEVIEWS" />
+
+        <receiver
+            android:name=".widget.daily.DailyWidgetProvider"
+            android:label="@string/widget_daily">
             <intent-filter>
                 <action android:name="android.appwidget.action.APPWIDGET_UPDATE" />
             </intent-filter>
             <meta-data
                 android:name="android.appwidget.provider"
-                android:resource="@xml/widget_info" />
+                android:resource="@xml/daily_widget_info" />
+        </receiver>
+
+        <receiver
+            android:name=".widget.weekly.WeeklyWidgetProvider"
+            android:label="@string/widget_weekly">
+            <intent-filter>
+                <action android:name="android.appwidget.action.APPWIDGET_UPDATE" />
+            </intent-filter>
+            <meta-data
+                android:name="android.appwidget.provider"
+                android:resource="@xml/weekly_widget_info" />
+        </receiver>
+
+        <receiver
+            android:name=".widget.monthly.MonthlyWidgetProvider"
+            android:label="@string/widget_monthly">
+            <intent-filter>
+                <action android:name="android.appwidget.action.APPWIDGET_UPDATE" />
+            </intent-filter>
+            <meta-data
+                android:name="android.appwidget.provider"
+                android:resource="@xml/monthly_widget_info" />
+        </receiver>
+
+        <receiver
+            android:name=".widget.yearly.YearlyWidgetProvider"
+            android:label="@string/widget_yearly">
+            <intent-filter>
+                <action android:name="android.appwidget.action.APPWIDGET_UPDATE" />
+            </intent-filter>
+            <meta-data
+                android:name="android.appwidget.provider"
+                android:resource="@xml/yearly_widget_info" />
         </receiver>
 
     </application>

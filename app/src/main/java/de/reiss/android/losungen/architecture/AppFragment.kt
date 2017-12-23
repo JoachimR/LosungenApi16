@@ -23,7 +23,7 @@ abstract class AppFragment<T : ViewModel>(@LayoutRes private val fragmentLayout:
     abstract fun defineViewModelProvider(): ViewModelProvider
     abstract fun defineViewModel(): T
 
-    abstract fun initViews()
+    abstract fun initViews(layout: View)
     abstract fun initViewModelObservers()
 
     open fun onAppFragmentReady() {
@@ -48,7 +48,7 @@ abstract class AppFragment<T : ViewModel>(@LayoutRes private val fragmentLayout:
 
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
         super.onViewCreated(view, savedInstanceState)
-        initViews()
+        initViews(view)
     }
 
     override fun onActivityCreated(savedInstanceState: Bundle?) {

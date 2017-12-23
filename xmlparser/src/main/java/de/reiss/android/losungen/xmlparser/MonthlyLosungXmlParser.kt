@@ -4,7 +4,7 @@ import org.jsoup.Jsoup
 import org.jsoup.nodes.Element
 
 
-object MonthlyLosungXmlParser {
+object MonthlyLosungXmlParser : LosungXmlParser<MonthlyLosungXmlItem> {
 
     private const val FreeXml = "FreeXml"
 
@@ -13,7 +13,7 @@ object MonthlyLosungXmlParser {
     private const val Losungstext = "Losungstext"
     private const val Losungsvers = "Losungsvers"
 
-    fun parse(string: String): List<MonthlyLosungXmlItem> =
+    override fun parse(string: String): List<MonthlyLosungXmlItem> =
             Jsoup.parse(string).body().getElementsByTag(FreeXml)?.let { content ->
                 content
                         .flatMap { it.getElementsByTag(MonatsLosungen) }

@@ -7,7 +7,7 @@ import android.arch.persistence.room.PrimaryKey;
 
 import java.util.Date;
 
-import de.reiss.android.losungen.model.LosungContent;
+import de.reiss.android.losungen.model.BibleTextPair;
 
 @Entity(indices = {@Index(value = {"date"}, unique = true)})
 public class NoteItem {
@@ -27,12 +27,14 @@ public class NoteItem {
     }
 
     @Ignore
-    public NoteItem(Date date, LosungContent content, String note) {
+    public NoteItem(Date date,
+                    BibleTextPair bibleTextPair,
+                    String note) {
         this.date = date;
-        this.text1 = content.getText1();
-        this.source1 = content.getSource1();
-        this.text2 = content.getText2();
-        this.source2 = content.getSource2();
+        this.text1 = bibleTextPair.getFirst().getText();
+        this.source1 = bibleTextPair.getFirst().getSource();
+        this.text2 = bibleTextPair.getSecond().getText();
+        this.source2 = bibleTextPair.getSecond().getSource();
         this.note = note;
     }
 

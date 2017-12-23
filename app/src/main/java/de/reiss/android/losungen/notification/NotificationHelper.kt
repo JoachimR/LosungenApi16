@@ -69,7 +69,7 @@ open class NotificationHelper @Inject constructor(private val context: Context,
     private fun createNotification(context: Context, dailyLosung: DailyLosung) =
             NotificationCompat.Builder(context, NOTIFICATION_CHANNEL_ID)
                     .setSmallIcon(R.drawable.ic_daily_losung)
-                    .setContentTitle(formattedDate(context, dailyLosung.date.time))
+                    .setContentTitle(formattedDate(context, dailyLosung.startDate().time))
                     .setStyle(NotificationCompat.BigTextStyle()
                             .bigText(losungToText(dailyLosung)))
                     .setLargeIcon(BitmapFactory.decodeResource(
@@ -88,13 +88,13 @@ open class NotificationHelper @Inject constructor(private val context: Context,
 
     private fun losungToText(dailyLosung: DailyLosung) =
             StringBuilder().apply {
-                append(dailyLosung.content.text1)
+                append(dailyLosung.bibleTextPair.first.text)
                 append(" ")
-                append(dailyLosung.content.source1)
+                append(dailyLosung.bibleTextPair.first.source)
                 append("\n")
-                append(dailyLosung.content.text2)
+                append(dailyLosung.bibleTextPair.second.text)
                 append(" ")
-                append(dailyLosung.content.source2)
+                append(dailyLosung.bibleTextPair.second.source)
             }.toString()
 
     @RequiresApi(Build.VERSION_CODES.O)

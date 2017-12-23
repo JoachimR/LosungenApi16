@@ -82,7 +82,7 @@ class ViewPagerFragment : AppFragment<ViewPagerViewModel>(R.layout.view_pager_fr
         super.onSaveInstanceState(outState)
     }
 
-    override fun initViews() {
+    override fun initViews(layout: View) {
         adapter = ViewPagerAdapter(childFragmentManager)
         view_pager.adapter = adapter
     }

@@ -18,7 +18,7 @@ import org.junit.runner.RunWith
 import java.util.*
 
 @RunWith(AndroidJUnit4::class)
-class LosungFragmentTest : FragmentTest<LosungFragment>() {
+class LosungFragmentWithCardsTest : FragmentTest<LosungFragmentWithCards>() {
 
     private val losungLiveData = MutableLiveData<AsyncLoad<DailyLosung>>()
     private val noteLiveData = MutableLiveData<AsyncLoad<Note>>()
@@ -28,8 +28,8 @@ class LosungFragmentTest : FragmentTest<LosungFragment>() {
         on { noteLiveData() } doReturn noteLiveData
     }
 
-    override fun createFragment(): LosungFragment =
-            LosungFragment.createInstance(
+    override fun createFragment(): LosungFragmentWithCards =
+            LosungFragmentWithCards.createInstance(
                     DaysPositionUtil.positionFor(timeForTest()))
                     .apply {
                         viewModelProvider = mock {
@@ -66,16 +66,16 @@ class LosungFragmentTest : FragmentTest<LosungFragment>() {
         assertDisplayed(R.id.losung_content_root)
         assertNotDisplayed(R.id.losung_loading, R.id.losung_empty_root)
         checkIsTextSet {
-            R.id.losung_text1 to dailyLosung.content.text1
+            R.id.losung_text1 to dailyLosung.bibleTextPair.first.text
         }
         checkIsTextSet {
-            R.id.losung_source1 to dailyLosung.content.source1
+            R.id.losung_source1 to dailyLosung.bibleTextPair.first.source
         }
         checkIsTextSet {
-            R.id.losung_text2 to dailyLosung.content.text2
+            R.id.losung_text2 to dailyLosung.bibleTextPair.second.text
         }
         checkIsTextSet {
-            R.id.losung_source2 to dailyLosung.content.source2
+            R.id.losung_source2 to dailyLosung.bibleTextPair.second.source
         }
     }
 

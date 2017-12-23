@@ -15,6 +15,6 @@ open class ExecutorModule {
 
     @Provides
     @Named("widget")
-    fun executorForWidget(): Executor = Executors.newFixedThreadPool(3)
+    fun executorForWidget(): Executor = Executors.newFixedThreadPool(4)
 
 }

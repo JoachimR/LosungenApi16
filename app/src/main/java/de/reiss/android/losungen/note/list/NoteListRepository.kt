@@ -66,17 +66,16 @@ open class NoteListRepository @Inject constructor(private val executor: Executor
             ))
         }
 
-
     }
 
     private fun filter(query: String, noteList: List<Note>) =
             query.toLowerCase().let { match ->
                 noteList.filter {
                     it.noteText.toLowerCase().contains(match)
-                            || it.losungContent.text1.toLowerCase().contains(match)
-                            || it.losungContent.source1.toLowerCase().contains(match)
-                            || it.losungContent.text2.toLowerCase().contains(match)
-                            || it.losungContent.source2.toLowerCase().contains(match)
+                            || it.bibleTextPair.first.text.toLowerCase().contains(match)
+                            || it.bibleTextPair.first.source.toLowerCase().contains(match)
+                            || it.bibleTextPair.second.text.toLowerCase().contains(match)
+                            || it.bibleTextPair.second.source.toLowerCase().contains(match)
                 }
             }
 

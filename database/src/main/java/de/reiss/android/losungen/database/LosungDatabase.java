@@ -8,7 +8,13 @@ import android.arch.persistence.room.RoomDatabase;
 import android.arch.persistence.room.TypeConverters;
 import android.arch.persistence.room.migration.Migration;
 
-@Database(entities = {DailyLosungItem.class, LanguageItem.class, NoteItem.class}, version = 1, exportSchema = false)
+@Database(entities = {
+        LanguageItem.class,
+        DailyLosungDatabaseItem.class,
+        WeeklyLosungDatabaseItem.class,
+        MonthlyLosungDatabaseItem.class,
+        YearlyLosungDatabaseItem.class,
+        NoteItem.class}, version = 1, exportSchema = false)
 @TypeConverters({Converters.class})
 public abstract class LosungDatabase extends RoomDatabase {
 
@@ -31,6 +37,12 @@ public abstract class LosungDatabase extends RoomDatabase {
     };
 
     public abstract DailyLosungItemDao dailyLosungItemDao();
+
+    public abstract WeeklyLosungItemDao weeklyLosungItemDao();
+
+    public abstract MonthlyLosungItemDao monthlyLosungItemDao();
+
+    public abstract YearlyLosungItemDao yearlyLosungItemDao();
 
     public abstract LanguageItemDao languageItemDao();
 

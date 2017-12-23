@@ -7,6 +7,7 @@ import android.os.Bundle
 import android.view.Menu
 import android.view.MenuInflater
 import android.view.MenuItem
+import android.view.View
 import android.view.View.GONE
 import android.view.View.VISIBLE
 import de.reiss.android.losungen.App
@@ -14,8 +15,9 @@ import de.reiss.android.losungen.R
 import de.reiss.android.losungen.architecture.AppFragment
 import de.reiss.android.losungen.architecture.AsyncLoad
 import de.reiss.android.losungen.main.content.ShareDialog
-import de.reiss.android.losungen.model.LosungContent
+import de.reiss.android.losungen.model.BibleTextPair
 import de.reiss.android.losungen.model.Note
+import de.reiss.android.losungen.preferences.AppPreferences
 import de.reiss.android.losungen.util.extensions.hideKeyboard
 import de.reiss.android.losungen.util.extensions.onClick
 import de.reiss.android.losungen.util.extensions.showLongSnackbar
@@ -28,22 +30,27 @@ class EditNoteFragment : AppFragment<EditNoteViewModel>(R.layout.edit_note_fragm
     companion object {
 
         private const val KEY_TIME = "KEY_TIME"
-        private const val KEY_LOSUNG_CONTENT = "KEY_LOSUNG_CONTENT"
+        private const val KEY_BIBLE_TEXT_PAIR = "KEY_BIBLE_TEXT_PAIR"
         private const val KEY_PRE_FILL_TEXT_DONE = "KEY_PRE_FILL_TEXT_DONE"
 
-        fun createInstance(time: Long, losungContent: LosungContent) = EditNoteFragment().apply {
+        fun createInstance(time: Long,
+                           bibleTextPair: BibleTextPair) = EditNoteFragment().apply {
             arguments = Bundle().apply {
                 putLong(KEY_TIME, time)
-                putParcelable(KEY_LOSUNG_CONTENT, losungContent)
+                putParcelable(KEY_BIBLE_TEXT_PAIR, bibleTextPair)
             }
         }
 
     }
 
     private var time = -1L
-    private lateinit var losungContent: LosungContent
+    private lateinit var bibleTextPair: BibleTextPair
 
     private var preFillTextDone = false
+
+    private val appPreferences: AppPreferences by lazy {
+        App.component.appPreferences
+    }
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
@@ -52,7 +59,7 @@ class EditNoteFragment : AppFragment<EditNoteViewModel>(R.layout.edit_note_fragm
         if (time < 0) {
             throw IllegalStateException("no time given")
         }
-        losungContent = arguments?.getParcelable(KEY_LOSUNG_CONTENT)
+        bibleTextPair = arguments?.getParcelable(KEY_BIBLE_TEXT_PAIR)
                 ?: throw IllegalStateException("no losung content given")
 
         preFillTextDone = savedInstanceState?.getBoolean(KEY_PRE_FILL_TEXT_DONE) ?: false
@@ -91,7 +98,7 @@ class EditNoteFragment : AppFragment<EditNoteViewModel>(R.layout.edit_note_fragm
                         displayDialog(ShareDialog.createInstance(
                                 context = activity,
                                 time = note.date.time,
-                                losungContent = note.losungContent,
+                                bibleTextPair = bibleTextPair,
                                 note = note.noteText))
                         return true
                     }
@@ -108,10 +115,16 @@ class EditNoteFragment : AppFragment<EditNoteViewModel>(R.layout.edit_note_fragm
     override fun defineViewModel(): EditNoteViewModel =
             loadViewModelProvider().get(EditNoteViewModel::class.java)
 
-    override fun initViews() {
+    override fun initViews(layout: View) {
         edit_note_load_error_retry.onClick {
             tryLoad()
         }
+
+        edit_note_root.setBackgroundColor(appPreferences.backgroundColor())
+        val fontColor = appPreferences.fontColor()
+        edit_note_input.setTextColor(fontColor)
+        edit_note_input.setHintTextColor(fontColor)
+        edit_note_input.textSize = (appPreferences.fontSize() * 1.1).toFloat()
     }
 
     override fun initViewModelObservers() {
@@ -137,19 +150,19 @@ class EditNoteFragment : AppFragment<EditNoteViewModel>(R.layout.edit_note_fragm
 
             viewModel.isLoadingOrStoring() -> {
                 edit_note_loading.loading = true
-                edit_note_input_root.visibility = GONE
+                edit_note_input.visibility = GONE
                 edit_note_load_error.visibility = GONE
             }
 
             viewModel.loadError() -> {
                 edit_note_loading.loading = false
-                edit_note_input_root.visibility = GONE
+                edit_note_input.visibility = GONE
                 edit_note_load_error.visibility = VISIBLE
             }
 
             viewModel.storeError() -> {
                 edit_note_loading.loading = false
-                edit_note_input_root.visibility = VISIBLE
+                edit_note_input.visibility = VISIBLE
                 edit_note_load_error.visibility = GONE
                 showLongSnackbar(
                         message = R.string.edit_note_store_error,
@@ -163,7 +176,7 @@ class EditNoteFragment : AppFragment<EditNoteViewModel>(R.layout.edit_note_fragm
 
             else -> {
                 edit_note_loading.loading = false
-                edit_note_input_root.visibility = VISIBLE
+                edit_note_input.visibility = VISIBLE
                 edit_note_load_error.visibility = GONE
 
                 if (preFillTextDone.not()) {
@@ -189,7 +202,7 @@ class EditNoteFragment : AppFragment<EditNoteViewModel>(R.layout.edit_note_fragm
             viewModel.storeNote(
                     date = Date(time).withZeroDayTime(),
                     text = edit_note_input.text.toString(),
-                    losungContent = losungContent
+                    bibleTextPair = bibleTextPair
             )
         }
     }

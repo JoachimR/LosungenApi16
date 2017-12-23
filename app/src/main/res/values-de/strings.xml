@@ -8,15 +8,20 @@
     <string name="pref_screen_settings_title">Einstellungen</string>
     <string name="pref_theme_title">Thema</string>
     <string-array name="pref_theme_themes_displayed">
-        <item>Rot/Blaugrün</item>
         <item>Blau/Orange</item>
+        <item>Rot/Blaugrün</item>
         <item>Grau/Türkis</item>
         <item>Grün/Braun</item>
     </string-array>
     <string name="pref_language_title">Übersetzung</string>
     <string name="pref_app_category_title">App Einstellungen</string>
     <string name="pref_fontsize_title">Schriftgröße</string>
-    <string name="pref_shownotes_title">Zeige Notizen</string>
+    <string name="pref_fontcolor_title">Schriftfarbe</string>
+    <string name="pref_backgroundcolor_title">Hintergrundfarbe</string>
+    <string name="pref_cardbackgroundcolor_title">Karten Hintergrundfarbe</string>
+    <string name="pref_show_notes_title">Zeige Notizen</string>
+    <string name="pref_show_toolbar_title">Zeige Toolbar</string>
+    <string name="pref_show_cards_title">Zeige Karten</string>
     <string name="pref_widget_category_title">Widget Einstellungen</string>
     <string name="pref_widget_showdate_title">Widget Zeige Datum</string>
     <string name="pref_widget_centered_text_title">Widget Zentrierter Text</string>
@@ -124,8 +129,12 @@
     <string name="share_app_title">Teile App</string>
     <string name="pref_app_show_daily_notification_summary_off">Keine Benachrichtigungen</string>
     <string name="pref_app_show_daily_notification_summary_on">Zeige Das Wort jeden Tag als Benachrichtigung an</string>
-    <string name="pref_shownotes_summary_off">Notizen ausgeblendet</string>
-    <string name="pref_shownotes_summary_on">Notizen sichtbar unterhalb der Bibelverse</string>
+    <string name="pref_show_notes_summary_off">Notizen ausgeblendet</string>
+    <string name="pref_show_notes_summary_on">Notizen sichtbar unterhalb der Bibelverse</string>
+    <string name="pref_show_toolbar_summary_off">Toolbar ausgeblendet</string>
+    <string name="pref_show_toolbar_summary_on">Toolbar sichtbar</string>
+    <string name="pref_show_cards_summary_off">Text ohne Karten angezeigt</string>
+    <string name="pref_show_cards_summary_on">Text steht auf Karten</string>
     <string name="fontsize_dialog_title">Schriftgröße setzen</string>
     <string name="fontsize_dialog_ok">Fertig</string>
     <string name="menu_font_size">Ändere Schriftgröße</string>
@@ -138,4 +147,10 @@
     <string name="menu_note_details_edit">Editieren</string>
     <string name="note_details_error_reload_note">Konnte diese Notiz nicht neu laden…</string>
     <string name="note_details_note_header">Notizen:</string>
+    <string name="menu_note_details_delete">Löschen</string>
+    <string name="widget_daily">Losung für den Tag</string>
+    <string name="widget_weekly">Losung für die Woche</string>
+    <string name="widget_monthly">Losung für den Monat</string>
+    <string name="widget_yearly">Losung für das Jahr</string>
+    <string name="widget_weekly_date_range">%1$s - %2$s</string>
 </resources>

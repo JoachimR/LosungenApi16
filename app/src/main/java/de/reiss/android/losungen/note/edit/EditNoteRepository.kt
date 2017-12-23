@@ -6,7 +6,7 @@ import de.reiss.android.losungen.database.NoteItem
 import de.reiss.android.losungen.database.NoteItemDao
 import de.reiss.android.losungen.database.converter.Converter
 import de.reiss.android.losungen.logger.logWarn
-import de.reiss.android.losungen.model.LosungContent
+import de.reiss.android.losungen.model.BibleTextPair
 import de.reiss.android.losungen.model.Note
 import de.reiss.android.losungen.util.extensions.withZeroDayTime
 import java.util.*
@@ -33,7 +33,7 @@ open class EditNoteRepository @Inject constructor(private val executor: Executor
 
     open fun updateNote(date: Date,
                         text: String,
-                        losungContent: LosungContent,
+                        bibleTextPair: BibleTextPair,
                         result: MutableLiveData<AsyncLoad<Void>>) {
         result.postValue(AsyncLoad.loading())
         executor.execute {
@@ -43,7 +43,7 @@ open class EditNoteRepository @Inject constructor(private val executor: Executor
                         noteItemDao.delete(noteItem)
                     }
                 } else {
-                    noteItemDao.insertOrReplace(NoteItem(date.withZeroDayTime(), losungContent, text))
+                    noteItemDao.insertOrReplace(NoteItem(date.withZeroDayTime(), bibleTextPair, text))
                 }
                 result.postValue(AsyncLoad.success())
             } catch (e: Exception) {

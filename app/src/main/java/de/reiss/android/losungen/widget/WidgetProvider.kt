@@ -3,7 +3,6 @@ package de.reiss.android.losungen.widget
 import android.app.PendingIntent
 import android.appwidget.AppWidgetManager
 import android.appwidget.AppWidgetProvider
-import android.content.ComponentName
 import android.content.Context
 import android.content.Intent
 import android.net.Uri
@@ -14,40 +13,19 @@ import de.reiss.android.losungen.SplashScreenActivity
 import de.reiss.android.losungen.logger.logErrorWithCrashlytics
 import de.reiss.android.losungen.preferences.AppPreferences
 
-class WidgetProvider : AppWidgetProvider() {
+abstract class WidgetProvider : AppWidgetProvider() {
 
     companion object {
 
         private const val REQUEST_CODE_CLICK_WIDGET = 13
 
-        fun triggerWidgetRefresh() {
-            val context = App.component.context
-            val appWidgetManager = AppWidgetManager.getInstance(context)
-            val appWidgetIds = appWidgetManager.getAppWidgetIds(
-                    ComponentName(context, WidgetProvider::class.java))
-
-            // send layout change update
-            context.sendBroadcast(Intent(context, WidgetProvider::class.java)
-                    .putExtra(AppWidgetManager.EXTRA_APPWIDGET_IDS, appWidgetIds)
-                    .setAction("android.appwidget.action.APPWIDGET_UPDATE"))
-
-            // send data change update
-            appWidgetManager.notifyAppWidgetViewDataChanged(appWidgetIds, R.id.widget_list_view)
-        }
     }
 
-    private val appPreferences: AppPreferences by lazy {
+    protected val appPreferences: AppPreferences by lazy {
         App.component.appPreferences
     }
 
-    override fun onReceive(context: Context, intent: Intent) {
-        super.onReceive(context, intent)
-        AppWidgetManager.getInstance(context).apply {
-            notifyAppWidgetViewDataChanged(
-                    getAppWidgetIds(ComponentName(context, WidgetProvider::class.java)),
-                    R.id.widget_list_view)
-        }
-    }
+    abstract fun serviceIntent(context: Context, appWidgetId: Int): Intent
 
     override fun onUpdate(context: Context,
                           appWidgetManager: AppWidgetManager,
@@ -67,8 +45,7 @@ class WidgetProvider : AppWidgetProvider() {
         val remoteViews = RemoteViews(context.packageName, R.layout.widget_layout)
 
         //RemoteViews Service needed to provide adapter for ListView
-        val serviceIntent = Intent(context, WidgetService::class.java)
-                .putExtra(AppWidgetManager.EXTRA_APPWIDGET_ID, appWidgetId)
+        val serviceIntent = serviceIntent(context, appWidgetId)
         serviceIntent.data = Uri.parse(serviceIntent.toUri(Intent.URI_INTENT_SCHEME))
 
         //setting adapter to listView of the widget

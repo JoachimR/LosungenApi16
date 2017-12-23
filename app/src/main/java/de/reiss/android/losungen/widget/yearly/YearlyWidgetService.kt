@@ -1,11 +1,11 @@
-package de.reiss.android.losungen.widget
+package de.reiss.android.losungen.widget.yearly
 
 import android.content.Intent
 import android.widget.RemoteViewsService
 
-class WidgetService : RemoteViewsService() {
+class YearlyWidgetService : RemoteViewsService() {
 
     override fun onGetViewFactory(intent: Intent): RemoteViewsService.RemoteViewsFactory =
-            ListProvider(this.applicationContext)
+            YearlyListProvider(this.applicationContext)
 
 }

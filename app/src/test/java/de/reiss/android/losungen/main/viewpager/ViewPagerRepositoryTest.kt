@@ -5,7 +5,7 @@ import android.arch.lifecycle.MutableLiveData
 import com.nhaarman.mockito_kotlin.*
 import de.reiss.android.losungen.architecture.AsyncLoad
 import de.reiss.android.losungen.architecture.AsyncLoadStatus
-import de.reiss.android.losungen.database.DailyLosungItem
+import de.reiss.android.losungen.database.DailyLosungDatabaseItem
 import de.reiss.android.losungen.database.DailyLosungItemDao
 import de.reiss.android.losungen.database.LanguageItem
 import de.reiss.android.losungen.database.LanguageItemDao
@@ -58,25 +58,25 @@ class ViewPagerRepositoryTest {
     @Test
     fun `when 0 items available then repo tries to load from raw`() {
         setItemsAvailable(0)
-        verify(rawToDatabaseWriter, times(1)).tryFillDailyLosungToDatabase(any())
+        verify(rawToDatabaseWriter, times(1)).writeRawDataToDatabase(any())
     }
 
     @Test
     fun `when 99 items available then repo tries to load from raw`() {
         setItemsAvailable(99)
-        verify(rawToDatabaseWriter, times(1)).tryFillDailyLosungToDatabase(any())
+        verify(rawToDatabaseWriter, times(1)).writeRawDataToDatabase(any())
     }
 
     @Test
     fun `when 365 items available then no load from raw happening`() {
         setItemsAvailable(365)
-        verify(rawToDatabaseWriter, never()).tryFillDailyLosungToDatabase(any())
+        verify(rawToDatabaseWriter, never()).writeRawDataToDatabase(any())
     }
 
     @Test
     fun `when 366 items available then no download happening`() {
         setItemsAvailable(366)
-        verify(rawToDatabaseWriter, never()).tryFillDailyLosungToDatabase(any())
+        verify(rawToDatabaseWriter, never()).writeRawDataToDatabase(any())
     }
 
     private fun setItemsAvailable(amount: Int) {
@@ -97,7 +97,7 @@ class ViewPagerRepositoryTest {
         assertEquals(languageItem.language, result.data)
     }
 
-    private fun mockLosungDatabaseResult(result: List<DailyLosungItem>) {
+    private fun mockLosungDatabaseResult(result: List<DailyLosungDatabaseItem>) {
         whenever(dailyLosungItemDao.range(any(), any(), any()))
                 .thenReturn(result)
 

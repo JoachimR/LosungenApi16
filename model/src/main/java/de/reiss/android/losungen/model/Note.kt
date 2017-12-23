@@ -6,14 +6,14 @@ import java.util.*
 
 data class Note(val date: Date,
                 val noteText: String,
-                val losungContent: LosungContent) : Comparable<Note>, Parcelable {
+                val bibleTextPair: BibleTextPair) : Comparable<Note>, Parcelable {
 
     override fun compareTo(other: Note) = this.date.compareTo(other.date)
 
     constructor(source: Parcel) : this(
             source.readSerializable() as Date,
             source.readString(),
-            source.readParcelable<LosungContent>(LosungContent::class.java.classLoader)
+            source.readParcelable<BibleTextPair>(BibleTextPair::class.java.classLoader)
     )
 
     override fun describeContents() = 0
@@ -21,7 +21,7 @@ data class Note(val date: Date,
     override fun writeToParcel(dest: Parcel, flags: Int) = with(dest) {
         writeSerializable(date)
         writeString(noteText)
-        writeParcelable(losungContent, 0)
+        writeParcelable(bibleTextPair, 0)
     }
 
     companion object {

@@ -9,7 +9,7 @@ import android.support.v4.app.DialogFragment
 import android.support.v7.app.AlertDialog
 import android.widget.EditText
 import de.reiss.android.losungen.R
-import de.reiss.android.losungen.model.LosungContent
+import de.reiss.android.losungen.model.BibleTextPair
 import de.reiss.android.losungen.util.contentAsString
 
 class ShareDialog : DialogFragment() {
@@ -20,11 +20,11 @@ class ShareDialog : DialogFragment() {
 
         fun createInstance(context: Context,
                            time: Long,
-                           losungContent: LosungContent,
+                           bibleTextPair: BibleTextPair,
                            note: String) = ShareDialog().apply {
             arguments = Bundle().apply {
                 putString(KEY_INITIAL_CONTENT,
-                        contentAsString(context, time, losungContent, note))
+                        contentAsString(context, time, bibleTextPair, note))
             }
         }
 

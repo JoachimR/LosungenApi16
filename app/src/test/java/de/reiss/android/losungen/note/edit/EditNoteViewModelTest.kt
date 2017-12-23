@@ -5,7 +5,7 @@ import com.nhaarman.mockito_kotlin.any
 import com.nhaarman.mockito_kotlin.eq
 import com.nhaarman.mockito_kotlin.mock
 import com.nhaarman.mockito_kotlin.verify
-import de.reiss.android.losungen.testutil.sampleLosungContent
+import de.reiss.android.losungen.testutil.bibleTextPair
 import org.junit.Before
 import org.junit.Rule
 import org.junit.Test
@@ -35,7 +35,7 @@ class EditNoteViewModelTest {
     fun storeNote() {
         val date = Date()
         val text = "some text to store"
-        val content = sampleLosungContent(0)
+        val content = bibleTextPair(0)
         viewModel.storeNote(date, text, content)
         verify(repository).updateNote(eq(date), eq(text), eq(content), any())
     }

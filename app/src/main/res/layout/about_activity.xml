@@ -2,6 +2,7 @@
 <android.support.design.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/about_root"
     android:layout_width="match_parent"
     android:layout_height="match_parent">
 
@@ -32,6 +33,7 @@
             android:padding="16dp">
 
             <TextView
+                android:id="@+id/about_app_name"
                 style="@style/TextAppearance.AppCompat.Title"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
@@ -51,12 +53,14 @@
                 android:orientation="vertical">
 
                 <TextView
+                    android:id="@+id/about_info_prefix"
                     style="@style/TextAppearance.AppCompat.Subhead"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:text="@string/info_prefix" />
 
                 <TextView
+                    android:id="@+id/about_info_general"
                     style="@style/TextAppearance.AppCompat.Body1"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
@@ -72,18 +76,21 @@
                 android:orientation="vertical">
 
                 <TextView
+                    android:id="@+id/about_source_code_prefix"
                     style="@style/TextAppearance.AppCompat.Subhead"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:text="@string/source_code_prefix" />
 
                 <TextView
+                    android:id="@+id/about_source_code_url"
                     style="@style/TextAppearance.AppCompat.Body1"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_marginTop="4dp"
                     android:autoLink="web"
-                    android:text="@string/source_code_url" />
+                    android:text="@string/source_code_url"
+                    android:textStyle="bold" />
 
             </LinearLayout>
 
@@ -94,12 +101,14 @@
                 android:orientation="vertical">
 
                 <TextView
+                    android:id="@+id/about_developer_prefix"
                     style="@style/TextAppearance.AppCompat.Subhead"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:text="@string/developer_prefix" />
 
                 <TextView
+                    android:id="@+id/about_developer_name"
                     style="@style/TextAppearance.AppCompat.Body1"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
@@ -107,20 +116,24 @@
                     android:text="@string/developer_name" />
 
                 <TextView
+                    android:id="@+id/about_developer_mail"
                     style="@style/TextAppearance.AppCompat.Body1"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_marginTop="4dp"
                     android:autoLink="email"
-                    android:text="@string/developer_mail" />
+                    android:text="@string/developer_mail"
+                    android:textStyle="bold" />
 
                 <TextView
+                    android:id="@+id/about_developer_github"
                     style="@style/TextAppearance.AppCompat.Body1"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_marginTop="4dp"
                     android:autoLink="web"
-                    android:text="@string/developer_github" />
+                    android:text="@string/developer_github"
+                    android:textStyle="bold" />
 
             </LinearLayout>
 

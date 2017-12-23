@@ -1,122 +1,62 @@
 package de.reiss.android.losungen.rawdata
 
-import android.content.Context
-import android.support.annotation.RawRes
+import android.support.annotation.WorkerThread
 import de.reiss.android.losungen.R
 import de.reiss.android.losungen.czech
-import de.reiss.android.losungen.database.DailyLosungItem
-import de.reiss.android.losungen.database.DailyLosungItemDao
-import de.reiss.android.losungen.database.LanguageItemDao
 import de.reiss.android.losungen.hungarian
-import de.reiss.android.losungen.logger.logWarnWithCrashlytics
-import de.reiss.android.losungen.model.DailyLosung
 import de.reiss.android.losungen.model.Language
-import de.reiss.android.losungen.model.LosungContent
-import de.reiss.android.losungen.preferences.AppPreferences
-import de.reiss.android.losungen.util.extensions.withZeroDayTime
-import de.reiss.android.losungen.xmlparser.DailyLosungXmlParser
-import java.io.BufferedReader
-import java.io.IOException
-import java.io.InputStreamReader
-import java.util.concurrent.Executor
+import java.util.*
 import javax.inject.Inject
 
-open class RawToDatabaseWriter @Inject constructor(val context: Context,
-                                                   val executor: Executor,
-                                                   val dailyLosungItemDao: DailyLosungItemDao,
-                                                   val languageItemDao: LanguageItemDao,
-                                                   val appPreferences: AppPreferences) {
+open class RawToDatabaseWriter @Inject constructor(private val dailyInserter: DailyXmlDatabaseInserter,
+                                                   private val weeklyInserter: WeeklyXmlDatabaseInserter,
+                                                   private val monthlyInserter: MonthlyXmlDatabaseInserter,
+                                                   private val yearlyInserter: YearlyXmlDatabaseInserter) {
 
     companion object {
 
-        private val rawData = HashMap<Language, Int>().apply {
+        val dailyRawData = HashMap<Language, Int>().apply {
             put(czech, R.raw.dailylosungen_cz_2018)
             put(hungarian, R.raw.dailylosungen_hu_2018)
         }
 
-        private const val expectedItemsForDaily = 365
-    }
-
-    open fun tryFillDailyLosungToDatabase(language: String): Boolean {
-        val key = rawData.keys.firstOrNull { it.key == language } ?: return false
-        val xmlResId = rawData[key] ?: return false
-        return insertDailyLosung(xmlResId, language)
-    }
-
-    private fun insertDailyLosung(@RawRes rawResId: Int, language: String): Boolean {
-        val languageId = languageItemDao.find(language)?.id ?: return false
-
-        val itemsFromRaw = loadDailyLosungFromRaw(context, rawResId, language)
-
-        val databaseItems = itemsFromRaw.map { rawItem ->
-            DailyLosungItem(
-                    languageId,
-                    rawItem.date.withZeroDayTime(),
-                    rawItem.holiday,
-                    rawItem.content.text1,
-                    rawItem.content.source1,
-                    rawItem.content.text2,
-                    rawItem.content.source2
-            )
+        val weeklyRawData = HashMap<Language, Int>().apply {
+            put(czech, R.raw.weeklylosungen_cz_2018)
+            put(hungarian, R.raw.weeklylosungen_hu_2018)
         }
 
-        if (databaseItems.isEmpty()) {
-            logWarnWithCrashlytics {
-                "Loaded daily data for language '$language' was empty"
-            }
-        } else {
-            if (databaseItems.size != expectedItemsForDaily) {
-                logWarnWithCrashlytics {
-                    "Loaded daily data for language '$language'" +
-                            " had ${databaseItems.size} items" +
-                            " rather than $expectedItemsForDaily items"
-                }
-            }
-
-            val inserted = dailyLosungItemDao.insertOrReplace(*databaseItems.toTypedArray())
-            return inserted.size > 0
+        val monthlyRawData = HashMap<Language, Int>().apply {
+            put(czech, R.raw.monthlylosungen_cz_2018)
+            put(hungarian, R.raw.monthlylosungen_hu_2018)
         }
 
-        return false
+        val yearlyRawData = HashMap<Language, Int>().apply {
+            put(czech, R.raw.yearlylosungen_cz_2018)
+            put(hungarian, R.raw.yearlylosungen_hu_2018)
+        }
+
     }
 
-    private fun loadDailyLosungFromRaw(context: Context,
-                                       @RawRes resId: Int,
-                                       language: String): List<DailyLosung> =
-            readRawTextFile(context, resId)?.let { rawText ->
-                DailyLosungXmlParser.parseXmlItems(rawText).map {
-                    DailyLosung(
-                            language = language,
-                            date = it.Datum,
-                            holiday = it.Sonntag,
-                            content = LosungContent(
-                                    text1 = it.Losungstext,
-                                    source1 = it.Losungsvers,
-                                    text2 = it.Lehrtext,
-                                    source2 = it.Lehrtextvers))
-                }
-            } ?: emptyList()
+    @WorkerThread
+    open fun writeRawDataToDatabase(language: String): Boolean {
+        var written = writeRaw(dailyInserter, dailyRawData, language)
+        written = writeRaw(weeklyInserter, weeklyRawData, language) or written
+        written = writeRaw(monthlyInserter, monthlyRawData, language) or written
+        written = writeRaw(yearlyInserter, yearlyRawData, language) or written
+        return written
+    }
 
-
-    private fun readRawTextFile(context: Context, @RawRes resId: Int): String? {
-        val inputStream = context.resources.openRawResource(resId)
-
-        val inputStreamReader = InputStreamReader(inputStream)
-        val bufferedReader = BufferedReader(inputStreamReader)
-
-        val stringBuilder = StringBuilder()
-        try {
-            var line = bufferedReader.readLine()
-            while (line != null) {
-                stringBuilder.append(line)
-                stringBuilder.append('\n')
-                line = bufferedReader.readLine()
+    private fun writeRaw(databaseInserter: DatabaseInserter,
+                         rawData: HashMap<Language, Int>,
+                         language: String): Boolean {
+        var written = false
+        val keys = rawData.keys.filter { it.key == language }
+        for (key in keys) {
+            rawData[key]?.let { xmlResId ->
+                written = databaseInserter.insert(language, xmlResId) or written
             }
-        } catch (e: IOException) {
-            logWarnWithCrashlytics(e) { "Could not load raw file" }
-            return null
         }
-        return stringBuilder.toString()
+        return written
     }
 
 }

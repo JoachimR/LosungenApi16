@@ -51,7 +51,9 @@ class AppPreferencesActivity : AppActivity(), SharedPreferences.OnSharedPreferen
     }
 
     override fun onSharedPreferenceChanged(sharedPreferences: SharedPreferences, key: String) {
-        if (key == getString(R.string.pref_theme_key)) {
+        if (key == getString(R.string.pref_theme_key)
+                || key == getString(R.string.pref_show_toolbar_key)
+                || key == getString(R.string.pref_show_cards_key)) {
             restartApp()
         }
     }

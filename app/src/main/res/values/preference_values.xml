@@ -9,16 +9,16 @@
     <string name="pref_widget_fontsize_min" translatable="false">10</string>
     <string name="pref_widget_fontsize_max" translatable="false">40</string>
 
-    <string name="pref_theme_value_red_teal" translatable="false">red_teal</string>
     <string name="pref_theme_value_blue_orange" translatable="false">blue_orange</string>
+    <string name="pref_theme_value_red_teal" translatable="false">red_teal</string>
     <string name="pref_theme_value_grey_cyan" translatable="false">grey_cyan</string>
     <string name="pref_theme_value_green_brown" translatable="false">green_brown</string>
 
     <string name="pref_theme_default" translatable="false">@string/pref_theme_value_red_teal</string>
 
     <string-array name="pref_theme_themes_values" translatable="false">
-        <item>@string/pref_theme_value_red_teal</item>
         <item>@string/pref_theme_value_blue_orange</item>
+        <item>@string/pref_theme_value_red_teal</item>
         <item>@string/pref_theme_value_grey_cyan</item>
         <item>@string/pref_theme_value_green_brown</item>
     </string-array>
@@ -52,10 +52,53 @@
         <item>widgetbg_transpimg_yellow</item>
     </string-array>
 
-    <integer-array name="pref_font_colors" translatable="false">
+    <integer-array name="pref_cardbackgroundcolor_colors" translatable="false">
+        <item>@color/default_card_background_color</item>
+        <item>@color/font_grey</item>
+        <item>@color/font_black</item>
+        <item>@color/font_blue</item>
+        <item>@color/font_red</item>
+        <item>@color/font_light_blue</item>
+        <item>@color/font_yellow</item>
+        <item>@color/font_green</item>
+        <item>@color/font_dark_green</item>
+        <item>@color/font_purple</item>
+        <item>@color/font_pink</item>
+    </integer-array>
+
+    <integer-array name="pref_background_colors" translatable="false">
+        <item>@color/default_background_color</item>
         <item>@color/font_white</item>
         <item>@color/font_grey</item>
         <item>@color/font_black</item>
+        <item>@color/font_blue</item>
+        <item>@color/font_red</item>
+        <item>@color/font_light_blue</item>
+        <item>@color/font_yellow</item>
+        <item>@color/font_green</item>
+        <item>@color/font_dark_green</item>
+        <item>@color/font_purple</item>
+        <item>@color/font_pink</item>
+    </integer-array>
+
+    <integer-array name="pref_font_colors" translatable="false">
+        <item>@color/default_font_color</item>
+        <item>@color/font_white</item>
+        <item>@color/font_grey</item>
+        <item>@color/font_blue</item>
+        <item>@color/font_red</item>
+        <item>@color/font_light_blue</item>
+        <item>@color/font_yellow</item>
+        <item>@color/font_green</item>
+        <item>@color/font_dark_green</item>
+        <item>@color/font_purple</item>
+        <item>@color/font_pink</item>
+    </integer-array>
+
+    <integer-array name="pref_widget_font_colors" translatable="false">
+        <item>@color/default_widget_font_color</item>
+        <item>@color/font_white</item>
+        <item>@color/font_grey</item>
         <item>@color/font_blue</item>
         <item>@color/font_red</item>
         <item>@color/font_light_blue</item>

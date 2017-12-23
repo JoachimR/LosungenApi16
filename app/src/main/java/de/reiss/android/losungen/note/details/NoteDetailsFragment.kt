@@ -8,6 +8,7 @@ import android.os.Bundle
 import android.view.Menu
 import android.view.MenuInflater
 import android.view.MenuItem
+import android.view.View
 import de.reiss.android.losungen.App
 import de.reiss.android.losungen.R
 import de.reiss.android.losungen.architecture.AppFragment
@@ -67,7 +68,7 @@ class NoteDetailsFragment : AppFragment<NoteDetailsViewModel>(R.layout.note_deta
                 else -> super.onOptionsItemSelected(item)
             }
 
-    override fun initViews() {
+    override fun initViews(layout: View) {
     }
 
     override fun defineViewModelProvider(): ViewModelProvider =
@@ -109,7 +110,7 @@ class NoteDetailsFragment : AppFragment<NoteDetailsViewModel>(R.layout.note_deta
         displayDialog(ShareDialog.createInstance(
                 context = context,
                 time = note.date.time,
-                losungContent = note.losungContent,
+                bibleTextPair = note.bibleTextPair,
                 note = note.noteText))
     }
 
@@ -119,7 +120,7 @@ class NoteDetailsFragment : AppFragment<NoteDetailsViewModel>(R.layout.note_deta
         activity.startActivity(EditNoteActivity.createIntent(
                 context = activity,
                 date = note.date,
-                losungContent = note.losungContent))
+                bibleTextPair = note.bibleTextPair))
     }
 
     private fun onDeleteClicked() {
@@ -172,7 +173,7 @@ class NoteDetailsFragment : AppFragment<NoteDetailsViewModel>(R.layout.note_deta
                         note_details_losung.text = contentAsString(
                                 context = context,
                                 time = note.date.time,
-                                losungContent = note.losungContent,
+                                bibleTextPair = note.bibleTextPair,
                                 note = ""
                         )
                         note_details_note.text = note.noteText

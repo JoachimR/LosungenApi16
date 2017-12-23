@@ -23,7 +23,7 @@ class EditNoteFragmentTest : FragmentTest<EditNoteFragment>() {
     }
 
     override fun createFragment(): EditNoteFragment =
-            EditNoteFragment.createInstance(Date().time, sampleLosungContent(0))
+            EditNoteFragment.createInstance(Date().time, bibleTextPair(0))
                     .apply {
                         viewModelProvider = mock {
                             on { get(any<Class<EditNoteViewModel>>()) } doReturn mockedViewModel
@@ -40,7 +40,7 @@ class EditNoteFragmentTest : FragmentTest<EditNoteFragment>() {
         loadNoteLiveData.postValue(AsyncLoad.loading())
 
         assertDisplayed(R.id.edit_note_loading)
-        assertNotDisplayed(R.id.edit_note_input_root, R.id.edit_note_load_error)
+        assertNotDisplayed(R.id.edit_note_input, R.id.edit_note_load_error)
     }
 
     @Test
@@ -48,14 +48,14 @@ class EditNoteFragmentTest : FragmentTest<EditNoteFragment>() {
         storeNoteLiveData.postValue(AsyncLoad.loading())
 
         assertDisplayed(R.id.edit_note_loading)
-        assertNotDisplayed(R.id.edit_note_input_root, R.id.edit_note_load_error)
+        assertNotDisplayed(R.id.edit_note_input, R.id.edit_note_load_error)
     }
 
     @Test
     fun whenLoadSuccessThenShowInput() {
         loadNoteLiveData.postValue(AsyncLoad.success(sampleNote(0)))
 
-        assertDisplayed(R.id.edit_note_input_root)
+        assertDisplayed(R.id.edit_note_input)
         assertNotDisplayed(R.id.edit_note_loading, R.id.edit_note_load_error)
     }
 
@@ -63,7 +63,7 @@ class EditNoteFragmentTest : FragmentTest<EditNoteFragment>() {
     fun whenLoadSuccessButNothingFoundThenShowEmptyNote() {
         loadNoteLiveData.postValue(AsyncLoad.success(null))
 
-        assertDisplayed(R.id.edit_note_input_root)
+        assertDisplayed(R.id.edit_note_input)
         checkIsTextSet { R.id.edit_note_input to "" }
         assertNotDisplayed(R.id.edit_note_loading, R.id.edit_note_load_error)
     }
@@ -73,14 +73,14 @@ class EditNoteFragmentTest : FragmentTest<EditNoteFragment>() {
         loadNoteLiveData.postValue(AsyncLoad.error())
 
         assertDisplayed(R.id.edit_note_load_error)
-        assertNotDisplayed(R.id.edit_note_loading, R.id.edit_note_input_root)
+        assertNotDisplayed(R.id.edit_note_loading, R.id.edit_note_input)
     }
 
     @Test
     fun whenStoreErrorThenShowInputAndShowStoreErrorSnackbar() {
         storeNoteLiveData.postValue(AsyncLoad.error())
 
-        assertDisplayed(R.id.edit_note_input_root)
+        assertDisplayed(R.id.edit_note_input)
         assertNotDisplayed(R.id.edit_note_loading, R.id.edit_note_load_error)
         assertTextInSnackbar(activity.getString(R.string.edit_note_store_error))
     }

@@ -1,23 +1,23 @@
 package de.reiss.android.losungen.testutil
 
+import de.reiss.android.losungen.model.BibleTextPair
 import de.reiss.android.losungen.model.DailyLosung
-import de.reiss.android.losungen.model.LosungContent
 import de.reiss.android.losungen.model.Note
-
 
 fun sampleNote(number: Int) = Note(
         date = dateForNumber(number),
         noteText = "#$number note",
-        losungContent = sampleLosungContent(number))
+        bibleTextPair = bibleTextPair(number))
 
 fun sampleDailyLosung(number: Int, language: String) = DailyLosung(
         language = language,
-        date = dateForNumber(number),
         holiday = "#$number holiday",
-        content = sampleLosungContent(number))
+        year = 2017,
+        dayOfYear = number + 1,
+        bibleTextPair = bibleTextPair(number))
 
-fun sampleLosungContent(number: Int): LosungContent {
-    return LosungContent(
+fun bibleTextPair(number: Int): BibleTextPair {
+    return BibleTextPair(
             "#$number text1",
             "#$number source1",
             "#$number text2",

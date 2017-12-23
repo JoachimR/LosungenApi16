@@ -14,28 +14,28 @@ import static android.arch.persistence.room.OnConflictStrategy.REPLACE;
 @Dao
 public interface DailyLosungItemDao {
 
-    @Query("SELECT * FROM DailyLosungItem")
-    List<DailyLosungItem> all();
+    @Query("SELECT * FROM DailyLosungDatabaseItem")
+    List<DailyLosungDatabaseItem> all();
 
     @SuppressWarnings(RoomWarnings.CURSOR_MISMATCH)
-    @Query("SELECT * FROM DailyLosungItem" +
-            " INNER JOIN LanguageItem ON DailyLosungItem.languageId = LanguageItem.id" +
-            " WHERE LanguageItem.id = :languageId AND DailyLosungItem.date = :date")
-    DailyLosungItem byDate(int languageId, Date date);
+    @Query("SELECT * FROM DailyLosungDatabaseItem" +
+            " INNER JOIN LanguageItem ON DailyLosungDatabaseItem.languageId = LanguageItem.id" +
+            " WHERE LanguageItem.id = :languageId AND DailyLosungDatabaseItem.date = :date")
+    DailyLosungDatabaseItem byDate(int languageId, Date date);
 
     @SuppressWarnings(RoomWarnings.CURSOR_MISMATCH)
-    @Query("SELECT * FROM DailyLosungItem" +
-            " INNER JOIN LanguageItem ON DailyLosungItem.languageId = LanguageItem.id" +
-            " WHERE LanguageItem.id = :languageId AND DailyLosungItem.date BETWEEN :from AND :to")
-    List<DailyLosungItem> range(int languageId, Date from, Date to);
+    @Query("SELECT * FROM DailyLosungDatabaseItem" +
+            " INNER JOIN LanguageItem ON DailyLosungDatabaseItem.languageId = LanguageItem.id" +
+            " WHERE LanguageItem.id = :languageId AND DailyLosungDatabaseItem.date BETWEEN :from AND :to")
+    List<DailyLosungDatabaseItem> range(int languageId, Date from, Date to);
 
     @Insert(onConflict = REPLACE)
-    List<Long> insertOrReplace(DailyLosungItem... items);
+    List<Long> insertOrReplace(DailyLosungDatabaseItem... items);
 
     @Delete
-    void delete(DailyLosungItem... item);
+    void delete(DailyLosungDatabaseItem... item);
 
-    @Query("DELETE FROM DailyLosungItem")
+    @Query("DELETE FROM DailyLosungDatabaseItem")
     void clear();
 
 }

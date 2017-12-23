@@ -16,9 +16,11 @@ Currently supported languages (with legal permission):
  
 For other languages to be added the legal permission needs to be given first.
 
-So far the content is provided <a href="https://github.com/JoachimR/LosungenApi16/app/src/main/res/raw">by the app itself</a>.
-Therefore the data will not be downloaded dynamically and the app needs to be updated on a regular basis.
+So far the content is provided <a href="https://github.com/JoachimR/LosungenApi16/tree/master/app/src/main/res/raw">by the app itself</a>.
 
+Therefore the data will not be downloaded and so the app needs to be updated on a regular basis.
+
+If you want to provide a server from which the users could download the data dynamically, feel free to contact me.
 
 # License
 Copyright (C) 2014-2017 Joachim Reiß

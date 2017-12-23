@@ -29,7 +29,7 @@ class DailyLosungXmlParserTest {
                       year: Int) {
 
         val rawString = loadXmlString(fileName, javaClass.classLoader)
-        val parsed = DailyLosungXmlParser.parseXmlItems(rawString)
+        val parsed = DailyLosungXmlParser.parse(rawString)
 
         assertEquals(365, parsed.size)
         assertEquals(365, parsed.map { it.Datum }.toSet().size)

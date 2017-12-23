@@ -8,9 +8,9 @@ import de.reiss.android.losungen.architecture.AsyncLoadStatus
 import de.reiss.android.losungen.database.NoteItemDao
 import de.reiss.android.losungen.model.Note
 import de.reiss.android.losungen.testutil.TestExecutor
+import de.reiss.android.losungen.testutil.bibleTextPair
 import de.reiss.android.losungen.testutil.blockingObserve
 import de.reiss.android.losungen.testutil.sampleNoteItem
-import de.reiss.android.losungen.testutil.sampleLosungContent
 import org.junit.Assert.assertEquals
 import org.junit.Before
 import org.junit.Rule
@@ -99,7 +99,7 @@ class EditNoteRepositoryTest {
 
     private fun doInsertOrUpdateNote(text: String): AsyncLoad<Void> {
         val liveData = MutableLiveData<AsyncLoad<Void>>()
-        repository.updateNote(Date(), text, sampleLosungContent(0), liveData)
+        repository.updateNote(Date(), text, bibleTextPair(0), liveData)
         return liveData.blockingObserve() ?: throw NullPointerException()
     }
 

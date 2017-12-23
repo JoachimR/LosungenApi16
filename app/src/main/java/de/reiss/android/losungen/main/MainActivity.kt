@@ -2,12 +2,14 @@ package de.reiss.android.losungen.main
 
 import android.content.Context
 import android.content.Intent
+import android.os.Build
 import android.os.Bundle
 import android.support.design.widget.NavigationView
 import android.support.v4.view.GravityCompat
 import android.support.v4.widget.DrawerLayout
 import android.support.v7.app.ActionBarDrawerToggle
 import android.view.MenuItem
+import android.view.WindowManager
 import de.reiss.android.losungen.App
 import de.reiss.android.losungen.DaysPositionUtil
 import de.reiss.android.losungen.R
@@ -27,7 +29,9 @@ class MainActivity : AppActivity(), NavigationView.OnNavigationItemSelectedListe
 
     companion object {
 
-        fun createIntent(context: Context): Intent = Intent(context, MainActivity::class.java)
+        fun createIntent(context: Context): Intent {
+            return Intent(context, MainActivity::class.java)
+        }
 
     }
 
@@ -39,6 +43,11 @@ class MainActivity : AppActivity(), NavigationView.OnNavigationItemSelectedListe
         super.onCreate(savedInstanceState)
         setContentView(R.layout.main_activity)
         setSupportActionBar(main_toolbar)
+
+        if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.KITKAT) {
+            window.setFlags(WindowManager.LayoutParams.FLAG_LAYOUT_NO_LIMITS,
+                    WindowManager.LayoutParams.FLAG_LAYOUT_NO_LIMITS)
+        }
 
         if (redirectIfChosenLanguageMissing()) {
             return

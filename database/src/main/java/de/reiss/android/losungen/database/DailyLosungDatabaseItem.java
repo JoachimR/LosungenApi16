@@ -10,7 +10,7 @@ import java.util.Date;
 
 @Entity(indices = {@Index(value = {"languageId", "date"}, unique = true)},
         foreignKeys = @ForeignKey(entity = LanguageItem.class, parentColumns = "id", childColumns = "languageId"))
-public class DailyLosungItem {
+public class DailyLosungDatabaseItem implements LosungDatabaseItem {
 
     @PrimaryKey(autoGenerate = true)
     public int id;
@@ -24,12 +24,12 @@ public class DailyLosungItem {
     public String text2;
     public String source2;
 
-    public DailyLosungItem() {
+    public DailyLosungDatabaseItem() {
     }
 
     @Ignore
-    public DailyLosungItem(int id, int languageId, Date date, String holiday, String text1,
-                           String source1, String text2, String source2) {
+    public DailyLosungDatabaseItem(int id, int languageId, Date date, String holiday, String text1,
+                                   String source1, String text2, String source2) {
         this.id = id;
         this.languageId = languageId;
         this.date = date;
@@ -41,8 +41,8 @@ public class DailyLosungItem {
     }
 
     @Ignore
-    public DailyLosungItem(int languageId, Date date, String holiday, String text1,
-                           String source1, String text2, String source2) {
+    public DailyLosungDatabaseItem(int languageId, Date date, String holiday, String text1,
+                                   String source1, String text2, String source2) {
         this.languageId = languageId;
         this.date = date;
         this.holiday = holiday;

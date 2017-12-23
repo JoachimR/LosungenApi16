@@ -8,7 +8,7 @@ import android.support.annotation.StringRes
 import android.support.v4.content.ContextCompat
 import de.reiss.android.losungen.App
 import de.reiss.android.losungen.R
-import de.reiss.android.losungen.events.FontSizeChanged
+import de.reiss.android.losungen.events.AppStyleChanged
 import de.reiss.android.losungen.events.postMessageEvent
 import de.reiss.android.losungen.util.extensions.change
 import de.reiss.android.losungen.widget.WidgetRefresher
@@ -30,8 +30,11 @@ open class AppPreferences(val context: Context) : OnSharedPreferenceChangeListen
             if (isWidgetPref(key)) {
                 widgetRefresher.execute()
             } else {
-                if (key == str(R.string.pref_fontsize_key)) {
-                    postMessageEvent(FontSizeChanged())
+                if (key == str(R.string.pref_fontsize_key)
+                        || key == str(R.string.pref_fontcolor_key)
+                        || key == str(R.string.pref_backgroundcolor_key)
+                        || key == str(R.string.pref_cardbackgroundcolor_key)) {
+                    postMessageEvent(AppStyleChanged())
                 }
             }
         }
@@ -56,10 +59,14 @@ open class AppPreferences(val context: Context) : OnSharedPreferenceChangeListen
 
     fun currentTheme(): AppTheme {
         val chosenTheme = prefString(R.string.pref_theme_key, R.string.pref_theme_default)
-        return AppTheme.find(context, chosenTheme) ?: AppTheme.RED_TEAL
+        return AppTheme.find(context, chosenTheme) ?: AppTheme.ORANGE_BLUE
     }
 
-    fun showNotes() = prefBoolean(R.string.pref_shownotes_key, true)
+    fun showNotes() = prefBoolean(R.string.pref_show_notes_key, true)
+
+    fun showToolbar() = prefBoolean(R.string.pref_show_toolbar_key, true)
+
+    fun showCards() = prefBoolean(R.string.pref_show_cards_key, true)
 
     fun shouldShowDailyNotification() =
             prefBoolean(R.string.pref_show_daily_notification_key, false)
@@ -67,6 +74,15 @@ open class AppPreferences(val context: Context) : OnSharedPreferenceChangeListen
     fun fontSize() = prefInt(
             stringRes = R.string.pref_fontsize_key,
             default = Integer.parseInt(str(R.string.pref_fontsize_max)))
+
+    fun fontColor() = prefInt(R.string.pref_fontcolor_key,
+            ContextCompat.getColor(context, R.color.font_black))
+
+    fun backgroundColor() = prefInt(R.string.pref_backgroundcolor_key,
+            ContextCompat.getColor(context, R.color.default_background_color))
+
+    fun cardBackgroundColor() = prefInt(R.string.pref_cardbackgroundcolor_key,
+            ContextCompat.getColor(context, R.color.default_card_background_color))
 
     fun widgetShowDate() = prefBoolean(R.string.pref_widget_showdate_key, true)
 

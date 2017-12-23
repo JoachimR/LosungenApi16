@@ -3,19 +3,23 @@ package de.reiss.android.losungen.main.content
 import android.arch.lifecycle.Observer
 import android.arch.lifecycle.ViewModelProvider
 import android.arch.lifecycle.ViewModelProviders
+import android.content.Context
 import android.os.Bundle
+import android.support.annotation.LayoutRes
 import android.view.Menu
 import android.view.MenuInflater
 import android.view.MenuItem
+import android.view.View
 import android.view.View.GONE
 import android.view.View.VISIBLE
+import android.widget.TextView
 import de.reiss.android.losungen.App
 import de.reiss.android.losungen.DaysPositionUtil
 import de.reiss.android.losungen.R
 import de.reiss.android.losungen.architecture.AppFragment
 import de.reiss.android.losungen.architecture.AsyncLoad
+import de.reiss.android.losungen.events.AppStyleChanged
 import de.reiss.android.losungen.events.DatabaseRefreshed
-import de.reiss.android.losungen.events.FontSizeChanged
 import de.reiss.android.losungen.formattedDate
 import de.reiss.android.losungen.model.DailyLosung
 import de.reiss.android.losungen.model.Note
@@ -25,32 +29,43 @@ import de.reiss.android.losungen.preferences.AppPreferencesActivity
 import de.reiss.android.losungen.util.copyToClipboard
 import de.reiss.android.losungen.util.extensions.*
 import de.reiss.android.losungen.util.htmlize
-import kotlinx.android.synthetic.main.losung_content.*
-import kotlinx.android.synthetic.main.losung_empty.*
-import kotlinx.android.synthetic.main.losung_fragment.*
+import de.reiss.android.losungen.util.view.FadingProgressBar
 import org.greenrobot.eventbus.Subscribe
 import org.greenrobot.eventbus.ThreadMode
 
 
-class LosungFragment : AppFragment<LosungViewModel>(R.layout.losung_fragment) {
+@Suppress("PropertyName")
+abstract class LosungFragment(@LayoutRes private val fragmentLayout: Int)
+    : AppFragment<LosungViewModel>(fragmentLayout) {
 
     companion object {
 
         private const val KEY_POSITION = "KEY_POSITION"
 
-        fun createInstance(position: Int) = LosungFragment().apply {
-            arguments = Bundle().apply {
-                putInt(KEY_POSITION, position)
-            }
-        }
-
     }
 
-    private val appPreferences: AppPreferences by lazy {
+    private lateinit var root: View
+    protected lateinit var text1root: View
+    protected lateinit var text1: TextView
+    protected lateinit var source1: TextView
+    protected lateinit var text2root: View
+    protected lateinit var text2: TextView
+    protected lateinit var source2: TextView
+    protected lateinit var date: TextView
+    protected lateinit var loading: FadingProgressBar
+    private lateinit var empty_root: View
+    private lateinit var change_translation: TextView
+    private lateinit var content_root: View
+    protected lateinit var note_root: View
+    private lateinit var note_header: TextView
+    private lateinit var note_content: TextView
+    protected lateinit var note_edit: View
+
+    protected val appPreferences: AppPreferences by lazy {
         App.component.appPreferences
     }
 
-    private var position = -1
+    protected var position = -1
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
@@ -106,40 +121,66 @@ class LosungFragment : AppFragment<LosungViewModel>(R.layout.losung_fragment) {
     override fun defineViewModel(): LosungViewModel =
             loadViewModelProvider().get(LosungViewModel::class.java)
 
-    override fun initViews() {
-        losung_note_edit.onClick {
+    override fun initViews(layout: View) {
+
+        findViews(layout)
+
+        note_edit.onClick {
             viewModel.losung()?.let { losung ->
                 activity?.let {
                     it.startActivity(EditNoteActivity.createIntent(
                             context = it,
-                            date = losung.date,
-                            losungContent = losung.content
+                            date = losung.startDate(),
+                            bibleTextPair = losung.bibleTextPair
                     ))
                 }
             }
         }
 
-        losung_change_translation.onClick {
+        change_translation.onClick {
             activity?.let {
                 it.startActivity(AppPreferencesActivity.createIntent(it))
             }
         }
 
-        losung_source1.setOnLongClickListener {
+        source1.setOnLongClickListener {
             context?.let {
-                copyToClipboard(it, losung_source1.text.toString())
+                copyToClipboard(it, source1.text.toString())
                 showShortSnackbar(message = R.string.copied_to_clipboard)
             }
             true
         }
 
-        losung_source2.setOnLongClickListener {
+        source2.setOnLongClickListener {
             context?.let {
-                copyToClipboard(it, losung_source2.text.toString())
+                copyToClipboard(it, source2.text.toString())
                 showShortSnackbar(message = R.string.copied_to_clipboard)
             }
             true
         }
+    }
+
+    /**
+     *  Need findViewById() here
+     *  because ids are reused in different xml layouts
+     */
+    open fun findViews(layout: View) {
+        root = layout.findViewById(R.id.losung_root)
+        text1root = layout.findViewById(R.id.losung_text1_root)
+        text1 = layout.findViewById(R.id.losung_text1)
+        source1 = layout.findViewById(R.id.losung_source1)
+        text2root = layout.findViewById(R.id.losung_text2_root)
+        text2 = layout.findViewById(R.id.losung_text2)
+        source2 = layout.findViewById(R.id.losung_source2)
+        date = layout.findViewById(R.id.losung_date)
+        loading = layout.findViewById(R.id.losung_loading)
+        empty_root = layout.findViewById(R.id.losung_empty_root)
+        change_translation = layout.findViewById(R.id.losung_change_translation)
+        content_root = layout.findViewById(R.id.losung_content_root)
+        note_root = layout.findViewById(R.id.losung_note_root)
+        note_header = layout.findViewById(R.id.losung_note_header)
+        note_content = layout.findViewById(R.id.losung_note_content)
+        note_edit = layout.findViewById(R.id.losung_note_edit)
     }
 
     @Subscribe(threadMode = ThreadMode.MAIN)
@@ -148,8 +189,8 @@ class LosungFragment : AppFragment<LosungViewModel>(R.layout.losung_fragment) {
     }
 
     @Subscribe(threadMode = ThreadMode.MAIN)
-    fun onMessageEvent(event: FontSizeChanged) {
-        updateStyle()
+    fun onMessageEvent(event: AppStyleChanged) {
+        updateStyle(viewModel.losung())
     }
 
     override fun initViewModelObservers() {
@@ -165,58 +206,75 @@ class LosungFragment : AppFragment<LosungViewModel>(R.layout.losung_fragment) {
         val context = context ?: return
         val losung = viewModel.losung()
 
-        losung_date.text = formattedDate(context, date().time)
+        date.text = formattedDate(context, date().time)
 
         when {
 
             viewModel.isLoadingLosung() -> {
-                losung_loading.loading = true
+                loading.loading = true
             }
 
             (viewModel.isErrorForLosung() || losung == null) -> {
-                losung_loading.loading = false
-                losung_empty_root.visibility = VISIBLE
-                losung_content_root.visibility = GONE
+                loading.loading = false
+                empty_root.visibility = VISIBLE
+                content_root.visibility = GONE
             }
 
             viewModel.isSuccessForLosung() -> {
-                losung_loading.loading = false
-                losung_empty_root.visibility = GONE
-                losung_content_root.visibility = VISIBLE
+                loading.loading = false
+                empty_root.visibility = GONE
+                content_root.visibility = VISIBLE
 
-                losung_text1.text = htmlize(losung.content.text1)
-                losung_source1.text = losung.content.source1
-                losung_text2.text = htmlize(losung.content.text2)
-                losung_source2.text = losung.content.source2
+                text1.text = htmlize(losung.bibleTextPair.first.text)
+                source1.text = losung.bibleTextPair.first.source
+                text2.text = htmlize(losung.bibleTextPair.second.text)
+                source2.text = losung.bibleTextPair.second.source
             }
         }
 
         activity?.invalidateOptionsMenu()
 
-        updateStyle()
+        updateStyle(losung)
     }
 
-    private fun updateStyle() {
+    open fun updateStyle(losung: DailyLosung?) {
+        date.setPadding(date.paddingLeft, dateTopPadding(), date.paddingRight, date.paddingBottom)
+
         val size = appPreferences.fontSize()
         val contentSize = (size * 1.1).toFloat()
         val sourceSize = (size * 0.7).toFloat()
         val noteHeaderSize = (size * 0.6).toFloat()
         val noteContentSize = (size * 0.75).toFloat()
 
-        losung_date.textSize = contentSize
-        losung_text1.textSize = contentSize
-        losung_source1.textSize = sourceSize
-        losung_text2.textSize = contentSize
-        losung_source2.textSize = sourceSize
-        losung_note_header.textSize = noteHeaderSize
-        losung_note_content.textSize = sourceSize
-        losung_note_edit.textSize = noteContentSize
+        date.textSize = contentSize
+        text1.textSize = contentSize
+        source1.textSize = sourceSize
+        text2.textSize = contentSize
+        source2.textSize = sourceSize
+        note_header.textSize = noteHeaderSize
+        note_content.textSize = noteContentSize
 
-        losung_note.visibleElseGone(appPreferences.showNotes())
+        note_root.visibleElseGone(losung != null && appPreferences.showNotes())
         if (viewModel.isLoadingNote().not()) {
-            losung_note_content.text = viewModel.note()?.noteText ?: ""
+            note_content.text = viewModel.note()?.noteText ?: ""
         }
 
+        val fontColor = appPreferences.fontColor()
+        setFontColor(fontColor)
+
+        val backgroundColor = appPreferences.backgroundColor()
+        root.setBackgroundColor(backgroundColor)
+    }
+
+    open fun setFontColor(fontColor: Int) {
+        change_translation.setTextColor(fontColor)
+        date.setTextColor(fontColor)
+        text1.setTextColor(fontColor)
+        source1.setTextColor(fontColor)
+        text2.setTextColor(fontColor)
+        source2.setTextColor(fontColor)
+        note_header.setTextColor(fontColor)
+        note_content.setTextColor(fontColor)
     }
 
     private fun tryLoad() {
@@ -237,12 +295,22 @@ class LosungFragment : AppFragment<LosungViewModel>(R.layout.losung_fragment) {
             viewModel.losung()?.let { losung ->
                 displayDialog(ShareDialog.createInstance(
                         context = context,
-                        time = losung.date.time,
-                        losungContent = losung.content,
+                        time = losung.startDate().time,
+                        bibleTextPair = losung.bibleTextPair,
                         note = viewModel.note()?.noteText ?: ""
                 ))
             }
         }
     }
+
+    private fun dateTopPadding() =
+            if (appPreferences.showToolbar())
+                dateTopPaddingWithToolbar(context!!)
+            else
+                dateTopPaddingNoToolbar(context!!)
+
+    private fun dateTopPaddingWithToolbar(context: Context) = context.dipToPx(16f)
+
+    private fun dateTopPaddingNoToolbar(context: Context) = context.dipToPx(36f)
 
 }

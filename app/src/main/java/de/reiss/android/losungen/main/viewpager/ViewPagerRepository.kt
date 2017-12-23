@@ -38,7 +38,7 @@ open class ViewPagerRepository @Inject constructor(private val executor: Executo
                     if (storedItems.size < expectedAmountOfDays) {
 
                         val databaseUpdated =
-                                rawToDatabaseWriter.tryFillDailyLosungToDatabase(language)
+                                rawToDatabaseWriter.writeRawDataToDatabase(language)
 
                         if (databaseUpdated) {
                             widgetRefresher.execute()

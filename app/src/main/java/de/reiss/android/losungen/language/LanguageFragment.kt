@@ -5,6 +5,7 @@ import android.arch.lifecycle.Observer
 import android.arch.lifecycle.ViewModelProvider
 import android.arch.lifecycle.ViewModelProviders
 import android.support.v7.widget.LinearLayoutManager
+import android.view.View
 import android.view.View.GONE
 import android.view.View.VISIBLE
 import de.reiss.android.losungen.App
@@ -32,7 +33,7 @@ class LanguageFragment : AppFragment<LanguageViewModel>(R.layout.language_fragme
 
     private lateinit var languageListItemAdapter: LanguageListItemAdapter
 
-    override fun initViews() {
+    override fun initViews(layout: View) {
         languageListItemAdapter = LanguageListItemAdapter(languageClickListener = this)
 
         with(language_recycler_view) {

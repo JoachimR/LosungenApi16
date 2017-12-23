@@ -6,6 +6,7 @@ import android.os.Bundle
 import android.support.v7.app.AppCompatActivity
 import de.reiss.android.losungen.language.LanguageActivity
 import de.reiss.android.losungen.main.MainActivity
+import de.reiss.android.losungen.main.MainActivityNoToolbar
 
 
 class SplashScreenActivity : AppCompatActivity() {
@@ -34,7 +35,8 @@ class SplashScreenActivity : AppCompatActivity() {
                         LanguageActivity.createIntent(this)
                     }
                     else -> {
-                        MainActivity.createIntent(this)
+                        if (appPreferences.showToolbar()) MainActivity.createIntent(this)
+                        else MainActivityNoToolbar.createIntent(this)
                     }
                 })
 

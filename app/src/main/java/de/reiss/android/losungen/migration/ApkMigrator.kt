@@ -11,12 +11,11 @@ import de.reiss.android.losungen.R
 import de.reiss.android.losungen.allLanguages
 import de.reiss.android.losungen.database.*
 import de.reiss.android.losungen.logger.logErrorWithCrashlytics
-import de.reiss.android.losungen.model.LosungContent
+import de.reiss.android.losungen.model.BibleTextPair
 import de.reiss.android.losungen.preferences.AppPreferences
 import de.reiss.android.losungen.rawdata.RawToDatabaseWriter
 import de.reiss.android.losungen.util.extensions.withZeroDayTime
 import de.reiss.android.losungen.xmlparser.dateFromString
-import java.util.*
 import java.util.concurrent.Executor
 import javax.inject.Inject
 
@@ -124,11 +123,12 @@ class ApkMigrator @Inject constructor(val context: Context,
                 val item = noteItemDao.byDate(date)
                 if (item == null) {
                     noteItemDao.insertOrReplace(
-                            NoteItem(date.withZeroDayTime(), LosungContent(
-                                    cursor.getString(cursor.getColumnIndex("text1")),
-                                    cursor.getString(cursor.getColumnIndex("source1")),
-                                    cursor.getString(cursor.getColumnIndex("text2")),
-                                    cursor.getString(cursor.getColumnIndex("source2"))),
+                            NoteItem(date.withZeroDayTime(),
+                                    BibleTextPair(
+                                            cursor.getString(cursor.getColumnIndex("text1")),
+                                            cursor.getString(cursor.getColumnIndex("source1")),
+                                            cursor.getString(cursor.getColumnIndex("text2")),
+                                            cursor.getString(cursor.getColumnIndex("source2"))),
                                     cursor.getString(cursor.getColumnIndex("note")))
                     )
                 }
@@ -157,7 +157,7 @@ class ApkMigrator @Inject constructor(val context: Context,
         }
 
         preferences.getBoolean("pref_shownotes_key", true).let {
-            edit.putBoolean(context.getString(R.string.pref_shownotes_key), it)
+            edit.putBoolean(context.getString(R.string.pref_show_notes_key), it)
         }
 
         preferences.getString("pref_fontsize_key", null)?.let {
@@ -217,8 +217,13 @@ class ApkMigrator @Inject constructor(val context: Context,
                 migrateKey,
                 context.getString(R.string.pref_theme_key),
                 context.getString(R.string.pref_language_key),
+                context.getString(R.string.pref_show_notes_key),
                 context.getString(R.string.pref_fontsize_key),
-                context.getString(R.string.pref_shownotes_key),
+                context.getString(R.string.pref_fontcolor_key),
+                context.getString(R.string.pref_backgroundcolor_key),
+                context.getString(R.string.pref_show_toolbar_key),
+                context.getString(R.string.pref_show_cards_key),
+                context.getString(R.string.pref_cardbackgroundcolor_key),
                 context.getString(R.string.pref_widget_backgroundcolor_key),
                 context.getString(R.string.pref_widget_fontcolor_key),
                 context.getString(R.string.pref_widget_fontsize_key),

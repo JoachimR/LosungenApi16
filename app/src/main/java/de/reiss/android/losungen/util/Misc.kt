@@ -7,7 +7,7 @@ import android.text.Html
 import de.reiss.android.losungen.App
 import de.reiss.android.losungen.R
 import de.reiss.android.losungen.formattedDate
-import de.reiss.android.losungen.model.LosungContent
+import de.reiss.android.losungen.model.BibleTextPair
 
 
 @Suppress("DEPRECATION")
@@ -18,19 +18,19 @@ fun htmlize(text: String) =
             Html.fromHtml(text)
         }
 
-fun contentAsString(context: Context, time: Long, losungContent: LosungContent, note: String) =
+fun contentAsString(context: Context, time: Long, bibleTextPair: BibleTextPair, note: String) =
         StringBuilder().apply {
             append(formattedDate(context, time))
             append("\n\n")
 
-            append(losungContent.text1)
+            append(bibleTextPair.first.text)
             append("\n")
-            append(losungContent.source1)
+            append(bibleTextPair.first.source)
             append("\n\n")
 
-            append(losungContent.text2)
+            append(bibleTextPair.second.text)
             append("\n")
-            append(losungContent.source2)
+            append(bibleTextPair.second.source)
             if (note.isNotEmpty()) {
                 append("\n\n")
                 append(note)
