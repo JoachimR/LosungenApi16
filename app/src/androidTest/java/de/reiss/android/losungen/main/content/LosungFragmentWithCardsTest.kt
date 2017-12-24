@@ -45,6 +45,7 @@ class LosungFragmentWithCardsTest : FragmentTest<LosungFragmentWithCards>() {
     @Test
     fun whenLoadingThenShowLoading() {
         losungLiveData.postValue(AsyncLoad.loading())
+        Thread.sleep(100)
 
         assertDisplayed(R.id.losung_loading)
         assertNotDisplayed(R.id.losung_empty_root, R.id.losung_content_root)
@@ -53,6 +54,7 @@ class LosungFragmentWithCardsTest : FragmentTest<LosungFragmentWithCards>() {
     @Test
     fun whenEmptyThenShowEmpty() {
         losungLiveData.postValue(AsyncLoad.success(null))
+        Thread.sleep(100)
 
         assertDisplayed(R.id.losung_empty_root)
         assertNotDisplayed(R.id.losung_loading, R.id.losung_content_root)
@@ -62,6 +64,7 @@ class LosungFragmentWithCardsTest : FragmentTest<LosungFragmentWithCards>() {
     fun whenContentThenShowContent() {
         val dailyLosung = sampleDailyLosung(number = 0, language = "testLanguage")
         losungLiveData.postValue(AsyncLoad.success(dailyLosung))
+        Thread.sleep(100)
 
         assertDisplayed(R.id.losung_content_root)
         assertNotDisplayed(R.id.losung_loading, R.id.losung_empty_root)

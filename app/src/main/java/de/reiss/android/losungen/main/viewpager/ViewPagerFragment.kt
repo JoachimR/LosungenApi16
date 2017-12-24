@@ -21,7 +21,6 @@ import org.greenrobot.eventbus.Subscribe
 import org.greenrobot.eventbus.ThreadMode
 import java.util.*
 
-
 class ViewPagerFragment : AppFragment<ViewPagerViewModel>(R.layout.view_pager_fragment) {
 
     companion object {
@@ -45,6 +44,8 @@ class ViewPagerFragment : AppFragment<ViewPagerViewModel>(R.layout.view_pager_fr
     }
 
     private var savedPosition = INVALID_POSITION
+
+    var adapterCreator: ViewPagerAdapterCreator = ViewPagerAdapterCreator()
 
     private lateinit var adapter: ViewPagerAdapter
 
@@ -83,7 +84,7 @@ class ViewPagerFragment : AppFragment<ViewPagerViewModel>(R.layout.view_pager_fr
     }
 
     override fun initViews(layout: View) {
-        adapter = ViewPagerAdapter(childFragmentManager)
+        adapter = adapterCreator.create(childFragmentManager)
         view_pager.adapter = adapter
     }
 

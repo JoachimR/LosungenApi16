@@ -8,7 +8,8 @@ import de.reiss.android.losungen.main.content.LosungFragmentNoCards
 import de.reiss.android.losungen.main.content.LosungFragmentWithCards
 import de.reiss.android.losungen.preferences.AppPreferences
 
-class ViewPagerAdapter(fragmentManager: FragmentManager) : FragmentStatePagerAdapter(fragmentManager) {
+open class ViewPagerAdapter(fragmentManager: FragmentManager)
+    : FragmentStatePagerAdapter(fragmentManager) {
 
     private val appPreferences: AppPreferences by lazy {
         App.component.appPreferences

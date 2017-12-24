@@ -35,10 +35,6 @@ class NoteListFragment : AppFragment<NoteListViewModel>(R.layout.note_list_fragm
             adapter = listItemAdapter
             addItemDecoration(DividerItemDecoration(context, DividerItemDecoration.VERTICAL))
         }
-
-        note_list_swipe_to_refresh.setOnRefreshListener {
-            tryLoadNotes()
-        }
     }
 
     override fun defineViewModelProvider(): ViewModelProvider =
@@ -85,9 +81,9 @@ class NoteListFragment : AppFragment<NoteListViewModel>(R.layout.note_list_fragm
 
     private fun updateUi() {
         if (viewModel.isLoadingNotes()) {
-            note_list_swipe_to_refresh.isRefreshing = true
+            note_list_loading.loading = true
         } else {
-            note_list_swipe_to_refresh.isRefreshing = false
+            note_list_loading.loading = false
             val filteredNotes = viewModel.notes()
 
             val listItems = NoteListBuilder.buildList(filteredNotes.filteredItems)

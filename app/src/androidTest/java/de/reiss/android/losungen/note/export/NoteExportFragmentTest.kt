@@ -32,6 +32,7 @@ class NoteExportFragmentTest : FragmentTest<NoteExportFragment>() {
     @Test
     fun whenExportingThenShowLoadingAndDisableStartButton() {
         exportLiveData.postValue(ExportingStatus())
+        Thread.sleep(100)
 
         assertDisplayed(R.id.note_export_loading)
         assertDisabled(R.id.note_export_start)
@@ -40,6 +41,7 @@ class NoteExportFragmentTest : FragmentTest<NoteExportFragment>() {
     @Test
     fun whenNoPermissionThenShowNoPermissionMessage() {
         exportLiveData.postValue(NoPermissionStatus())
+        Thread.sleep(100)
 
         assertNotDisplayed(R.id.note_export_loading)
         assertEnabled(R.id.note_export_start)
@@ -49,6 +51,7 @@ class NoteExportFragmentTest : FragmentTest<NoteExportFragment>() {
     @Test
     fun whenNoNotesToExportThenShowNoNotesToExportMessage() {
         exportLiveData.postValue(NoNotesStatus())
+        Thread.sleep(100)
 
         assertNotDisplayed(R.id.note_export_loading)
         assertEnabled(R.id.note_export_start)
@@ -60,6 +63,7 @@ class NoteExportFragmentTest : FragmentTest<NoteExportFragment>() {
         val directory = "testDirectory"
         val fileName = "testFileName"
         exportLiveData.postValue(ExportErrorStatus(directory, fileName))
+        Thread.sleep(100)
 
         assertNotDisplayed(R.id.note_export_loading)
         assertEnabled(R.id.note_export_start)
@@ -71,6 +75,7 @@ class NoteExportFragmentTest : FragmentTest<NoteExportFragment>() {
         val directory = "testDirectory"
         val fileName = "testFileName"
         exportLiveData.postValue(ExportSuccessStatus(directory, fileName))
+        Thread.sleep(100)
 
         assertNotDisplayed(R.id.note_export_loading)
         assertEnabled(R.id.note_export_start)

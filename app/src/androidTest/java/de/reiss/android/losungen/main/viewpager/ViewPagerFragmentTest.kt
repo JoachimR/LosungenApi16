@@ -17,7 +17,7 @@ import org.junit.runner.RunWith
 @RunWith(AndroidJUnit4::class)
 class ViewPagerFragmentTest : FragmentTest<ViewPagerFragment>() {
 
-    private val chosenLanguage = "chosenLanguage"
+    private val chosenLanguage = "losungen_xzy"
 
     private val loadYearLiveData = MutableLiveData<AsyncLoad<String>>()
 
@@ -30,6 +30,9 @@ class ViewPagerFragmentTest : FragmentTest<ViewPagerFragment>() {
                     .apply {
                         viewModelProvider = mock {
                             on { get(any<Class<ViewPagerViewModel>>()) } doReturn mockedViewModel
+                        }
+                        adapterCreator = mock {
+                            on { create(any()) } doReturn mock<ViewPagerAdapter>()
                         }
                     }
 

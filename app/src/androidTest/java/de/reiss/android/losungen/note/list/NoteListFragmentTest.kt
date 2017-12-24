@@ -37,19 +37,17 @@ class NoteListFragmentTest : FragmentTest<NoteListFragment>() {
     @Test
     fun whenLoadingThenShowLoading() {
         notesLiveData.postValue(AsyncLoad.loading())
+        Thread.sleep(100)
 
-        assertSwipeToRefreshState(
-                resId = R.id.note_list_swipe_to_refresh,
-                shouldBeRefreshing = true)
+        assertDisplayed(R.id.note_list_loading)
     }
 
     @Test
     fun whenLoadedNoNotesThenShowEmptyState() {
         notesLiveData.postValue(AsyncLoad.success(FilteredNotes()))
+        Thread.sleep(100)
 
-        assertSwipeToRefreshState(
-                resId = R.id.note_list_swipe_to_refresh,
-                shouldBeRefreshing = false)
+        assertNotDisplayed(R.id.note_list_loading)
 
         assertDisplayed(R.id.note_list_no_notes)
         assertNotDisplayed(R.id.note_list_recycler_view)
@@ -58,8 +56,8 @@ class NoteListFragmentTest : FragmentTest<NoteListFragment>() {
     @Test
     fun whenLoaded1NoteThenShowListWith1Item() {
         val notes = listOf(sampleNote(0))
-
         notesLiveData.postValue(AsyncLoad.success(FilteredNotes(notes, notes, "")))
+        Thread.sleep(100)
 
         assertNotDisplayed(R.id.note_list_no_notes)
 
@@ -71,13 +69,11 @@ class NoteListFragmentTest : FragmentTest<NoteListFragment>() {
     @Test
     fun whenLoaded99NotesThenShowListWith99Items() {
         val notes = (1..99).map { sampleNote(it) }
-
         notesLiveData.postValue(AsyncLoad.success(FilteredNotes(notes, notes, "")))
+        Thread.sleep(100)
 
         assertNotDisplayed(R.id.note_list_no_notes)
-        assertSwipeToRefreshState(
-                resId = R.id.note_list_swipe_to_refresh,
-                shouldBeRefreshing = false)
+        assertNotDisplayed(R.id.note_list_loading)
 
         assertDisplayed(R.id.note_list_recycler_view)
         assertRecyclerViewItemsCount(R.id.note_list_recycler_view, 99)

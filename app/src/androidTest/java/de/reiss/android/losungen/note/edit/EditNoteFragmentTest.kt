@@ -38,6 +38,7 @@ class EditNoteFragmentTest : FragmentTest<EditNoteFragment>() {
     @Test
     fun whenLoadingThenShowLoading() {
         loadNoteLiveData.postValue(AsyncLoad.loading())
+        Thread.sleep(100)
 
         assertDisplayed(R.id.edit_note_loading)
         assertNotDisplayed(R.id.edit_note_input, R.id.edit_note_load_error)
@@ -46,6 +47,7 @@ class EditNoteFragmentTest : FragmentTest<EditNoteFragment>() {
     @Test
     fun whenStoringThenShowLoading() {
         storeNoteLiveData.postValue(AsyncLoad.loading())
+        Thread.sleep(100)
 
         assertDisplayed(R.id.edit_note_loading)
         assertNotDisplayed(R.id.edit_note_input, R.id.edit_note_load_error)
@@ -54,6 +56,7 @@ class EditNoteFragmentTest : FragmentTest<EditNoteFragment>() {
     @Test
     fun whenLoadSuccessThenShowInput() {
         loadNoteLiveData.postValue(AsyncLoad.success(sampleNote(0)))
+        Thread.sleep(100)
 
         assertDisplayed(R.id.edit_note_input)
         assertNotDisplayed(R.id.edit_note_loading, R.id.edit_note_load_error)
@@ -62,6 +65,7 @@ class EditNoteFragmentTest : FragmentTest<EditNoteFragment>() {
     @Test
     fun whenLoadSuccessButNothingFoundThenShowEmptyNote() {
         loadNoteLiveData.postValue(AsyncLoad.success(null))
+        Thread.sleep(100)
 
         assertDisplayed(R.id.edit_note_input)
         checkIsTextSet { R.id.edit_note_input to "" }
@@ -71,6 +75,7 @@ class EditNoteFragmentTest : FragmentTest<EditNoteFragment>() {
     @Test
     fun whenLoadErrorThenHideInputAndShowLoadError() {
         loadNoteLiveData.postValue(AsyncLoad.error())
+        Thread.sleep(100)
 
         assertDisplayed(R.id.edit_note_load_error)
         assertNotDisplayed(R.id.edit_note_loading, R.id.edit_note_input)
@@ -79,6 +84,7 @@ class EditNoteFragmentTest : FragmentTest<EditNoteFragment>() {
     @Test
     fun whenStoreErrorThenShowInputAndShowStoreErrorSnackbar() {
         storeNoteLiveData.postValue(AsyncLoad.error())
+        Thread.sleep(100)
 
         assertDisplayed(R.id.edit_note_input)
         assertNotDisplayed(R.id.edit_note_loading, R.id.edit_note_load_error)

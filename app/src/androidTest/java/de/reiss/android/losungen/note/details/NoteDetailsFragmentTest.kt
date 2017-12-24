@@ -40,24 +40,31 @@ class NoteDetailsFragmentTest : FragmentTest<NoteDetailsFragment>() {
     @Test
     fun whenLoadingThenShowLoading() {
         noteLiveData.postValue(AsyncLoad.loading())
+        Thread.sleep(100)
+
         assertDisplayed(R.id.note_details_loading)
     }
 
     @Test
     fun whenDeletingThenShowLoading() {
         deleteLiveData.postValue(AsyncLoad.loading())
+        Thread.sleep(100)
+
         assertDisplayed(R.id.note_details_loading)
     }
 
     @Test
     fun whenDeletedThenFinishing() {
         deleteLiveData.postValue(AsyncLoad.success())
+        Thread.sleep(100)
+
         assertActivityIsFinished(activityRule)
     }
 
     @Test
     fun whenLoadSuccessThenShowContent() {
         noteLiveData.postValue(AsyncLoad.success(note))
+        Thread.sleep(100)
 
         checkTextsAreDisplayed(
                 contentAsString(activity, note.date.time, note.bibleTextPair, ""),
