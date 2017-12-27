@@ -52,7 +52,7 @@
         <item>widgetbg_transpimg_yellow</item>
     </string-array>
 
-    <integer-array name="pref_cardbackgroundcolor_colors" translatable="false">
+    <integer-array name="pref_card_backgroundcolor_colors" translatable="false">
         <item>@color/default_card_background_color</item>
         <item>@color/font_grey</item>
         <item>@color/font_black</item>

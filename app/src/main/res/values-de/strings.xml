@@ -19,7 +19,7 @@
     <string name="pref_fontsize_title">Schriftgröße</string>
     <string name="pref_fontcolor_title">Schriftfarbe</string>
     <string name="pref_backgroundcolor_title">Hintergrundfarbe</string>
-    <string name="pref_cardbackgroundcolor_title">Karten Hintergrundfarbe</string>
+    <string name="pref_card_backgroundcolor_title">Karten Hintergrundfarbe</string>
     <string name="pref_show_notes_title">Zeige Notizen</string>
     <string name="pref_show_toolbar_title">Zeige Toolbar</string>
     <string name="pref_show_cards_title">Zeige Karten</string>
@@ -116,7 +116,6 @@
     <string name="note_export_title">Notizen Exportieren</string>
     <string name="notes_export_no_notes">Es gibt keine Notizen zum Exportieren.</string>
     <string name="cd_widget_background">Widget Hintergrund</string>
-    <string name="edit_note_hint">Notiz zum diesem Tag</string>
     <string name="edit_note_store_error">Fehler beim Speichern dieser Notiz…</string>
     <string name="edit_note_load_error">Fehler beim Laden dieser Notiz…</string>
     <string name="edit_note_load_error_retry">Versuche nochmal</string>

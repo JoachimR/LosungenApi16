@@ -33,7 +33,7 @@ open class AppPreferences(val context: Context) : OnSharedPreferenceChangeListen
                 if (key == str(R.string.pref_fontsize_key)
                         || key == str(R.string.pref_fontcolor_key)
                         || key == str(R.string.pref_backgroundcolor_key)
-                        || key == str(R.string.pref_cardbackgroundcolor_key)) {
+                        || key == str(R.string.pref_card_backgroundcolor_key)) {
                     postMessageEvent(AppStyleChanged())
                 }
             }
@@ -81,7 +81,7 @@ open class AppPreferences(val context: Context) : OnSharedPreferenceChangeListen
     fun backgroundColor() = prefInt(R.string.pref_backgroundcolor_key,
             ContextCompat.getColor(context, R.color.default_background_color))
 
-    fun cardBackgroundColor() = prefInt(R.string.pref_cardbackgroundcolor_key,
+    fun cardBackgroundColor() = prefInt(R.string.pref_card_backgroundcolor_key,
             ContextCompat.getColor(context, R.color.default_card_background_color))
 
     fun widgetShowDate() = prefBoolean(R.string.pref_widget_showdate_key, true)

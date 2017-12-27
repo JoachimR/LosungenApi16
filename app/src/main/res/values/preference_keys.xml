@@ -11,7 +11,7 @@
     <string name="pref_fontsize_key" translatable="false">fontsize</string>
     <string name="pref_fontcolor_key" translatable="false">fontcolor</string>
     <string name="pref_backgroundcolor_key" translatable="false">backgroundcolor</string>
-    <string name="pref_cardbackgroundcolor_key" translatable="false">cardbackgroundcolor</string>
+    <string name="pref_card_backgroundcolor_key" translatable="false">card_backgroundcolor</string>
 
     <string name="pref_widget_backgroundcolor_key" translatable="false">widget_backgroundcolor</string>
     <string name="pref_widget_fontcolor_key" translatable="false">widget_fontcolor</string>

@@ -19,7 +19,7 @@
     <string name="pref_fontsize_title">Font Size</string>
     <string name="pref_fontcolor_title">Font Color</string>
     <string name="pref_backgroundcolor_title">Background Color</string>
-    <string name="pref_cardbackgroundcolor_title">Card Background Color</string>
+    <string name="pref_card_backgroundcolor_title">Card Background Color</string>
     <string name="pref_show_notes_title">Show Notes</string>
     <string name="pref_show_toolbar_title">Show Toolbar</string>
     <string name="pref_show_cards_title">Show Cards</string>
@@ -116,7 +116,6 @@
     <string name="note_export_title">Export Notes</string>
     <string name="notes_export_no_notes">There are no notes to export</string>
     <string name="cd_widget_background">Widget background</string>
-    <string name="edit_note_hint">Note for that day</string>
     <string name="edit_note_store_error">Error while trying to store this note…</string>
     <string name="edit_note_load_error">Error while loading note…</string>
     <string name="edit_note_load_error_retry">Retry</string>
