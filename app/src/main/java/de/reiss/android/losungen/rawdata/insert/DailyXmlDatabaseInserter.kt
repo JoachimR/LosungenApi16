@@ -1,4 +1,4 @@
-package de.reiss.android.losungen.rawdata
+package de.reiss.android.losungen.rawdata.insert
 
 import android.content.Context
 import android.support.annotation.RawRes
@@ -43,7 +43,7 @@ class DailyXmlDatabaseInserter @Inject constructor(val context: Context,
                 logWarnWithCrashlytics {
                     "Loaded daily data for language '$language'" +
                             " had ${databaseItems.size} items" +
-                            " rather than $expectedItemsForDaily items"
+                            " rather than ${expectedItemsForDaily} items"
                 }
             }
 

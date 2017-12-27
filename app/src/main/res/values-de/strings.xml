@@ -1,7 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
 <resources>
+    <string name="app_name">Losungen</string>
     <string name="navigation_drawer_open">Öffne Navigation</string>
     <string name="navigation_drawer_close">Schließe Navigation</string>
-    <string name="app_name">Losungen</string>
     <string name="info_general">Inoffizielle App der Losungen</string>
     <string name="source_code_prefix">Quellcode:</string>
     <string name="info_participate">Wenn Sie beim Erstellen von neuen Inhalten mithelfen möchten, bitte besuchen Sie:</string>

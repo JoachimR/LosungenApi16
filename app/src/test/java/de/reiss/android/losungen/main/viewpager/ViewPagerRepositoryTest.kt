@@ -9,7 +9,7 @@ import de.reiss.android.losungen.database.DailyLosungDatabaseItem
 import de.reiss.android.losungen.database.DailyLosungItemDao
 import de.reiss.android.losungen.database.LanguageItem
 import de.reiss.android.losungen.database.LanguageItemDao
-import de.reiss.android.losungen.rawdata.RawToDatabaseWriter
+import de.reiss.android.losungen.rawdata.RawToDatabase
 import de.reiss.android.losungen.testutil.TestExecutor
 import de.reiss.android.losungen.testutil.blockingObserve
 import de.reiss.android.losungen.testutil.sampleDailyLosungItem
@@ -35,7 +35,7 @@ class ViewPagerRepositoryTest {
     private val dailyLosungItemDao = mock<DailyLosungItemDao>()
     private val languageItemDao = mock<LanguageItemDao>()
 
-    private val rawToDatabaseWriter = mock<RawToDatabaseWriter>()
+    private val rawToDatabaseWriter = mock<RawToDatabase>()
     private val widgetRefresher = mock<WidgetRefresher>()
 
     private val languageItem = LanguageItem("testLanguage", "testLanguageName", "testLanguageCode")

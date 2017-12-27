@@ -15,7 +15,7 @@ import de.reiss.android.losungen.note.list.NoteListRepository
 import de.reiss.android.losungen.notification.NotificationHelper
 import de.reiss.android.losungen.preferences.AppPreferences
 import de.reiss.android.losungen.preferences.AppPreferencesRepository
-import de.reiss.android.losungen.rawdata.RawToDatabaseWriter
+import de.reiss.android.losungen.rawdata.RawToDatabase
 import de.reiss.android.losungen.widget.WidgetRefresher
 
 @ApplicationScope
@@ -49,6 +49,6 @@ interface ApplicationComponent {
     val searchManager: SearchManager
 
     val apkMigrator: ApkMigrator
-    val rawToDatabaseWriter: RawToDatabaseWriter
+    val rawToDatabase: RawToDatabase
 
 }

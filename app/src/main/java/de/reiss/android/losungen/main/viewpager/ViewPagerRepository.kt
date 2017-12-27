@@ -4,7 +4,7 @@ import android.arch.lifecycle.MutableLiveData
 import de.reiss.android.losungen.architecture.AsyncLoad
 import de.reiss.android.losungen.database.DailyLosungItemDao
 import de.reiss.android.losungen.database.LanguageItemDao
-import de.reiss.android.losungen.rawdata.RawToDatabaseWriter
+import de.reiss.android.losungen.rawdata.RawToDatabase
 import de.reiss.android.losungen.util.extensions.amountOfDaysInRange
 import de.reiss.android.losungen.widget.WidgetRefresher
 import java.util.*
@@ -14,7 +14,7 @@ import javax.inject.Inject
 open class ViewPagerRepository @Inject constructor(private val executor: Executor,
                                                    private val dailyLosungItemDao: DailyLosungItemDao,
                                                    private val languageItemDao: LanguageItemDao,
-                                                   private val rawToDatabaseWriter: RawToDatabaseWriter,
+                                                   private val rawToDatabase: RawToDatabase,
                                                    private val widgetRefresher: WidgetRefresher) {
 
 
@@ -38,7 +38,7 @@ open class ViewPagerRepository @Inject constructor(private val executor: Executo
                     if (storedItems.size < expectedAmountOfDays) {
 
                         val databaseUpdated =
-                                rawToDatabaseWriter.writeRawDataToDatabase(language)
+                                rawToDatabase.writeRawDataToDatabase(language)
 
                         if (databaseUpdated) {
                             widgetRefresher.execute()

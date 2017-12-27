@@ -13,7 +13,6 @@ import de.reiss.android.losungen.database.*
 import de.reiss.android.losungen.logger.logErrorWithCrashlytics
 import de.reiss.android.losungen.model.BibleTextPair
 import de.reiss.android.losungen.preferences.AppPreferences
-import de.reiss.android.losungen.rawdata.RawToDatabaseWriter
 import de.reiss.android.losungen.util.extensions.withZeroDayTime
 import de.reiss.android.losungen.xmlparser.dateFromString
 import java.util.concurrent.Executor
@@ -24,8 +23,7 @@ class ApkMigrator @Inject constructor(val context: Context,
                                       val noteItemDao: NoteItemDao,
                                       val dailyLosungItemDao: DailyLosungItemDao,
                                       val languageItemDao: LanguageItemDao,
-                                      val appPreferences: AppPreferences,
-                                      val rawToDatabaseWriter: RawToDatabaseWriter) {
+                                      val appPreferences: AppPreferences) {
 
     companion object {
 

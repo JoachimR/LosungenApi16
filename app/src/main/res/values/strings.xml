@@ -1,10 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-
+    <string name="app_name">Watchwords</string>
     <string name="navigation_drawer_open">Open navigation drawer</string>
     <string name="navigation_drawer_close">Close navigation drawer</string>
-    <string name="app_name">Watchwords</string>
-    <string name="info_general">Inofficial Android app for Watchwords</string>
+    <string name="info_general">Unofficial Android app for Watchwords</string>
     <string name="source_code_prefix">Source code:</string>
     <string name="info_participate">If you want to participate in creating new content, please visit:</string>
     <string name="pref_screen_settings_title">Settings</string>
@@ -143,13 +142,13 @@
     <string name="copied_to_clipboard">Copied to clipboard</string>
     <string name="action_search">Search</string>
     <string name="note_list_export">Export notes</string>
-    <string name="menu_note_details_delete">Delete</string>
     <string name="note_details_error_deleting_note">Could not delete this note…</string>
     <string name="confirm_delete_dialog_title">Really delete?</string>
     <string name="confirm_delete_dialog_ok">Delete</string>
     <string name="menu_note_details_edit">Edit</string>
     <string name="note_details_error_reload_note">Could not reload this note…</string>
     <string name="note_details_note_header">Notes:</string>
+    <string name="menu_note_details_delete">Delete</string>
     <string name="widget_daily">Watchword for the day</string>
     <string name="widget_weekly">Watchword for the week</string>
     <string name="widget_monthly">Watchword for the month</string>

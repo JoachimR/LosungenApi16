@@ -5,13 +5,14 @@ import de.reiss.android.losungen.R
 import de.reiss.android.losungen.czech
 import de.reiss.android.losungen.hungarian
 import de.reiss.android.losungen.model.Language
+import de.reiss.android.losungen.rawdata.insert.*
 import java.util.*
 import javax.inject.Inject
 
-open class RawToDatabaseWriter @Inject constructor(private val dailyInserter: DailyXmlDatabaseInserter,
-                                                   private val weeklyInserter: WeeklyXmlDatabaseInserter,
-                                                   private val monthlyInserter: MonthlyXmlDatabaseInserter,
-                                                   private val yearlyInserter: YearlyXmlDatabaseInserter) {
+open class RawToDatabase @Inject constructor(private val dailyInserter: DailyXmlDatabaseInserter,
+                                             private val weeklyInserter: WeeklyXmlDatabaseInserter,
+                                             private val monthlyInserter: MonthlyXmlDatabaseInserter,
+                                             private val yearlyInserter: YearlyXmlDatabaseInserter) {
 
     companion object {
 
