@@ -4,20 +4,18 @@ import android.arch.lifecycle.Observer
 import android.arch.lifecycle.ViewModelProviders
 import android.content.Context
 import android.content.Intent
-import android.content.SharedPreferences
 import android.os.Bundle
 import android.view.View.GONE
 import android.view.View.VISIBLE
 import de.reiss.android.losungen.App
 import de.reiss.android.losungen.R
-import de.reiss.android.losungen.SplashScreenActivity
 import de.reiss.android.losungen.architecture.AppActivity
 import de.reiss.android.losungen.architecture.AsyncLoad
 import de.reiss.android.losungen.model.Language
 import de.reiss.android.losungen.util.extensions.replaceFragmentIn
 import kotlinx.android.synthetic.main.preference_activity.*
 
-class AppPreferencesActivity : AppActivity(), SharedPreferences.OnSharedPreferenceChangeListener {
+class AppPreferencesActivity : AppActivity() {
 
     companion object {
 
@@ -41,21 +39,11 @@ class AppPreferencesActivity : AppActivity(), SharedPreferences.OnSharedPreferen
         viewModel.languagesLiveData.observe(this, Observer<AsyncLoad<List<Language>>> {
             updateUi()
         })
-
-        App.component.appPreferences.registerListener(this)
     }
 
     override fun onStart() {
         super.onStart()
         viewModel.loadLanguages()
-    }
-
-    override fun onSharedPreferenceChanged(sharedPreferences: SharedPreferences, key: String) {
-        if (key == getString(R.string.pref_theme_key)
-                || key == getString(R.string.pref_show_toolbar_key)
-                || key == getString(R.string.pref_show_cards_key)) {
-            restartApp()
-        }
     }
 
     private fun updateUi() {
@@ -68,16 +56,10 @@ class AppPreferencesActivity : AppActivity(), SharedPreferences.OnSharedPreferen
 
             if (supportFragmentManager.findFragmentById(R.id.preferences_fragment_container) == null) {
                 replaceFragmentIn(R.id.preferences_fragment_container,
-                        AppPreferencesFragment.newInstance(viewModel.languages()))
+                        AppPreferencesFragment.createInstance(viewModel.languages()))
 
             }
         }
-    }
-
-    private fun restartApp() {
-        startActivity(SplashScreenActivity.createIntent(this)
-                .setFlags(Intent.FLAG_ACTIVITY_NEW_TASK or Intent.FLAG_ACTIVITY_CLEAR_TASK))
-        supportFinishAfterTransition()
     }
 
 }

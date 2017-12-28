@@ -9,7 +9,7 @@
         android:id="@+id/fontsize_dialog_seekbar"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:max="@string/pref_fontsize_max"
-        app:min="@string/pref_fontsize_min" />
+        android:max="@string/pref_font_size_max"
+        app:min="@string/pref_font_size_min" />
 
 </FrameLayout>

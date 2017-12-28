@@ -4,10 +4,10 @@ import android.app.SearchManager
 import android.content.ClipboardManager
 import android.content.Context
 import dagger.Component
+import de.reiss.android.losungen.apk.ApkHandler
 import de.reiss.android.losungen.language.LanguageRepository
 import de.reiss.android.losungen.main.content.LosungRepository
 import de.reiss.android.losungen.main.viewpager.ViewPagerRepository
-import de.reiss.android.losungen.migration.ApkMigrator
 import de.reiss.android.losungen.note.details.NoteDetailsRepository
 import de.reiss.android.losungen.note.edit.EditNoteRepository
 import de.reiss.android.losungen.note.export.NoteExportRepository
@@ -19,14 +19,13 @@ import de.reiss.android.losungen.rawdata.RawToDatabase
 import de.reiss.android.losungen.widget.WidgetRefresher
 
 @ApplicationScope
-@Component(modules = arrayOf(
-        ContextModule::class,
-        AndroidModule::class,
-        DatabaseModule::class,
-        PreferenceModule::class,
-        ExecutorModule::class,
-        NotesExportModule::class
-))
+@Component(modules = [
+    ContextModule::class,
+    AndroidModule::class,
+    DatabaseModule::class,
+    PreferenceModule::class,
+    ExecutorModule::class,
+    NotesExportModule::class])
 interface ApplicationComponent {
 
     val context: Context
@@ -48,7 +47,7 @@ interface ApplicationComponent {
 
     val searchManager: SearchManager
 
-    val apkMigrator: ApkMigrator
+    val apkHandler: ApkHandler
     val rawToDatabase: RawToDatabase
 
 }

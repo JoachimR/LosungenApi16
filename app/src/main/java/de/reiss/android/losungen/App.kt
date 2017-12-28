@@ -38,7 +38,7 @@ open class App : Application() {
 
     private fun initPrefs() {
         PreferenceManager.setDefaultValues(this, R.xml.preferences, false)
-        component.apkMigrator.initializeIfNeeded()
+        component.apkHandler.handleApk()
     }
 
     open fun createComponent(): ApplicationComponent =

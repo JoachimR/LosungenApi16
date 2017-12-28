@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
 
-    <string name="pref_fontsize_default" translatable="false">20</string>
-    <string name="pref_fontsize_min" translatable="false">10</string>
-    <string name="pref_fontsize_max" translatable="false">40</string>
+    <string name="pref_font_size_default" translatable="false">20</string>
+    <string name="pref_font_size_min" translatable="false">10</string>
+    <string name="pref_font_size_max" translatable="false">40</string>
 
-    <string name="pref_widget_fontsize_default" translatable="false">26</string>
-    <string name="pref_widget_fontsize_min" translatable="false">10</string>
-    <string name="pref_widget_fontsize_max" translatable="false">40</string>
+    <string name="pref_widget_font_size_default" translatable="false">26</string>
+    <string name="pref_widget_font_size_min" translatable="false">10</string>
+    <string name="pref_widget_font_size_max" translatable="false">40</string>
 
     <string name="pref_theme_value_blue_orange" translatable="false">blue_orange</string>
     <string name="pref_theme_value_red_teal" translatable="false">red_teal</string>
@@ -23,8 +23,9 @@
         <item>@string/pref_theme_value_green_brown</item>
     </string-array>
 
-    <string name="pref_widget_backgroundcolor_default" translatable="false">widgetbg_full_border_content_transparent</string>
-    <string-array name="pref_widget_backgroundcolor_colors_values" translatable="false">
+    <string name="pref_widget_background_color_default" translatable="false">widgetbg_full_border_content_transparent</string>
+
+    <string-array name="pref_widget_background_color_colors_values" translatable="false">
         <item>widgetbg_full_transparent</item>
         <item>widgetbg_full_border_content_transparent</item>
         <item>widgetbg_full_white</item>
@@ -52,8 +53,9 @@
         <item>widgetbg_transpimg_yellow</item>
     </string-array>
 
-    <integer-array name="pref_card_backgroundcolor_colors" translatable="false">
-        <item>@color/default_card_background_color</item>
+    <integer-array name="pref_background_colors" translatable="false">
+        <item>@color/default_background_color</item>
+        <item>@color/font_white</item>
         <item>@color/font_grey</item>
         <item>@color/font_black</item>
         <item>@color/font_blue</item>
@@ -66,9 +68,8 @@
         <item>@color/font_pink</item>
     </integer-array>
 
-    <integer-array name="pref_background_colors" translatable="false">
-        <item>@color/default_background_color</item>
-        <item>@color/font_white</item>
+    <integer-array name="pref_card_background_color_colors" translatable="false">
+        <item>@color/default_card_background_color</item>
         <item>@color/font_grey</item>
         <item>@color/font_black</item>
         <item>@color/font_blue</item>

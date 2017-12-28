@@ -16,18 +16,22 @@
     </string-array>
     <string name="pref_language_title">Übersetzung</string>
     <string name="pref_app_category_title">App Einstellungen</string>
-    <string name="pref_fontsize_title">Schriftgröße</string>
-    <string name="pref_fontcolor_title">Schriftfarbe</string>
-    <string name="pref_backgroundcolor_title">Hintergrundfarbe</string>
-    <string name="pref_card_backgroundcolor_title">Karten Hintergrundfarbe</string>
+    <string name="pref_style_category_title">Stil</string>
+    <string name="pref_font_size_title">Schrift Größe</string>
+    <string name="pref_font_color_title">Schrift Farbe</string>
+    <string name="pref_background_category_title">Hintergrund</string>
+    <string name="pref_background_color_title">Hintergrund Farbe</string>
+    <string name="pref_background_image_title">Hintergrund Bild</string>
+    <string name="pref_cards_category_title">Karten</string>
+    <string name="pref_show_cards_title">Zeige Karten</string>
+    <string name="pref_card_background_color_title">Karten Hintergrundfarbe</string>
     <string name="pref_show_notes_title">Zeige Notizen</string>
     <string name="pref_show_toolbar_title">Zeige Toolbar</string>
-    <string name="pref_show_cards_title">Zeige Karten</string>
     <string name="pref_widget_category_title">Widget Einstellungen</string>
-    <string name="pref_widget_showdate_title">Widget Zeige Datum</string>
+    <string name="pref_widget_show_date_title">Widget Zeige Datum</string>
     <string name="pref_widget_centered_text_title">Widget Zentrierter Text</string>
-    <string name="pref_widget_backgroundcolor_title">Widget Hintergrund</string>
-    <string-array name="pref_widget_backgroundcolor_colors_displayed">
+    <string name="pref_widget_background_color_title">Widget Hintergrund</string>
+    <string-array name="pref_widget_background_color_colors_displayed">
         <item>Ohne</item>
         <item>Mit Schwarzem Rand</item>
         <item>Weiß</item>
@@ -54,8 +58,8 @@
         <item>Weißer Container</item>
         <item>Gelber Container</item>
     </string-array>
-    <string name="pref_widget_fontcolor_title">Widget Schritfarbe</string>
-    <string-array name="pref_widget_fontcolor_colors_displayed">
+    <string name="pref_widget_font_color_title">Widget Schritfarbe</string>
+    <string-array name="pref_widget_font_color_colors_displayed">
         <item>Weiß</item>
         <item>Grau</item>
         <item>Schwarz</item>
@@ -68,7 +72,7 @@
         <item>Lila</item>
         <item>Rosa</item>
     </string-array>
-    <string name="pref_widget_fontsize_title">Widget Schriftgröße</string>
+    <string name="pref_widget_font_size_title">Widget Schriftgröße</string>
     <string name="notes_header">Notizen:</string>
     <string name="nav_info">Info</string>
     <string name="menu_date_pick">Wähle Tag</string>

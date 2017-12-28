@@ -39,9 +39,17 @@ class LanguageActivity : AppCompatActivity() {
             return
         }
 
-        appPreferences.registerListener(prefChangedListener)
-
         initFragment()
+    }
+
+    override fun onStart() {
+        super.onStart()
+        appPreferences.registerListener(prefChangedListener)
+    }
+
+    override fun onPause() {
+        appPreferences.unregisterListener(prefChangedListener)
+        super.onPause()
     }
 
     private fun initFragment() {

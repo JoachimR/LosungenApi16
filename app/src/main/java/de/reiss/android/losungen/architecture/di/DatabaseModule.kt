@@ -3,39 +3,46 @@ package de.reiss.android.losungen.architecture.di
 import android.app.Application
 import dagger.Module
 import dagger.Provides
-import de.reiss.android.losungen.database.LosungDatabase
+import de.reiss.android.losungen.database.*
 
 @Module
-open class DatabaseModule(val application: Application) {
+open class DatabaseModule(private val application: Application) {
 
     open fun getDatabase(): LosungDatabase = LosungDatabase.create(application)
 
     @Provides
     @ApplicationScope
-    open fun losungDatabase() = getDatabase()
+    open fun losungDatabase(): LosungDatabase =
+            getDatabase()
 
     @Provides
     @ApplicationScope
-    open fun dailyLosungItemDao() = getDatabase().dailyLosungItemDao()
+    open fun dailyLosungItemDao(): DailyLosungItemDao =
+            getDatabase().dailyLosungItemDao()
 
     @Provides
     @ApplicationScope
-    open fun weeklyLosungItemDao() = getDatabase().weeklyLosungItemDao()
+    open fun weeklyLosungItemDao(): WeeklyLosungItemDao =
+            getDatabase().weeklyLosungItemDao()
 
     @Provides
     @ApplicationScope
-    open fun monthlyLosungItemDao() = getDatabase().monthlyLosungItemDao()
+    open fun monthlyLosungItemDao(): MonthlyLosungItemDao =
+            getDatabase().monthlyLosungItemDao()
 
     @Provides
     @ApplicationScope
-    open fun yearlyLosungItemDao() = getDatabase().yearlyLosungItemDao()
+    open fun yearlyLosungItemDao(): YearlyLosungItemDao =
+            getDatabase().yearlyLosungItemDao()
 
     @Provides
     @ApplicationScope
-    open fun languageItemDao() = getDatabase().languageItemDao()
+    open fun languageItemDao(): LanguageItemDao =
+            getDatabase().languageItemDao()
 
     @Provides
     @ApplicationScope
-    open fun noteItemDao() = getDatabase().noteItemDao()
+    open fun noteItemDao(): NoteItemDao =
+            getDatabase().noteItemDao()
 
 }

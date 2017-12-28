@@ -34,7 +34,7 @@ import org.greenrobot.eventbus.Subscribe
 import org.greenrobot.eventbus.ThreadMode
 
 
-@Suppress("PropertyName")
+@Suppress("PropertyName", "PrivatePropertyName")
 abstract class LosungFragment(@LayoutRes private val fragmentLayout: Int)
     : AppFragment<LosungViewModel>(fragmentLayout) {
 
@@ -46,11 +46,11 @@ abstract class LosungFragment(@LayoutRes private val fragmentLayout: Int)
 
     private lateinit var root: View
     protected lateinit var text1root: View
-    protected lateinit var text1: TextView
-    protected lateinit var source1: TextView
+    private lateinit var text1: TextView
+    private lateinit var source1: TextView
     protected lateinit var text2root: View
     protected lateinit var text2: TextView
-    protected lateinit var source2: TextView
+    private lateinit var source2: TextView
     protected lateinit var date: TextView
     protected lateinit var loading: FadingProgressBar
     private lateinit var empty_root: View
@@ -259,11 +259,9 @@ abstract class LosungFragment(@LayoutRes private val fragmentLayout: Int)
             note_content.text = viewModel.note()?.noteText ?: ""
         }
 
-        val fontColor = appPreferences.fontColor()
-        setFontColor(fontColor)
+        setFontColor(appPreferences.fontColor())
 
-        val backgroundColor = appPreferences.backgroundColor()
-        root.setBackgroundColor(backgroundColor)
+        root.setBackgroundColor(appPreferences.backgroundColor())
     }
 
     open fun setFontColor(fontColor: Int) {

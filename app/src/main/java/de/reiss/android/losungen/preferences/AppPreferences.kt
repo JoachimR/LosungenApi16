@@ -17,7 +17,7 @@ open class AppPreferences(val context: Context) : OnSharedPreferenceChangeListen
 
     val preferences: SharedPreferences = PreferenceManager.getDefaultSharedPreferences(context)
 
-    val widgetRefresher: WidgetRefresher by lazy {
+    private val widgetRefresher: WidgetRefresher by lazy {
         App.component.widgetRefresher
     }
 
@@ -30,10 +30,10 @@ open class AppPreferences(val context: Context) : OnSharedPreferenceChangeListen
             if (isWidgetPref(key)) {
                 widgetRefresher.execute()
             } else {
-                if (key == str(R.string.pref_fontsize_key)
-                        || key == str(R.string.pref_fontcolor_key)
-                        || key == str(R.string.pref_backgroundcolor_key)
-                        || key == str(R.string.pref_card_backgroundcolor_key)) {
+                if (key == str(R.string.pref_font_size_key)
+                        || key == str(R.string.pref_font_color_key)
+                        || key == str(R.string.pref_background_color_key)
+                        || key == str(R.string.pref_card_background_color_key)) {
                     postMessageEvent(AppStyleChanged())
                 }
             }
@@ -41,11 +41,15 @@ open class AppPreferences(val context: Context) : OnSharedPreferenceChangeListen
     }
 
     private fun isWidgetPref(key: String): Boolean = (key == str(R.string.pref_language_key)
-            || key == str(R.string.pref_widget_fontsize_key)
-            || key == str(R.string.pref_widget_fontcolor_key)
-            || key == str(R.string.pref_widget_backgroundcolor_key)
-            || key == str(R.string.pref_widget_showdate_key)
+            || key == str(R.string.pref_widget_font_size_key)
+            || key == str(R.string.pref_widget_font_color_key)
+            || key == str(R.string.pref_widget_background_color_key)
+            || key == str(R.string.pref_widget_show_date_key)
             || key == str(R.string.pref_widget_centered_text_key))
+
+    fun unregisterListener(listener: OnSharedPreferenceChangeListener) {
+        preferences.unregisterOnSharedPreferenceChangeListener(listener)
+    }
 
     fun registerListener(listener: OnSharedPreferenceChangeListener) {
         preferences.registerOnSharedPreferenceChangeListener(listener)
@@ -72,38 +76,38 @@ open class AppPreferences(val context: Context) : OnSharedPreferenceChangeListen
             prefBoolean(R.string.pref_show_daily_notification_key, false)
 
     fun fontSize() = prefInt(
-            stringRes = R.string.pref_fontsize_key,
-            default = Integer.parseInt(str(R.string.pref_fontsize_max)))
+            stringRes = R.string.pref_font_size_key,
+            default = Integer.parseInt(str(R.string.pref_font_size_default)))
 
-    fun fontColor() = prefInt(R.string.pref_fontcolor_key,
-            ContextCompat.getColor(context, R.color.font_black))
+    fun fontColor() = prefInt(R.string.pref_font_color_key,
+            ContextCompat.getColor(context, R.color.default_font_color))
 
-    fun backgroundColor() = prefInt(R.string.pref_backgroundcolor_key,
+    fun backgroundColor() = prefInt(R.string.pref_background_color_key,
             ContextCompat.getColor(context, R.color.default_background_color))
 
-    fun cardBackgroundColor() = prefInt(R.string.pref_card_backgroundcolor_key,
+    fun cardBackgroundColor() = prefInt(R.string.pref_card_background_color_key,
             ContextCompat.getColor(context, R.color.default_card_background_color))
 
-    fun widgetShowDate() = prefBoolean(R.string.pref_widget_showdate_key, true)
+    fun widgetShowDate() = prefBoolean(R.string.pref_widget_show_date_key, true)
 
-    fun widgetFontColor() = prefInt(R.string.pref_widget_fontcolor_key,
-            ContextCompat.getColor(context, R.color.font_black))
+    fun widgetFontColor() = prefInt(R.string.pref_widget_font_color_key,
+            ContextCompat.getColor(context, R.color.default_widget_font_color))
 
     fun widgetFontSize() = prefInt(
-            stringRes = R.string.pref_widget_fontsize_key,
-            default = Integer.parseInt(str(R.string.pref_widget_fontsize_default))).toFloat()
+            stringRes = R.string.pref_widget_font_size_key,
+            default = Integer.parseInt(str(R.string.pref_widget_font_size_default))).toFloat()
 
     fun widgetCentered() = prefBoolean(R.string.pref_widget_centered_text_key, true)
 
-    fun widgetBackground(): String = prefString(R.string.pref_widget_backgroundcolor_key,
-            R.string.pref_widget_backgroundcolor_default)
+    fun widgetBackground(): String = prefString(R.string.pref_widget_background_color_key,
+            R.string.pref_widget_background_color_default)
 
     fun changeFontSize(newFontSize: Int) {
-        val min = Integer.parseInt(str(R.string.pref_fontsize_min))
-        val max = Integer.parseInt(str(R.string.pref_fontsize_max))
+        val min = Integer.parseInt(str(R.string.pref_font_size_min))
+        val max = Integer.parseInt(str(R.string.pref_font_size_max))
         val changeValue = if (newFontSize < min) min else if (newFontSize > max) max else newFontSize
         preferences.change {
-            putInt(str(R.string.pref_fontsize_key), changeValue)
+            putInt(str(R.string.pref_font_size_key), changeValue)
         }
     }
 

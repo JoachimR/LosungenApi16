@@ -16,18 +16,22 @@
     </string-array>
     <string name="pref_language_title">Translation</string>
     <string name="pref_app_category_title">Application settings</string>
-    <string name="pref_fontsize_title">Font Size</string>
-    <string name="pref_fontcolor_title">Font Color</string>
-    <string name="pref_backgroundcolor_title">Background Color</string>
-    <string name="pref_card_backgroundcolor_title">Card Background Color</string>
+    <string name="pref_style_category_title">Style</string>
+    <string name="pref_font_size_title">Text Size</string>
+    <string name="pref_font_color_title">Text Color</string>
+    <string name="pref_background_category_title">Background</string>
+    <string name="pref_background_color_title">Background Color</string>
+    <string name="pref_background_image_title">Background Image</string>
+    <string name="pref_cards_category_title">Cards</string>
+    <string name="pref_show_cards_title">Show Cards</string>
+    <string name="pref_card_background_color_title">Card Background Color</string>
     <string name="pref_show_notes_title">Show Notes</string>
     <string name="pref_show_toolbar_title">Show Toolbar</string>
-    <string name="pref_show_cards_title">Show Cards</string>
     <string name="pref_widget_category_title">Widget Settings</string>
-    <string name="pref_widget_showdate_title">Widget Show Date</string>
+    <string name="pref_widget_show_date_title">Widget Show Date</string>
     <string name="pref_widget_centered_text_title">Widget Centered Text</string>
-    <string name="pref_widget_backgroundcolor_title">Widget Background</string>
-    <string-array name="pref_widget_backgroundcolor_colors_displayed">
+    <string name="pref_widget_background_color_title">Widget Background</string>
+    <string-array name="pref_widget_background_color_colors_displayed">
         <item>None</item>
         <item>With Black Border</item>
         <item>White</item>
@@ -54,8 +58,8 @@
         <item>White Container</item>
         <item>Yellow Container</item>
     </string-array>
-    <string name="pref_widget_fontcolor_title">Widget Font Color</string>
-    <string-array name="pref_widget_fontcolor_colors_displayed">
+    <string name="pref_widget_font_color_title">Widget Font Color</string>
+    <string-array name="pref_widget_font_color_colors_displayed">
         <item>White</item>
         <item>Grey</item>
         <item>Black</item>
@@ -68,7 +72,7 @@
         <item>Purple</item>
         <item>Pink</item>
     </string-array>
-    <string name="pref_widget_fontsize_title">Widget Font Size</string>
+    <string name="pref_widget_font_size_title">Widget Font Size</string>
     <string name="notes_header">Notes:</string>
     <string name="nav_info">About</string>
     <string name="menu_date_pick">Choose Day</string>

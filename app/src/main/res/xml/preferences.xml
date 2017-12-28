@@ -21,6 +21,13 @@
 
     <PreferenceCategory android:title="@string/pref_display_category_title">
 
+        <SwitchPreferenceCompat
+            android:defaultValue="true"
+            android:key="@string/pref_show_notes_key"
+            android:summaryOff="@string/pref_show_notes_summary_off"
+            android:summaryOn="@string/pref_show_notes_summary_on"
+            android:title="@string/pref_show_notes_title" />
+
         <ListPreference
             android:defaultValue="@string/pref_theme_default"
             android:entries="@array/pref_theme_themes_displayed"
@@ -31,41 +38,42 @@
 
         <SwitchPreferenceCompat
             android:defaultValue="true"
-            android:key="@string/pref_show_notes_key"
-            android:summaryOff="@string/pref_show_notes_summary_off"
-            android:summaryOn="@string/pref_show_notes_summary_on"
-            android:title="@string/pref_show_notes_title" />
-
-        <SeekBarPreference
-            android:defaultValue="@string/pref_fontsize_default"
-            android:key="@string/pref_fontsize_key"
-            android:max="@string/pref_fontsize_max"
-            android:title="@string/pref_fontsize_title"
-            app:min="@string/pref_fontsize_min"
-            app:showSeekBarValue="true" />
-
-        <com.takisoft.fix.support.v7.preference.ColorPickerPreference
-            android:dialogTitle="@string/pref_fontcolor_title"
-            android:key="@string/pref_fontcolor_key"
-            android:title="@string/pref_fontcolor_title"
-            android:defaultValue="@color/default_font_color"
-            app:pref_colors="@array/pref_font_colors"
-            app:pref_size="large" />
-
-        <com.takisoft.fix.support.v7.preference.ColorPickerPreference
-            android:dialogTitle="@string/pref_backgroundcolor_title"
-            android:key="@string/pref_backgroundcolor_key"
-            android:defaultValue="@color/default_background_color"
-            android:title="@string/pref_backgroundcolor_title"
-            app:pref_colors="@array/pref_background_colors"
-            app:pref_size="large" />
-
-        <SwitchPreferenceCompat
-            android:defaultValue="true"
             android:key="@string/pref_show_toolbar_key"
             android:summaryOff="@string/pref_show_toolbar_summary_off"
             android:summaryOn="@string/pref_show_toolbar_summary_on"
             android:title="@string/pref_show_toolbar_title" />
+
+    </PreferenceCategory>
+    <PreferenceCategory android:title="@string/pref_style_category_title">
+
+        <SeekBarPreference
+            android:defaultValue="@string/pref_font_size_default"
+            android:key="@string/pref_font_size_key"
+            android:max="@string/pref_font_size_max"
+            android:title="@string/pref_font_size_title"
+            app:min="@string/pref_font_size_min"
+            app:showSeekBarValue="true" />
+
+        <com.takisoft.fix.support.v7.preference.ColorPickerPreference
+            android:defaultValue="@color/default_font_color"
+            android:dialogTitle="@string/pref_font_color_title"
+            android:key="@string/pref_font_color_key"
+            android:title="@string/pref_font_color_title"
+            app:pref_colors="@array/pref_font_colors"
+            app:pref_size="large" />
+
+
+        <com.takisoft.fix.support.v7.preference.ColorPickerPreference
+            android:defaultValue="@color/default_background_color"
+            android:dialogTitle="@string/pref_background_color_title"
+            android:key="@string/pref_background_color_key"
+            android:title="@string/pref_background_color_title"
+            app:pref_colors="@array/pref_background_colors"
+            app:pref_size="large" />
+
+    </PreferenceCategory>
+
+    <PreferenceCategory android:title="@string/pref_cards_category_title">
 
         <SwitchPreferenceCompat
             android:defaultValue="true"
@@ -75,12 +83,12 @@
             android:title="@string/pref_show_cards_title" />
 
         <com.takisoft.fix.support.v7.preference.ColorPickerPreference
-            android:dependency="@string/pref_show_cards_key"
-            android:dialogTitle="@string/pref_card_backgroundcolor_title"
-            android:key="@string/pref_card_backgroundcolor_key"
             android:defaultValue="@color/default_card_background_color"
-            android:title="@string/pref_card_backgroundcolor_title"
-            app:pref_colors="@array/pref_card_backgroundcolor_colors"
+            android:dependency="@string/pref_show_cards_key"
+            android:dialogTitle="@string/pref_card_background_color_title"
+            android:key="@string/pref_card_background_color_key"
+            android:title="@string/pref_card_background_color_title"
+            app:pref_colors="@array/pref_card_background_color_colors"
             app:pref_size="large" />
 
     </PreferenceCategory>
@@ -88,33 +96,33 @@
     <PreferenceCategory android:title="@string/pref_widget_category_title">
 
         <ListPreference
-            android:defaultValue="@string/pref_widget_backgroundcolor_default"
-            android:entries="@array/pref_widget_backgroundcolor_colors_displayed"
-            android:entryValues="@array/pref_widget_backgroundcolor_colors_values"
-            android:key="@string/pref_widget_backgroundcolor_key"
+            android:defaultValue="@string/pref_widget_background_color_default"
+            android:entries="@array/pref_widget_background_color_colors_displayed"
+            android:entryValues="@array/pref_widget_background_color_colors_values"
+            android:key="@string/pref_widget_background_color_key"
             android:summary="%s"
-            android:title="@string/pref_widget_backgroundcolor_title" />
+            android:title="@string/pref_widget_background_color_title" />
 
         <com.takisoft.fix.support.v7.preference.ColorPickerPreference
-            android:dialogTitle="@string/pref_widget_fontcolor_title"
-            android:key="@string/pref_widget_fontcolor_key"
             android:defaultValue="@color/default_widget_font_color"
-            android:title="@string/pref_widget_fontcolor_title"
+            android:dialogTitle="@string/pref_widget_font_color_title"
+            android:key="@string/pref_widget_font_color_key"
+            android:title="@string/pref_widget_font_color_title"
             app:pref_colors="@array/pref_font_colors"
             app:pref_size="large" />
 
         <SeekBarPreference
-            android:defaultValue="@string/pref_widget_fontsize_default"
-            android:key="@string/pref_widget_fontsize_key"
-            android:max="@string/pref_widget_fontsize_max"
-            android:title="@string/pref_widget_fontsize_title"
-            app:min="@string/pref_widget_fontsize_min"
+            android:defaultValue="@string/pref_widget_font_size_default"
+            android:key="@string/pref_widget_font_size_key"
+            android:max="@string/pref_widget_font_size_max"
+            android:title="@string/pref_widget_font_size_title"
+            app:min="@string/pref_widget_font_size_min"
             app:showSeekBarValue="true" />
 
         <SwitchPreferenceCompat
             android:defaultValue="true"
-            android:key="@string/pref_widget_showdate_key"
-            android:title="@string/pref_widget_showdate_title" />
+            android:key="@string/pref_widget_show_date_key"
+            android:title="@string/pref_widget_show_date_title" />
 
         <SwitchPreferenceCompat
             android:defaultValue="true"
