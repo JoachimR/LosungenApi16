@@ -152,10 +152,10 @@
     <string name="note_details_error_reload_note">Konnte diese Notiz nicht neu laden…</string>
     <string name="note_details_note_header">Notizen:</string>
     <string name="menu_note_details_delete">Löschen</string>
-    <string name="widget_daily">Losung für den Tag</string>
-    <string name="widget_weekly">Losung für die Woche</string>
-    <string name="widget_monthly">Losung für den Monat</string>
-    <string name="widget_yearly">Losung für das Jahr</string>
+    <string name="widget_daily">Tag</string>
+    <string name="widget_weekly">Woche</string>
+    <string name="widget_monthly">Monat</string>
+    <string name="widget_yearly">Jahr</string>
     <string name="widget_weekly_date_range">%1$s - %2$s</string>
     <string name="nav_losung_week">Wochenlosung</string>
     <string name="nav_losung_month">Monatslosung</string>

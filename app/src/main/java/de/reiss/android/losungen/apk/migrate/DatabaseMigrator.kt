@@ -52,7 +52,7 @@ class DatabaseMigrator @Inject constructor(val context: Context,
     class NotesDbCommunicator(context: Context) : SQLiteOpenHelper(context, "notesdb", null, 99) {
 
         override fun onCreate(db: SQLiteDatabase) {
-            writableDatabase.execSQL(createTableStatement)
+            db.execSQL(createTableStatement)
         }
 
         override fun onUpgrade(db: SQLiteDatabase?, oldVersion: Int, newVersion: Int) {

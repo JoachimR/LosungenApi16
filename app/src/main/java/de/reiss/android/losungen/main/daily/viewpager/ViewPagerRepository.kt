@@ -6,6 +6,7 @@ import de.reiss.android.losungen.database.DailyLosungItemDao
 import de.reiss.android.losungen.database.LanguageItemDao
 import de.reiss.android.losungen.rawdata.RawToDatabase
 import de.reiss.android.losungen.util.extensions.amountOfDaysInRange
+import de.reiss.android.losungen.util.extensions.withZeroDayTime
 import de.reiss.android.losungen.widget.WidgetRefresher
 import java.util.*
 import java.util.concurrent.Executor
@@ -29,16 +30,18 @@ open class ViewPagerRepository @Inject constructor(private val executor: Executo
 
         executor.execute {
 
+            val from = fromDate.withZeroDayTime()
+            val until = toDate.withZeroDayTime()
+
             languageItemDao.find(language)?.let { languageItem ->
 
-                val storedItems = dailyLosungItemDao.range(languageItem.id, fromDate, toDate)
+                val storedItems = dailyLosungItemDao.range(languageItem.id, from, until)
 
                 if (storedItems != null) {
-                    val expectedAmountOfDays = fromDate.amountOfDaysInRange(toDate)
+                    val expectedAmountOfDays = from.amountOfDaysInRange(until)
                     if (storedItems.size < expectedAmountOfDays) {
 
-                        val databaseUpdated =
-                                rawToDatabase.writeRawDataToDatabase(language)
+                        val databaseUpdated = rawToDatabase.writeRawDataToDatabase(language)
 
                         if (databaseUpdated) {
                             widgetRefresher.execute()
@@ -50,7 +53,6 @@ open class ViewPagerRepository @Inject constructor(private val executor: Executo
             // always return success, we only tried update
             result.postValue(AsyncLoad.success(language))
         }
-
     }
 
 }

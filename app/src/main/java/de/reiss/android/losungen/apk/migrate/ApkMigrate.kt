@@ -48,14 +48,14 @@ class ApkMigrate @Inject constructor(val context: Context,
             if (alreadyMigrated.not()) {
                 preferences.edit().putBoolean(migrateKey, true).apply()
 
+                with(databaseMigrator) {
+                    migrateNotesDatabase()
+                }
+
                 with(preferencesMigrator) {
                     migrateAppPreferences()
                     migrateWidgetPreferences()
                     cleanOldPreferences(keysToKeep = keysAfterMigration)
-                }
-
-                with(databaseMigrator) {
-                    migrateNotesDatabase()
                 }
             }
         } catch (e: Exception) {

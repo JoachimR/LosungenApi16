@@ -152,10 +152,10 @@
     <string name="note_details_error_reload_note">Could not reload this note…</string>
     <string name="note_details_note_header">Notes:</string>
     <string name="menu_note_details_delete">Delete</string>
-    <string name="widget_daily">Watchword for the day</string>
-    <string name="widget_weekly">Watchword for the week</string>
-    <string name="widget_monthly">Watchword for the month</string>
-    <string name="widget_yearly">Watchword for the year</string>
+    <string name="widget_daily">Day</string>
+    <string name="widget_weekly">Week</string>
+    <string name="widget_monthly">Month</string>
+    <string name="widget_yearly">Year</string>
     <string name="widget_weekly_date_range">%1$s - %2$s</string>
     <string name="nav_losung_week">Word for the week</string>
     <string name="nav_losung_month">Word for the month</string>
