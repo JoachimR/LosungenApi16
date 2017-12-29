@@ -47,7 +47,7 @@ class NoteListActivity : AppActivity() {
 
         menu.findItem(R.id.menu_note_list_search).apply {
 
-            (actionView as SearchView?)?.apply {
+            (actionView as SearchView).apply {
                 setSearchableInfo(searchManager.getSearchableInfo(componentName))
                 setIconifiedByDefault(true) // always show reading-glass symbol or X symbol
                 setOnCloseListener {

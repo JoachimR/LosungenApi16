@@ -24,6 +24,8 @@
 
 -dontwarn javax.annotation.**
 
+-keep class android.support.v7.widget.SearchView { *; }
+
 # --- eventbus ---
 -keepattributes *Annotation*
 -keepclassmembers class ** {
