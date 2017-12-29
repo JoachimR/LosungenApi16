@@ -3,12 +3,20 @@ package de.reiss.android.losungen.util
 import android.content.ClipData
 import android.content.ClipboardManager
 import android.content.Context
+import android.content.Intent
 import android.text.Html
 import de.reiss.android.losungen.App
 import de.reiss.android.losungen.R
 import de.reiss.android.losungen.formattedDate
+import de.reiss.android.losungen.model.BibleText
 import de.reiss.android.losungen.model.BibleTextPair
 
+
+fun shareIntent(text: String, chooserTitle: CharSequence): Intent =
+        Intent.createChooser(Intent()
+                .setAction(Intent.ACTION_SEND)
+                .putExtra(Intent.EXTRA_TEXT, text)
+                .setType("text/plain"), chooserTitle)
 
 @Suppress("DEPRECATION")
 fun htmlize(text: String) =
@@ -17,6 +25,15 @@ fun htmlize(text: String) =
         } else {
             Html.fromHtml(text)
         }
+
+fun contentAsString(date: String, bibleText: BibleText) =
+        StringBuilder().apply {
+            append(date)
+            append("\n\n")
+            append(bibleText.text)
+            append("\n")
+            append(bibleText.source)
+        }.toString()
 
 fun contentAsString(context: Context, time: Long, bibleTextPair: BibleTextPair, note: String) =
         StringBuilder().apply {

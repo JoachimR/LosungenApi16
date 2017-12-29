@@ -11,23 +11,19 @@ import android.support.annotation.RequiresApi
 import android.support.v4.app.NotificationCompat
 import de.reiss.android.losungen.R
 import de.reiss.android.losungen.SplashScreenActivity
-import de.reiss.android.losungen.database.DailyLosungItemDao
-import de.reiss.android.losungen.database.LanguageItemDao
-import de.reiss.android.losungen.database.converter.Converter
 import de.reiss.android.losungen.formattedDate
+import de.reiss.android.losungen.loader.DailyLosungLoader
 import de.reiss.android.losungen.model.DailyLosung
 import de.reiss.android.losungen.preferences.AppPreferences
-import de.reiss.android.losungen.util.extensions.withZeroDayTime
 import java.util.*
 import java.util.concurrent.Executor
 import javax.inject.Inject
 
 open class NotificationHelper @Inject constructor(private val context: Context,
                                                   private val notificationManager: NotificationManager,
-                                                  private val executor: Executor,
                                                   private val appPreferences: AppPreferences,
-                                                  private val dailyLosungItemDao: DailyLosungItemDao,
-                                                  private val languageItemDao: LanguageItemDao) {
+                                                  private val executor: Executor,
+                                                  private val dailyLosungLoader: DailyLosungLoader) {
 
     companion object {
 
@@ -50,16 +46,11 @@ open class NotificationHelper @Inject constructor(private val context: Context,
         }
         val chosenLanguage = appPreferences.chosenLanguage ?: return
 
-        executor.execute {
-
-            languageItemDao.find(chosenLanguage)?.let { languageItem ->
-
-                val item = dailyLosungItemDao.byDate(languageItem.id, Date().withZeroDayTime())
-                Converter.itemToDailyLosung(languageItem.language, item)?.let {
-                    showNotification(it)
-                }
+        dailyLosungLoader.loadCurrent(executor = executor, onFinished = {
+            if (it != null) {
+                showNotification(it)
             }
-        }
+        })
     }
 
     private fun showNotification(dailyLosung: DailyLosung) {

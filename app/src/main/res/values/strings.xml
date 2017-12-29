@@ -157,4 +157,16 @@
     <string name="widget_monthly">Watchword for the month</string>
     <string name="widget_yearly">Watchword for the year</string>
     <string name="widget_weekly_date_range">%1$s - %2$s</string>
+    <string name="nav_losung_week">Word for the week</string>
+    <string name="nav_losung_month">Word for the month</string>
+    <string name="nav_losung_year">Word for the year</string>
+    <string name="yearly_dialog_title">Word for the year</string>
+    <string name="monthly_dialog_title">Word for the month</string>
+    <string name="weekly_dialog_title">Word for the week</string>
+    <string name="yearly_dialog_title_with_date">Word for %d</string>
+    <string name="monthly_dialog_title_with_date">Word for %1$s</string>
+    <string name="weekly_dialog_title_with_date">Word for %1$s</string>
+    <string name="dialog_ok">OK</string>
+    <string name="dialog_close">Close</string>
+    <string name="dialog_share">Share</string>
 </resources>

@@ -157,4 +157,16 @@
     <string name="widget_monthly">Losung für den Monat</string>
     <string name="widget_yearly">Losung für das Jahr</string>
     <string name="widget_weekly_date_range">%1$s - %2$s</string>
+    <string name="nav_losung_week">Wochenlosung</string>
+    <string name="nav_losung_month">Monatslosung</string>
+    <string name="nav_losung_year">Jahreslosung</string>
+    <string name="yearly_dialog_title">Jahreslosung</string>
+    <string name="monthly_dialog_title">Monatslosung</string>
+    <string name="weekly_dialog_title">Wochenlosung</string>
+    <string name="yearly_dialog_title_with_date">Jahreslosung %d</string>
+    <string name="monthly_dialog_title_with_date">Monatslosung %1$s</string>
+    <string name="weekly_dialog_title_with_date">Wochenlosung %1$s</string>
+    <string name="dialog_ok">OK</string>
+    <string name="dialog_close">Schließen</string>
+    <string name="dialog_share">Teilen</string>
 </resources>

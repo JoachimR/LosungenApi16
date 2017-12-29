@@ -4,7 +4,6 @@ import android.arch.lifecycle.ViewModel
 import android.arch.lifecycle.ViewModelProvider
 import android.os.Bundle
 import android.support.annotation.LayoutRes
-import android.support.annotation.VisibleForTesting
 import android.support.v4.app.DialogFragment
 import android.support.v4.app.Fragment
 import android.support.v7.app.AppCompatActivity
@@ -27,11 +26,6 @@ abstract class AppFragment<T : ViewModel>(@LayoutRes private val fragmentLayout:
     abstract fun initViewModelObservers()
 
     open fun onAppFragmentReady() {
-    }
-
-    @VisibleForTesting
-    fun initViewModelProvider(viewModelProvider: ViewModelProvider) {
-        this.viewModelProvider = viewModelProvider
     }
 
     fun loadViewModelProvider(): ViewModelProvider {

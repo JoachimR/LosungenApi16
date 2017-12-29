@@ -6,8 +6,11 @@ import android.content.Context
 import dagger.Component
 import de.reiss.android.losungen.apk.ApkHandler
 import de.reiss.android.losungen.language.LanguageRepository
-import de.reiss.android.losungen.main.content.LosungRepository
-import de.reiss.android.losungen.main.viewpager.ViewPagerRepository
+import de.reiss.android.losungen.main.daily.LosungRepository
+import de.reiss.android.losungen.main.daily.viewpager.ViewPagerRepository
+import de.reiss.android.losungen.main.single.monthly.MonthlyLosungRepository
+import de.reiss.android.losungen.main.single.weekly.WeeklyLosungRepository
+import de.reiss.android.losungen.main.single.yearly.YearlyLosungRepository
 import de.reiss.android.losungen.note.details.NoteDetailsRepository
 import de.reiss.android.losungen.note.edit.EditNoteRepository
 import de.reiss.android.losungen.note.export.NoteExportRepository
@@ -15,7 +18,6 @@ import de.reiss.android.losungen.note.list.NoteListRepository
 import de.reiss.android.losungen.notification.NotificationHelper
 import de.reiss.android.losungen.preferences.AppPreferences
 import de.reiss.android.losungen.preferences.AppPreferencesRepository
-import de.reiss.android.losungen.rawdata.RawToDatabase
 import de.reiss.android.losungen.widget.WidgetRefresher
 
 @ApplicationScope
@@ -33,6 +35,9 @@ interface ApplicationComponent {
 
     val viewPagerRepository: ViewPagerRepository
     val losungRepository: LosungRepository
+    val weeklyLosungRepository: WeeklyLosungRepository
+    val monthlyLosungRepository: MonthlyLosungRepository
+    val yearlyLosungRepository: YearlyLosungRepository
     val languageRepository: LanguageRepository
     val appPreferencesRepository: AppPreferencesRepository
     val editNoteRepository: EditNoteRepository
@@ -48,6 +53,5 @@ interface ApplicationComponent {
     val searchManager: SearchManager
 
     val apkHandler: ApkHandler
-    val rawToDatabase: RawToDatabase
 
 }

@@ -13,7 +13,7 @@ import de.reiss.android.losungen.App
 import de.reiss.android.losungen.R
 import de.reiss.android.losungen.architecture.AppFragment
 import de.reiss.android.losungen.architecture.AsyncLoad
-import de.reiss.android.losungen.main.content.ShareDialog
+import de.reiss.android.losungen.main.daily.ShareDialog
 import de.reiss.android.losungen.model.Note
 import de.reiss.android.losungen.note.edit.EditNoteActivity
 import de.reiss.android.losungen.util.contentAsString

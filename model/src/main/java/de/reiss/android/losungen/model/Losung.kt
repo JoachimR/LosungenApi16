@@ -27,13 +27,18 @@ data class DailyLosung(override val language: String,
 
 }
 
+abstract class SingleTextLosung(override val language: String) : Losung() {
+
+    abstract val bibleText: BibleText
+}
+
 data class WeeklyLosung(override val language: String,
                         val holiday: String,
                         val startYear: Int,
                         val startDayOfYear: Int,
                         val endYear: Int,
                         val endDayOfYear: Int,
-                        val bibleText: BibleText) : Losung() {
+                        override val bibleText: BibleText) : SingleTextLosung(language) {
 
     override fun startDate(): Date = Calendar.getInstance().apply {
         set(Calendar.YEAR, startYear)
@@ -58,7 +63,7 @@ data class WeeklyLosung(override val language: String,
 data class MonthlyLosung(override val language: String,
                          val year: Int,
                          val month: Int,
-                         val bibleText: BibleText) : Losung() {
+                         override val bibleText: BibleText) : SingleTextLosung(language) {
 
     override fun startDate(): Date = Calendar.getInstance().apply {
         set(Calendar.YEAR, year)
@@ -75,7 +80,7 @@ data class MonthlyLosung(override val language: String,
 
 data class YearlyLosung(override val language: String,
                         val year: Int,
-                        val bibleText: BibleText) : Losung() {
+                        override val bibleText: BibleText) : SingleTextLosung(language) {
 
     override fun startDate(): Date = Calendar.getInstance().apply {
         set(Calendar.YEAR, year)

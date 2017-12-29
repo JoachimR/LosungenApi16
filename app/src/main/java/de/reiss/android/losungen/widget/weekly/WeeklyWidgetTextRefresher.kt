@@ -1,25 +1,19 @@
 package de.reiss.android.losungen.widget.weekly
 
 import android.content.Context
-import android.support.annotation.WorkerThread
 import de.reiss.android.losungen.R
-import de.reiss.android.losungen.database.LanguageItemDao
-import de.reiss.android.losungen.database.WeeklyLosungItemDao
-import de.reiss.android.losungen.database.converter.Converter
 import de.reiss.android.losungen.formattedWeekDate
+import de.reiss.android.losungen.loader.WeeklyLosungLoader
 import de.reiss.android.losungen.model.WeeklyLosung
 import de.reiss.android.losungen.preferences.AppPreferences
-import de.reiss.android.losungen.util.extensions.withZeroDayTime
-import java.util.*
 import java.util.concurrent.Executor
 import javax.inject.Inject
 import javax.inject.Named
 
 open class WeeklyWidgetTextRefresher @Inject constructor(private val context: Context,
+                                                         private val appPreferences: AppPreferences,
                                                          @Named("widget") private val executor: Executor,
-                                                         private val weeklyLosungItemDao: WeeklyLosungItemDao,
-                                                         private val languageItemDao: LanguageItemDao,
-                                                         private val appPreferences: AppPreferences) {
+                                                         private val weeklyLosungLoader: WeeklyLosungLoader) {
 
     companion object {
 
@@ -35,33 +29,22 @@ open class WeeklyWidgetTextRefresher @Inject constructor(private val context: Co
     }
 
     private fun refreshWidgetText(onRefreshed: (String) -> Unit) {
-        executor.execute {
+        weeklyLosungLoader.loadCurrent(executor = executor,
+                onFinished = { losung ->
+                    val text =
+                            if (losung == null) {
+                                context.getString(R.string.no_content)
+                            } else {
+                                widgetText(
+                                        context = context,
+                                        weeklyLosung = losung,
+                                        includeDate = appPreferences.widgetShowDate()
+                                )
+                            }
 
-            val losung = findLosung(startDate = Date().withZeroDayTime())
-            val text =
-                    if (losung == null) {
-                        context.getString(R.string.no_content)
-                    } else {
-                        widgetText(
-                                context = context,
-                                weeklyLosung = losung,
-                                includeDate = appPreferences.widgetShowDate()
-                        )
-                    }
-
-            onRefreshed(text)
-        }
+                    onRefreshed(text)
+                })
     }
-
-    @WorkerThread
-    private fun findLosung(startDate: Date): WeeklyLosung? =
-            appPreferences.chosenLanguage?.let { chosenLanguage ->
-                languageItemDao.find(chosenLanguage)?.let { languageItem ->
-                    weeklyLosungItemDao.byDate(languageItem.id, startDate)?.let { losungItem ->
-                        return Converter.itemToWeeklyLosung(languageItem.language, losungItem)
-                    }
-                }
-            }
 
     private fun widgetText(context: Context,
                            weeklyLosung: WeeklyLosung, includeDate: Boolean) =
@@ -76,6 +59,5 @@ open class WeeklyWidgetTextRefresher @Inject constructor(private val context: Co
                 append("<br>")
                 append(weeklyLosung.bibleText.source)
             }.toString()
-
 
 }
