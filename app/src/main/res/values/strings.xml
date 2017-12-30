@@ -17,6 +17,7 @@
     <string name="pref_language_title">Translation</string>
     <string name="pref_app_category_title">Application settings</string>
     <string name="pref_style_category_title">Style</string>
+    <string name="pref_font_typeface_title">Typeface</string>
     <string name="pref_font_size_title">Text Size</string>
     <string name="pref_font_color_title">Text Color</string>
     <string name="pref_background_category_title">Background</string>

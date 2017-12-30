@@ -9,6 +9,7 @@
     <string name="pref_theme_key" translatable="false">theme</string>
     <string name="pref_show_toolbar_key" translatable="false">show_toolbar</string>
     <string name="pref_show_cards_key" translatable="false">show_cards</string>
+    <string name="pref_font_typeface_key" translatable="false">font_typeface</string>
     <string name="pref_font_size_key" translatable="false">font_size</string>
     <string name="pref_font_color_key" translatable="false">font_color</string>
     <string name="pref_background_color_key" translatable="false">background_color</string>

@@ -3,9 +3,11 @@ package de.reiss.android.losungen.preferences
 import android.content.Context
 import android.content.SharedPreferences
 import android.content.SharedPreferences.OnSharedPreferenceChangeListener
+import android.graphics.Typeface
 import android.preference.PreferenceManager
 import android.support.annotation.StringRes
 import android.support.v4.content.ContextCompat
+import android.support.v4.content.res.ResourcesCompat
 import de.reiss.android.losungen.App
 import de.reiss.android.losungen.R
 import de.reiss.android.losungen.events.AppStyleChanged
@@ -14,6 +16,63 @@ import de.reiss.android.losungen.util.extensions.change
 import de.reiss.android.losungen.widget.WidgetRefresher
 
 open class AppPreferences(val context: Context) : OnSharedPreferenceChangeListener {
+
+    val typefaces = mutableMapOf<String, Typeface>().apply {
+        put(str(R.string.typeface_default), Typeface.DEFAULT)
+        put(str(R.string.typeface_default_bold), Typeface.DEFAULT_BOLD)
+        put(str(R.string.typeface_monospace), Typeface.MONOSPACE)
+        put(str(R.string.typeface_sans_serif), Typeface.SANS_SERIF)
+        put(str(R.string.typeface_serif), Typeface.SERIF)
+
+        ResourcesCompat.getFont(context, R.font.calligraphic)?.let {
+            put(str(R.string.typeface_calligraphic), it)
+        }
+        ResourcesCompat.getFont(context, R.font.cloister)?.let {
+            put(str(R.string.typeface_cloister), it)
+        }
+        ResourcesCompat.getFont(context, R.font.comic)?.let {
+            put(str(R.string.typeface_comic), it)
+        }
+        ResourcesCompat.getFont(context, R.font.gothic)?.let {
+            put(str(R.string.typeface_gothic), it)
+        }
+        ResourcesCompat.getFont(context, R.font.grunge)?.let {
+            put(str(R.string.typeface_grunge), it)
+        }
+        ResourcesCompat.getFont(context, R.font.handdrawn)?.let {
+            put(str(R.string.typeface_handdrawn), it)
+        }
+        ResourcesCompat.getFont(context, R.font.typewriter)?.let {
+            put(str(R.string.typeface_typewriter), it)
+        }
+        ResourcesCompat.getFont(context, R.font.alegreya_sc)?.let {
+            put(str(R.string.typeface_alegreya_sc), it)
+        }
+        ResourcesCompat.getFont(context, R.font.baloo)?.let {
+            put(str(R.string.typeface_baloo), it)
+        }
+        ResourcesCompat.getFont(context, R.font.dynalight)?.let {
+            put(str(R.string.typeface_dynalight), it)
+        }
+        ResourcesCompat.getFont(context, R.font.finger_paint)?.let {
+            put(str(R.string.typeface_finger_paint), it)
+        }
+        ResourcesCompat.getFont(context, R.font.just_me_again_down_here)?.let {
+            put(str(R.string.typeface_just_me_again_down_here), it)
+        }
+        ResourcesCompat.getFont(context, R.font.nova_flat)?.let {
+            put(str(R.string.typeface_nova_flat), it)
+        }
+        ResourcesCompat.getFont(context, R.font.sofia)?.let {
+            put(str(R.string.typeface_sofia), it)
+        }
+        ResourcesCompat.getFont(context, R.font.vast_shadow)?.let {
+            put(str(R.string.typeface_vast_shadow), it)
+        }
+        ResourcesCompat.getFont(context, R.font.londrina_shadow)?.let {
+            put(str(R.string.typeface_londrina_shadow), it)
+        }
+    }
 
     val preferences: SharedPreferences = PreferenceManager.getDefaultSharedPreferences(context)
 
@@ -74,6 +133,16 @@ open class AppPreferences(val context: Context) : OnSharedPreferenceChangeListen
 
     fun shouldShowDailyNotification() =
             prefBoolean(R.string.pref_show_daily_notification_key, false)
+
+    var typefaceString: String?
+        get() = prefString(R.string.pref_font_typeface_key)
+        set(chosenTypeface) = preferences.change {
+            putString(str(R.string.pref_font_typeface_key),
+                    if (typefaces.containsKey(chosenTypeface)) chosenTypeface
+                    else str(R.string.typeface_default))
+        }
+
+    fun typeface(): Typeface = typefaces[typefaceString] ?: typefaces[str(R.string.typeface_default)]!!
 
     fun fontSize() = prefInt(
             stringRes = R.string.pref_font_size_key,

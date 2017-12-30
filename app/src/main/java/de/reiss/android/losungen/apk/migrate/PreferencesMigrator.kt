@@ -19,6 +19,19 @@ class PreferencesMigrator @Inject constructor(val context: Context,
             }
         }
 
+        preferences.getString("pref_typeface_key", null)?.let { typefaceKey ->
+
+            val value = when (typefaceKey) {
+                "normal" -> context.getString(R.string.typeface_default)
+                "sansserif" -> context.getString(R.string.typeface_sans_serif)
+                else -> typefaceKey
+            }
+
+            appPreferences.typefaces.map { it.key }.firstOrNull { it == value }?.let {
+                appPreferences.typefaceString = it
+            }
+        }
+
         preferences.getBoolean("pref_actionbar_show_key", true).let {
             edit.putBoolean(context.getString(R.string.pref_show_toolbar_key), it)
         }

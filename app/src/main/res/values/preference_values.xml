@@ -110,4 +110,75 @@
         <item>@color/font_pink</item>
     </integer-array>
 
+
+    <string-array name="pref_font_typeface_displayed" translatable="false">
+        <item>Default</item>
+        <item>Default Bold</item>
+        <item>Monospace</item>
+        <item>Sans Serif</item>
+        <item>Serif</item>
+        <item>Calligraphic</item>
+        <item>Cloister</item>
+        <item>Comic</item>
+        <item>Gothic</item>
+        <item>Grunge</item>
+        <item>Handdrawn</item>
+        <item>Typewriter</item>
+        <item>Alegreya sc</item>
+        <item>Baloo</item>
+        <item>Dyna Light</item>
+        <item>Finger Paint</item>
+        <item>Just me again down here</item>
+        <item>Nova flat</item>
+        <item>Sofia</item>
+        <item>Vast shadow</item>
+        <item>Londrina Shadow</item>
+    </string-array>
+
+    <string-array name="pref_font_typeface_values" translatable="false">
+        <item>@string/typeface_default</item>
+        <item>@string/typeface_default_bold</item>
+        <item>@string/typeface_monospace</item>
+        <item>@string/typeface_sans_serif</item>
+        <item>@string/typeface_serif</item>
+        <item>@string/typeface_calligraphic</item>
+        <item>@string/typeface_cloister</item>
+        <item>@string/typeface_comic</item>
+        <item>@string/typeface_gothic</item>
+        <item>@string/typeface_grunge</item>
+        <item>@string/typeface_handdrawn</item>
+        <item>@string/typeface_typewriter</item>
+        <item>@string/typeface_alegreya_sc</item>
+        <item>@string/typeface_baloo</item>
+        <item>@string/typeface_dynalight</item>
+        <item>@string/typeface_finger_paint</item>
+        <item>@string/typeface_just_me_again_down_here</item>
+        <item>@string/typeface_nova_flat</item>
+        <item>@string/typeface_sofia</item>
+        <item>@string/typeface_vast_shadow</item>
+        <item>@string/typeface_londrina_shadow</item>
+    </string-array>
+
+    <string name="typeface_default" translatable="false">default</string>
+    <string name="typeface_default_bold" translatable="false">default_bold</string>
+    <string name="typeface_monospace" translatable="false">monospace</string>
+    <string name="typeface_sans_serif" translatable="false">sans_serif</string>
+    <string name="typeface_serif" translatable="false">serif</string>
+    <string name="typeface_calligraphic" translatable="false">calligraphic</string>
+    <string name="typeface_cloister" translatable="false">cloister</string>
+    <string name="typeface_comic" translatable="false">comic</string>
+    <string name="typeface_gothic" translatable="false">gothic</string>
+    <string name="typeface_grunge" translatable="false">grunge</string>
+    <string name="typeface_handdrawn" translatable="false">handdrawn</string>
+    <string name="typeface_typewriter" translatable="false">typewriter</string>
+    <string name="typeface_alegreya_sc" translatable="false">alegreya_sc</string>
+    <string name="typeface_baloo" translatable="false">baloo</string>
+    <string name="typeface_dynalight" translatable="false">dynalight</string>
+    <string name="typeface_finger_paint" translatable="false">finger_paint</string>
+    <string name="typeface_just_me_again_down_here" translatable="false">just_me_again_down_here</string>
+    <string name="typeface_nova_flat" translatable="false">nova_flat</string>
+    <string name="typeface_sofia" translatable="false">sofia</string>
+    <string name="typeface_vast_shadow" translatable="false">vast_shadow</string>
+    <string name="typeface_londrina_shadow" translatable="false">londrina_shadow</string>
+
 </resources>

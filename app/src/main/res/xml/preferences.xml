@@ -54,6 +54,13 @@
             app:min="@string/pref_font_size_min"
             app:showSeekBarValue="true" />
 
+        <de.reiss.android.losungen.util.preferences.FontPreference
+            android:defaultValue="@string/typeface_default"
+            android:key="@string/pref_font_typeface_key"
+            android:title="@string/pref_font_typeface_title"
+            app:entries="@array/pref_font_typeface_displayed"
+            app:entryValues="@array/pref_font_typeface_values" />
+
         <com.takisoft.fix.support.v7.preference.ColorPickerPreference
             android:defaultValue="@color/default_font_color"
             android:dialogTitle="@string/pref_font_color_title"

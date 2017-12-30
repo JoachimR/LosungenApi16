@@ -4,6 +4,7 @@ import android.arch.lifecycle.Observer
 import android.arch.lifecycle.ViewModelProvider
 import android.arch.lifecycle.ViewModelProviders
 import android.content.Context
+import android.graphics.Typeface
 import android.os.Bundle
 import android.support.annotation.LayoutRes
 import android.view.Menu
@@ -261,6 +262,8 @@ abstract class LosungFragment(@LayoutRes private val fragmentLayout: Int)
 
         setFontColor(appPreferences.fontColor())
 
+        setTypeFace(appPreferences.typeface())
+
         root.setBackgroundColor(appPreferences.backgroundColor())
     }
 
@@ -273,6 +276,17 @@ abstract class LosungFragment(@LayoutRes private val fragmentLayout: Int)
         source2.setTextColor(fontColor)
         note_header.setTextColor(fontColor)
         note_content.setTextColor(fontColor)
+    }
+
+    open fun setTypeFace(typeface: Typeface) {
+        change_translation.typeface = typeface
+        date.typeface = typeface
+        text1.typeface = typeface
+        source1.typeface = typeface
+        text2.typeface = typeface
+        source2.typeface = typeface
+        note_header.typeface = typeface
+        note_content.typeface = typeface
     }
 
     private fun tryLoad() {
