@@ -44,8 +44,6 @@ open class NotificationHelper @Inject constructor(private val context: Context,
         if (appPreferences.shouldShowDailyNotification().not()) {
             return
         }
-        val chosenLanguage = appPreferences.chosenLanguage ?: return
-
         dailyLosungLoader.loadCurrent(executor = executor, onFinished = {
             if (it != null) {
                 showNotification(it)

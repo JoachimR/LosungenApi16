@@ -2,8 +2,6 @@ Watchwords / Losungen / Hesla / Napiige
 =======================
 Unofficial Android app for Watchwords / Losungen / Hesla / Napiige
 
-**This version of the app is not yet released.**
-
 [![Download from Google Play](http://www.android.com/images/brand/android_app_on_play_large.png "Download from Google Play")](https://play.google.com/store/apps/details?id=de.reiss.android.losungen)
 
 <a href="https://play.google.com/store/apps/details?id=de.reiss.android.losungen"><img src="https://github.com/JoachimR/LosungenApi16/blob/master/art/github_promo.png"></a>
