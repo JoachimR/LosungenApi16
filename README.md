@@ -2,8 +2,6 @@ Watchwords / Losungen / Hesla / Napiige
 =======================
 Unofficial Android app for Watchwords / Losungen / Hesla / Napiige
 
-[![Download from Google Play](http://www.android.com/images/brand/android_app_on_play_large.png "Download from Google Play")](https://play.google.com/store/apps/details?id=de.reiss.android.losungen)
-
 <a href="https://play.google.com/store/apps/details?id=de.reiss.android.losungen"><img src="https://github.com/JoachimR/LosungenApi16/blob/master/art/github_promo.png"></a>
 
 # Languages
@@ -19,6 +17,8 @@ So far the content is provided <a href="https://github.com/JoachimR/LosungenApi1
 Therefore the data will not be downloaded and so the app needs to be updated on a regular basis.
 
 If you want to provide a server from which the users could download the data dynamically, feel free to contact me.
+
+[![Download from Google Play](https://play.google.com/intl/en_us/badges/images/generic/en_badge_web_generic.png "Get it on Google Play")](https://play.google.com/store/apps/details?id=de.reiss.android.losungen)
 
 # License
 Copyright (C) 2014-2017 Joachim Reiß
