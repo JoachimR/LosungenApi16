@@ -1,6 +1,173 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-
     <string name="app_name">Hesla</string>
-
+    <string name="navigation_drawer_open">Otevřít panel navigace</string>
+    <string name="navigation_drawer_close">Zavřít panel navigace</string>
+    <string name="info_general">Neoficiální aplikace Hesel pro Android</string>
+    <string name="source_code_prefix">Zdrojový kód:</string>
+    <string name="info_participate">Pokud se chcete podílet na tvorbě nového obsahu, navštivte:</string>
+    <string name="pref_screen_settings_title">Nastavení</string>
+    <string name="pref_theme_title">Vzhled</string>
+    <string-array name="pref_theme_themes_displayed">
+        <item>Modrý/oranžový</item>
+        <item>Červený/modrozelený</item>
+        <item>Šedý/azurový</item>
+        <item>Zelený/hnědý</item>
+    </string-array>
+    <string name="pref_language_title">Překlad</string>
+    <string name="pref_app_category_title">Nastavení aplikace</string>
+    <string name="pref_style_category_title">Styl</string>
+    <string name="pref_font_typeface_title">Font</string>
+    <string name="pref_font_size_title">Velikost textu</string>
+    <string name="pref_font_color_title">Barva textu</string>
+    <string name="pref_background_category_title">Pozadí</string>
+    <string name="pref_background_color_title">Barva pozadí</string>
+    <string name="pref_background_image_title">Tapeta pozadí</string>
+    <string name="pref_cards_category_title">Karty</string>
+    <string name="pref_show_cards_title">Zobrazit karty</string>
+    <string name="pref_card_background_color_title">Barva pozadí karty</string>
+    <string name="pref_show_notes_title">Zobrazit poznámky</string>
+    <string name="pref_show_toolbar_title">Zobrazit nástrojový panel</string>
+    <string name="pref_widget_category_title">Nastavení widgetu</string>
+    <string name="pref_widget_show_date_title">Zobrazit datum</string>
+    <string name="pref_widget_centered_text_title">Text zarovnaný na střed</string>
+    <string name="pref_widget_background_color_title">Barva pozadí</string>
+    <string-array name="pref_widget_background_color_colors_displayed">
+        <item>Žádná</item>
+        <item>S černým okrajem</item>
+        <item>Bílá</item>
+        <item>Černá</item>
+        <item>Modrá</item>
+        <item>Tmavě zelená</item>
+        <item>Zelená</item>
+        <item>Šedá</item>
+        <item>Světle modrá</item>
+        <item>Růžová</item>
+        <item>Purpurová</item>
+        <item>Červená</item>
+        <item>Žlutá</item>
+        <item>Průhledná se stínem</item>
+        <item>Černá se stínem</item>
+        <item>Modrá se stínem</item>
+        <item>Tmavě zelená se stínem</item>
+        <item>Zelená se stínem</item>
+        <item>Šedá se stínem</item>
+        <item>Světle modrá se stínem</item>
+        <item>Růžová se stínem</item>
+        <item>Purpurová se stínem</item>
+        <item>Červená se stínem</item>
+        <item>Bílá se stínem</item>
+        <item>Žlutá se stínem</item>
+    </string-array>
+    <string name="pref_widget_font_color_title">Barva textu</string>
+    <string-array name="pref_widget_font_color_colors_displayed">
+        <item>Bílá</item>
+        <item>Šedá</item>
+        <item>Černá</item>
+        <item>Modrá</item>
+        <item>Červená</item>
+        <item>Světle modrá</item>
+        <item>Žlutá</item>
+        <item>Zelená</item>
+        <item>Tmavě zelená</item>
+        <item>Purpurová</item>
+        <item>Růžová</item>
+    </string-array>
+    <string name="pref_widget_font_size_title">Velikost textu</string>
+    <string name="notes_header">Poznámky:</string>
+    <string name="nav_info">O aplikaci</string>
+    <string name="menu_date_pick">Zvolte den</string>
+    <string name="menu_share">Sdílet</string>
+    <string name="share_app">Skvělá appka pro Android: %1$s</string>
+    <string name="nav_all_notes">Všechny poznámky</string>
+    <string name="nav_settings">Nastavení</string>
+    <string name="app_version">Verze %1$s</string>
+    <string name="notes_export_success">Export do %1$s/%2$s dokončen</string>
+    <string name="notes_export_error">Chyba: Nepodařilo se exportovat do %1$s/%2$s …</string>
+    <string name="btn_export_export_now">Exportovat teď</string>
+    <string name="no_notes">Zatím nemáte žádné poznámky. Ke každému dni můžete přidávat vlastní poznámky pod textem.</string>
+    <string name="no_notes_for_filter">Nenalezeny poznámky s textem \'%1$s\'</string>
+    <string name="edit_note">upravit</string>
+    <string name="snackbar_retry">Zkusit znovu</string>
+    <string name="cd_losung_no_content">Pro toto datum není dostupný obsah</string>
+    <string name="dialog_cancel">Zrušit</string>
+    <string name="view_pager_loading_content">Načítám data pro jazyk \'%1$s\'</string>
+    <string name="language_no_languages">Nenalezeny žádné překlady</string>
+    <string name="language_download_languages">Znovu načíst překlady</string>
+    <string name="language_loading">Načítám překlady…</string>
+    <string name="no_content">Pro toto datum a překlad není dostupný obsah</string>
+    <string name="no_content_download">Zkusit stáhnout</string>
+    <string name="language_item_language_code">[%1$s]</string>
+    <string name="language_please_choose">Prosím vyberte překlad.</string>
+    <string name="language_please_choose_subhead">Později ho můžete kdykoli změnit v nastaveních.</string>
+    <string name="cd_language_item">jazyk</string>
+    <string name="preferences_title">Nastavení</string>
+    <string name="edit_note_title">Upravit poznámku</string>
+    <string name="menu_edit_note_save">Uložit</string>
+    <string name="cd_main_nav_image">Ikona aplikace</string>
+    <string name="note_list_title">Všechny poznámky</string>
+    <string name="language_activity_title">@string/app_name</string>
+    <string name="main_activity_title">@string/app_name</string>
+    <string name="losung_change_translation">Změnit překlad</string>
+    <string name="cd_no_notes">bez poznámek</string>
+    <string name="share_dialog_title">Sdílet</string>
+    <string name="share_dialog_ok">Sdílet</string>
+    <string name="share_dialog_input_hint">Text ke sdílení</string>
+    <string name="share_dialog_chooser_title">Sdílet</string>
+    <string name="pref_display_category_title">Zobrazení</string>
+    <string name="pref_app_show_daily_notification_title">Denní oznámení</string>
+    <string name="can_not_write_to_sdcard">Nelze zapsat na SD kartu</string>
+    <string name="note_export_subhead">Exportovat všechny poznámky na SD kartu</string>
+    <string name="note_export_title">Exportovat poznámky</string>
+    <string name="notes_export_no_notes">Nejsou žádné poznámky k exportu</string>
+    <string name="cd_widget_background">Pozadí widgetu</string>
+    <string name="edit_note_store_error">Chyba při ukládání této poznámky…</string>
+    <string name="edit_note_load_error">Chyba při načítání poznámky…</string>
+    <string name="edit_note_load_error_retry">Zkusit znovu</string>
+    <string name="menu_edit_note_share">Sdílet</string>
+    <string name="note_details_title">Podrobnosti poznámky</string>
+    <string name="menu_note_details_share">Sdílet</string>
+    <string name="about_title">O aplikaci</string>
+    <string name="about_share">Sdílet</string>
+    <string name="developer_prefix">Vývojář verze pro Android:</string>
+    <string name="info_prefix">Info:</string>
+    <string name="share_app_title">Sdílet aplikaci</string>
+    <string name="pref_app_show_daily_notification_summary_off">Bez oznámení</string>
+    <string name="pref_app_show_daily_notification_summary_on">Zobrazit denní heslo kadý den jako notifikaci</string>
+    <string name="pref_show_notes_summary_off">Poznámky skryty</string>
+    <string name="pref_show_notes_summary_on">Poznámky viditelné pod textem</string>
+    <string name="pref_show_toolbar_summary_off">Panel nástrojů skrytý</string>
+    <string name="pref_show_toolbar_summary_on">Panel nástrojů viditelný</string>
+    <string name="pref_show_cards_summary_off">Text zobrazený bez kartiček</string>
+    <string name="pref_show_cards_summary_on">Text vypsaný na kartičkách</string>
+    <string name="fontsize_dialog_title">Nastavit velikost fontu</string>
+    <string name="fontsize_dialog_ok">Hotovo</string>
+    <string name="menu_font_size">Změnit velikost fontu</string>
+    <string name="copied_to_clipboard">Zkopírováno do schránky</string>
+    <string name="action_search">Hledat</string>
+    <string name="note_list_export">Exportovat poznámky</string>
+    <string name="note_details_error_deleting_note">Nepodařilo se smazat poznámku…</string>
+    <string name="confirm_delete_dialog_title">Opravdu smazat?</string>
+    <string name="confirm_delete_dialog_ok">Smazat</string>
+    <string name="menu_note_details_edit">Upravit</string>
+    <string name="note_details_error_reload_note">Nepodařilo se načíst poznámku…</string>
+    <string name="note_details_note_header">Poznámky:</string>
+    <string name="menu_note_details_delete">Smazat</string>
+    <string name="widget_daily">Den</string>
+    <string name="widget_weekly">Týden</string>
+    <string name="widget_monthly">Měsíc</string>
+    <string name="widget_yearly">Rok</string>
+    <string name="widget_weekly_date_range">%1$s - %2$s</string>
+    <string name="nav_losung_week">Heslo týdne</string>
+    <string name="nav_losung_month">Heslo měsíce</string>
+    <string name="nav_losung_year">Heslo roku</string>
+    <string name="yearly_dialog_title">Heslo roku</string>
+    <string name="monthly_dialog_title">Heslo měsíce</string>
+    <string name="weekly_dialog_title">Heslo týdne</string>
+    <string name="yearly_dialog_title_with_date">Heslo pro %d</string>
+    <string name="monthly_dialog_title_with_date">Heslo pro %1$s</string>
+    <string name="weekly_dialog_title_with_date">Heslo pro %1$s</string>
+    <string name="dialog_ok">OK</string>
+    <string name="dialog_close">Zavřít</string>
+    <string name="dialog_share">Sdílet</string>
 </resources>
