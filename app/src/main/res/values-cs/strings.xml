@@ -133,7 +133,7 @@
     <string name="info_prefix">Info:</string>
     <string name="share_app_title">Sdílet aplikaci</string>
     <string name="pref_app_show_daily_notification_summary_off">Bez oznámení</string>
-    <string name="pref_app_show_daily_notification_summary_on">Zobrazit denní heslo kadý den jako notifikaci</string>
+    <string name="pref_app_show_daily_notification_summary_on">Zobrazit denní heslo každý den jako oznámení</string>
     <string name="pref_show_notes_summary_off">Poznámky skryty</string>
     <string name="pref_show_notes_summary_on">Poznámky viditelné pod textem</string>
     <string name="pref_show_toolbar_summary_off">Panel nástrojů skrytý</string>
