@@ -1,6 +1,6 @@
-Watchwords / Losungen / Hesla / Napiige
+Watchwords / Losungen / Hesla / Napi ige
 =======================
-Unofficial Android app for Watchwords / Losungen / Hesla / Napiige
+Unofficial Android app for Watchwords / Losungen / Hesla / Napi ige
 
 <a href="https://play.google.com/store/apps/details?id=de.reiss.android.losungen"><img src="https://github.com/JoachimR/LosungenApi16/blob/master/art/github_promo.png"></a>
 
