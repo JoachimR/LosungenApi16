@@ -14,7 +14,7 @@ class ApkMigrate @Inject constructor(private val context: Context,
 
     companion object {
 
-        const val migrateKey = "PERFORMED_MIGRATION_TO_1001";
+        const val migrateKey = "PERFORMED_MIGRATION_TO_1001"
 
     }
 

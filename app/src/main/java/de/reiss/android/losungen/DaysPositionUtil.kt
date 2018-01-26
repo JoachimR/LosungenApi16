@@ -8,7 +8,7 @@ object DaysPositionUtil {
 
     const val DAYS_OF_TIME = 73413 // (Dec 31st 2100) - (Jan 1st 1900)
 
-    private const val DURATION_ONE_DAY = 86400000; // (24h * 60m * 60s * 1000ms)
+    private const val DURATION_ONE_DAY = 86400000 // (24h * 60m * 60s * 1000ms)
 
     private val FIRST_DAY_OF_TIME: Calendar = Calendar.getInstance().apply {
         set(1900, Calendar.JANUARY, 1)

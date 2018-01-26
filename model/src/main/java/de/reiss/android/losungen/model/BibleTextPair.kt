@@ -15,8 +15,7 @@ data class BibleTextPair(val first: BibleText,
 
     constructor(parcel: Parcel) : this(
             parcel.readParcelable(BibleText::class.java.classLoader),
-            parcel.readParcelable(BibleText::class.java.classLoader)) {
-    }
+            parcel.readParcelable(BibleText::class.java.classLoader))
 
     override fun writeToParcel(parcel: Parcel, flags: Int) {
         parcel.writeParcelable(first, flags)

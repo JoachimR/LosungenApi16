@@ -73,12 +73,12 @@ fun clickOnNegativeAlertDialogButton() {
 
 fun assertTextInSnackbar(string: String) {
     onView(allOf(withId(android.support.design.R.id.snackbar_text), withText(string)))
-            .check(matches(withEffectiveVisibility(ViewMatchers.Visibility.VISIBLE)));
+            .check(matches(withEffectiveVisibility(ViewMatchers.Visibility.VISIBLE)))
 }
 
 fun assertTextInSnackbar(@StringRes stringResId: Int) {
     onView(allOf(withId(android.support.design.R.id.snackbar_text), withText(stringResId)))
-            .check(matches(withEffectiveVisibility(ViewMatchers.Visibility.VISIBLE)));
+            .check(matches(withEffectiveVisibility(ViewMatchers.Visibility.VISIBLE)))
 }
 
 fun assertSnackbarIsDisplayed() {
@@ -115,11 +115,11 @@ fun pickDate(year: Int, monthOfYear: Int, dayOfMonth: Int) {
 }
 
 fun swipeLeftInViewPager(@IdRes viewPagerResId: Int) {
-    onView(withId(viewPagerResId)).perform(swipeLeft());
+    onView(withId(viewPagerResId)).perform(swipeLeft())
 }
 
 fun swipeRightInViewPager(@IdRes viewPagerResId: Int) {
-    onView(withId(viewPagerResId)).perform(swipeRight());
+    onView(withId(viewPagerResId)).perform(swipeRight())
 }
 
 private fun androidHomeMatcher(): Matcher<View> {

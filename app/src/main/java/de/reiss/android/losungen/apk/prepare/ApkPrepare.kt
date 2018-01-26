@@ -14,7 +14,7 @@ class ApkPrepare @Inject constructor(val context: Context,
                                      val languageItemDao: LanguageItemDao) {
     companion object {
 
-        const val initKey = "PERFORMED_INIT";
+        const val initKey = "PERFORMED_INIT"
 
     }
 
