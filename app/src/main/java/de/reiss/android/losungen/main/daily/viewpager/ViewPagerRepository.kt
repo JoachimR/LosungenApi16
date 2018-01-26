@@ -7,7 +7,7 @@ import de.reiss.android.losungen.database.LanguageItemDao
 import de.reiss.android.losungen.rawdata.RawToDatabase
 import de.reiss.android.losungen.util.extensions.amountOfDaysInRange
 import de.reiss.android.losungen.util.extensions.withZeroDayTime
-import de.reiss.android.losungen.widget.WidgetRefresher
+import de.reiss.android.losungen.widget.triggerWidgetUpdate
 import java.util.*
 import java.util.concurrent.Executor
 import javax.inject.Inject
@@ -15,8 +15,7 @@ import javax.inject.Inject
 open class ViewPagerRepository @Inject constructor(private val executor: Executor,
                                                    private val dailyLosungItemDao: DailyLosungItemDao,
                                                    private val languageItemDao: LanguageItemDao,
-                                                   private val rawToDatabase: RawToDatabase,
-                                                   private val widgetRefresher: WidgetRefresher) {
+                                                   private val rawToDatabase: RawToDatabase) {
 
 
     open fun loadItemsFor(language: String,
@@ -44,7 +43,7 @@ open class ViewPagerRepository @Inject constructor(private val executor: Executo
                         val databaseUpdated = rawToDatabase.writeRawDataToDatabase(language)
 
                         if (databaseUpdated) {
-                            widgetRefresher.execute()
+                            triggerWidgetUpdate()
                         }
                     }
                 }

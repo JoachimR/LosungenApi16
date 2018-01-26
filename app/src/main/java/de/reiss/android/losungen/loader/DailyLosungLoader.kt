@@ -19,22 +19,20 @@ open class DailyLosungLoader @Inject constructor(private val dailyLosungItemDao:
                          executor: Executor,
                          onFinished: (DailyLosung?) -> Unit) {
         executor.execute {
-
-            val losung = findLosung(date.withZeroDayTime())
-
-            onFinished(losung)
+            onFinished(loadForDate(date))
         }
     }
+
+    open fun loadForDate(date: Date) = findLosung(date.withZeroDayTime())
 
     open fun loadCurrent(executor: Executor,
                          onFinished: (DailyLosung?) -> Unit) {
         executor.execute {
-
-            val losung = findLosung(Date().withZeroDayTime())
-
-            onFinished(losung)
+            onFinished(loadCurrent())
         }
     }
+
+    open fun loadCurrent() = findLosung(Date().withZeroDayTime())
 
     @WorkerThread
     private fun findLosung(date: Date): DailyLosung? =

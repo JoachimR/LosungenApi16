@@ -25,10 +25,10 @@ class ViewPagerFragment : AppFragment<ViewPagerViewModel>(R.layout.view_pager_fr
 
     companion object {
 
-        private val KEY_INITIAL_POS = "KEY_INITIAL_POS"
-        private val KEY_CURRENT_POSITION = "KEY_CURRENT_POSITION"
+        private const val KEY_INITIAL_POS = "KEY_INITIAL_POS"
+        private const val KEY_CURRENT_POSITION = "KEY_CURRENT_POSITION"
 
-        private val INVALID_POSITION = -1
+        private const val INVALID_POSITION = -1
 
         fun createInstance(position: Int? = null) = ViewPagerFragment().apply {
             arguments = Bundle().apply {

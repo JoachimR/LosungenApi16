@@ -17,18 +17,18 @@ open class YearlyLosungLoader @Inject constructor(private val yearlyLosungItemDa
     open fun loadCurrent(executor: Executor,
                          onFinished: (YearlyLosung?) -> Unit) {
         executor.execute {
+            onFinished(loadCurrent())
+        }
+    }
 
-            val losung = findLosung(date = Calendar.getInstance().apply {
+    open fun loadCurrent() =
+            findLosung(date = Calendar.getInstance().apply {
                 set(Calendar.DAY_OF_YEAR, 1)
                 set(Calendar.HOUR_OF_DAY, 0)
                 set(Calendar.MINUTE, 0)
                 set(Calendar.SECOND, 0)
                 set(Calendar.MILLISECOND, 0)
             }.time)
-
-            onFinished(losung)
-        }
-    }
 
     @WorkerThread
     private fun findLosung(date: Date): YearlyLosung? =

@@ -39,8 +39,8 @@ class EditNoteActivity : AppActivity() {
             if (time == -1L) {
                 throw IllegalStateException("No time given for note")
             }
-            val bibleTextPair = intent.getParcelableExtra<BibleTextPair>(KEY_BIBLE_TEXT_PAIR) ?:
-                    throw IllegalStateException("No losung content given for note")
+            val bibleTextPair = intent.getParcelableExtra<BibleTextPair>(KEY_BIBLE_TEXT_PAIR)
+                    ?: throw IllegalStateException("No losung content given for note")
 
             replaceFragmentIn(
                     container = R.id.edit_note_fragment_container,

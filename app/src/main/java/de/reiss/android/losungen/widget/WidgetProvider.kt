@@ -32,16 +32,15 @@ abstract class WidgetProvider : AppWidgetProvider() {
                           appWidgetIds: IntArray) {
         try {
             for (id in appWidgetIds) {
-                appWidgetManager.updateAppWidget(id, updateWidgetListView(context, id))
+                appWidgetManager.updateAppWidget(id, createRemoteViews(context, id))
             }
-            super.onUpdate(context, appWidgetManager, appWidgetIds)
         } catch (e: Exception) {
             logErrorWithCrashlytics(e) { "Error when updating widget" }
         }
-
+        super.onUpdate(context, appWidgetManager, appWidgetIds)
     }
 
-    private fun updateWidgetListView(context: Context, appWidgetId: Int): RemoteViews {
+    private fun createRemoteViews(context: Context, appWidgetId: Int): RemoteViews {
         val remoteViews = RemoteViews(context.packageName, R.layout.widget_layout)
 
         //RemoteViews Service needed to provide adapter for ListView
