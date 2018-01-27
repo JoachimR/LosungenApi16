@@ -15,7 +15,8 @@ open class App : Application() {
 
     companion object {
 
-        @JvmStatic lateinit var component: ApplicationComponent
+        @JvmStatic
+        lateinit var component: ApplicationComponent
 
     }
 
@@ -33,7 +34,6 @@ open class App : Application() {
                 .build())
         NotificationService.schedule(this)
         initPrefs()
-        component.widgetRefresher.execute()
     }
 
     private fun initPrefs() {

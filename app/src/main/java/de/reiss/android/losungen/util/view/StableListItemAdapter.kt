@@ -15,7 +15,7 @@ abstract class StableListItemAdapter : RecyclerView.Adapter<ListItemViewHolder>(
         setHasStableIds(true)
     }
 
-    override final fun setHasStableIds(hasStableIds: Boolean) {
+    final override fun setHasStableIds(hasStableIds: Boolean) {
         if (!hasStableIds) {
             throw IllegalArgumentException("StableListItemAdapter does not allow unstable ids")
         }

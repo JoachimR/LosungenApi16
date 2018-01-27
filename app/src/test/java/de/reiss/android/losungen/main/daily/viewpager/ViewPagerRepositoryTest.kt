@@ -16,7 +16,6 @@ import de.reiss.android.losungen.testutil.sampleDailyLosungItem
 import de.reiss.android.losungen.util.extensions.firstDayOfYear
 import de.reiss.android.losungen.util.extensions.lastDayOfYear
 import de.reiss.android.losungen.util.extensions.withZeroDayTime
-import de.reiss.android.losungen.widget.WidgetRefresher
 import org.junit.Assert.assertEquals
 import org.junit.Before
 import org.junit.Rule
@@ -36,7 +35,6 @@ class ViewPagerRepositoryTest {
     private val languageItemDao = mock<LanguageItemDao>()
 
     private val rawToDatabaseWriter = mock<RawToDatabase>()
-    private val widgetRefresher = mock<WidgetRefresher>()
 
     private val languageItem = LanguageItem("testLanguage", "testLanguageName", "testLanguageCode")
             .apply { id = 1 }
@@ -49,8 +47,7 @@ class ViewPagerRepositoryTest {
                 TestExecutor(),
                 dailyLosungItemDao,
                 languageItemDao,
-                rawToDatabaseWriter,
-                widgetRefresher)
+                rawToDatabaseWriter)
 
         mockLanguageDatabaseResult(languageItem)
     }

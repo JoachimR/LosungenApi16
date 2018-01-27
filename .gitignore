@@ -179,3 +179,6 @@ gradle-app.setting
 
 apk_signature.properties
 *.key
+
+app/src/main/java/de/reiss/android/losungen/Languages.kt
+app/src/main/res/raw/dailylosungen_de_2018.xml

@@ -30,7 +30,7 @@ class LosungFragmentNoCards : LosungFragment(R.layout.losung_fragment_no_cards) 
     override fun setFontColor(fontColor: Int) {
         super.setFontColor(fontColor)
         divider.setBackgroundColor(fontColor)
-        (note_edit as ImageView).setColorFilter(fontColor, android.graphics.PorterDuff.Mode.SRC_IN);
+        (note_edit as ImageView).setColorFilter(fontColor, android.graphics.PorterDuff.Mode.SRC_IN)
     }
 
 }

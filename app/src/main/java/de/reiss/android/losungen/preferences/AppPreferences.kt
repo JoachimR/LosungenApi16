@@ -8,12 +8,11 @@ import android.preference.PreferenceManager
 import android.support.annotation.StringRes
 import android.support.v4.content.ContextCompat
 import android.support.v4.content.res.ResourcesCompat
-import de.reiss.android.losungen.App
 import de.reiss.android.losungen.R
 import de.reiss.android.losungen.events.AppStyleChanged
 import de.reiss.android.losungen.events.postMessageEvent
 import de.reiss.android.losungen.util.extensions.change
-import de.reiss.android.losungen.widget.WidgetRefresher
+import de.reiss.android.losungen.widget.triggerWidgetUpdate
 
 open class AppPreferences(val context: Context) : OnSharedPreferenceChangeListener {
 
@@ -76,10 +75,6 @@ open class AppPreferences(val context: Context) : OnSharedPreferenceChangeListen
 
     val preferences: SharedPreferences = PreferenceManager.getDefaultSharedPreferences(context)
 
-    private val widgetRefresher: WidgetRefresher by lazy {
-        App.component.widgetRefresher
-    }
-
     init {
         registerListener(this)
     }
@@ -87,7 +82,7 @@ open class AppPreferences(val context: Context) : OnSharedPreferenceChangeListen
     override fun onSharedPreferenceChanged(sharedPreferences: SharedPreferences, key: String) {
         if (sharedPreferences == preferences) {
             if (isWidgetPref(key)) {
-                widgetRefresher.execute()
+                triggerWidgetUpdate()
             } else {
                 if (key == str(R.string.pref_font_size_key)
                         || key == str(R.string.pref_font_color_key)
@@ -142,7 +137,8 @@ open class AppPreferences(val context: Context) : OnSharedPreferenceChangeListen
                     else str(R.string.typeface_default))
         }
 
-    fun typeface(): Typeface = typefaces[typefaceString] ?: typefaces[str(R.string.typeface_default)]!!
+    fun typeface(): Typeface = typefaces[typefaceString]
+            ?: typefaces[str(R.string.typeface_default)]!!
 
     fun fontSize() = prefInt(
             stringRes = R.string.pref_font_size_key,

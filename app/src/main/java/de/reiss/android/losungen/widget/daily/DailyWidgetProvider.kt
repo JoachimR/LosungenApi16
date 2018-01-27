@@ -18,9 +18,11 @@ class DailyWidgetProvider : WidgetProvider() {
 
             val appWidgetIds = appWidgetManager.getAppWidgetIds(
                     ComponentName(context, DailyWidgetProvider::class.java))
+
             context.sendBroadcast(Intent(context, DailyWidgetProvider::class.java)
                     .putExtra(AppWidgetManager.EXTRA_APPWIDGET_IDS, appWidgetIds)
                     .setAction("android.appwidget.action.APPWIDGET_UPDATE"))
+
             appWidgetManager.notifyAppWidgetViewDataChanged(appWidgetIds, R.id.widget_list_view)
         }
 
@@ -28,11 +30,10 @@ class DailyWidgetProvider : WidgetProvider() {
 
     override fun onReceive(context: Context, intent: Intent) {
         super.onReceive(context, intent)
-        AppWidgetManager.getInstance(context).apply {
-            notifyAppWidgetViewDataChanged(
-                    getAppWidgetIds(ComponentName(context, DailyWidgetProvider::class.java)),
-                    R.id.widget_list_view)
-        }
+        val appWidgetManager = AppWidgetManager.getInstance(context)
+        val appWidgetIds = appWidgetManager.getAppWidgetIds(
+                ComponentName(context, DailyWidgetProvider::class.java))
+        appWidgetManager.notifyAppWidgetViewDataChanged(appWidgetIds, R.id.widget_list_view)
     }
 
     override fun serviceIntent(context: Context, appWidgetId: Int): Intent =

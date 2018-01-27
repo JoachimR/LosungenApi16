@@ -30,11 +30,10 @@ class WeeklyWidgetProvider : WidgetProvider() {
 
     override fun onReceive(context: Context, intent: Intent) {
         super.onReceive(context, intent)
-        AppWidgetManager.getInstance(context).apply {
-            notifyAppWidgetViewDataChanged(
-                    getAppWidgetIds(ComponentName(context, WeeklyWidgetProvider::class.java)),
-                    R.id.widget_list_view)
-        }
+        val appWidgetManager = AppWidgetManager.getInstance(context)
+        val appWidgetIds = appWidgetManager.getAppWidgetIds(
+                ComponentName(context, WeeklyWidgetProvider::class.java))
+        appWidgetManager.notifyAppWidgetViewDataChanged(appWidgetIds, R.id.widget_list_view)
     }
 
     override fun serviceIntent(context: Context, appWidgetId: Int): Intent =

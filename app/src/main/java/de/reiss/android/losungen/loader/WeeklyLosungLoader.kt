@@ -18,12 +18,11 @@ open class WeeklyLosungLoader @Inject constructor(private val weeklyLosungItemDa
     open fun loadCurrent(executor: Executor,
                          onFinished: (WeeklyLosung?) -> Unit) {
         executor.execute {
-
-            val losung = findLosung(startDate = Date().withZeroDayTime())
-
-            onFinished(losung)
+            onFinished(loadCurrent())
         }
     }
+
+    open fun loadCurrent() = findLosung(startDate = Date().withZeroDayTime())
 
     @WorkerThread
     private fun findLosung(startDate: Date): WeeklyLosung? =

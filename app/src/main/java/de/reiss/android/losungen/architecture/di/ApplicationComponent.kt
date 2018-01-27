@@ -18,7 +18,10 @@ import de.reiss.android.losungen.note.list.NoteListRepository
 import de.reiss.android.losungen.notification.NotificationHelper
 import de.reiss.android.losungen.preferences.AppPreferences
 import de.reiss.android.losungen.preferences.AppPreferencesRepository
-import de.reiss.android.losungen.widget.WidgetRefresher
+import de.reiss.android.losungen.widget.daily.DailyWidgetTextRefresher
+import de.reiss.android.losungen.widget.monthly.MonthlyWidgetTextRefresher
+import de.reiss.android.losungen.widget.weekly.WeeklyWidgetTextRefresher
+import de.reiss.android.losungen.widget.yearly.YearlyWidgetTextRefresher
 
 @ApplicationScope
 @Component(modules = [
@@ -45,7 +48,10 @@ interface ApplicationComponent {
     val noteDetailsRepository: NoteDetailsRepository
     val noteExportRepository: NoteExportRepository
 
-    val widgetRefresher: WidgetRefresher
+    val dailyWidgetTextRefresher: DailyWidgetTextRefresher
+    val monthlyWidgetTextRefresher: MonthlyWidgetTextRefresher
+    val weeklyWidgetTextRefresher: WeeklyWidgetTextRefresher
+    val yearlyWidgetTextRefresher: YearlyWidgetTextRefresher
 
     val notificationHelper: NotificationHelper
     val appPreferences: AppPreferences
@@ -53,5 +59,4 @@ interface ApplicationComponent {
     val searchManager: SearchManager
 
     val apkHandler: ApkHandler
-
 }
