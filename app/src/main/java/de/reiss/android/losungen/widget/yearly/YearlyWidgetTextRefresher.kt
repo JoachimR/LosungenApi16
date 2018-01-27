@@ -1,6 +1,7 @@
 package de.reiss.android.losungen.widget.yearly
 
 import android.content.Context
+import android.support.annotation.WorkerThread
 import de.reiss.android.losungen.R
 import de.reiss.android.losungen.loader.YearlyLosungLoader
 import de.reiss.android.losungen.model.YearlyLosung
@@ -11,6 +12,7 @@ open class YearlyWidgetTextRefresher @Inject constructor(private val context: Co
                                                          private val appPreferences: AppPreferences,
                                                          private val yearlyLosungLoader: YearlyLosungLoader) {
 
+    @WorkerThread
     open fun retrieveCurrentText(): String =
             yearlyLosungLoader.loadCurrent().let { losung ->
                 if (losung == null) {

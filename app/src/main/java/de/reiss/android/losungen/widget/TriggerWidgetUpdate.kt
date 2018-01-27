@@ -6,8 +6,8 @@ import de.reiss.android.losungen.widget.weekly.WeeklyWidgetProvider
 import de.reiss.android.losungen.widget.yearly.YearlyWidgetProvider
 
 fun triggerWidgetUpdate() {
-    DailyWidgetProvider.triggerWidgetRefresh()
-    WeeklyWidgetProvider.triggerWidgetRefresh()
-    MonthlyWidgetProvider.triggerWidgetRefresh()
-    YearlyWidgetProvider.triggerWidgetRefresh()
+    DailyWidgetProvider.refresh()
+    WeeklyWidgetProvider.refresh()
+    MonthlyWidgetProvider.refresh()
+    YearlyWidgetProvider.refresh()
 }

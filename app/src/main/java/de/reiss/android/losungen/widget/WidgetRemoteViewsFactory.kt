@@ -3,6 +3,7 @@ package de.reiss.android.losungen.widget
 import android.content.Context
 import android.content.Intent
 import android.os.Build
+import android.support.annotation.WorkerThread
 import android.util.TypedValue
 import android.view.View
 import android.widget.RemoteViews
@@ -23,6 +24,7 @@ abstract class WidgetRemoteViewsFactory(private val context: Context) : RemoteVi
         App.component.appPreferences
     }
 
+    @WorkerThread
     abstract fun loadWidgetText(): String
 
     override fun onCreate() {
@@ -31,6 +33,11 @@ abstract class WidgetRemoteViewsFactory(private val context: Context) : RemoteVi
     override fun onDestroy() {
     }
 
+    /**
+     * From the documentation:
+     * expensive tasks can be safely performed synchronously within this method.
+     * In the interim, the old data will be displayed within the widget.
+     */
     override fun onDataSetChanged() {
         list.clear()
         list.add(htmlize(loadWidgetText()))

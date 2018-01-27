@@ -12,7 +12,7 @@ class MonthlyWidgetProvider : WidgetProvider() {
 
     companion object {
 
-        fun triggerWidgetRefresh() {
+        fun refresh() {
             val context = App.component.context
             val appWidgetManager = AppWidgetManager.getInstance(context)
 

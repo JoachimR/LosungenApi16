@@ -1,6 +1,7 @@
 package de.reiss.android.losungen.widget.weekly
 
 import android.content.Context
+import android.support.annotation.WorkerThread
 import de.reiss.android.losungen.R
 import de.reiss.android.losungen.formattedWeekDate
 import de.reiss.android.losungen.loader.WeeklyLosungLoader
@@ -12,6 +13,7 @@ open class WeeklyWidgetTextRefresher @Inject constructor(private val context: Co
                                                          private val appPreferences: AppPreferences,
                                                          private val weeklyLosungLoader: WeeklyLosungLoader) {
 
+    @WorkerThread
     open fun retrieveCurrentText(): String =
             weeklyLosungLoader.loadCurrent().let { losung ->
                 if (losung == null) {

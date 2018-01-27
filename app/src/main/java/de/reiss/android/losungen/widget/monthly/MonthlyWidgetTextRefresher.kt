@@ -1,6 +1,7 @@
 package de.reiss.android.losungen.widget.monthly
 
 import android.content.Context
+import android.support.annotation.WorkerThread
 import de.reiss.android.losungen.R
 import de.reiss.android.losungen.formattedMonthDate
 import de.reiss.android.losungen.loader.MonthlyLosungLoader
@@ -11,6 +12,8 @@ import javax.inject.Inject
 open class MonthlyWidgetTextRefresher @Inject constructor(private val context: Context,
                                                           private val appPreferences: AppPreferences,
                                                           private val monthlyLosungLoader: MonthlyLosungLoader) {
+
+    @WorkerThread
     open fun retrieveCurrentText(): String =
             monthlyLosungLoader.loadCurrent().let { losung ->
                 if (losung == null) {
