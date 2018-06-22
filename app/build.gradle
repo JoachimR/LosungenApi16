@@ -62,45 +62,45 @@ android {
 }
 
 dependencies {
-    compile libraries.kotlin.lib
+    implementation "org.jetbrains.kotlin:kotlin-stdlib-jre7:$versions.kotlin"
 
-    compile project(":database")
-    compile project(":logger")
-    compile project(":events")
-    compile project(":xmlparser")
+    implementation project(":database")
+    implementation project(":logger")
+    implementation project(":events")
+    implementation project(":xmlparser")
 
-    compile libraries.support.app_compat
-    compile libraries.support.design
-    compile libraries.support.recycler_view
-    compile libraries.support.card_view
+    implementation "com.android.support:appcompat-v7:$versions.support_lib"
+    implementation "com.android.support:design:$versions.support_lib"
+    implementation "com.android.support:recyclerview-v7:$versions.support_lib"
+    implementation "com.android.support:cardview-v7:$versions.support_lib"
 
-    compile libraries.preference_fix.core
-    compile libraries.preference_fix.extras
+    implementation "com.takisoft.fix:preference-v7:$versions.preference_fix"
+    implementation "com.takisoft.fix:preference-v7-extras:$versions.preference_fix"
 
-    compile libraries.arch.runtime
-    compile libraries.arch.extensions
-    kapt libraries.arch.compiler
+    implementation "android.arch.lifecycle:runtime:$versions.arch_runtime"
+    implementation "android.arch.lifecycle:extensions:$versions.arch"
+    kapt "android.arch.lifecycle:compiler:$versions.arch"
 
-    compile libraries.play_services.gcm
+    implementation "com.google.android.gms:play-services-gcm:$versions.play_service"
 
-    compile libraries.dagger.core
-    kapt libraries.dagger.compiler
-    provided libraries.dagger.glassfish
+    implementation "com.google.dagger:dagger:$versions.dagger"
+    kapt "com.google.dagger:dagger-compiler:$versions.dagger"
+    compileOnly "org.glassfish:javax.annotation:$versions.glassfish"
 
-    compile(libraries.crashlytics) {
+    implementation("com.crashlytics.sdk.android:crashlytics:$versions.crashlytics@aar") {
         transitive = true
     }
 
-    testCompile libraries.junit
-    testCompile libraries.mockito_kotlin
-    testCompile libraries.arch.core_testing
+    testImplementation "junit:junit:$versions.junit"
+    testImplementation "com.nhaarman:mockito-kotlin-$versions.mockito_kotlin"
+    testImplementation "android.arch.core:core-testing:$versions.arch"
 
-    androidTestCompile libraries.support.test_runner
-    androidTestCompile libraries.support.test_rules
-    androidTestCompile libraries.espresso.core
-    androidTestCompile libraries.espresso.contrib
-    androidTestCompile libraries.espresso.intents
-    androidTestCompile libraries.mockito_android
-    androidTestCompile libraries.mockito_kotlin
+    androidTestImplementation "com.android.support.test:runner:$versions.support_test"
+    androidTestImplementation "com.android.support.test:rules:$versions.support_test"
+    androidTestImplementation "com.android.support.test.espresso:espresso-core:$versions.espresso"
+    androidTestImplementation "com.android.support.test.espresso:espresso-contrib:$versions.espresso"
+    androidTestImplementation "com.android.support.test.espresso:espresso-intents:$versions.espresso"
+    androidTestImplementation "org.mockito:mockito-android:$versions.mockito_android"
+    androidTestImplementation "com.nhaarman:mockito-kotlin-$versions.mockito_kotlin"
 
 }
