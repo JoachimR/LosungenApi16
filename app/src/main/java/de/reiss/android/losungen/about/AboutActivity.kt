@@ -9,6 +9,7 @@ import de.reiss.android.losungen.App
 import de.reiss.android.losungen.R
 import de.reiss.android.losungen.architecture.AppActivity
 import de.reiss.android.losungen.preferences.AppPreferences
+import de.reiss.android.losungen.util.extensions.onClick
 import kotlinx.android.synthetic.main.about_activity.*
 
 class AboutActivity : AppActivity() {
@@ -45,6 +46,10 @@ class AboutActivity : AppActivity() {
         about_developer_name.setTextColor(fontColor)
         about_developer_mail.setLinkTextColor(fontColor)
         about_developer_github.setLinkTextColor(fontColor)
+
+        about_privacy_policy_button.onClick {
+            startActivity(PrivacyPolicyActivity.createIntent(this))
+        }
     }
 
     override fun onCreateOptionsMenu(menu: Menu): Boolean {
