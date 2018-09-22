@@ -17,7 +17,7 @@ repositories {
 }
 
 dependencies{
-    implementation "org.jetbrains.kotlin:kotlin-stdlib-jre7:$versions.kotlin"
+    implementation "org.jetbrains.kotlin:kotlin-stdlib-jdk7:$versions.kotlin"
 }
 
 apply plugin: 'kotlin'
