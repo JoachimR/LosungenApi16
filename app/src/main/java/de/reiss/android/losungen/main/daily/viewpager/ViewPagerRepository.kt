@@ -36,15 +36,10 @@ open class ViewPagerRepository @Inject constructor(private val executor: Executo
 
                 val storedItems = dailyLosungItemDao.range(languageItem.id, from, until)
 
-                if (storedItems != null) {
-                    val expectedAmountOfDays = from.amountOfDaysInRange(until)
-                    if (storedItems.size < expectedAmountOfDays) {
-
-                        val databaseUpdated = rawToDatabase.writeRawDataToDatabase(language)
-
-                        if (databaseUpdated) {
-                            triggerWidgetUpdate()
-                        }
+                if (storedItems == null || storedItems.size < from.amountOfDaysInRange(until)) {
+                    val databaseUpdated = rawToDatabase.writeRawDataToDatabase(language)
+                    if (databaseUpdated) {
+                        triggerWidgetUpdate()
                     }
                 }
             }
