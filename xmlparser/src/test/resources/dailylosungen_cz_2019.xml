@@ -1,0 +1,3809 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<FreeXml xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:noNamespaceSchemaLocation="http://losungen.de/losungen.xsd">
+    <Losungen>
+        <Datum>2019-01-01</Datum>
+        <Sonntag>Nový Rok</Sonntag>
+        <Wtag>Úterý</Wtag>
+        <Losungstext>Nepokřivíš práva svého chudého v jeho rozepři.</Losungstext>
+        <Losungsvers>2.Mojžíšova 23,6 J</Losungsvers>
+        <Lehrtext>Byl jeden bohatý člověk, nádherně a vybraně se strojil a den co den skvěle hodoval. U vrat jeho domu
+            lehával nějaký chudák, jménem Lazar, plný vředů.
+        </Lehrtext>
+        <Lehrtextvers>Lukáš 16,19-20</Lehrtextvers>
+    </Losungen>
+    <Losungen>
+        <Datum>2019-01-02</Datum>
+        <Sonntag/>
+        <Wtag>Středa</Wtag>
+        <Losungstext>Josef řekl bratrům: "Jen mezi sebou nevyvolávejte po cestě hádky!"</Losungstext>
+        <Losungsvers>1.Mojžíšova 45,24</Losungsvers>
+        <Lehrtext>Snášejte se navzájem a odpouštějte si, má-li kdo něco proti druhému. Jako Pán odpustil vám,
+            odpouštějte i vy.
+        </Lehrtext>
+        <Lehrtextvers>Koloským 3,13</Lehrtextvers>
+    </Losungen>
+    <Losungen>
+        <Datum>2019-01-03</Datum>
+        <Sonntag/>
+        <Wtag>Čtvrtek</Wtag>
+        <Losungstext>On střeží duše svých věrných, svévolníkům je z rukou vytrhuje.</Losungstext>
+        <Losungsvers>Žalm 97,10</Losungsvers>
+        <Lehrtext>Bůh všeliké milosti, jenž nás povolal k věčné slávě své v Kristu Ježíši, po krátkém utrpení sám vás
+            zdokonalí, utvrdí a upevní.
+        </Lehrtext>
+        <Lehrtextvers>1.Petrova 5,10 S</Lehrtextvers>
+    </Losungen>
+    <Losungen>
+        <Datum>2019-01-04</Datum>
+        <Sonntag/>
+        <Wtag>Pátek</Wtag>
+        <Losungstext>Pachtíte se za mnoha věcmi a máte z toho málo. Co přinesete domů, já rozvěji. Proč se to děje? je
+            výrok Hospodina zástupů. Protože můj dům je v troskách, zatímco vy se staráte každý jen o svůj dům.
+        </Losungstext>
+        <Losungsvers>Ageus 1,9</Losungsvers>
+        <Lehrtext>V horlivosti neochabujte, buďte vroucího ducha, služte Pánu.</Lehrtext>
+        <Lehrtextvers>Římanům 12,11</Lehrtextvers>
+    </Losungen>
+    <Losungen>
+        <Datum>2019-01-05</Datum>
+        <Sonntag/>
+        <Wtag>Sobota</Wtag>
+        <Losungstext>Při sobě samém jsem přísahal, z mých úst vyšla spravedlnost, slovo, které se zpět nenavrátí. Přede
+            mnou každý klesne na kolena a každý jazyk odpřisáhne: "Jenom v Hospodinu - řekne o mně - je spravedlnost i
+            moc." Přijdou k němu a budou se stydět všichni ti, kdo proti němu pláli vzdorem.
+        </Losungstext>
+        <Losungsvers>Izaiáš 45,23-24</Losungsvers>
+        <Lehrtext>Já jsem Alfa i Omega, praví Pán Bůh, ten, který jest a který byl a který přichází, Všemohoucí.
+        </Lehrtext>
+        <Lehrtextvers>Zjevení 1,8</Lehrtextvers>
+    </Losungen>
+    <Losungen>
+        <Datum>2019-01-06</Datum>
+        <Sonntag>Zjevení Páně - Epifanias</Sonntag>
+        <Wtag>Neděle</Wtag>
+        <Losungstext>Kéž by Izrael chodil po mých cestách!</Losungstext>
+        <Losungsvers>Žalm 81,14 Z</Losungsvers>
+        <Lehrtext>Zjevilať se jest zajisté ta milost Boží spasitelná všechněm lidem, Vyučující nás, abychom odřeknouce
+            se bezbožnosti a světských žádostí, střízlivě, a spravedlivě, a zbožně živi byli na tomto světě.
+        </Lehrtext>
+        <Lehrtextvers>Titovi 2,11-12 K</Lehrtextvers>
+    </Losungen>
+    <Losungen>
+        <Datum>2019-01-07</Datum>
+        <Sonntag/>
+        <Wtag>Pondělí</Wtag>
+        <Losungstext>Hle, budu je tříbit a budu zkoumat.</Losungstext>
+        <Losungsvers>Jeremiáš 9,6</Losungsvers>
+        <Lehrtext>Blahoslavený člověk, který obstojí ve zkoušce; když se osvědčí, dostane vavřín života, jejž Pán
+            zaslíbil těm, kdo ho milují.
+        </Lehrtext>
+        <Lehrtextvers>Jakubova 1,12</Lehrtextvers>
+    </Losungen>
+    <Losungen>
+        <Datum>2019-01-08</Datum>
+        <Sonntag/>
+        <Wtag>Úterý</Wtag>
+        <Losungstext>Nikdo z těch, kdo v tebe doufají, nebude zahanben. Zahanben bude ten, kdo bezdůvodně zradil.
+        </Losungstext>
+        <Losungsvers>Žalm 25,3 F</Losungsvers>
+        <Lehrtext>Všude jen tíseň, navenek boje, uvnitř úzkosti. Ale Bůh, který těší sklíčené, potěšil i nás.</Lehrtext>
+        <Lehrtextvers>2.Korintským 7,5-6</Lehrtextvers>
+    </Losungen>
+    <Losungen>
+        <Datum>2019-01-09</Datum>
+        <Sonntag/>
+        <Wtag>Středa</Wtag>
+        <Losungstext>David se modlil:Pro své slovo a podle svého srdce jsi učinil celou tuto velikou věc.</Losungstext>
+        <Losungsvers>2.Samuelova 7,21</Losungsvers>
+        <Lehrtext>V tom se ukázala Boží láska k nám, že Bůh poslal na svět svého jediného Syna, abychom skrze něho měli
+            život.
+        </Lehrtext>
+        <Lehrtextvers>1.Janova 4,9</Lehrtextvers>
+    </Losungen>
+    <Losungen>
+        <Datum>2019-01-10</Datum>
+        <Sonntag/>
+        <Wtag>Čtvrtek</Wtag>
+        <Losungstext>Ruka našeho Boha byla nad námi a vysvobozovala nás.</Losungstext>
+        <Losungsvers>Ezdráš 8,31</Losungsvers>
+        <Lehrtext>Moje ovce slyší můj hlas, já je znám, jdou za mnou a já jim dávám věčný život: nezahynou navěky a
+            nikdo je z mé ruky nevyrve.
+        </Lehrtext>
+        <Lehrtextvers>Jan 10,27-28</Lehrtextvers>
+    </Losungen>
+    <Losungen>
+        <Datum>2019-01-11</Datum>
+        <Sonntag/>
+        <Wtag>Pátek</Wtag>
+        <Losungstext>Naplnils mé srdce větší radostí, než pociťují ti, jejichž obilí a víno se urodilo.</Losungstext>
+        <Losungsvers>Žalm 4,8 F</Losungsvers>
+        <Lehrtext>Těm, kteří jsou bohatí v tomto věku, přikazuj, ať nejsou pyšní a nedoufají v nejisté bohatství, nýbrž
+            v Boha, který nás štědře opatřuje vším, co potřebujeme.
+        </Lehrtext>
+        <Lehrtextvers>1.Timoteovi 6,17</Lehrtextvers>
+    </Losungen>
+    <Losungen>
+        <Datum>2019-01-12</Datum>
+        <Sonntag/>
+        <Wtag>Sobota</Wtag>
+        <Losungstext>Pronárody poslouchají mrakopravce a věštce, ale tobě to Hospodin, tvůj Bůh, nedovolil.
+        </Losungstext>
+        <Losungsvers>5.Mojžíšova 18,14</Losungsvers>
+        <Lehrtext>Nepřestáváme za vás prosit, abyste plně, se vší moudrostí a duchovním pochopením poznali jeho vůli.
+            Tak budete svým životem dělat Pánu čest a stále se mu líbit, ve všem ponesete ovoce dobrých skutků, budete
+            růst v poznání Boha.
+        </Lehrtext>
+        <Lehrtextvers>Koloským 1,9-10</Lehrtextvers>
+    </Losungen>
+    <Losungen>
+        <Datum>2019-01-13</Datum>
+        <Sonntag>1. neděle po Zjevení Páně</Sonntag>
+        <Wtag>Neděle</Wtag>
+        <Losungstext>V maličkém hněvě skryl jsem tvář svou na maličko před tebou, ale v milosrdenství věčném slituji se
+            nad tebou, praví vykupitel tvůj Hospodin.
+        </Losungstext>
+        <Losungsvers>Izaiáš 54,8 K</Losungsvers>
+        <Lehrtext>Neuvědomuješ si, že dobrotivost Boží tě chce přivést k pokání?</Lehrtext>
+        <Lehrtextvers>Římanům 2,4</Lehrtextvers>
+    </Losungen>
+    <Losungen>
+        <Datum>2019-01-14</Datum>
+        <Sonntag/>
+        <Wtag>Pondělí</Wtag>
+        <Losungstext>Budou mým lidem a já jim budu Bohem, neboť se ke mně navrátí celým srdcem.</Losungstext>
+        <Losungsvers>Jeremiáš 24,7</Losungsvers>
+        <Lehrtext>To je ta zvěst, kterou Bůh poslal synům izraelským, když vyhlásil pokoj v Ježíši Kristu. On je Pánem
+            všech.
+        </Lehrtext>
+        <Lehrtextvers>Skutky 10,36</Lehrtextvers>
+    </Losungen>
+    <Losungen>
+        <Datum>2019-01-15</Datum>
+        <Sonntag/>
+        <Wtag>Úterý</Wtag>
+        <Losungstext>O tvém jménu budu vyprávět svým bratřím.</Losungstext>
+        <Losungsvers>Žalm 22,23</Losungsvers>
+        <Lehrtext>Ženy rychle opustily hrob a se strachem i s velikou radostí běžely to oznámit jeho učedníkům.
+        </Lehrtext>
+        <Lehrtextvers>Matouš 28,8</Lehrtextvers>
+    </Losungen>
+    <Losungen>
+        <Datum>2019-01-16</Datum>
+        <Sonntag/>
+        <Wtag>Středa</Wtag>
+        <Losungstext>Kdyby tě tvůj bratr, syn tvé matky, nebo tvůj syn nebo tvá dcera nebo tvá vlastní žena nebo tvůj
+            nejmilejší přítel potají ponoukal: "Pojďme sloužit jiným bohům," které jsi neznal ty ani tvoji otcové,
+            nepřivolíš mu.
+        </Losungstext>
+        <Losungsvers>5.Mojžíšova 13,7.9</Losungsvers>
+        <Lehrtext>Svobodu nám vydobyl Kristus.</Lehrtext>
+        <Lehrtextvers>Galatským 5,1</Lehrtextvers>
+    </Losungen>
+    <Losungen>
+        <Datum>2019-01-17</Datum>
+        <Sonntag/>
+        <Wtag>Čtvrtek</Wtag>
+        <Losungstext>Jozue padl tváří k zemi, klaněl se a otázal se: "Jaký rozkaz má můj pán pro svého služebníka?"
+        </Losungstext>
+        <Losungsvers>Jozue 5,14</Losungsvers>
+        <Lehrtext>Blažené vaše oči, že vidí, i vaše uši, že slyší.</Lehrtext>
+        <Lehrtextvers>Matouš 13,16</Lehrtextvers>
+    </Losungen>
+    <Losungen>
+        <Datum>2019-01-18</Datum>
+        <Sonntag/>
+        <Wtag>Pátek</Wtag>
+        <Losungstext>Ve své tísni jsem volal Hospodina. Slyšel můj hlas.</Losungstext>
+        <Losungsvers>Žalm 18,7 Z</Losungsvers>
+        <Lehrtext>Ježíš se dotkl jejich očí a řekl: "Podle vaší víry se vám staň." A otevřely se jim oči.</Lehrtext>
+        <Lehrtextvers>Matouš 9,29-30</Lehrtextvers>
+    </Losungen>
+    <Losungen>
+        <Datum>2019-01-19</Datum>
+        <Sonntag/>
+        <Wtag>Sobota</Wtag>
+        <Losungstext>Když Hospodin zástupů rozhodl, kdo to zruší? Jeho paže je napřažena, kdo ji odvrátí?</Losungstext>
+        <Losungsvers>Izaiáš 14,27</Losungsvers>
+        <Lehrtext>Je-li Bůh s námi, kdo proti nám?</Lehrtext>
+        <Lehrtextvers>Římanům 8,31</Lehrtextvers>
+    </Losungen>
+    <Losungen>
+        <Datum>2019-01-20</Datum>
+        <Sonntag>2. neděle po Zjevení Páně</Sonntag>
+        <Wtag>Neděle</Wtag>
+        <Losungstext>Ať jdu nebo ležím, tys tak určil, všechny moje cesty jsou ti známy.</Losungstext>
+        <Losungsvers>Žalm 139,3 R</Losungsvers>
+        <Lehrtext>Což se neprodávají dva vrabci za jeden as? A přece ani jeden z nich nepadne na zemi bez vůle vašeho
+            Otce.
+        </Lehrtext>
+        <Lehrtextvers>Matouš 10,29 Ž</Lehrtextvers>
+    </Losungen>
+    <Losungen>
+        <Datum>2019-01-21</Datum>
+        <Sonntag/>
+        <Wtag>Pondělí</Wtag>
+        <Losungstext>Hospodin zástupů jest s námi, hradem vysokým jest nám Bůh Jákobův.</Losungstext>
+        <Losungsvers>Žalm 46,8 K</Losungsvers>
+        <Lehrtext>Pán je věrný; on vás posílí a ochrání od zlého.</Lehrtext>
+        <Lehrtextvers>2.Tesalonickým 3,3</Lehrtextvers>
+    </Losungen>
+    <Losungen>
+        <Datum>2019-01-22</Datum>
+        <Sonntag/>
+        <Wtag>Úterý</Wtag>
+        <Losungstext>Navrátíš-li se k Hospodinu, svému Bohu, a budeš ho poslouchat, ty i tvoji synové, celým svým srdcem
+            a celou svou duší podle všeho, co ti dnes přikazuji, změní Hospodin, tvůj Bůh, tvůj úděl a slituje se nad
+            tebou.
+        </Losungstext>
+        <Losungsvers>5.Mojžíšova 30,2.3</Losungsvers>
+        <Lehrtext>Přibližte se k Bohu, a přiblíží se k vám. Umejte ruce, hříšníci, a očisťte srdce vy, jenž jste dvojité
+            mysli.
+        </Lehrtext>
+        <Lehrtextvers>Jakubova 4,8-9 K</Lehrtextvers>
+    </Losungen>
+    <Losungen>
+        <Datum>2019-01-23</Datum>
+        <Sonntag/>
+        <Wtag>Středa</Wtag>
+        <Losungstext>Uzavřu s nimi smlouvu pokoje; bude to věčná smlouva s nimi.</Losungstext>
+        <Losungsvers>Ezechiel 37,26</Losungsvers>
+        <Lehrtext>Ježíš Kristus přišel a zvěstoval pokoj, pokoj vám, kteří jste dalecí, i těm, kteří jsou blízcí.
+        </Lehrtext>
+        <Lehrtextvers>Efezským 2,17</Lehrtextvers>
+    </Losungen>
+    <Losungen>
+        <Datum>2019-01-24</Datum>
+        <Sonntag/>
+        <Wtag>Čtvrtek</Wtag>
+        <Losungstext>Přijdou s pláčem a s prosbami o smilování, já je povedu. Dovedu je k potokům, jež mají vodu, cestou
+            přímou, na níž neklopýtnou. Budu Izraeli otcem.
+        </Losungstext>
+        <Losungsvers>Jeremiáš 31,9</Losungsvers>
+        <Lehrtext>Syn člověka přišel, aby hledal a spasil, co zahynulo.</Lehrtext>
+        <Lehrtextvers>Lukáš 19,10</Lehrtextvers>
+    </Losungen>
+    <Losungen>
+        <Datum>2019-01-25</Datum>
+        <Sonntag/>
+        <Wtag>Pátek</Wtag>
+        <Losungstext>Jak četné, Bože, jsou tvé skutky! Všechno s moudrostí jsi stvořil, plná je země tvého bohatství.
+        </Losungstext>
+        <Losungsvers>Žalm 104,24 F</Losungsvers>
+        <Lehrtext>Podívejte se na polní lilie, jak rostou: nepracují, nepředou - a pravím vám, že ani Šalomoun v celé
+            své nádheře nebyl tak oděn jako jedna z nich.
+        </Lehrtext>
+        <Lehrtextvers>Matouš 6,28-29</Lehrtextvers>
+    </Losungen>
+    <Losungen>
+        <Datum>2019-01-26</Datum>
+        <Sonntag/>
+        <Wtag>Sobota</Wtag>
+        <Losungstext>Aj, dnové jdou, dí Hospodin, v nichž vystaveno bude město toto Hospodinu.</Losungstext>
+        <Losungsvers>Jeremiáš 31,38 K</Losungsvers>
+        <Lehrtext>V tom městě se shromáždí sláva i čest národů.</Lehrtext>
+        <Lehrtextvers>Zjevení 21,26</Lehrtextvers>
+    </Losungen>
+    <Losungen>
+        <Datum>2019-01-27</Datum>
+        <Sonntag>Poslední neděle po Zjevení Páně</Sonntag>
+        <Wtag>Neděle</Wtag>
+        <Losungstext>Zachovej mne podle slova svého, abych žil, a nepřipusť, abych byl zahanben v naději své.
+        </Losungstext>
+        <Losungsvers>Žalm 119,116 F</Losungsvers>
+        <Lehrtext>Hle, otevřel jsem před tebou dveře, a nikdo je nemůže zavřít. Neboť ačkoli máš nepatrnou moc, zachoval
+            jsi mé slovo a mé jméno jsi nezapřel.
+        </Lehrtext>
+        <Lehrtextvers>Zjevení 3,8</Lehrtextvers>
+    </Losungen>
+    <Losungen>
+        <Datum>2019-01-28</Datum>
+        <Sonntag/>
+        <Wtag>Pondělí</Wtag>
+        <Losungstext>Hlasitý jásot nad zachráněním pod stany spravedlivých zaznívá. Pravice Páně pozvedla mě zas,
+            pravice Páně mocně zasáhla.
+        </Losungstext>
+        <Losungsvers>Žalm 118,15-16 R</Losungsvers>
+        <Lehrtext>Radujte se v Pánu vždycky, znovu říkám, radujte se!</Lehrtext>
+        <Lehrtextvers>Filipským 4,4</Lehrtextvers>
+    </Losungen>
+    <Losungen>
+        <Datum>2019-01-29</Datum>
+        <Sonntag/>
+        <Wtag>Úterý</Wtag>
+        <Losungstext>Naděje Izraele, jeho spasiteli v čase soužení! Proč jsi v zemi jako host, jak pocestný, který se
+            zdrží jen přes noc?
+        </Losungstext>
+        <Losungsvers>Jeremiáš 14,8</Losungsvers>
+        <Lehrtext>Nyní poznávám částečně, ale potom poznám plně, jako Bůh zná mne.</Lehrtext>
+        <Lehrtextvers>1.Korintským 13,12</Lehrtextvers>
+    </Losungen>
+    <Losungen>
+        <Datum>2019-01-30</Datum>
+        <Sonntag/>
+        <Wtag>Středa</Wtag>
+        <Losungstext>Hospodin na nás pamatuje, on nám žehná.</Losungstext>
+        <Losungsvers>Žalm 115,12</Losungsvers>
+        <Lehrtext>Radujte se, že vaše jména jsou zapsána v nebesích.</Lehrtext>
+        <Lehrtextvers>Lukáš 10,20</Lehrtextvers>
+    </Losungen>
+    <Losungen>
+        <Datum>2019-01-31</Datum>
+        <Sonntag/>
+        <Wtag>Čtvrtek</Wtag>
+        <Losungstext>Někdo tlachá, jako by probodával mečem, kdežto jazyk moudrých hojí.</Losungstext>
+        <Losungsvers>Přísloví 12,18</Losungsvers>
+        <Lehrtext>Představte si lodi: jsou tak veliké a jsou hnány prudkými větry, ale malé kormidlo je řídí, kamkoli
+            kormidelník chce. Tak i jazyk je malý úd, ale může se chlubit velkými věcmi.
+        </Lehrtext>
+        <Lehrtextvers>Jakubova 3,4-5</Lehrtextvers>
+    </Losungen>
+    <Losungen>
+        <Datum>2019-02-01</Datum>
+        <Sonntag/>
+        <Wtag>Pátek</Wtag>
+        <Losungstext>Slova má slyš, Hospodine, porozuměj tužebnému úpění mému. Pozoruj hlasu volání mého, králi můj a
+            Bože můj; nebo se tobě modlím.
+        </Losungstext>
+        <Losungsvers>Žalm 5,2-3 K</Losungsvers>
+        <Lehrtext>Věřím, pomoz mé nedověře.</Lehrtext>
+        <Lehrtextvers>Marek 9,24</Lehrtextvers>
+    </Losungen>
+    <Losungen>
+        <Datum>2019-02-02</Datum>
+        <Sonntag/>
+        <Wtag>Sobota</Wtag>
+        <Losungstext>Můj nářek jsi změnil v taneční rej, vysvlékls mě z žíněného roucha, opásal jsi mě radostí.
+        </Losungstext>
+        <Losungsvers>Žalm 30,12</Losungsvers>
+        <Lehrtext>Jeden z nich, jakmile zpozoroval, že je uzdraven, hned se vrátil a velikým hlasem velebil Boha.
+        </Lehrtext>
+        <Lehrtextvers>Lukáš 17,15</Lehrtextvers>
+    </Losungen>
+    <Losungen>
+        <Datum>2019-02-03</Datum>
+        <Sonntag>5. neděle před postní dobou</Sonntag>
+        <Wtag>Neděle</Wtag>
+        <Losungstext>Hle, přicházejí dny, je výrok Hospodinův, kdy uzavřu s domem izraelským i s domem judským novou
+            smlouvu.
+        </Losungstext>
+        <Losungsvers>Jeremiáš 31,31</Losungsvers>
+        <Lehrtext>Stojíte před Ježíšem, prostředníkem nové smlouvy.</Lehrtext>
+        <Lehrtextvers>Židům 12,22.24</Lehrtextvers>
+    </Losungen>
+    <Losungen>
+        <Datum>2019-02-04</Datum>
+        <Sonntag/>
+        <Wtag>Pondělí</Wtag>
+        <Losungstext>Zákon Hospodinův jest dokonalý, očerstvující duši.</Losungstext>
+        <Losungsvers>Žalm 19,8 K</Losungsvers>
+        <Lehrtext>V Kristu jsou skryty všechny poklady moudrosti a poznání.</Lehrtext>
+        <Lehrtextvers>Koloským 2,3</Lehrtextvers>
+    </Losungen>
+    <Losungen>
+        <Datum>2019-02-05</Datum>
+        <Sonntag/>
+        <Wtag>Úterý</Wtag>
+        <Losungstext>Hospodin jest útočiště chudého, útočiště v čas ssoužení.</Losungstext>
+        <Losungsvers>Žalm 9,10 K</Losungsvers>
+        <Lehrtext>Nezjedná Bůh právo svým vyvoleným, kteří k němu dnem i nocí volají, i když jim s pomocí prodlévá?
+        </Lehrtext>
+        <Lehrtextvers>Lukáš 18,7</Lehrtextvers>
+    </Losungen>
+    <Losungen>
+        <Datum>2019-02-06</Datum>
+        <Sonntag/>
+        <Wtag>Středa</Wtag>
+        <Losungstext>Ó země, země, země, slyš slovo Hospodinovo!</Losungstext>
+        <Losungsvers>Jeremiáš 22,29 K</Losungsvers>
+        <Lehrtext>Nespěme jako ostatní, nýbrž bděme a buďme střízliví.</Lehrtext>
+        <Lehrtextvers>1.Tesalonickým 5,6</Lehrtextvers>
+    </Losungen>
+    <Losungen>
+        <Datum>2019-02-07</Datum>
+        <Sonntag/>
+        <Wtag>Čtvrtek</Wtag>
+        <Losungstext>Spravedlivý je jako strom zasazený u tekoucí vody, který dává své ovoce v pravý čas, jemuž listí
+            neuvadá.
+        </Losungstext>
+        <Losungsvers>Žalm 1,3</Losungsvers>
+        <Lehrtext>Tím bude oslaven můj Otec, když ponesete hojné ovoce a budete mými učedníky.</Lehrtext>
+        <Lehrtextvers>Jan 15,8</Lehrtextvers>
+    </Losungen>
+    <Losungen>
+        <Datum>2019-02-08</Datum>
+        <Sonntag/>
+        <Wtag>Pátek</Wtag>
+        <Losungstext>Odpusť, prosím, nepravost lidu tohoto podlé velikého milosrdenství svého.</Losungstext>
+        <Losungsvers>4.Mojžíšova 14,19 K</Losungsvers>
+        <Lehrtext>Odpusť nám viny naše, jakož i my odpouštíme vinníkům našim.</Lehrtext>
+        <Lehrtextvers>Matouš 6,12 K</Lehrtextvers>
+    </Losungen>
+    <Losungen>
+        <Datum>2019-02-09</Datum>
+        <Sonntag/>
+        <Wtag>Sobota</Wtag>
+        <Losungstext>Podal jsi mi štít své spásy, tvoje pravice mě podepírá.</Losungstext>
+        <Losungsvers>Žalm 18,36</Losungsvers>
+        <Lehrtext>Nechte se posilňovati v Pánu, a to v moci síly jeho.</Lehrtext>
+        <Lehrtextvers>Efezským 6,10 S</Lehrtextvers>
+    </Losungen>
+    <Losungen>
+        <Datum>2019-02-10</Datum>
+        <Sonntag>4. neděle před postní dobou</Sonntag>
+        <Wtag>Neděle</Wtag>
+        <Losungstext>Na pomoc mi pospěš, Pane, spáso má!</Losungstext>
+        <Losungsvers>Žalm 38,23 R</Losungsvers>
+        <Lehrtext>Ježíš ležel na zádi lodi na polštáři a spal. Vzbudili ho a řekli mu: Mistře, je ti to jedno, že
+            hyneme?
+        </Lehrtext>
+        <Lehrtextvers>Marek 4,38 P</Lehrtextvers>
+    </Losungen>
+    <Losungen>
+        <Datum>2019-02-11</Datum>
+        <Sonntag/>
+        <Wtag>Pondělí</Wtag>
+        <Losungstext>Vrcholem radosti je být s tebou, ve tvé pravici je neskonalé blaho.</Losungstext>
+        <Losungsvers>Žalm 16,11</Losungsvers>
+        <Lehrtext>Ovoce Božího Ducha však je láska, radost, pokoj, trpělivost, laskavost, dobrota, věrnost, tichost a
+            sebeovládání.
+        </Lehrtext>
+        <Lehrtextvers>Galatským 5,22-23</Lehrtextvers>
+    </Losungen>
+    <Losungen>
+        <Datum>2019-02-12</Datum>
+        <Sonntag/>
+        <Wtag>Úterý</Wtag>
+        <Losungstext>Na Panovníku, našem Bohu, závisí slitování a odpuštění.</Losungstext>
+        <Losungsvers>Daniel 9,9</Losungsvers>
+        <Lehrtext>Buďte milosrdní, jako je milosrdný váš Otec.</Lehrtext>
+        <Lehrtextvers>Lukáš 6,36</Lehrtextvers>
+    </Losungen>
+    <Losungen>
+        <Datum>2019-02-13</Datum>
+        <Sonntag/>
+        <Wtag>Středa</Wtag>
+        <Losungstext>Hospodine, tys náš Otec, náš vykupitel odedávna, to je tvé jméno.</Losungstext>
+        <Losungsvers>Izaiáš 63,16</Losungsvers>
+        <Lehrtext>Modlete se takto: Otče náš, jenž jsi v nebesích, buď posvěceno tvé jméno.</Lehrtext>
+        <Lehrtextvers>Matouš 6,9</Lehrtextvers>
+    </Losungen>
+    <Losungen>
+        <Datum>2019-02-14</Datum>
+        <Sonntag/>
+        <Wtag>Čtvrtek</Wtag>
+        <Losungstext>Pamatujte na to, co bylo na počátku od věků! Já jsem Bůh a jiného už není, jsem Bůh a nic není jako
+            já.
+        </Losungstext>
+        <Losungsvers>Izaiáš 46,9</Losungsvers>
+        <Lehrtext>Patřte na vůdce a dokonavatele víry Ježíše.</Lehrtext>
+        <Lehrtextvers>Židům 12,2 K</Lehrtextvers>
+    </Losungen>
+    <Losungen>
+        <Datum>2019-02-15</Datum>
+        <Sonntag/>
+        <Wtag>Pátek</Wtag>
+        <Losungstext>Dám vám nové srdce a do nitra vám vložím nového ducha.</Losungstext>
+        <Losungsvers>Ezechiel 36,26</Losungsvers>
+        <Lehrtext>Vysvobozeni jsouce od hříchu učiněni jste služebníci spravedlnosti.</Lehrtext>
+        <Lehrtextvers>Římanům 6,18 K</Lehrtextvers>
+    </Losungen>
+    <Losungen>
+        <Datum>2019-02-16</Datum>
+        <Sonntag/>
+        <Wtag>Sobota</Wtag>
+        <Losungstext>Chvalte Hospodina všickni národové, velebte ho všickni lidé.</Losungstext>
+        <Losungsvers>Žalm 117,1 K</Losungsvers>
+        <Lehrtext>Jeden je Bůh a Otec všech, který je nade všemi, skrze všechny působí a je ve všech.</Lehrtext>
+        <Lehrtextvers>Efezským 4,6</Lehrtextvers>
+    </Losungen>
+    <Losungen>
+        <Datum>2019-02-17</Datum>
+        <Sonntag>Septuagesimae</Sonntag>
+        <Wtag>Neděle</Wtag>
+        <Losungstext>Národy, chvalte našeho Boha a všude šiřte jeho chválu! On naší duši daroval život, našim nohám
+            klopýtnout nedal.
+        </Losungstext>
+        <Losungsvers>Žalm 66,8-9 R</Losungsvers>
+        <Lehrtext>Máme sloužit k tomu, aby se šířila chvála o jeho božské velebnosti, my totiž, kdo jsme už dříve kladli
+            do Mesiáše své naděje.
+        </Lehrtext>
+        <Lehrtextvers>Efezským 1,12 P</Lehrtextvers>
+    </Losungen>
+    <Losungen>
+        <Datum>2019-02-18</Datum>
+        <Sonntag/>
+        <Wtag>Pondělí</Wtag>
+        <Losungstext>Bůh působí bolest, ale též obváže rány, co rozdrtí, vyléčí svou rukou.</Losungstext>
+        <Losungsvers>Jób 5,18</Losungsvers>
+        <Lehrtext>Pokořte se tedy pod mocnou ruku Boží, aby vás povýšil v ustanovený čas. Všechnu "svou starost vložte
+            na něj", neboť mu na vás záleží.
+        </Lehrtext>
+        <Lehrtextvers>1.Petrova 5,6-7</Lehrtextvers>
+    </Losungen>
+    <Losungen>
+        <Datum>2019-02-19</Datum>
+        <Sonntag/>
+        <Wtag>Úterý</Wtag>
+        <Losungstext>Má duše touží po tvé spáse. Doufám ve slovo tvé.</Losungstext>
+        <Losungsvers>Žalm 119,81 F</Losungsvers>
+        <Lehrtext>Zůstanete-li v mém slovu, jste opravdu mými učedníky.</Lehrtext>
+        <Lehrtextvers>Jan 8,31</Lehrtextvers>
+    </Losungen>
+    <Losungen>
+        <Datum>2019-02-20</Datum>
+        <Sonntag/>
+        <Wtag>Středa</Wtag>
+        <Losungstext>Rozpínám své ruce k tobě, má duše po tobě žízní jako vyprahlá země.</Losungstext>
+        <Losungsvers>Žalm 143,6</Losungsvers>
+        <Lehrtext>Pojďte ke mně všichni, kdo se lopotíte a jste obtíženi, a já vás občerstvím.</Lehrtext>
+        <Lehrtextvers>Matouš 11,28 P</Lehrtextvers>
+    </Losungen>
+    <Losungen>
+        <Datum>2019-02-21</Datum>
+        <Sonntag/>
+        <Wtag>Čtvrtek</Wtag>
+        <Losungstext>Kdo porozumí vlastním omylům? Od mých skrytých chyb mne, Pane, očisti.</Losungstext>
+        <Losungsvers>Žalm 19,13 F</Losungsvers>
+        <Lehrtext>Kdo ke mně přijde, toho nevyženu ven.</Lehrtext>
+        <Lehrtextvers>Jan 6,37</Lehrtextvers>
+    </Losungen>
+    <Losungen>
+        <Datum>2019-02-22</Datum>
+        <Sonntag/>
+        <Wtag>Pátek</Wtag>
+        <Losungstext>Nikdo z obyvatel už neřekne: "Jsem nemocen." Lidu, který tam bydlí, bude odpuštěna nepravost.
+        </Losungstext>
+        <Losungsvers>Izaiáš 33,24</Losungsvers>
+        <Lehrtext>Skrze Ježíše Krista se nám dostalo přístupu k té milosti, v níž stojíme.</Lehrtext>
+        <Lehrtextvers>Římanům 5,1-2 Ž</Lehrtextvers>
+    </Losungen>
+    <Losungen>
+        <Datum>2019-02-23</Datum>
+        <Sonntag/>
+        <Wtag>Sobota</Wtag>
+        <Losungstext>Hle, přicházejí dny, je výrok Hospodinův, kdy půjde oráč hned za žencem a ten, kdo šlape hrozny,
+            hned za rozsévačem. Z hor bude kanout víno a všechny pahorky budou oplývat vláhou. Úděl Izraele, svého lidu,
+            změním, oni znovu vybudují města.
+        </Losungstext>
+        <Losungsvers>Amos 9,13-14</Losungsvers>
+        <Lehrtext>Anděl mi ukázal: uprostřed města na náměstí, z obou stran řeky, bylo stromoví života nesoucí ovoce
+            dvanáctkrát do roka; každý měsíc dozrává na něm ovoce a jeho listí má léčivou moc pro všechny národy.
+        </Lehrtext>
+        <Lehrtextvers>Zjevení 22,2</Lehrtextvers>
+    </Losungen>
+    <Losungen>
+        <Datum>2019-02-24</Datum>
+        <Sonntag>Sexagesimae</Sonntag>
+        <Wtag>Neděle</Wtag>
+        <Losungstext>O Hospodinově milosrdenství chci zpívat věčně, svými ústy v známost uvádět tvou věrnost po všechna
+            pokolení.
+        </Losungstext>
+        <Losungsvers>Žalm 89,2</Losungsvers>
+        <Lehrtext>Z plnosti jeho my všickni vzali jsme, a to milost za milost.</Lehrtext>
+        <Lehrtextvers>Jan 1,16 K</Lehrtextvers>
+    </Losungen>
+    <Losungen>
+        <Datum>2019-02-25</Datum>
+        <Sonntag/>
+        <Wtag>Pondělí</Wtag>
+        <Losungstext>V oněch dnech a v onen čas, je výrok Hospodinův, budou hledat Izraelovu nepravost, ale žádná
+            nebude, a Judův hřích, ale nebude nalezen, neboť odpustím těm, které zanechám.
+        </Losungstext>
+        <Losungsvers>Jeremiáš 50,20</Losungsvers>
+        <Lehrtext>Chlubíme se Bohem skrze našeho Pána Ježíše Krista, který nás s ním smířil.</Lehrtext>
+        <Lehrtextvers>Římanům 5,11</Lehrtextvers>
+    </Losungen>
+    <Losungen>
+        <Datum>2019-02-26</Datum>
+        <Sonntag/>
+        <Wtag>Úterý</Wtag>
+        <Losungstext>Ten, kdo bude s vámi přebývat jako host, bude vám jako domorodec mezi vámi.</Losungstext>
+        <Losungsvers>3.Mojžíšova 19,34</Losungsvers>
+        <Lehrtext>Věrně jednáš, milovaný, v tom, co činíš pro bratry, a to pro ty, kteří přišli odjinud; oni vydali před
+            církví svědectví o tvé lásce. Dobře učiníš, když je vypravíš na další cestu, jak se sluší před Bohem.
+        </Lehrtext>
+        <Lehrtextvers>3.Janova 1,5-6</Lehrtextvers>
+    </Losungen>
+    <Losungen>
+        <Datum>2019-02-27</Datum>
+        <Sonntag/>
+        <Wtag>Středa</Wtag>
+        <Losungstext>Ztracenou vypátrám, zaběhlou přivedu zpět, polámanou ovážu a nemocnou posílím.</Losungstext>
+        <Losungsvers>Ezechiel 34,16</Losungsvers>
+        <Lehrtext>Co myslíte? Má-li někdo sto ovcí a jedna z nich zabloudí, nenechá těch devadesát devět na horách a
+            nejde hledat tu, která zbloudila?
+        </Lehrtext>
+        <Lehrtextvers>Matouš 18,12</Lehrtextvers>
+    </Losungen>
+    <Losungen>
+        <Datum>2019-02-28</Datum>
+        <Sonntag/>
+        <Wtag>Čtvrtek</Wtag>
+        <Losungstext>Všechno tvorstvo je tráva a všechna jeho spolehlivost jako polní kvítí. Tráva usychá, květ vadne,
+            ale slovo Boha našeho je stálé navěky.
+        </Losungstext>
+        <Losungsvers>Izaiáš 40,6.8</Losungsvers>
+        <Lehrtext>Nebe a země pominou, ale má slova nepominou.</Lehrtext>
+        <Lehrtextvers>Matouš 24,35</Lehrtextvers>
+    </Losungen>
+    <Losungen>
+        <Datum>2019-03-01</Datum>
+        <Sonntag/>
+        <Wtag>Pátek</Wtag>
+        <Losungstext>Hospodin razí cestu mořem, dravými vodami stezku.</Losungstext>
+        <Losungsvers>Izaiáš 43,16</Losungsvers>
+        <Lehrtext>V ničem se nestrachujete protivníků.</Lehrtext>
+        <Lehrtextvers>Filipským 1,28</Lehrtextvers>
+    </Losungen>
+    <Losungen>
+        <Datum>2019-03-02</Datum>
+        <Sonntag/>
+        <Wtag>Sobota</Wtag>
+        <Losungstext>Člověk nežije pouze chlebem, ale vším, co vychází z Hospodinových úst.</Losungstext>
+        <Losungsvers>5.Mojžíšova 8,3</Losungsvers>
+        <Lehrtext>Slova, která jsem k vám mluvil, jsou Duch a jsou život.</Lehrtext>
+        <Lehrtextvers>Jan 6,63</Lehrtextvers>
+    </Losungen>
+    <Losungen>
+        <Datum>2019-03-03</Datum>
+        <Sonntag>Estomihi</Sonntag>
+        <Wtag>Neděle</Wtag>
+        <Losungstext>Hospodin stojí po pravici nuznému, aby ho zachoval od těch, kteříž odsuzují život jeho.
+        </Losungstext>
+        <Losungsvers>Žalm 109,31 K</Losungsvers>
+        <Lehrtext>Když na Ježíše nepřestávali naléhat, zvedl se a řekl: "Kdo z vás je bez hříchu, první hoď na ni
+            kamenem!"
+        </Lehrtext>
+        <Lehrtextvers>Jan 8,7</Lehrtextvers>
+    </Losungen>
+    <Losungen>
+        <Datum>2019-03-04</Datum>
+        <Sonntag/>
+        <Wtag>Pondělí</Wtag>
+        <Losungstext>Kdo je jako Hospodin, náš Bůh, jenž tak vysoko trůní, sestupuje níže, aby viděl na nebesa a na
+            zemi, nuzného pozvedá z prachu, z kalu vytahuje ubožáka?
+        </Losungstext>
+        <Losungsvers>Žalm 113,5-7</Losungsvers>
+        <Lehrtext>Ježíš Kristus byl způsobem bytí roven Bohu, a přece na své rovnosti nelpěl, nýbrž sám sebe zmařil,
+            vzal na sebe způsob služebníka, stal se jedním z lidí.
+        </Lehrtext>
+        <Lehrtextvers>Filipským 2,6-7</Lehrtextvers>
+    </Losungen>
+    <Losungen>
+        <Datum>2019-03-05</Datum>
+        <Sonntag/>
+        <Wtag>Úterý</Wtag>
+        <Losungstext>Stezka spravedlivých je jak jasné světlo, které svítí stále víc, až je tu den.</Losungstext>
+        <Losungsvers>Přísloví 4,18</Losungsvers>
+        <Lehrtext>Já jsem světlo světa; kdo mě následuje, nebude chodit ve tmě, ale bude mít světlo života.</Lehrtext>
+        <Lehrtextvers>Jan 8,12</Lehrtextvers>
+    </Losungen>
+    <Losungen>
+        <Datum>2019-03-06</Datum>
+        <Sonntag/>
+        <Wtag>Středa</Wtag>
+        <Losungstext>Rozjasni tvář nad svým služebníkem, ve svém milosrdenství mě zachraň.</Losungstext>
+        <Losungsvers>Žalm 31,17</Losungsvers>
+        <Lehrtext>Duše má velebí Pána a můj duch jásá v Bohu, mém spasiteli, že se sklonil ke své služebnici v jejím
+            ponížení.
+        </Lehrtext>
+        <Lehrtextvers>Lukáš 1,46-48</Lehrtextvers>
+    </Losungen>
+    <Losungen>
+        <Datum>2019-03-07</Datum>
+        <Sonntag/>
+        <Wtag>Čtvrtek</Wtag>
+        <Losungstext>Hospodin je útočiště svého lidu a záštita synů Izraele.</Losungstext>
+        <Losungsvers>Joel 4,16</Losungsvers>
+        <Lehrtext>Nalezli jsme útočiště v tom, abychom dosáhli naděje ležící před námi. Tato naděje jest kotvou duše
+            bezpečnou a pevnou.
+        </Lehrtext>
+        <Lehrtextvers>Židům 6,18-19 Ž</Lehrtextvers>
+    </Losungen>
+    <Losungen>
+        <Datum>2019-03-08</Datum>
+        <Sonntag/>
+        <Wtag>Pátek</Wtag>
+        <Losungstext>Já jsem Hospodin, toť jest jméno mé, a slávy své jinému nedám, ani chvály své rytinám.
+        </Losungstext>
+        <Losungsvers>Izaiáš 42,8 K</Losungsvers>
+        <Lehrtext>Máme jediného Boha Otce, z něhož všecko, a my v něm, a jednoho Pána Ježíše Krista, skrze něhož všecko,
+            i my skrze něho.
+        </Lehrtext>
+        <Lehrtextvers>1.Korintským 8,6 K</Lehrtextvers>
+    </Losungen>
+    <Losungen>
+        <Datum>2019-03-09</Datum>
+        <Sonntag/>
+        <Wtag>Sobota</Wtag>
+        <Losungstext>Jako jsem nad nimi bděl, abych rozvracel a podvracel, bořil a ničil a škodil, tak budu nad nimi
+            bdít, abych budoval a sázel, je výrok Hospodinův.
+        </Losungstext>
+        <Losungsvers>Jeremiáš 31,28</Losungsvers>
+        <Lehrtext>Bůh nás neurčil k tomu, abychom propadli jeho hněvu, nýbrž abychom došli spásy skrze našeho Pána
+            Ježíše Krista.
+        </Lehrtext>
+        <Lehrtextvers>1.Tesalonickým 5,9</Lehrtextvers>
+    </Losungen>
+    <Losungen>
+        <Datum>2019-03-10</Datum>
+        <Sonntag>Invocavit</Sonntag>
+        <Wtag>Neděle</Wtag>
+        <Losungstext>Když jsem mlčel, byl jsem sžírán do kostí, dnem i nocí mne tížila tvá ruka. Konečně jsem se ti
+            přiznal ke špatnosti.
+        </Losungstext>
+        <Losungsvers>Žalm 32,3.4.5 R</Losungsvers>
+        <Lehrtext>Je radost před anděly Božími nad jedním hříšníkem, který činí pokání.</Lehrtext>
+        <Lehrtextvers>Lukáš 15,10</Lehrtextvers>
+    </Losungen>
+    <Losungen>
+        <Datum>2019-03-11</Datum>
+        <Sonntag/>
+        <Wtag>Pondělí</Wtag>
+        <Losungstext>Procítiv Jákob ze sna svého, řekl: V pravdě Hospodin jest na místě tomto, a já jsem nevěděl.
+        </Losungstext>
+        <Losungsvers>1.Mojžíšova 28,16 K</Losungsvers>
+        <Lehrtext>Hle, nyní je čas příhodný, nyní je den spásy!</Lehrtext>
+        <Lehrtextvers>2.Korintským 6,2</Lehrtextvers>
+    </Losungen>
+    <Losungen>
+        <Datum>2019-03-12</Datum>
+        <Sonntag/>
+        <Wtag>Úterý</Wtag>
+        <Losungstext>Nebudeš dychtit po ženě svého bližního.</Losungstext>
+        <Losungsvers>5.Mojžíšova 5,21</Losungsvers>
+        <Lehrtext>Láska neudělá bližnímu nic zlého.</Lehrtext>
+        <Lehrtextvers>Římanům 13,10</Lehrtextvers>
+    </Losungen>
+    <Losungen>
+        <Datum>2019-03-13</Datum>
+        <Sonntag/>
+        <Wtag>Středa</Wtag>
+        <Losungstext>Nad tvou pomocí mé srdce plesá.</Losungstext>
+        <Losungsvers>Žalm 13,6 R</Losungsvers>
+        <Lehrtext>Trápí někoho z vás něco? Ať se modlí! Má někdo radost? Ať zazpívá duchovní píseň!</Lehrtext>
+        <Lehrtextvers>Jakubova 5,13 J</Lehrtextvers>
+    </Losungen>
+    <Losungen>
+        <Datum>2019-03-14</Datum>
+        <Sonntag/>
+        <Wtag>Čtvrtek</Wtag>
+        <Losungstext>Jsem druhem všech, kteří se tě bojí a tvých ustanovení se drží.</Losungstext>
+        <Losungsvers>Žalm 119,63</Losungsvers>
+        <Lehrtext>Nechť ve vás přebývá slovo Kristovo v celém svém bohatství: se vší moudrostí se navzájem učte.
+        </Lehrtext>
+        <Lehrtextvers>Koloským 3,16</Lehrtextvers>
+    </Losungen>
+    <Losungen>
+        <Datum>2019-03-15</Datum>
+        <Sonntag/>
+        <Wtag>Pátek</Wtag>
+        <Losungstext>Uplatňujte právo a spravedlnost, vysvobozujte oloupeného z rukou utiskovatele, netýrejte
+            bezdomovce, sirotka a vdovu, nedopouštějte se násilí.
+        </Losungstext>
+        <Losungsvers>Jeremiáš 22,3</Losungsvers>
+        <Lehrtext>Žijte jako děti světla; ovocem světla je vždy dobrota, spravedlnost a pravda.</Lehrtext>
+        <Lehrtextvers>Efezským 5,8-9</Lehrtextvers>
+    </Losungen>
+    <Losungen>
+        <Datum>2019-03-16</Datum>
+        <Sonntag/>
+        <Wtag>Sobota</Wtag>
+        <Losungstext>Bůh je spravedlivý, miluje spravedlnost.</Losungstext>
+        <Losungsvers>Žalm 11,7 F</Losungsvers>
+        <Lehrtext>Buďte tedy dokonalí, jako je dokonalý váš nebeský Otec.</Lehrtext>
+        <Lehrtextvers>Matouš 5,48</Lehrtextvers>
+    </Losungen>
+    <Losungen>
+        <Datum>2019-03-17</Datum>
+        <Sonntag>Reminiscere</Sonntag>
+        <Wtag>Neděle</Wtag>
+        <Losungstext>Otec seznámí s tvou věrností své syny.</Losungstext>
+        <Losungsvers>Izaiáš 38,19</Losungsvers>
+        <Lehrtext>Nechte děti a nebraňte jim jít ke mně; neboť takovým patří království nebeské.</Lehrtext>
+        <Lehrtextvers>Matouš 19,14</Lehrtextvers>
+    </Losungen>
+    <Losungen>
+        <Datum>2019-03-18</Datum>
+        <Sonntag/>
+        <Wtag>Pondělí</Wtag>
+        <Losungstext>Běda těm, kdo nařizují ničemná nařízení, nuzným odnímají možnost obhajoby, utištěné mého lidu
+            zbavují práva!
+        </Losungstext>
+        <Losungsvers>Izaiáš 10,1.2</Losungsvers>
+        <Lehrtext>A nepřizpůsobujte se tomuto věku, nýbrž proměňujte se obnovou své mysli, abyste mohli rozpoznat, co je
+            vůle Boží, co je dobré, Bohu milé a dokonalé.
+        </Lehrtext>
+        <Lehrtextvers>Římanům 12,2</Lehrtextvers>
+    </Losungen>
+    <Losungen>
+        <Datum>2019-03-19</Datum>
+        <Sonntag/>
+        <Wtag>Úterý</Wtag>
+        <Losungstext>Všechno tvorstvo pozná, že já Hospodin jsem tvůj spasitel a tvůj vykupitel.</Losungstext>
+        <Losungsvers>Izaiáš 49,26</Losungsvers>
+        <Lehrtext>S královstvím nebeským je to tak, jako když jeden král vystrojil svatbu svému synu. Služebníci vyšli
+            na cesty a shromáždili všechny, které nalezli, zlé i dobré; a svatební síň se naplnila stolovníky.
+        </Lehrtext>
+        <Lehrtextvers>Matouš 22,2.10</Lehrtextvers>
+    </Losungen>
+    <Losungen>
+        <Datum>2019-03-20</Datum>
+        <Sonntag/>
+        <Wtag>Středa</Wtag>
+        <Losungstext>Cožkoli mluvil Hospodin, činiti a poslouchati budeme.</Losungstext>
+        <Losungsvers>2.Mojžíšova 24,7 K</Losungsvers>
+        <Lehrtext>Kdo činí vůli mého Otce v nebesích, to je můj bratr, má sestra i matka.</Lehrtext>
+        <Lehrtextvers>Matouš 12,50</Lehrtextvers>
+    </Losungen>
+    <Losungen>
+        <Datum>2019-03-21</Datum>
+        <Sonntag/>
+        <Wtag>Čtvrtek</Wtag>
+        <Losungstext>Hospodin sehnuté napřimuje.</Losungstext>
+        <Losungsvers>Žalm 146,8</Losungsvers>
+        <Lehrtext>Tak jste nás, bratří, ve vší naší tísni a soužení potěšili svou vírou. Nyní jsme zase živi, když vy
+            pevně stojíte v Pánu.
+        </Lehrtext>
+        <Lehrtextvers>1.Tesalonickým 3,7-8</Lehrtextvers>
+    </Losungen>
+    <Losungen>
+        <Datum>2019-03-22</Datum>
+        <Sonntag/>
+        <Wtag>Pátek</Wtag>
+        <Losungstext>Zjev svým služebníkům svoje dílo, jejich dětem všechnu slávu svou!</Losungstext>
+        <Losungsvers>Žalm 90,16 R</Losungsvers>
+        <Lehrtext>Pohleďte na nebeské ptactvo: neseje, nežne, nesklízí do stodol, a přece je váš nebeský Otec živí. Což
+            vy nejste o mnoho cennější?
+        </Lehrtext>
+        <Lehrtextvers>Matouš 6,26</Lehrtextvers>
+    </Losungen>
+    <Losungen>
+        <Datum>2019-03-23</Datum>
+        <Sonntag/>
+        <Wtag>Sobota</Wtag>
+        <Losungstext>Podlé rady své veď mne, a potom v slávu přijmeš mne.</Losungstext>
+        <Losungsvers>Žalm 73,24 K</Losungsvers>
+        <Lehrtext>Dobrý boj jsem bojoval, běh jsem dokončil, víru zachoval. Nyní je pro mne připraven vavřín
+            spravedlnosti, který mi dá v onen den Pán, ten spravedlivý soudce.
+        </Lehrtext>
+        <Lehrtextvers>2.Timoteovi 4,7-8</Lehrtextvers>
+    </Losungen>
+    <Losungen>
+        <Datum>2019-03-24</Datum>
+        <Sonntag>Oculi</Sonntag>
+        <Wtag>Neděle</Wtag>
+        <Losungstext>Pane, jsem zmožen, přijď mi na pomoc!</Losungstext>
+        <Losungsvers>Izaiáš 38,14 J</Losungsvers>
+        <Lehrtext>Když Ježíš vstoupil do domu Petrova, spatřil, že jeho tchyně leží v horečce. Dotkl se její ruky a
+            horečka ji opustila; i vstala a obsluhovala ho.
+        </Lehrtext>
+        <Lehrtextvers>Matouš 8,14-15</Lehrtextvers>
+    </Losungen>
+    <Losungen>
+        <Datum>2019-03-25</Datum>
+        <Sonntag/>
+        <Wtag>Pondělí</Wtag>
+        <Losungstext>Synové tvého lidu říkají: "Panovníkova cesta není správná." Nejsou však správné jejich cesty.
+        </Losungstext>
+        <Losungsvers>Ezechiel 33,17</Losungsvers>
+        <Lehrtext>Milujete-li mne, budete zachovávat má přikázání.</Lehrtext>
+        <Lehrtextvers>Jan 14,15</Lehrtextvers>
+    </Losungen>
+    <Losungen>
+        <Datum>2019-03-26</Datum>
+        <Sonntag/>
+        <Wtag>Úterý</Wtag>
+        <Losungstext>Hříchů mladosti mé a přestoupení mých nezpomínej, ale podlé milosrdenství svého pamětliv buď na mne
+            pro dobrotu svou, Hospodine.
+        </Losungstext>
+        <Losungsvers>Žalm 25,7 K</Losungsvers>
+        <Lehrtext>Bůh, bohatý v milosrdenství, z velké lásky, jíž si nás zamiloval, probudil nás k životu spolu s
+            Kristem, když jsme byli mrtvi pro své hříchy. Milostí jste spaseni!
+        </Lehrtext>
+        <Lehrtextvers>Efezským 2,4-5</Lehrtextvers>
+    </Losungen>
+    <Losungen>
+        <Datum>2019-03-27</Datum>
+        <Sonntag/>
+        <Wtag>Středa</Wtag>
+        <Losungstext>Neboj se, muži vzácný, pokoj tobě! Vzchop se, vzchop se!</Losungstext>
+        <Losungsvers>Daniel 10,19</Losungsvers>
+        <Lehrtext>Pokoj vám zanechávám, svůj pokoj vám dávám; ne jako dává svět, já vám dávám. Ať se vaše srdce nechvěje
+            a neděsí!
+        </Lehrtext>
+        <Lehrtextvers>Jan 14,27</Lehrtextvers>
+    </Losungen>
+    <Losungen>
+        <Datum>2019-03-28</Datum>
+        <Sonntag/>
+        <Wtag>Čtvrtek</Wtag>
+        <Losungstext>Nebudete pokoušeti Hospodina Boha svého.</Losungstext>
+        <Losungsvers>5.Mojžíšova 6,16 K</Losungsvers>
+        <Lehrtext>Staň se tvá vůle jako v nebi, tak i na zemi.</Lehrtext>
+        <Lehrtextvers>Matouš 6,10</Lehrtextvers>
+    </Losungen>
+    <Losungen>
+        <Datum>2019-03-29</Datum>
+        <Sonntag/>
+        <Wtag>Pátek</Wtag>
+        <Losungstext>Postaví se a bude je pást v Hospodinově moci.</Losungstext>
+        <Losungsvers>Micheáš 5,3</Losungsvers>
+        <Lehrtext>Všechny čeledi země uzří Syna člověka přicházet na oblacích nebeských s velkou mocí a slávou.
+        </Lehrtext>
+        <Lehrtextvers>Matouš 24,30</Lehrtextvers>
+    </Losungen>
+    <Losungen>
+        <Datum>2019-03-30</Datum>
+        <Sonntag/>
+        <Wtag>Sobota</Wtag>
+        <Losungstext>Nepřidáš se k většině, páchá-li zlo.</Losungstext>
+        <Losungsvers>2.Mojžíšova 23,2</Losungsvers>
+        <Lehrtext>Setrvejte v bratrské lásce.</Lehrtext>
+        <Lehrtextvers>Židům 13,1 J</Lehrtextvers>
+    </Losungen>
+    <Losungen>
+        <Datum>2019-03-31</Datum>
+        <Sonntag>Laetare</Sonntag>
+        <Wtag>Neděle</Wtag>
+        <Losungstext>Kdo miluje peníze, nenasytí se penězi; a kdo miluje hojnost, nebude míti užitku.</Losungstext>
+        <Losungsvers>Kazatel 5,10 K</Losungsvers>
+        <Lehrtext>Opatřte si měšce, které se nerozpadnou, nevyčerpatelný poklad v nebi, kam se zloděj nedostane a kde
+            mol neničí. Neboť kde je váš poklad, tam bude i vaše srdce.
+        </Lehrtext>
+        <Lehrtextvers>Lukáš 12,33-34</Lehrtextvers>
+    </Losungen>
+    <Losungen>
+        <Datum>2019-04-01</Datum>
+        <Sonntag/>
+        <Wtag>Pondělí</Wtag>
+        <Losungstext>Tužbu pokorných vyslýcháš, Hospodine, jejich srdce posiluješ.</Losungstext>
+        <Losungsvers>Žalm 10,17</Losungsvers>
+        <Lehrtext>Bůh naděje nechť vás naplní veškerou radostí a pokojem ve víře, aby se rozhojnila vaše naděje mocí
+            Ducha svatého.
+        </Lehrtext>
+        <Lehrtextvers>Římanům 15,13</Lehrtextvers>
+    </Losungen>
+    <Losungen>
+        <Datum>2019-04-02</Datum>
+        <Sonntag/>
+        <Wtag>Úterý</Wtag>
+        <Losungstext>Izraelci úpěli k Hospodinu a Hospodin jim povolal vysvoboditele, aby je vysvobodil.</Losungstext>
+        <Losungsvers>Soudců 3,9</Losungsvers>
+        <Lehrtext>Ježíš Kristus je věrný svědek, prvorozený z mrtvých a vládce králů země. Jemu, jenž nás miluje a svou
+            krví nás zprostil hříchů, buď sláva i moc navěky.
+        </Lehrtext>
+        <Lehrtextvers>Zjevení 1,5.6</Lehrtextvers>
+    </Losungen>
+    <Losungen>
+        <Datum>2019-04-03</Datum>
+        <Sonntag/>
+        <Wtag>Středa</Wtag>
+        <Losungstext>Kdo je mezi bohy jako ty, Hospodine? Kdo je jako ty, tak velkolepý ve svatosti, hrozný v
+            chvályhodných skutcích, konající divy?
+        </Losungstext>
+        <Losungsvers>2.Mojžíšova 15,11</Losungsvers>
+        <Lehrtext>Víme, že přišel Boží Syn a dal nám porozumění, abychom znali Pravého. Dětičky, chraňte se před
+            modlami!
+        </Lehrtext>
+        <Lehrtextvers>1.Janova 5,20.21 MP</Lehrtextvers>
+    </Losungen>
+    <Losungen>
+        <Datum>2019-04-04</Datum>
+        <Sonntag/>
+        <Wtag>Čtvrtek</Wtag>
+        <Losungstext>Hle, říkají: "Naše kosti uschly, zanikla naše naděje, jsme ztraceni." Proto prorokuj a řekni jim:
+            Toto praví Panovník Hospodin: Hle, já otevřu vaše hroby a vyvedu vás z vašich hrobů, můj lide.
+        </Losungstext>
+        <Losungsvers>Ezechiel 37,11-12</Losungsvers>
+        <Lehrtext>Přichází hodina, ano, už je tu, kdy mrtví uslyší hlas Božího Syna, a kteří uslyší, budou žít.
+        </Lehrtext>
+        <Lehrtextvers>Jan 5,25</Lehrtextvers>
+    </Losungen>
+    <Losungen>
+        <Datum>2019-04-05</Datum>
+        <Sonntag/>
+        <Wtag>Pátek</Wtag>
+        <Losungstext>Nepustím tě, leč mi požehnáš.</Losungstext>
+        <Losungsvers>1.Mojžíšova 32,26 K</Losungsvers>
+        <Lehrtext>A hle, žena trpící už dvanáct let krvácením přišla zezadu a dotkla se třásní jeho šatu. Říkala si
+            totiž: "Dotknu-li se aspoň jeho šatu, budu zachráněna!" Ježíš se obrátil a spatřiv ji řekl: "Buď dobré
+            mysli, dcero, tvá víra tě zachránila."
+        </Lehrtext>
+        <Lehrtextvers>Matouš 9,20-22</Lehrtextvers>
+    </Losungen>
+    <Losungen>
+        <Datum>2019-04-06</Datum>
+        <Sonntag/>
+        <Wtag>Sobota</Wtag>
+        <Losungstext>Uznávám, že všechno můžeš a že žádný záměr tobě není neproveditelný.</Losungstext>
+        <Losungsvers>Jób 42,2</Losungsvers>
+        <Lehrtext>Pane, nejsem hoden, abys vstoupil pod mou střechu; ale řekni jen slovo, a můj sluha bude uzdraven.
+        </Lehrtext>
+        <Lehrtextvers>Matouš 8,8</Lehrtextvers>
+    </Losungen>
+    <Losungen>
+        <Datum>2019-04-07</Datum>
+        <Sonntag>Judica</Sonntag>
+        <Wtag>Neděle</Wtag>
+        <Losungstext>Mé srdce i tělo radostně volá k živému Bohu.</Losungstext>
+        <Losungsvers>Žalm 84,3 CSP</Losungsvers>
+        <Lehrtext>Zůstaňte v mé lásce. To jsem vám pověděl, aby moje radost byla ve vás a vaše radost aby byla plná.
+        </Lehrtext>
+        <Lehrtextvers>Jan 15,9.11</Lehrtextvers>
+    </Losungen>
+    <Losungen>
+        <Datum>2019-04-08</Datum>
+        <Sonntag/>
+        <Wtag>Pondělí</Wtag>
+        <Losungstext>Na Pána duše má čeká víc než strážní na úsvit.</Losungstext>
+        <Losungsvers>Žalm 130,6 R</Losungsvers>
+        <Lehrtext>Ale vy, milovaní, budujte svůj život na přesvaté víře, modlete se v Duchu svatém, uchovejte se v lásce
+            Boží a očekávejte milosrdenství našeho Pána Ježíše Krista.
+        </Lehrtext>
+        <Lehrtextvers>Judova 1,20-21</Lehrtextvers>
+    </Losungen>
+    <Losungen>
+        <Datum>2019-04-09</Datum>
+        <Sonntag/>
+        <Wtag>Úterý</Wtag>
+        <Losungstext>Pro svůj dům budu tábořit jako přední stráž.</Losungstext>
+        <Losungsvers>Zachariáš 9,8 J</Losungsvers>
+        <Lehrtext>Na této skále zbuduji svou církev a brány pekel ji nepřemohou.</Lehrtext>
+        <Lehrtextvers>Matouš 16,18</Lehrtextvers>
+    </Losungen>
+    <Losungen>
+        <Datum>2019-04-10</Datum>
+        <Sonntag/>
+        <Wtag>Středa</Wtag>
+        <Losungstext>Já jsem vlastníma rukama roztáhl nebesa a veškerému jejich zástupu jsem vydal příkazy.
+        </Losungstext>
+        <Losungsvers>Izaiáš 45,12</Losungsvers>
+        <Lehrtext>V Kristu bylo stvořeno všechno na nebi i na zemi - svět viditelný i neviditelný; jak nebeské trůny,
+            tak i panstva, vlády a mocnosti - a všechno je stvořeno skrze něho a pro něho.
+        </Lehrtext>
+        <Lehrtextvers>Koloským 1,16</Lehrtextvers>
+    </Losungen>
+    <Losungen>
+        <Datum>2019-04-11</Datum>
+        <Sonntag/>
+        <Wtag>Čtvrtek</Wtag>
+        <Losungstext>Hospodin je dobrotivý, přímý, proto ukazuje hříšným cestu.</Losungstext>
+        <Losungsvers>Žalm 25,8</Losungsvers>
+        <Lehrtext>Petr přistoupil k Ježíšovi a řekl mu: "Pane, kolikrát mám odpustit svému bratru, když proti mně
+            zhřeší? Snad až sedmkrát?" Ježíš mu odpověděl: "Pravím ti, ne sedmkrát, ale až sedmdesátkrát sedmkrát."
+        </Lehrtext>
+        <Lehrtextvers>Matouš 18,21-22</Lehrtextvers>
+    </Losungen>
+    <Losungen>
+        <Datum>2019-04-12</Datum>
+        <Sonntag/>
+        <Wtag>Pátek</Wtag>
+        <Losungstext>Bože, zase mě z propasti země přivádíš nazpět. Ty mě stále činíš větším, útěchou mě zahrnuješ.
+        </Losungstext>
+        <Losungsvers>Žalm 71,20-21</Losungsvers>
+        <Lehrtext>Není vůle vašeho Otce v nebesích, aby zahynul jediný z těchto maličkých.</Lehrtext>
+        <Lehrtextvers>Matouš 18,14 P</Lehrtextvers>
+    </Losungen>
+    <Losungen>
+        <Datum>2019-04-13</Datum>
+        <Sonntag/>
+        <Wtag>Sobota</Wtag>
+        <Losungstext>Vlídná odpověď odvrací rozhořčení, kdežto slovo, které ubližuje, popouzí k hněvu.</Losungstext>
+        <Losungsvers>Přísloví 15,1</Losungsvers>
+        <Lehrtext>Blahoslavení, kdo působí pokoj, neboť oni budou nazváni Božími syny.</Lehrtext>
+        <Lehrtextvers>Matouš 5,9 J</Lehrtextvers>
+    </Losungen>
+    <Losungen>
+        <Datum>2019-04-14</Datum>
+        <Sonntag>Květná neděle</Sonntag>
+        <Wtag>Neděle</Wtag>
+        <Losungstext>Shlédni ze svého svatého obydlí, z nebes, a požehnej svému izraelskému lidu.</Losungstext>
+        <Losungsvers>5.Mojžíšova 26,15</Losungsvers>
+        <Lehrtext>Ujal se svého služebníka Izraele, pamětliv svého milosrdenství.</Lehrtext>
+        <Lehrtextvers>Lukáš 1,54</Lehrtextvers>
+    </Losungen>
+    <Losungen>
+        <Datum>2019-04-15</Datum>
+        <Sonntag/>
+        <Wtag>Pondělí</Wtag>
+        <Losungstext>Což nám nenavrátíš život, aby se tvůj lid z tebe radoval?</Losungstext>
+        <Losungsvers>Žalm 85,7</Losungsvers>
+        <Lehrtext>I vy máte nyní zármutek. Uvidím vás však opět a vaše srdce se zaraduje a vaši radost vám nikdo
+            nevezme.
+        </Lehrtext>
+        <Lehrtextvers>Jan 16,22</Lehrtextvers>
+    </Losungen>
+    <Losungen>
+        <Datum>2019-04-16</Datum>
+        <Sonntag/>
+        <Wtag>Úterý</Wtag>
+        <Losungstext>O Bože můj, ty znáš mou bláhovost, a nejsou skryty před tebou mé hříchy.</Losungstext>
+        <Losungsvers>Žalm 69,6 F</Losungsvers>
+        <Lehrtext>Vysvoboď nás od zlého.</Lehrtext>
+        <Lehrtextvers>Matouš 6,13</Lehrtextvers>
+    </Losungen>
+    <Losungen>
+        <Datum>2019-04-17</Datum>
+        <Sonntag/>
+        <Wtag>Středa</Wtag>
+        <Losungstext>Kdo člověku vládne spravedlivě, ten, kdo vládne v Boží bázni, je jak jitřní světlo při východu
+            slunce.
+        </Losungstext>
+        <Losungsvers>2.Samuelova 23,3-4</Losungsvers>
+        <Lehrtext>Vy jste světlo světa. Nemůže zůstat skryto město ležící na hoře.</Lehrtext>
+        <Lehrtextvers>Matouš 5,14</Lehrtextvers>
+    </Losungen>
+    <Losungen>
+        <Datum>2019-04-18</Datum>
+        <Sonntag>Zelený Čtvrtek</Sonntag>
+        <Wtag>Čtvrtek</Wtag>
+        <Losungstext>Člověk se dívá očima, Hospodin však hledí srdcem.</Losungstext>
+        <Losungsvers>1.Samuelova 16,7</Losungsvers>
+        <Lehrtext>I obrátiv se Pán, pohleděl na Petra. I rozpomenul se Petr na slovo Páně, kterak jemu byl řekl: Že prve
+            než kohout zazpívá, třikrát mne zapříš. I vyšed ven Petr, plakal hořce.
+        </Lehrtext>
+        <Lehrtextvers>Lukáš 22,61-62 K</Lehrtextvers>
+    </Losungen>
+    <Losungen>
+        <Datum>2019-04-19</Datum>
+        <Sonntag>Velký Pátek</Sonntag>
+        <Wtag>Pátek</Wtag>
+        <Losungstext>Bůh mě učinil plodným v zemi mého utrpení.</Losungstext>
+        <Losungsvers>1.Mojžíšova 41,52</Losungsvers>
+        <Lehrtext>Zločinec vlevo na kříži řekl: "Ježíši, pamatuj na mne, až přijdeš do svého království." Ježíš mu
+            odpověděl: "Amen, pravím ti, dnes budeš se mnou v ráji."
+        </Lehrtext>
+        <Lehrtextvers>Lukáš 23,42-43</Lehrtextvers>
+    </Losungen>
+    <Losungen>
+        <Datum>2019-04-20</Datum>
+        <Sonntag/>
+        <Wtag>Sobota</Wtag>
+        <Losungstext>Slyš, Izraeli, Hospodin je náš Bůh, Hospodin jediný.</Losungstext>
+        <Losungsvers>5.Mojžíšova 6,4</Losungsvers>
+        <Lehrtext>Život věčný je v tom, když poznají tebe, jediného pravého Boha, a toho, kterého jsi poslal, Ježíše
+            Krista.
+        </Lehrtext>
+        <Lehrtextvers>Jan 17,3</Lehrtextvers>
+    </Losungen>
+    <Losungen>
+        <Datum>2019-04-21</Datum>
+        <Sonntag>Velikonoční neděle</Sonntag>
+        <Wtag>Neděle</Wtag>
+        <Losungstext>Běda tomu, kdo se chce přít se svým tvůrcem, střep z hliněných střepů! Což smí hlína říci svému
+            tvůrci: "Co to děláš?"
+        </Losungstext>
+        <Losungsvers>Izaiáš 45,9</Losungsvers>
+        <Lehrtext>Kdo je v Kristu, je nové stvoření. Co je staré, pominulo, hle, je tu nové!</Lehrtext>
+        <Lehrtextvers>2.Korintským 5,17</Lehrtextvers>
+    </Losungen>
+    <Losungen>
+        <Datum>2019-04-22</Datum>
+        <Sonntag>Velikonoční pondělí</Sonntag>
+        <Wtag>Pondělí</Wtag>
+        <Losungstext>V posledních dnech nepozdvihne národ proti národu meče, a nebudou se více učiti boji.</Losungstext>
+        <Losungsvers>Izaiáš 2,2.4 K</Losungsvers>
+        <Lehrtext>Pokoj vám. Jako mne poslal Otec, tak já posílám vás.</Lehrtext>
+        <Lehrtextvers>Jan 20,21</Lehrtextvers>
+    </Losungen>
+    <Losungen>
+        <Datum>2019-04-23</Datum>
+        <Sonntag/>
+        <Wtag>Úterý</Wtag>
+        <Losungstext>Hospodin svůj lid obhájí, bude mít se svými služebníky soucit.</Losungstext>
+        <Losungsvers>5.Mojžíšova 32,36</Losungsvers>
+        <Lehrtext>Pán řekl: Což nezjedná Bůh brzo právo svým vyvoleným? - Ale nalezne Syn člověka víru na zemi, až
+            přijde?
+        </Lehrtext>
+        <Lehrtextvers>Lukáš 18,8</Lehrtextvers>
+    </Losungen>
+    <Losungen>
+        <Datum>2019-04-24</Datum>
+        <Sonntag/>
+        <Wtag>Středa</Wtag>
+        <Losungstext>K tobě, Panovníku Hospodine, pozvedám své oči, utíkám se k tobě, nevydej mě smrti.</Losungstext>
+        <Losungsvers>Žalm 141,8</Losungsvers>
+        <Lehrtext>Když to řekl, ukázal jim ruce a bok. Učedníci se zaradovali, když spatřili Pána.</Lehrtext>
+        <Lehrtextvers>Jan 20,20</Lehrtextvers>
+    </Losungen>
+    <Losungen>
+        <Datum>2019-04-25</Datum>
+        <Sonntag/>
+        <Wtag>Čtvrtek</Wtag>
+        <Losungstext>Nasyť nás svým milosrdenstvím hned ráno a po všechny dny se budeme radovat a plesat.</Losungstext>
+        <Losungsvers>Žalm 90,14</Losungsvers>
+        <Lehrtext>Pochválen buď Bůh a Otec našeho Pána Ježíše Krista, který nás v Kristu obdařil vším duchovním
+            požehnáním nebeských darů.
+        </Lehrtext>
+        <Lehrtextvers>Efezským 1,3</Lehrtextvers>
+    </Losungen>
+    <Losungen>
+        <Datum>2019-04-26</Datum>
+        <Sonntag/>
+        <Wtag>Pátek</Wtag>
+        <Losungstext>Proč utrácíte peníze, ale ne za chléb? A svůj výdělek za to, co nenasytí? Poslechněte mě a jezte,
+            co je dobré.
+        </Losungstext>
+        <Losungsvers>Izaiáš 55,2</Losungsvers>
+        <Lehrtext>Neusilujte o pomíjející pokrm, ale o pokrm zůstávající pro život věčný; ten vám dá Syn člověka, jemuž
+            jeho Otec, Bůh, vtiskl svou pečeť.
+        </Lehrtext>
+        <Lehrtextvers>Jan 6,27</Lehrtextvers>
+    </Losungen>
+    <Losungen>
+        <Datum>2019-04-27</Datum>
+        <Sonntag/>
+        <Wtag>Sobota</Wtag>
+        <Losungstext>Vyhlásil jsem půst, abychom se před svým Bohem pokořili a vyprosili si u něho přímou cestu.
+        </Losungstext>
+        <Losungsvers>Ezdráš 8,21</Losungsvers>
+        <Lehrtext>Já jsem cesta, i pravda, i život. Žádný nepřichází k Otci než skrze mne.</Lehrtext>
+        <Lehrtextvers>Jan 14,6 K</Lehrtextvers>
+    </Losungen>
+    <Losungen>
+        <Datum>2019-04-28</Datum>
+        <Sonntag>Quasimodogeniti</Sonntag>
+        <Wtag>Neděle</Wtag>
+        <Losungstext>Hleďte, jsem jedině já, jiný bůh vedle mne není, já usmrcuji i obživuji, zdeptal jsem, a zase
+            zhojím, není, kdo by vytrhl z mé ruky.
+        </Losungstext>
+        <Losungsvers>5.Mojžíšova 32,39</Losungsvers>
+        <Lehrtext>Říkám vám, snáze projde velbloud uchem jehly než bohatý do Božího království. Když to učedníci
+            slyšeli, velmi se zhrozili a řekli: Kdo potom může být spasen? Ježíš na ně pohleděl a řekl: U lidí je to
+            nemožné, ale u Boha je možné všecko.
+        </Lehrtext>
+        <Lehrtextvers>Matouš 19,24-26</Lehrtextvers>
+    </Losungen>
+    <Losungen>
+        <Datum>2019-04-29</Datum>
+        <Sonntag/>
+        <Wtag>Pondělí</Wtag>
+        <Losungstext>Veškeré dílo Bůh postaví před soud, vše, co je utajeno, ať dobré či zlé.</Losungstext>
+        <Losungsvers>Kazatel 12,14</Losungsvers>
+        <Lehrtext>Blahoslavení čistého srdce, nebo oni Boha viděti budou.</Lehrtext>
+        <Lehrtextvers>Matouš 5,8 K</Lehrtextvers>
+    </Losungen>
+    <Losungen>
+        <Datum>2019-04-30</Datum>
+        <Sonntag/>
+        <Wtag>Úterý</Wtag>
+        <Losungstext>Neoklamávejte jeden druhého, ale boj se každý Boha svého.</Losungstext>
+        <Losungsvers>3.Mojžíšova 25,17 K</Losungsvers>
+        <Lehrtext>Dal jsem vám příklad, abyste i vy jednali, jako jsem jednal já.</Lehrtext>
+        <Lehrtextvers>Jan 13,15</Lehrtextvers>
+    </Losungen>
+    <Losungen>
+        <Datum>2019-05-01</Datum>
+        <Sonntag/>
+        <Wtag>Středa</Wtag>
+        <Losungstext>Není nic lepšího, než když se člověk raduje z toho, co koná, neboť to je jeho podíl.</Losungstext>
+        <Losungsvers>Kazatel 3,22</Losungsvers>
+        <Lehrtext>Radostně budete děkovat Otci, že vás učinil účastnými údělu věřících ve světle.</Lehrtext>
+        <Lehrtextvers>Koloským 1,11-12 P</Lehrtextvers>
+    </Losungen>
+    <Losungen>
+        <Datum>2019-05-02</Datum>
+        <Sonntag/>
+        <Wtag>Čtvrtek</Wtag>
+        <Losungstext>Před šedinami povstaň a starci vzdej poctu.</Losungstext>
+        <Losungsvers>3.Mojžíšova 19,32</Losungsvers>
+        <Lehrtext>V ničem se nedejte ovládat ctižádostí ani ješitností, nýbrž v pokoře pokládejte jeden druhého za
+            přednějšího než sebe.
+        </Lehrtext>
+        <Lehrtextvers>Filipským 2,3</Lehrtextvers>
+    </Losungen>
+    <Losungen>
+        <Datum>2019-05-03</Datum>
+        <Sonntag/>
+        <Wtag>Pátek</Wtag>
+        <Losungstext>Budu ve vás posvěcen před očima pronárodů. I poznáte, že já jsem Hospodin, až vás přivedu na
+            izraelskou půdu, do země, o níž jsem zvednutím ruky přisáhl, že ji dám vašim otcům.
+        </Losungstext>
+        <Losungsvers>Ezechiel 20,41.42</Losungsvers>
+        <Lehrtext>Já jsem s vámi po všecky dny až do skonání tohoto věku.</Lehrtext>
+        <Lehrtextvers>Matouš 28,20</Lehrtextvers>
+    </Losungen>
+    <Losungen>
+        <Datum>2019-05-04</Datum>
+        <Sonntag/>
+        <Wtag>Sobota</Wtag>
+        <Losungstext>V Bohu učiníme mocné dílo.</Losungstext>
+        <Losungsvers>Žalm 60,14 Z</Losungsvers>
+        <Lehrtext>Všechno, cokoli mluvíte nebo děláte, čiňte ve jménu Pána Ježíše a skrze něho děkujte Bohu Otci.
+        </Lehrtext>
+        <Lehrtextvers>Koloským 3,17</Lehrtextvers>
+    </Losungen>
+    <Losungen>
+        <Datum>2019-05-05</Datum>
+        <Sonntag>Misericordias Domini</Sonntag>
+        <Wtag>Neděle</Wtag>
+        <Losungstext>Hospodin mluvil s Mojžíšem tváří v tvář, jako když někdo mluví se svým přítelem.</Losungstext>
+        <Losungsvers>2.Mojžíšova 33,11</Losungsvers>
+        <Lehrtext>Učedníci řekli vespolek: Zdaliž srdce naše v nás nehořelo, když mluvil nám na cestě a otvíral nám
+            písma?
+        </Lehrtext>
+        <Lehrtextvers>Lukáš 24,32 K</Lehrtextvers>
+    </Losungen>
+    <Losungen>
+        <Datum>2019-05-06</Datum>
+        <Sonntag/>
+        <Wtag>Pondělí</Wtag>
+        <Losungstext>Pojďte a připojte se k Hospodinu smlouvou věčnou, nepřicházející v zapomenutí.</Losungstext>
+        <Losungsvers>Jeremiáš 50,5 K</Losungsvers>
+        <Lehrtext>Pane, ke komu bychom šli? Ty máš slova věčného života.</Lehrtext>
+        <Lehrtextvers>Jan 6,68</Lehrtextvers>
+    </Losungen>
+    <Losungen>
+        <Datum>2019-05-07</Datum>
+        <Sonntag/>
+        <Wtag>Úterý</Wtag>
+        <Losungstext>David našel posilu v Hospodinu, svém Bohu.</Losungstext>
+        <Losungsvers>1.Samuelova 30,6</Losungsvers>
+        <Lehrtext>Děkuji svému Bohu a stále na tebe pamatuji ve svých modlitbách, aby se tvá účast na společné víře
+            projevila tím, že rozpoznáš, co dobrého můžeme učinit pro Krista.
+        </Lehrtext>
+        <Lehrtextvers>Filemonovi 1,4.6</Lehrtextvers>
+    </Losungen>
+    <Losungen>
+        <Datum>2019-05-08</Datum>
+        <Sonntag/>
+        <Wtag>Středa</Wtag>
+        <Losungstext>Viděl jsi, jak tě Hospodin, tvůj Bůh, nesl, jako nosí muž svého syna, po celé cestě, kterou jste
+            prošli.
+        </Losungstext>
+        <Losungsvers>5.Mojžíšova 1,31</Losungsvers>
+        <Lehrtext>Poznali jsme lásku, kterou Bůh má k nám, a věříme v ni.</Lehrtext>
+        <Lehrtextvers>1.Janova 4,16</Lehrtextvers>
+    </Losungen>
+    <Losungen>
+        <Datum>2019-05-09</Datum>
+        <Sonntag/>
+        <Wtag>Čtvrtek</Wtag>
+        <Losungstext>Řekl jsem: Nedopustím, aby můj jazyk pobloudil.</Losungstext>
+        <Losungsvers>Žalm 39,2 J</Losungsvers>
+        <Lehrtext>Každý člověk ať je rychlý k naslouchání, ale pomalý k mluvení, pomalý k hněvu.</Lehrtext>
+        <Lehrtextvers>Jakubova 1,19</Lehrtextvers>
+    </Losungen>
+    <Losungen>
+        <Datum>2019-05-10</Datum>
+        <Sonntag/>
+        <Wtag>Pátek</Wtag>
+        <Losungstext>Hospodin pošle anděla svého před tebou.</Losungstext>
+        <Losungsvers>1.Mojžíšova 24,7 K</Losungsvers>
+        <Lehrtext>Anděl řekl ženám: Nebojte se. Vím, že hledáte Ježíše, který byl ukřižován. Jděte rychle povědět jeho
+            učedníkům, že byl vzkříšen z mrtvých; jde před nimi do Galileje, tam ho spatří.
+        </Lehrtext>
+        <Lehrtextvers>Matouš 28,5.7</Lehrtextvers>
+    </Losungen>
+    <Losungen>
+        <Datum>2019-05-11</Datum>
+        <Sonntag/>
+        <Wtag>Sobota</Wtag>
+        <Losungstext>Obratiž Hospodin tvář svou k tobě, a dejž tobě pokoj.</Losungstext>
+        <Losungsvers>4.Mojžíšova 6,26 K</Losungsvers>
+        <Lehrtext>Pokoj Boží, převyšující každé pomyšlení, bude střežit vaše srdce i mysl v Kristu Ježíši.</Lehrtext>
+        <Lehrtextvers>Filipským 4,7</Lehrtextvers>
+    </Losungen>
+    <Losungen>
+        <Datum>2019-05-12</Datum>
+        <Sonntag>Jubilate</Sonntag>
+        <Wtag>Neděle</Wtag>
+        <Losungstext>Hospodin je dobrý, je záštitou v den soužení, zná se k těm, kteří se k němu utíkají.</Losungstext>
+        <Losungsvers>Nahum 1,7</Losungsvers>
+        <Lehrtext>Na všech stranách jsme tísněni, ale nejsme zahnáni do úzkých; jsme bezradni, ale nejsme v koncích.
+        </Lehrtext>
+        <Lehrtextvers>2.Korintským 4,8</Lehrtextvers>
+    </Losungen>
+    <Losungen>
+        <Datum>2019-05-13</Datum>
+        <Sonntag/>
+        <Wtag>Pondělí</Wtag>
+        <Losungstext>Od východu slunce až na západ jeho veliké bude jméno mé mezi národy, praví Hospodin zástupů.
+        </Losungstext>
+        <Losungsvers>Malachiáš 1,11 K</Losungsvers>
+        <Lehrtext>Každý jazyk musí k slávě Boha Otce vyznat: Ježíš Kristus je Pán.</Lehrtext>
+        <Lehrtextvers>Filipským 2,11 P</Lehrtextvers>
+    </Losungen>
+    <Losungen>
+        <Datum>2019-05-14</Datum>
+        <Sonntag/>
+        <Wtag>Úterý</Wtag>
+        <Losungstext>Boas mluvil k Rut:Nechť ti Hospodin odplatí za tvůj skutek. Ať tě bohatě odmění Hospodin, Bůh
+            Izraele, pod jehož křídla ses přišla ukrýt!
+        </Losungstext>
+        <Losungsvers>Rút 2,12</Losungsvers>
+        <Lehrtext>Doporučuji vám naši sestru Foibé, diakonku církve v Kenchrejích. Přijměte ji v Pánu, jak se sluší mezi
+            věřícími, pomáhejte jí, kdyby vás v něčem potřebovala.
+        </Lehrtext>
+        <Lehrtextvers>Římanům 16,1-2</Lehrtextvers>
+    </Losungen>
+    <Losungen>
+        <Datum>2019-05-15</Datum>
+        <Sonntag/>
+        <Wtag>Středa</Wtag>
+        <Losungstext>Naše nevěrnosti se nás drží, známe svoje nepravosti: nevěrnost a zapírání Hospodina.</Losungstext>
+        <Losungsvers>Izaiáš 59,12-13</Losungsvers>
+        <Lehrtext>Jestliže vyznáváme své hříchy, on je tak věrný a spravedlivý, že nám hříchy odpouští a očišťuje nás od
+            každé nepravosti.
+        </Lehrtext>
+        <Lehrtextvers>1.Janova 1,9</Lehrtextvers>
+    </Losungen>
+    <Losungen>
+        <Datum>2019-05-16</Datum>
+        <Sonntag/>
+        <Wtag>Čtvrtek</Wtag>
+        <Losungstext>Hospodin je podivuhodný ve svém úradku, veliký ve své pohotové pomoci.</Losungstext>
+        <Losungsvers>Izaiáš 28,29</Losungsvers>
+        <Lehrtext>Ježíš jim řekl: "Což jste nikdy nečetli v Písmech: Kámen, který stavitelé zavrhli, stal se kamenem
+            úhelným?"
+        </Lehrtext>
+        <Lehrtextvers>Matouš 21,42</Lehrtextvers>
+    </Losungen>
+    <Losungen>
+        <Datum>2019-05-17</Datum>
+        <Sonntag/>
+        <Wtag>Pátek</Wtag>
+        <Losungstext>Hospodin svým andělům vydal příkaz, aby tě chránili na všech tvých cestách. Na rukou tě budou
+            nosit, aby sis o kámen nohu neporanil.
+        </Losungstext>
+        <Losungsvers>Žalm 91,11-12</Losungsvers>
+        <Lehrtext>Což není každý anděl duchem, vyslaným k službě těm, kdo mají dojít spasení?</Lehrtext>
+        <Lehrtextvers>Židům 1,14</Lehrtextvers>
+    </Losungen>
+    <Losungen>
+        <Datum>2019-05-18</Datum>
+        <Sonntag/>
+        <Wtag>Sobota</Wtag>
+        <Losungstext>Celé ono pokolení se odebralo ke svým otcům. Po nich nastoupilo jiné pokolení, které neznalo
+            Hospodina ani jeho dílo, jež pro Izraele vykonal.
+        </Losungstext>
+        <Losungsvers>Soudců 2,10</Losungsvers>
+        <Lehrtext>Vzpomínej na Ježíše Krista, jenž byl vzkříšen z mrtvých.</Lehrtext>
+        <Lehrtextvers>2.Timoteovi 2,8 Ž</Lehrtextvers>
+    </Losungen>
+    <Losungen>
+        <Datum>2019-05-19</Datum>
+        <Sonntag>Cantate</Sonntag>
+        <Wtag>Neděle</Wtag>
+        <Losungstext>Nevidí snad Bůh mé cesty a nepočítá všechny mé kroky?</Losungstext>
+        <Losungsvers>Jób 31,4</Losungsvers>
+        <Lehrtext>Není tvora, který by se před ním mohl skrýt. Nahé a odhalené je všechno před očima toho, jemuž se
+            budeme ze všeho odpovídat.
+        </Lehrtext>
+        <Lehrtextvers>Židům 4,13</Lehrtextvers>
+    </Losungen>
+    <Losungen>
+        <Datum>2019-05-20</Datum>
+        <Sonntag/>
+        <Wtag>Pondělí</Wtag>
+        <Losungstext>On je tvá chvála. On je tvůj Bůh.</Losungstext>
+        <Losungsvers>5.Mojžíšova 10,21</Losungsvers>
+        <Lehrtext>Já jsem Alfa i Omega, první i poslední, počátek i konec.</Lehrtext>
+        <Lehrtextvers>Zjevení 22,13</Lehrtextvers>
+    </Losungen>
+    <Losungen>
+        <Datum>2019-05-21</Datum>
+        <Sonntag/>
+        <Wtag>Úterý</Wtag>
+        <Losungstext>Do tvé ruky odevzdáván svého ducha; tys mě vykoupil, Hospodine Bože pravdivý.</Losungstext>
+        <Losungsvers>Žalm 31,6 Z</Losungsvers>
+        <Lehrtext>Zákon Ducha, který vede k životu v Kristu Ježíši, osvobodil tě od zákona hříchu a smrti.</Lehrtext>
+        <Lehrtextvers>Římanům 8,2</Lehrtextvers>
+    </Losungen>
+    <Losungen>
+        <Datum>2019-05-22</Datum>
+        <Sonntag/>
+        <Wtag>Středa</Wtag>
+        <Losungstext>Je to Hospodin, v něhož jsme skládali naději, budeme jásat a radovat se, že nás spasil.
+        </Losungstext>
+        <Losungsvers>Izaiáš 25,9</Losungsvers>
+        <Lehrtext>Pochválen buď Hospodin, Bůh Izraele, protože navštívil a vykoupil svůj lid.</Lehrtext>
+        <Lehrtextvers>Lukáš 1,68</Lehrtextvers>
+    </Losungen>
+    <Losungen>
+        <Datum>2019-05-23</Datum>
+        <Sonntag/>
+        <Wtag>Čtvrtek</Wtag>
+        <Losungstext>Tvá slova mi byla veselím a radostí srdce. Nazývají mě tvým jménem, Hospodine, Bože zástupů.
+        </Losungstext>
+        <Losungsvers>Jeremiáš 15,16</Losungsvers>
+        <Lehrtext>Blahoslavení, kdo slyší Boží slovo a zachovávají je.</Lehrtext>
+        <Lehrtextvers>Lukáš 11,28 P</Lehrtextvers>
+    </Losungen>
+    <Losungen>
+        <Datum>2019-05-24</Datum>
+        <Sonntag/>
+        <Wtag>Pátek</Wtag>
+        <Losungstext>Bůh není člověk, aby lhal, ani lidský syn, aby litoval.</Losungstext>
+        <Losungsvers>4.Mojžíšova 23,19</Losungsvers>
+        <Lehrtext>On nese všecko svým mocným slovem.</Lehrtext>
+        <Lehrtextvers>Židům 1,3</Lehrtextvers>
+    </Losungen>
+    <Losungen>
+        <Datum>2019-05-25</Datum>
+        <Sonntag/>
+        <Wtag>Sobota</Wtag>
+        <Losungstext>Zpívejte Bohu, naší síle!</Losungstext>
+        <Losungsvers>Žalm 81,2 Z</Losungsvers>
+        <Lehrtext>Budu se modlit ve vytržení ducha, ale budu se také modlit s vědomou myslí. Budu zpívat chvalozpěvy ve
+            vytržení ducha, ale budu zpívat také s vědomou myslí.
+        </Lehrtext>
+        <Lehrtextvers>1.Korintským 14,15</Lehrtextvers>
+    </Losungen>
+    <Losungen>
+        <Datum>2019-05-26</Datum>
+        <Sonntag>Rogate</Sonntag>
+        <Wtag>Neděle</Wtag>
+        <Losungstext>Miluji Hospodina, protože vyslýchá hlas můj a pokorné modlitby mé.</Losungstext>
+        <Losungsvers>Žalm 116,1 K</Losungsvers>
+        <Lehrtext>Když se modlíš, vejdi do svého pokojíku, zavři za sebou dveře a modli se k svému Otci, který zůstává
+            skryt; a tvůj Otec, který vidí, co je skryto, ti odplatí.
+        </Lehrtext>
+        <Lehrtextvers>Matouš 6,6</Lehrtextvers>
+    </Losungen>
+    <Losungen>
+        <Datum>2019-05-27</Datum>
+        <Sonntag/>
+        <Wtag>Pondělí</Wtag>
+        <Losungstext>Chváliti tě budu mezi národy a jménu tvému žalmy prozpěvovati.</Losungstext>
+        <Losungsvers>Žalm 18,50 K</Losungsvers>
+        <Lehrtext>Nemůžeme nemluviti toho, co jsme viděli a slyšeli.</Lehrtext>
+        <Lehrtextvers>Skutky 4,20 K</Lehrtextvers>
+    </Losungen>
+    <Losungen>
+        <Datum>2019-05-28</Datum>
+        <Sonntag/>
+        <Wtag>Úterý</Wtag>
+        <Losungstext>Pojďte, zpívejme Bohu, vzdávejme díky skále naší spásy!</Losungstext>
+        <Losungsvers>Žalm 95,1 F</Losungsvers>
+        <Lehrtext>Každého dne pobývali svorně v chrámu, po domech lámali chléb a dělili se o jídlo s radostí a s
+            upřímným srdcem. Chválili Boha a byli všemu lidu milí.
+        </Lehrtext>
+        <Lehrtextvers>Skutky 2,46-47</Lehrtextvers>
+    </Losungen>
+    <Losungen>
+        <Datum>2019-05-29</Datum>
+        <Sonntag/>
+        <Wtag>Středa</Wtag>
+        <Losungstext>Záměry Hospodinovy platí věčně.</Losungstext>
+        <Losungsvers>Žalm 33,11</Losungsvers>
+        <Lehrtext>Poroučím vás Bohu a slovu milosti jeho, kterýžto mocen jest vzdělati vás, a dáti vám dědictví mezi
+            všemi posvěcenými.
+        </Lehrtext>
+        <Lehrtextvers>Skutky 20,32 K</Lehrtextvers>
+    </Losungen>
+    <Losungen>
+        <Datum>2019-05-30</Datum>
+        <Sonntag>Nanebevstoupení Páně</Sonntag>
+        <Wtag>Čtvrtek</Wtag>
+        <Losungstext>V moci podsvětí mě neponecháš.</Losungstext>
+        <Losungsvers>Žalm 16,10</Losungsvers>
+        <Lehrtext>Ježíš dokonale spasiti může všecky přistupující skrze něj k Bohu, vždycky jsa živ k orodování za ně.
+        </Lehrtext>
+        <Lehrtextvers>Židům 7,25 K</Lehrtextvers>
+    </Losungen>
+    <Losungen>
+        <Datum>2019-05-31</Datum>
+        <Sonntag/>
+        <Wtag>Pátek</Wtag>
+        <Losungstext>Ani teď, když jsem v šedinách a starý, mne, Bože, neopouštěj, dokud jsem ještě neukázal sílu tvou
+            tomuto pokolení a tvou moc všem, kteří přijdou po něm.
+        </Losungstext>
+        <Losungsvers>Žalm 71,18 F</Losungsvers>
+        <Lehrtext>Neklesáme na mysli: i když navenek hyneme, vnitřně se den ze dne obnovujeme.</Lehrtext>
+        <Lehrtextvers>2.Korintským 4,16</Lehrtextvers>
+    </Losungen>
+    <Losungen>
+        <Datum>2019-06-01</Datum>
+        <Sonntag/>
+        <Wtag>Sobota</Wtag>
+        <Losungstext>Pánovy skutky jsou nesmírné, ať o nich uvažují všichni, kdo v nich našli radost.</Losungstext>
+        <Losungsvers>Žalm 111,2 Ku</Losungsvers>
+        <Lehrtext>Kéž vám Bůh našeho Pána Ježíše Krista, Otec slávy, dá ducha moudrosti a ducha zjevení poznáním jeho
+            samého.
+        </Lehrtext>
+        <Lehrtextvers>Efezským 1,17 Ž</Lehrtextvers>
+    </Losungen>
+    <Losungen>
+        <Datum>2019-06-02</Datum>
+        <Sonntag>Exaudi</Sonntag>
+        <Wtag>Neděle</Wtag>
+        <Losungstext>Bůh nás učinil a ne my sami sebe, abychom byli lid jeho a ovce pastvy jeho.</Losungstext>
+        <Losungsvers>Žalm 100,3 K</Losungsvers>
+        <Lehrtext>Ne vy jste vyvolili mne, ale já jsem vyvolil vás a ustanovil jsem vás, abyste šli a nesli ovoce.
+        </Lehrtext>
+        <Lehrtextvers>Jan 15,16</Lehrtextvers>
+    </Losungen>
+    <Losungen>
+        <Datum>2019-06-03</Datum>
+        <Sonntag/>
+        <Wtag>Pondělí</Wtag>
+        <Losungstext>Obrať nás, Hospodine, k sobě a my se navrátíme, obnov naše dny jak za dnů dávnověkých.
+        </Losungstext>
+        <Losungsvers>Pláč 5,21</Losungsvers>
+        <Lehrtext>Já požádám Otce a on vám dá jiného Přímluvce, aby byl s vámi na věky - Ducha pravdy.</Lehrtext>
+        <Lehrtextvers>Jan 14,16-17</Lehrtextvers>
+    </Losungen>
+    <Losungen>
+        <Datum>2019-06-04</Datum>
+        <Sonntag/>
+        <Wtag>Úterý</Wtag>
+        <Losungstext>Hospodin bojovati bude za vás, a vy mlčeti budete.</Losungstext>
+        <Losungsvers>2.Mojžíšova 14,14 K</Losungsvers>
+        <Lehrtext>V tom ve všem slavně vítězíme mocí toho, který si nás zamiloval.</Lehrtext>
+        <Lehrtextvers>Římanům 8,37</Lehrtextvers>
+    </Losungen>
+    <Losungen>
+        <Datum>2019-06-05</Datum>
+        <Sonntag/>
+        <Wtag>Středa</Wtag>
+        <Losungstext>V utišení se a v doufání bude síla vaše.</Losungstext>
+        <Losungsvers>Izaiáš 30,15 K</Losungsvers>
+        <Lehrtext>Kdo z vás může o jedinou píď prodloužit svůj život?</Lehrtext>
+        <Lehrtextvers>Matouš 6,27</Lehrtextvers>
+    </Losungen>
+    <Losungen>
+        <Datum>2019-06-06</Datum>
+        <Sonntag/>
+        <Wtag>Čtvrtek</Wtag>
+        <Losungstext>Hle, bát se Panovníka, to je moudrost, vystříhat se zlého, toť rozumnost.</Losungstext>
+        <Losungsvers>Jób 28,28</Losungsvers>
+        <Lehrtext>Bůh nás povolal k pokoji.</Lehrtext>
+        <Lehrtextvers>1.Korintským 7,15</Lehrtextvers>
+    </Losungen>
+    <Losungen>
+        <Datum>2019-06-07</Datum>
+        <Sonntag/>
+        <Wtag>Pátek</Wtag>
+        <Losungstext>Dej si pozor a velice se střez zapomenout na věci, které jsi viděl na vlastní oči.</Losungstext>
+        <Losungsvers>5.Mojžíšova 4,9</Losungsvers>
+        <Lehrtext>Držiž se toho, co máš, aby žádný nevzal koruny tvé.</Lehrtext>
+        <Lehrtextvers>Zjevení 3,11 K</Lehrtextvers>
+    </Losungen>
+    <Losungen>
+        <Datum>2019-06-08</Datum>
+        <Sonntag/>
+        <Wtag>Sobota</Wtag>
+        <Losungstext>Hospodin, váš Bůh, je milostivý a slitovný a svou tvář neodvrátí od vás, když se k němu
+            navrátíte.
+        </Losungstext>
+        <Losungsvers>2.Paralipomenon 30,9</Losungsvers>
+        <Lehrtext>Čiňte pokání a obraťte se, aby byli shlazeni hříchové vaši, když by přišli časové rozvlažení od tváři
+            Páně.
+        </Lehrtext>
+        <Lehrtextvers>Skutky 3,19-20 K</Lehrtextvers>
+    </Losungen>
+    <Losungen>
+        <Datum>2019-06-09</Datum>
+        <Sonntag>Neděle svatodušní</Sonntag>
+        <Wtag>Neděle</Wtag>
+        <Losungstext>Potrestej mě, Hospodine, podle práva, ale ne ve hněvu, abys mě nezničil.</Losungstext>
+        <Losungsvers>Jeremiáš 10,24</Losungsvers>
+        <Lehrtext>Přímluvce přijde a ukáže světu, v čem je hřích, spravedlnost a soud.</Lehrtext>
+        <Lehrtextvers>Jan 16,8</Lehrtextvers>
+    </Losungen>
+    <Losungen>
+        <Datum>2019-06-10</Datum>
+        <Sonntag>Svatodušní pondělí</Sonntag>
+        <Wtag>Pondělí</Wtag>
+        <Losungstext>Hospodin kralovati bude na věky věků.</Losungstext>
+        <Losungsvers>2.Mojžíšova 15,18 K</Losungsvers>
+        <Lehrtext>Celý zástup učedníků počal radostně a hlasitě chválit Boha za všechny mocné činy, které viděli.
+            Volali: "Požehnaný král, který přichází ve jménu Hospodinově. Na nebi pokoj a sláva na výsostech!"
+        </Lehrtext>
+        <Lehrtextvers>Lukáš 19,37-38</Lehrtextvers>
+    </Losungen>
+    <Losungen>
+        <Datum>2019-06-11</Datum>
+        <Sonntag/>
+        <Wtag>Úterý</Wtag>
+        <Losungstext>Hospodin zná smýšlení lidí; jsou pouhý vánek.</Losungstext>
+        <Losungsvers>Žalm 94,11</Losungsvers>
+        <Lehrtext>Všechno jsem odepsal, abych poznal Krista a moc jeho vzkříšení.</Lehrtext>
+        <Lehrtextvers>Filipským 3,10</Lehrtextvers>
+    </Losungen>
+    <Losungen>
+        <Datum>2019-06-12</Datum>
+        <Sonntag/>
+        <Wtag>Středa</Wtag>
+        <Losungstext>Ty z nich, kdo vyváznou, vyšlu k pronárodům, které zprávu o mně ještě neslyšely ani nespatřily moji
+            slávu; budou hlásat moji slávu mezi pronárody.
+        </Losungstext>
+        <Losungsvers>Izaiáš 66,19</Losungsvers>
+        <Lehrtext>Je mi dána veškerá moc na nebi i na zemi. Jděte ke všem národům a získávejte mi učedníky, křtěte je ve
+            jméno Otce i Syna i Ducha svatého a učte je, aby zachovávali všecko, co jsem vám přikázal.
+        </Lehrtext>
+        <Lehrtextvers>Matouš 28,18-20</Lehrtextvers>
+    </Losungen>
+    <Losungen>
+        <Datum>2019-06-13</Datum>
+        <Sonntag/>
+        <Wtag>Čtvrtek</Wtag>
+        <Losungstext>Bůh učinil člověka přímého, ten však vyhledává samé smyšlenky.</Losungstext>
+        <Losungsvers>Kazatel 7,29</Losungsvers>
+        <Lehrtext>Po jejich ovoci je poznáte.</Lehrtext>
+        <Lehrtextvers>Matouš 7,16</Lehrtextvers>
+    </Losungen>
+    <Losungen>
+        <Datum>2019-06-14</Datum>
+        <Sonntag/>
+        <Wtag>Pátek</Wtag>
+        <Losungstext>Abrahamův služebník Rebeku mlčky pozoroval, aby poznal, zda Hospodin dává jeho cestě zdar, či
+            nikoli.
+        </Losungstext>
+        <Losungsvers>1.Mojžíšova 24,21</Losungsvers>
+        <Lehrtext>Potřebujete vytrvalost, abyste splnili Boží vůli a dosáhli toho, co bylo zaslíbeno.</Lehrtext>
+        <Lehrtextvers>Židům 10,36</Lehrtextvers>
+    </Losungen>
+    <Losungen>
+        <Datum>2019-06-15</Datum>
+        <Sonntag/>
+        <Wtag>Sobota</Wtag>
+        <Losungstext>Budu vyučovati přestupníky cestám tvým, aby hříšníci k tobě se obraceli.</Losungstext>
+        <Losungsvers>Žalm 51,15 K</Losungsvers>
+        <Lehrtext>Bůh chce, aby se všichni lidé zachránili a došli k poznání pravdy.</Lehrtext>
+        <Lehrtextvers>1.Timoteovi 2,4 P</Lehrtextvers>
+    </Losungen>
+    <Losungen>
+        <Datum>2019-06-16</Datum>
+        <Sonntag>Neděle svaté Trojice</Sonntag>
+        <Wtag>Neděle</Wtag>
+        <Losungstext>Blízkost Boží je mi štěstím, skládám v Pána, Tvůrce, svou naději, abych vyprávěl všechna tvá
+            poselství.
+        </Losungstext>
+        <Losungsvers>Žalm 73,28 B</Losungsvers>
+        <Lehrtext>Vy jste rod vyvolený, královské kněžstvo, národ svatý, lid náležející Bohu, abyste hlásali mocné
+            skutky toho, kdo vás povolal ze tmy do svého podivuhodného světla.
+        </Lehrtext>
+        <Lehrtextvers>1.Petrova 2,9</Lehrtextvers>
+    </Losungen>
+    <Losungen>
+        <Datum>2019-06-17</Datum>
+        <Sonntag/>
+        <Wtag>Pondělí</Wtag>
+        <Losungstext>Spustí-li se lijavec nebo padá-li sníh z nebe, nevrací se zpátky, nýbrž zavlažuje zemi a činí ji
+            plodnou a úrodnou, takže vydává símě tomu, kdo rozsívá, a chléb tomu, kdo jí. Tak tomu bude s mým slovem,
+            které vychází z mých úst. Nenavrátí se ke mně s prázdnou, nýbrž vykoná, co chci, vykoná zdárně, k čemu jsem
+            je poslal.
+        </Losungstext>
+        <Losungsvers>Izaiáš 55,10-11</Losungsvers>
+        <Lehrtext>Má řeč a mé kázání se neopíraly o vemlouvavá slova lidské moudrosti, ale prokazovaly se Duchem a
+            mocí.
+        </Lehrtext>
+        <Lehrtextvers>1.Korintským 2,4</Lehrtextvers>
+    </Losungen>
+    <Losungen>
+        <Datum>2019-06-18</Datum>
+        <Sonntag/>
+        <Wtag>Úterý</Wtag>
+        <Losungstext>Hospodin mi řekl: "Hle, vložil jsem ti do úst svá slova."</Losungstext>
+        <Losungsvers>Jeremiáš 1,9</Losungsvers>
+        <Lehrtext>Vezměte si k srdci, abyste si předem nepřipravovali, jak se budete hájit. Neboť já vám dám řeč i
+            moudrost.
+        </Lehrtext>
+        <Lehrtextvers>Lukáš 21,14-15</Lehrtextvers>
+    </Losungen>
+    <Losungen>
+        <Datum>2019-06-19</Datum>
+        <Sonntag/>
+        <Wtag>Středa</Wtag>
+        <Losungstext>Hospodin žehná těm, kteří se ho bojí, jak malým, tak velkým.</Losungstext>
+        <Losungsvers>Žalm 115,13</Losungsvers>
+        <Lehrtext>Vy všichni jste Boží děti skrze víru v Krista Ježíše.</Lehrtext>
+        <Lehrtextvers>Galatským 3,26 P</Lehrtextvers>
+    </Losungen>
+    <Losungen>
+        <Datum>2019-06-20</Datum>
+        <Sonntag/>
+        <Wtag>Čtvrtek</Wtag>
+        <Losungstext>Až do šedin vás budu nosit. Já jsem vás učinil a já vás ponesu, budu vás nosit a zachráním.
+        </Losungstext>
+        <Losungsvers>Izaiáš 46,4</Losungsvers>
+        <Lehrtext>Věrný je ten Bůh, skrze něhož jste byli povoláni ke společenství jeho Syna, Ježíše Krista, našeho
+            Pána.
+        </Lehrtext>
+        <Lehrtextvers>1.Korintským 1,9 J</Lehrtextvers>
+    </Losungen>
+    <Losungen>
+        <Datum>2019-06-21</Datum>
+        <Sonntag/>
+        <Wtag>Pátek</Wtag>
+        <Losungstext>Rozmnožím je, nebude jich ubývat, oslavím je, nebude jich málo.</Losungstext>
+        <Losungsvers>Jeremiáš 30,19</Losungsvers>
+        <Lehrtext>Království nebeské je jako kvas, který žena vmísí do tří měřic mouky, až se všecko prokvasí.
+        </Lehrtext>
+        <Lehrtextvers>Matouš 13,33</Lehrtextvers>
+    </Losungen>
+    <Losungen>
+        <Datum>2019-06-22</Datum>
+        <Sonntag/>
+        <Wtag>Sobota</Wtag>
+        <Losungstext>Z úst nemluvňat a kojenců jsi založil vítěznou moc.</Losungstext>
+        <Losungsvers>Žalm 8,3 B</Losungsvers>
+        <Lehrtext>Kdo je nejmenší mezi všemi vámi, ten je veliký.</Lehrtext>
+        <Lehrtextvers>Lukáš 9,48</Lehrtextvers>
+    </Losungen>
+    <Losungen>
+        <Datum>2019-06-23</Datum>
+        <Sonntag>1. neděle po sv. Trojici</Sonntag>
+        <Wtag>Neděle</Wtag>
+        <Losungstext>Ach, Panovníku, Bože veliký a hrozný, který dbáš na smlouvu a milosrdenství vůči těm, kteří tě
+            milují a dodržují tvá přikázání! Zhřešili jsme a provinili se.
+        </Losungstext>
+        <Losungsvers>Daniel 9,4-5</Losungsvers>
+        <Lehrtext>Kde se rozmohl hřích, tam se ještě mnohem více rozhojnila milost.</Lehrtext>
+        <Lehrtextvers>Římanům 5,20</Lehrtextvers>
+    </Losungen>
+    <Losungen>
+        <Datum>2019-06-24</Datum>
+        <Sonntag/>
+        <Wtag>Pondělí</Wtag>
+        <Losungstext>To máme od Boha přijímat jenom dobro, kdežto věci zlé přijímat nebudeme?</Losungstext>
+        <Losungsvers>Jób 2,10</Losungsvers>
+        <Lehrtext>Otče, chceš-li, odejmi ode mne tento kalich, ale ne má, nýbrž tvá vůle se staň.</Lehrtext>
+        <Lehrtextvers>Lukáš 22,42</Lehrtextvers>
+    </Losungen>
+    <Losungen>
+        <Datum>2019-06-25</Datum>
+        <Sonntag/>
+        <Wtag>Úterý</Wtag>
+        <Losungstext>Na maličký okamžik jsem tě opustil, však shromáždím tě v převelikém slitování.</Losungstext>
+        <Losungsvers>Izaiáš 54,7</Losungsvers>
+        <Lehrtext>Nezanechám vás osiřelé, přijdu k vám.</Lehrtext>
+        <Lehrtextvers>Jan 14,18</Lehrtextvers>
+    </Losungen>
+    <Losungen>
+        <Datum>2019-06-26</Datum>
+        <Sonntag/>
+        <Wtag>Středa</Wtag>
+        <Losungstext>Smiluj se nade mnou, Bože, neboť v tísni jsem</Losungstext>
+        <Losungsvers>Žalm 31,10 F</Losungsvers>
+        <Lehrtext>I vlasy na vaší hlavě jsou všecky spočteny. Nebojte se.</Lehrtext>
+        <Lehrtextvers>Lukáš 12,7</Lehrtextvers>
+    </Losungen>
+    <Losungen>
+        <Datum>2019-06-27</Datum>
+        <Sonntag/>
+        <Wtag>Čtvrtek</Wtag>
+        <Losungstext>Od nynějška ti chci ohlašovat nové věci, utajené, že o nich nic nevíš.</Losungstext>
+        <Losungsvers>Izaiáš 48,6</Losungsvers>
+        <Lehrtext>Uvedl nám ve známost tajemství své vůle podle své blahé libosti, již si v sobě předsevzal.</Lehrtext>
+        <Lehrtextvers>Efezským 1,9 MP</Lehrtextvers>
+    </Losungen>
+    <Losungen>
+        <Datum>2019-06-28</Datum>
+        <Sonntag/>
+        <Wtag>Pátek</Wtag>
+        <Losungstext>Také my budeme sloužit Hospodinu. On je náš Bůh.</Losungstext>
+        <Losungsvers>Jozue 24,18</Losungsvers>
+        <Lehrtext>My, ač je nás mnoho, jsme jedno tělo v Kristu a jeden druhému sloužíme jako jednotlivé údy. Máme
+            rozličné dary podle milosti, která byla dána každému z nás.
+        </Lehrtext>
+        <Lehrtextvers>Římanům 12,5-6</Lehrtextvers>
+    </Losungen>
+    <Losungen>
+        <Datum>2019-06-29</Datum>
+        <Sonntag/>
+        <Wtag>Sobota</Wtag>
+        <Losungstext>Trestati vás budu podlé skutků vašich, dí Hospodin.</Losungstext>
+        <Losungsvers>Jeremiáš 21,14 K</Losungsvers>
+        <Lehrtext>V konání dobra neumdlévejme; neochabneme-li, budeme sklízet v ustanovený čas.</Lehrtext>
+        <Lehrtextvers>Galatským 6,9</Lehrtextvers>
+    </Losungen>
+    <Losungen>
+        <Datum>2019-06-30</Datum>
+        <Sonntag>2. neděle po sv. Trojici</Sonntag>
+        <Wtag>Neděle</Wtag>
+        <Losungstext>Budete sloužit Hospodinu, svému Bohu, a on požehná tvému chlebu a tvé vodě.</Losungstext>
+        <Losungsvers>2.Mojžíšova 23,25</Losungsvers>
+        <Lehrtext>Nemějte tedy starost a neříkejte: Co budeme jíst? Co budeme pít? Co si budeme oblékat? Váš nebeský
+            Otec přece ví, že to všechno potřebujete.
+        </Lehrtext>
+        <Lehrtextvers>Matouš 6,31.32</Lehrtextvers>
+    </Losungen>
+    <Losungen>
+        <Datum>2019-07-01</Datum>
+        <Sonntag/>
+        <Wtag>Pondělí</Wtag>
+        <Losungstext>Vyzpytuj mne, Bože silný, a poznej srdce mé; zkus mne, a poznej myšlení má. A popatř, chodím-liť já
+            cestou odpornou tobě, a veď mne cestou věčnou.
+        </Losungstext>
+        <Losungsvers>Žalm 139,23-24 K</Losungsvers>
+        <Lehrtext>Kdo je mezi vámi moudrý a rozumný? Ať ukáže své skutky dobrým způsobem života, v tichosti, kterou dává
+            moudrost.
+        </Lehrtext>
+        <Lehrtextvers>Jakubova 3,13</Lehrtextvers>
+    </Losungen>
+    <Losungen>
+        <Datum>2019-07-02</Datum>
+        <Sonntag/>
+        <Wtag>Úterý</Wtag>
+        <Losungstext>Nepohni srdce mé ke zlé věci.</Losungstext>
+        <Losungsvers>Žalm 141,4 F</Losungsvers>
+        <Lehrtext>Nedej se přemoci zlem, ale přemáhej zlo dobrem.</Lehrtext>
+        <Lehrtextvers>Římanům 12,21</Lehrtextvers>
+    </Losungen>
+    <Losungen>
+        <Datum>2019-07-03</Datum>
+        <Sonntag/>
+        <Wtag>Středa</Wtag>
+        <Losungstext>Nauč nás počítat naše dny, ať získáme moudrost srdce.</Losungstext>
+        <Losungsvers>Žalm 90,12</Losungsvers>
+        <Lehrtext>Ježíš praví: Každý, kdo slyší tato má slova a plní je, bude podoben rozvážnému muži, který postavil
+            svůj dům na skále.
+        </Lehrtext>
+        <Lehrtextvers>Matouš 7,24</Lehrtextvers>
+    </Losungen>
+    <Losungen>
+        <Datum>2019-07-04</Datum>
+        <Sonntag/>
+        <Wtag>Čtvrtek</Wtag>
+        <Losungstext>Hospodine, Bože zástupů, naprav nás; nechť zasvítí tvá tvář a bude nám spomoženo.</Losungstext>
+        <Losungsvers>Žalm 80,20 Z</Losungsvers>
+        <Lehrtext>Náš Pán Ježíš Kristus a Bůh náš Otec, který si nás zamiloval a ze své milosti nám dal věčné potěšení a
+            dobrou naději, nechť povzbudí vaše srdce a dá vám sílu ke každému dobrému činu i slovu.
+        </Lehrtext>
+        <Lehrtextvers>2.Tesalonickým 2,16-17</Lehrtextvers>
+    </Losungen>
+    <Losungen>
+        <Datum>2019-07-05</Datum>
+        <Sonntag/>
+        <Wtag>Pátek</Wtag>
+        <Losungstext>Hospodine, ty jsi mne zkusil a seznal. Ty znáš sednutí mé i povstání mé, rozumíš myšlení mému
+            zdaleka.
+        </Losungstext>
+        <Losungsvers>Žalm 139,1-2 K</Losungsvers>
+        <Lehrtext>V něm žijeme, pohybujeme se, jsme.</Lehrtext>
+        <Lehrtextvers>Skutky 17,28</Lehrtextvers>
+    </Losungen>
+    <Losungen>
+        <Datum>2019-07-06</Datum>
+        <Sonntag/>
+        <Wtag>Sobota</Wtag>
+        <Losungstext>Můj lid se bude sytit mými dobrými dary, je výrok Hospodinův.</Losungstext>
+        <Losungsvers>Jeremiáš 31,14</Losungsvers>
+        <Lehrtext>Ježíš řekl učedníkům: Nemocné uzdravujte, mrtvé probouzejte k životu, malomocné očišťujte, démony
+            vymítejte; zadarmo jste dostali, zadarmo dejte.
+        </Lehrtext>
+        <Lehrtextvers>Matouš 10,8</Lehrtextvers>
+    </Losungen>
+    <Losungen>
+        <Datum>2019-07-07</Datum>
+        <Sonntag>3. neděle po sv. Trojici</Sonntag>
+        <Wtag>Neděle</Wtag>
+        <Losungstext>Hledejte Hospodina všichni pokorní země, kdo jednáte podle jeho práva. Hledejte spravedlnost,
+            hledejte pokoru.
+        </Losungstext>
+        <Losungsvers>Sofoniáš 2,3</Losungsvers>
+        <Lehrtext>Blahoslavení, kteříž lačnějí a žíznějí spravedlnosti, nebo oni nasyceni budou.</Lehrtext>
+        <Lehrtextvers>Matouš 5,6 K</Lehrtextvers>
+    </Losungen>
+    <Losungen>
+        <Datum>2019-07-08</Datum>
+        <Sonntag/>
+        <Wtag>Pondělí</Wtag>
+        <Losungstext>A kdo pohrdal dnem malých začátků, radostně bude hledět na olovnici.</Losungstext>
+        <Losungsvers>Zachariáš 4,10</Losungsvers>
+        <Lehrtext>Ježíš praví: Království nebeské je jako hořčičné zrno, které člověk zasel na svém poli; je sice menší
+            než všecka semena, ale když vyroste, je větší než ostatní byliny a je z něho strom, takže přilétají ptáci a
+            hnízdí v jeho větvích.
+        </Lehrtext>
+        <Lehrtextvers>Matouš 13,31-32</Lehrtextvers>
+    </Losungen>
+    <Losungen>
+        <Datum>2019-07-09</Datum>
+        <Sonntag/>
+        <Wtag>Úterý</Wtag>
+        <Losungstext>Vyhledávejte mne a budete žít!</Losungstext>
+        <Losungsvers>Amos 5,4 J</Losungsvers>
+        <Lehrtext>Dokud máte světlo, věřte ve světlo, abyste se stali syny světla.</Lehrtext>
+        <Lehrtextvers>Jan 12,36</Lehrtextvers>
+    </Losungen>
+    <Losungen>
+        <Datum>2019-07-10</Datum>
+        <Sonntag/>
+        <Wtag>Středa</Wtag>
+        <Losungstext>Když se začalo hrát na pozouny a cymbály a jiné hudební nástroje, chválili Hospodina, protože je
+            dobrý a že jeho milosrdenství je věčné. Boží dům naplnila Hospodinova sláva.
+        </Losungstext>
+        <Losungsvers>2.Paralipomenon 5,13.14</Losungsvers>
+        <Lehrtext>Budete moci pochopiti se všemi svatými, která jest šířka a délka i výše a hloubka, i poznati Kristovu
+            lásku, převyšující každé poznání, abyste byli naplněni ve veškerou plnost Boží.
+        </Lehrtext>
+        <Lehrtextvers>Efezským 3,18-19 S</Lehrtextvers>
+    </Losungen>
+    <Losungen>
+        <Datum>2019-07-11</Datum>
+        <Sonntag/>
+        <Wtag>Čtvrtek</Wtag>
+        <Losungstext>Onť bude souditi mezi národy. I zkují meče své v motyky, a oštípy své v srpy.</Losungstext>
+        <Losungsvers>Izaiáš 2,4 K</Losungsvers>
+        <Lehrtext>Sláva na výsostech Bohu a na zemi pokoj mezi lidmi; Bůh v nich má zalíbení.</Lehrtext>
+        <Lehrtextvers>Lukáš 2,14</Lehrtextvers>
+    </Losungen>
+    <Losungen>
+        <Datum>2019-07-12</Datum>
+        <Sonntag/>
+        <Wtag>Pátek</Wtag>
+        <Losungstext>Hospodin praví:Budete-li mě skutečně poslouchat a dodržovat mou smlouvu, budete mi zvláštním
+            vlastnictvím jako žádný jiný lid, třebaže má je celá země.
+        </Losungstext>
+        <Losungsvers>2.Mojžíšova 19,5</Losungsvers>
+        <Lehrtext>Bůh nás spasil a povolal svatým povoláním ne pro naše skutky, nýbrž ze svého rozhodnutí a z milosti,
+            kterou nám daroval v Kristu Ježíši před věčnými časy.
+        </Lehrtext>
+        <Lehrtextvers>2.Timoteovi 1,9</Lehrtextvers>
+    </Losungen>
+    <Losungen>
+        <Datum>2019-07-13</Datum>
+        <Sonntag/>
+        <Wtag>Sobota</Wtag>
+        <Losungstext>Běda tomu, kdo hromadí, co mu nepatří. Jak dlouho?</Losungstext>
+        <Losungsvers>Abakuk 2,6</Losungsvers>
+        <Lehrtext>Ježíš praví: Mějte se na pozoru před každou chamtivostí, neboť nikdo nemá život zajištěn tím, co má.
+        </Lehrtext>
+        <Lehrtextvers>Lukáš 12,15</Lehrtextvers>
+    </Losungen>
+    <Losungen>
+        <Datum>2019-07-14</Datum>
+        <Sonntag>4. neděle po sv. Trojici</Sonntag>
+        <Wtag>Neděle</Wtag>
+        <Losungstext>Zachovej nás při životu, ať jméno tvé vzýváme.</Losungstext>
+        <Losungsvers>Žalm 80,19 K</Losungsvers>
+        <Lehrtext>Ježíš řekl slepému: Prohlédni! Tvá víra tě uzdravila. Ihned prohlédl, šel za ním a oslavoval Boha.
+        </Lehrtext>
+        <Lehrtextvers>Lukáš 18,42-43</Lehrtextvers>
+    </Losungen>
+    <Losungen>
+        <Datum>2019-07-15</Datum>
+        <Sonntag/>
+        <Wtag>Pondělí</Wtag>
+        <Losungstext>Hospodin, váš Bůh, vás zkouší, aby poznal, zdali ho milujete celým svým srdcem a celou svou duší.
+        </Losungstext>
+        <Losungsvers>5.Mojžíšova 13,4</Losungsvers>
+        <Lehrtext>Víme, že z utrpení roste vytrvalost, z vytrvalosti osvědčenost a z osvědčenosti naděje.</Lehrtext>
+        <Lehrtextvers>Římanům 5,3-4</Lehrtextvers>
+    </Losungen>
+    <Losungen>
+        <Datum>2019-07-16</Datum>
+        <Sonntag/>
+        <Wtag>Úterý</Wtag>
+        <Losungstext>Kde mnoho snů, tam samá pomíjivost, samá prázdná slova. Ty se však boj Boha!</Losungstext>
+        <Losungsvers>Kazatel 5,6</Losungsvers>
+        <Lehrtext>Má-li kdo z vás nedostatek moudrosti, ať prosí Boha, který dává všem bez výhrad a bez výčitek.
+        </Lehrtext>
+        <Lehrtextvers>Jakubova 1,5</Lehrtextvers>
+    </Losungen>
+    <Losungen>
+        <Datum>2019-07-17</Datum>
+        <Sonntag/>
+        <Wtag>Středa</Wtag>
+        <Losungstext>Hospodin, náš Bůh, je spravedlivý ve všech svých činech, které koná.</Losungstext>
+        <Losungsvers>Daniel 9,14</Losungsvers>
+        <Lehrtext>Každý dobrý dar a každé dokonalé obdarování je shůry, sestupuje od Otce světel. U něho není proměny
+            ani střídání světla a stínu.
+        </Lehrtext>
+        <Lehrtextvers>Jakubova 1,17</Lehrtextvers>
+    </Losungen>
+    <Losungen>
+        <Datum>2019-07-18</Datum>
+        <Sonntag/>
+        <Wtag>Čtvrtek</Wtag>
+        <Losungstext>Hospodin je shovívavý a velkorysý, ale viníka bez trestu neponechá.</Losungstext>
+        <Losungsvers>Nahum 1,3</Losungsvers>
+        <Lehrtext>Vězte, že ve své trpělivosti vám Pán poskytuje čas ke spáse.</Lehrtext>
+        <Lehrtextvers>2.Petrova 3,15</Lehrtextvers>
+    </Losungen>
+    <Losungen>
+        <Datum>2019-07-19</Datum>
+        <Sonntag/>
+        <Wtag>Pátek</Wtag>
+        <Losungstext>Duše má jest v ustavičném nebezpečenství, a však na zákon tvůj se nezapomínám.</Losungstext>
+        <Losungsvers>Žalm 119,109 K</Losungsvers>
+        <Lehrtext>Pavel píše: Vy jste tu nauku přijali a začali jste nás napodobovat, nás i Pána, třebaže uprostřed
+            soužení, s radostí Ducha svatého.
+        </Lehrtext>
+        <Lehrtextvers>1.Tesalonickým 1,6 P</Lehrtextvers>
+    </Losungen>
+    <Losungen>
+        <Datum>2019-07-20</Datum>
+        <Sonntag/>
+        <Wtag>Sobota</Wtag>
+        <Losungstext>Zemi naplní poznání Hospodina, jako vody pokrývají moře.</Losungstext>
+        <Losungsvers>Izaiáš 11,9</Losungsvers>
+        <Lehrtext>Bůh rozhodl, aby v Kristu sídlily všechny dokonalosti v plné míře, a skrze něho že se sebou usmíří
+            všechno tvorstvo jak na nebi tak i na zemi tím, že způsobí pokoj jeho krví prolitou na kříži.
+        </Lehrtext>
+        <Lehrtextvers>Koloským 1,19-20 P</Lehrtextvers>
+    </Losungen>
+    <Losungen>
+        <Datum>2019-07-21</Datum>
+        <Sonntag>5. neděle po sv. Trojici</Sonntag>
+        <Wtag>Neděle</Wtag>
+        <Losungstext>Líbí se mi láska a ne oběti, poznání Boha spíš než celopaly.</Losungstext>
+        <Losungsvers>Ozeáš 6,6 J</Losungsvers>
+        <Lehrtext>Nyní zůstává víra, naděje, láska, to tré, ale největší z nich jestiť láska.</Lehrtext>
+        <Lehrtextvers>1.Korintským 13,13 K</Lehrtextvers>
+    </Losungen>
+    <Losungen>
+        <Datum>2019-07-22</Datum>
+        <Sonntag/>
+        <Wtag>Pondělí</Wtag>
+        <Losungstext>Upevněnou mysl opatruješ pokojem - pokojem, neboť je ujištěna v důvěře v tebe.</Losungstext>
+        <Losungsvers>Izaiáš 26,3 MP</Losungsvers>
+        <Lehrtext>Toužíme, aby na každém z vás bylo vidět neutuchající horlivost až do konce.</Lehrtext>
+        <Lehrtextvers>Židům 6,11</Lehrtextvers>
+    </Losungen>
+    <Losungen>
+        <Datum>2019-07-23</Datum>
+        <Sonntag/>
+        <Wtag>Úterý</Wtag>
+        <Losungstext>Z hlubokosti volám k tobě, Pane, vyslyš hlas můj!</Losungstext>
+        <Losungsvers>Žalm 130,1-2 K</Losungsvers>
+        <Lehrtext>Ježíš řekl učedníkům: Vzchopte se, já jsem to, nebojte se!</Lehrtext>
+        <Lehrtextvers>Matouš 14,27</Lehrtextvers>
+    </Losungen>
+    <Losungen>
+        <Datum>2019-07-24</Datum>
+        <Sonntag/>
+        <Wtag>Středa</Wtag>
+        <Losungstext>Budu vyhlížet k Hospodinu, čekat na Boha, který mě spasí; můj Bůh mě vyslyší.</Losungstext>
+        <Losungsvers>Micheáš 7,7</Losungsvers>
+        <Lehrtext>Naděje nenechá dojít hanby.</Lehrtext>
+        <Lehrtextvers>Římanům 5,5 P</Lehrtextvers>
+    </Losungen>
+    <Losungen>
+        <Datum>2019-07-25</Datum>
+        <Sonntag/>
+        <Wtag>Čtvrtek</Wtag>
+        <Losungstext>Hospodin odpověděl Jóbovi:Kde jsi byl, když jsem zakládal zemi a řekl moři: Až sem smíš přijít, ale
+            ne dál; zde se složí tvé nespoutané vlnobití!
+        </Losungstext>
+        <Losungsvers>Jób 38,4.11</Losungsvers>
+        <Lehrtext>Věrou rozumíme, že učiněni jsou věkové slovem Božím, takže z ničeho jest to, což vidíme, učiněno.
+        </Lehrtext>
+        <Lehrtextvers>Židům 11,3 K</Lehrtextvers>
+    </Losungen>
+    <Losungen>
+        <Datum>2019-07-26</Datum>
+        <Sonntag/>
+        <Wtag>Pátek</Wtag>
+        <Losungstext>Navraťte se ke mně, praví Hospodin zástupů, a navrátím se k vám.</Losungstext>
+        <Losungsvers>Zachariáš 1,3 K</Losungsvers>
+        <Lehrtext>Ježíš praví: Nepřišel jsem volati spravedlivých, ale hříšných.</Lehrtext>
+        <Lehrtextvers>Matouš 9,13 K</Lehrtextvers>
+    </Losungen>
+    <Losungen>
+        <Datum>2019-07-27</Datum>
+        <Sonntag/>
+        <Wtag>Sobota</Wtag>
+        <Losungstext>Ti, za něž Hospodin zaplatil, se vrátí. Dojdou veselí a radosti, na útěk se dají starosti a
+            nářek.
+        </Losungstext>
+        <Losungsvers>Izaiáš 51,11</Losungsvers>
+        <Lehrtext>Navždy budeme s Pánem.</Lehrtext>
+        <Lehrtextvers>1.Tesalonickým 4,17</Lehrtextvers>
+    </Losungen>
+    <Losungen>
+        <Datum>2019-07-28</Datum>
+        <Sonntag>6. neděle po sv. Trojici</Sonntag>
+        <Wtag>Neděle</Wtag>
+        <Losungstext>Vám, kdo hledáte Boha, kéž ožije srdce!</Losungstext>
+        <Losungsvers>Žalm 69,33 VS</Losungsvers>
+        <Lehrtext>Maria si sedla k nohám Ježíšovým a poslouchala jeho slovo.</Lehrtext>
+        <Lehrtextvers>Lukáš 10,39</Lehrtextvers>
+    </Losungen>
+    <Losungen>
+        <Datum>2019-07-29</Datum>
+        <Sonntag/>
+        <Wtag>Pondělí</Wtag>
+        <Losungstext>Hospodin mi dal, zač jsem ho tak naléhavě prosila.</Losungstext>
+        <Losungsvers>1.Samuelova 1,27</Losungsvers>
+        <Lehrtext>Ježíš praví: Proste, a bude vám dáno; hledejte, a naleznete; tlučte, a bude vám otevřeno.</Lehrtext>
+        <Lehrtextvers>Matouš 7,7</Lehrtextvers>
+    </Losungen>
+    <Losungen>
+        <Datum>2019-07-30</Datum>
+        <Sonntag/>
+        <Wtag>Úterý</Wtag>
+        <Losungstext>Jistotně doufám v dobrotu Páně, spatřím ji v zemi žijících.</Losungstext>
+        <Losungsvers>Žalm 27,13 R</Losungsvers>
+        <Lehrtext>Tomu, kdo žízní, dám napít zadarmo z pramene vody živé.</Lehrtext>
+        <Lehrtextvers>Zjevení 21,6</Lehrtextvers>
+    </Losungen>
+    <Losungen>
+        <Datum>2019-07-31</Datum>
+        <Sonntag/>
+        <Wtag>Středa</Wtag>
+        <Losungstext>Hospodin je ve svém svatém chrámu. Ztiš se před ním celá země!</Losungstext>
+        <Losungsvers>Abakuk 2,20</Losungsvers>
+        <Lehrtext>Kdo má uši, slyš.</Lehrtext>
+        <Lehrtextvers>Matouš 11,15</Lehrtextvers>
+    </Losungen>
+    <Losungen>
+        <Datum>2019-08-01</Datum>
+        <Sonntag/>
+        <Wtag>Čtvrtek</Wtag>
+        <Losungstext>Nebuď mi vzdálen, Hospodine, má sílo, pospěš mi na pomoc!</Losungstext>
+        <Losungsvers>Žalm 22,20</Losungsvers>
+        <Lehrtext>Pavel říká: Ale Bůh mi pomáhal až do dnešního dne, a tak zde stojím jako svědek před velkými i
+            malými.
+        </Lehrtext>
+        <Lehrtextvers>Skutky 26,22</Lehrtextvers>
+    </Losungen>
+    <Losungen>
+        <Datum>2019-08-02</Datum>
+        <Sonntag/>
+        <Wtag>Pátek</Wtag>
+        <Losungstext>Líbí-li se Hospodinu cesty člověka, vede ku pokoji s ním i jeho nepřátele.</Losungstext>
+        <Losungsvers>Přísloví 16,7</Losungsvers>
+        <Lehrtext>Milujte své nepřátele; čiňte dobře, půjčujte a nic nečekejte zpět. Vaše odměna bude hojná.</Lehrtext>
+        <Lehrtextvers>Lukáš 6,35</Lehrtextvers>
+    </Losungen>
+    <Losungen>
+        <Datum>2019-08-03</Datum>
+        <Sonntag/>
+        <Wtag>Sobota</Wtag>
+        <Losungstext>Slyšte vy, kdo jste daleko, co jsem udělal, poznejte vy, kdo jste blízko, jaká je moje moc.
+        </Losungstext>
+        <Losungsvers>Izaiáš 33,13 J</Losungsvers>
+        <Lehrtext>On neušetřil svého vlastního Syna, ale za nás za všecky jej vydal; jak by nám spolu s ním nedaroval
+            všecko?
+        </Lehrtext>
+        <Lehrtextvers>Římanům 8,32</Lehrtextvers>
+    </Losungen>
+    <Losungen>
+        <Datum>2019-08-04</Datum>
+        <Sonntag>7. neděle po sv. Trojici</Sonntag>
+        <Wtag>Neděle</Wtag>
+        <Losungstext>Svatý, svatý, svatý je Hospodin zástupů, celá země je plná jeho slávy.</Losungstext>
+        <Losungsvers>Izaiáš 6,3</Losungsvers>
+        <Lehrtext>Haleluja, ujal se vlády Pán Bůh náš všemohoucí. Radujme se a jásejme a vzdejme mu chválu.</Lehrtext>
+        <Lehrtextvers>Zjevení 19,6-7</Lehrtextvers>
+    </Losungen>
+    <Losungen>
+        <Datum>2019-08-05</Datum>
+        <Sonntag/>
+        <Wtag>Pondělí</Wtag>
+        <Losungstext>Hospodine, tys náš Otec! My jsme hlína, tys náš tvůrce, a my všichni jsme dílo tvých rukou.
+        </Losungstext>
+        <Losungsvers>Izaiáš 64,7</Losungsvers>
+        <Lehrtext>Jsme přece jeho dílo, v Kristu Ježíši stvořeni k tomu, abychom konali dobré skutky.</Lehrtext>
+        <Lehrtextvers>Efezským 2,10</Lehrtextvers>
+    </Losungen>
+    <Losungen>
+        <Datum>2019-08-06</Datum>
+        <Sonntag/>
+        <Wtag>Úterý</Wtag>
+        <Losungstext>Blízko je ten, jenž mi zjedná spravedlnost. Kdo chce vést se mnou spory?</Losungstext>
+        <Losungsvers>Izaiáš 50,8</Losungsvers>
+        <Lehrtext>Ježíš řekl: Zachee, pojď rychle dolů, neboť dnes musím zůstat v tvém domě.</Lehrtext>
+        <Lehrtextvers>Lukáš 19,5</Lehrtextvers>
+    </Losungen>
+    <Losungen>
+        <Datum>2019-08-07</Datum>
+        <Sonntag/>
+        <Wtag>Středa</Wtag>
+        <Losungstext>A ty, Betléme efratský, ačkoli jsi nejmenší mezi judskými rody, z tebe mi vzejde ten, jenž bude
+            vládcem v Izraeli, jehož původ je odpradávna, ode dnů věčných.
+        </Losungstext>
+        <Losungsvers>Micheáš 5,1</Losungsvers>
+        <Lehrtext>Neurozené v očích světa a opovržené Bůh vyvolil, ano, vyvolil to, co není, aby to, co jest, obrátil v
+            nic.
+        </Lehrtext>
+        <Lehrtextvers>1.Korintským 1,28</Lehrtextvers>
+    </Losungen>
+    <Losungen>
+        <Datum>2019-08-08</Datum>
+        <Sonntag/>
+        <Wtag>Čtvrtek</Wtag>
+        <Losungstext>Hospodine, máš v rukou moc a sílu, nikdo se ti nemůže zpěčovat.</Losungstext>
+        <Losungsvers>2.Paralipomenon 20,6</Losungsvers>
+        <Lehrtext>Tomu, jenž působením své moci mezi námi může učinit nade všechno víc, než zač prosíme a co si dovedeme
+            představit, jemu samému buď sláva v církvi a v Kristu Ježíši po všecka pokolení na věky věků! Amen.
+        </Lehrtext>
+        <Lehrtextvers>Efezským 3,20-21</Lehrtextvers>
+    </Losungen>
+    <Losungen>
+        <Datum>2019-08-09</Datum>
+        <Sonntag/>
+        <Wtag>Pátek</Wtag>
+        <Losungstext>Ne mocí ani silou, nýbrž mým duchem, praví Hospodin zástupů.</Losungstext>
+        <Losungsvers>Zachariáš 4,6</Losungsvers>
+        <Lehrtext>Z moci Ducha a ve víře očekáváme spravedlnost, která je naší nadějí.</Lehrtext>
+        <Lehrtextvers>Galatským 5,5</Lehrtextvers>
+    </Losungen>
+    <Losungen>
+        <Datum>2019-08-10</Datum>
+        <Sonntag/>
+        <Wtag>Sobota</Wtag>
+        <Losungstext>Neklaď s bezbožným ruky své, abys měl býti s ním svědek nepravý.</Losungstext>
+        <Losungsvers>2.Mojžíšova 23,1 K</Losungsvers>
+        <Lehrtext>Podle svých slov budeš ospravedlněn a podle svých slov odsouzen.</Lehrtext>
+        <Lehrtextvers>Matouš 12,37</Lehrtextvers>
+    </Losungen>
+    <Losungen>
+        <Datum>2019-08-11</Datum>
+        <Sonntag>8. neděle po sv. Trojici</Sonntag>
+        <Wtag>Neděle</Wtag>
+        <Losungstext>Hospodin vyčkává, chce se nad vámi smilovat.</Losungstext>
+        <Losungsvers>Izaiáš 30,18</Losungsvers>
+        <Lehrtext>Buď silný milostí Krista Ježíše.</Lehrtext>
+        <Lehrtextvers>2.Timoteovi 2,1</Lehrtextvers>
+    </Losungen>
+    <Losungen>
+        <Datum>2019-08-12</Datum>
+        <Sonntag/>
+        <Wtag>Pondělí</Wtag>
+        <Losungstext>Opěvovali Hospodina a vzdávali mu chválu a čest, že je dobrý, že jeho milosrdenství je věčné.
+        </Losungstext>
+        <Losungsvers>Ezdráš 3,11</Losungsvers>
+        <Lehrtext>Celý zástup se radoval nad podivuhodnými činy, které Ježíš konal.</Lehrtext>
+        <Lehrtextvers>Lukáš 13,17</Lehrtextvers>
+    </Losungen>
+    <Losungen>
+        <Datum>2019-08-13</Datum>
+        <Sonntag/>
+        <Wtag>Úterý</Wtag>
+        <Losungstext>Na pastvách zelených pase mne, k vodám tichým mne přivodí. Duši mou očerstvuje.</Losungstext>
+        <Losungsvers>Žalm 23,2-3 K</Losungsvers>
+        <Lehrtext>Ježíš říká: Zloděj přichází, jen aby kradl, zabíjel a ničil. Já jsem přišel, aby měly život a měly ho
+            v hojnosti.
+        </Lehrtext>
+        <Lehrtextvers>Jan 10,10</Lehrtextvers>
+    </Losungen>
+    <Losungen>
+        <Datum>2019-08-14</Datum>
+        <Sonntag/>
+        <Wtag>Středa</Wtag>
+        <Losungstext>Budeš se mne bát, přijmeš poučení.</Losungstext>
+        <Losungsvers>Sofoniáš 3,7 J</Losungsvers>
+        <Lehrtext>Čiňte pokání, neboť se přiblížilo království nebeské.</Lehrtext>
+        <Lehrtextvers>Matouš 4,17</Lehrtextvers>
+    </Losungen>
+    <Losungen>
+        <Datum>2019-08-15</Datum>
+        <Sonntag/>
+        <Wtag>Čtvrtek</Wtag>
+        <Losungstext>Jak líbezné je, když po horách jdou nohy toho, jenž poselství nese a ohlašuje pokoj, jenž nese
+            dobré poselství a ohlašuje spásu, jenž Sijónu hlásá: Tvůj Bůh kraluje!
+        </Losungstext>
+        <Losungsvers>Izaiáš 52,7</Losungsvers>
+        <Lehrtext>Když vejdete do některého domu, řekněte nejprve: Pokoj tomuto domu!</Lehrtext>
+        <Lehrtextvers>Lukáš 10,5</Lehrtextvers>
+    </Losungen>
+    <Losungen>
+        <Datum>2019-08-16</Datum>
+        <Sonntag/>
+        <Wtag>Pátek</Wtag>
+        <Losungstext>Já, Hospodin, vinici střežím, každou chvíli ji zavlažuji. Aby ji nic nepostihlo, nocí dnem ji budu
+            střežit.
+        </Losungstext>
+        <Losungsvers>Izaiáš 27,3</Losungsvers>
+        <Lehrtext>Pevný Boží základ trvá a nese nápis: Pán zná ty, kdo jsou jeho.</Lehrtext>
+        <Lehrtextvers>2.Timoteovi 2,19</Lehrtextvers>
+    </Losungen>
+    <Losungen>
+        <Datum>2019-08-17</Datum>
+        <Sonntag/>
+        <Wtag>Sobota</Wtag>
+        <Losungstext>Toto praví Hospodin: Jak dlouho se budeš zdráhat pokořit se přede mnou?</Losungstext>
+        <Losungsvers>2.Mojžíšova 10,3</Losungsvers>
+        <Lehrtext>Poddejtež se tedy Bohu, a zepřetež se ďáblu, i utečeť od vás.</Lehrtext>
+        <Lehrtextvers>Jakubova 4,7 K</Lehrtextvers>
+    </Losungen>
+    <Losungen>
+        <Datum>2019-08-18</Datum>
+        <Sonntag>9. neděle po sv. Trojici</Sonntag>
+        <Wtag>Neděle</Wtag>
+        <Losungstext>Uval na Hospodina cestu svou, a slož v něm naději, onť zajisté všecko spraví.</Losungstext>
+        <Losungsvers>Žalm 37,5 K</Losungsvers>
+        <Lehrtext>Jsem si jist, že ten, který ve vás začal dobré dílo, dovede je až do dne Ježíše Krista.</Lehrtext>
+        <Lehrtextvers>Filipským 1,6</Lehrtextvers>
+    </Losungen>
+    <Losungen>
+        <Datum>2019-08-19</Datum>
+        <Sonntag/>
+        <Wtag>Pondělí</Wtag>
+        <Losungstext>Hle, přichází k tobě tvůj král, spravedlivý a zachráněný, pokořený, jede na oslu.</Losungstext>
+        <Losungsvers>Zachariáš 9,9</Losungsvers>
+        <Lehrtext>Syn člověka nepřišel, aby si dal sloužit, ale aby sloužil a dal svůj život jako výkupné za mnohé.
+        </Lehrtext>
+        <Lehrtextvers>Matouš 20,28</Lehrtextvers>
+    </Losungen>
+    <Losungen>
+        <Datum>2019-08-20</Datum>
+        <Sonntag/>
+        <Wtag>Úterý</Wtag>
+        <Losungstext>Bylo mu dáno toto jméno: Zázračný rádce, Silný Bůh, Věčný Otec, Kníže pokoje.</Losungstext>
+        <Losungsvers>Izaiáš 9,6 J</Losungsvers>
+        <Lehrtext>Ježíš se apoštolů zeptal: A za koho mě pokládáte vy?</Lehrtext>
+        <Lehrtextvers>Matouš 16,15</Lehrtextvers>
+    </Losungen>
+    <Losungen>
+        <Datum>2019-08-21</Datum>
+        <Sonntag/>
+        <Wtag>Středa</Wtag>
+        <Losungstext>Chci nést Hospodinův hrozný hněv, neboť jsem proti němu hřešila.</Losungstext>
+        <Losungsvers>Micheáš 7,9</Losungsvers>
+        <Lehrtext>Pokořte se před Pánem, a on vás povýší.</Lehrtext>
+        <Lehrtextvers>Jakubova 4,10</Lehrtextvers>
+    </Losungen>
+    <Losungen>
+        <Datum>2019-08-22</Datum>
+        <Sonntag/>
+        <Wtag>Čtvrtek</Wtag>
+        <Losungstext>Byl vyťat ze země živých, raněn pro nevěrnost mého lidu.</Losungstext>
+        <Losungsvers>Izaiáš 53,8</Losungsvers>
+        <Lehrtext>Myslete na to, co všecko on musel snést od hříšníků, abyste neochabovali a neklesali na duchu.
+        </Lehrtext>
+        <Lehrtextvers>Židům 12,3</Lehrtextvers>
+    </Losungen>
+    <Losungen>
+        <Datum>2019-08-23</Datum>
+        <Sonntag/>
+        <Wtag>Pátek</Wtag>
+        <Losungstext>Tváť jest, Hospodine, velebnost i moc i sláva, i vítězství i čest, ano i všecko, což jest v nebi i
+            v zemi.
+        </Losungstext>
+        <Losungsvers>1.Paralipomenon 29,11 K</Losungsvers>
+        <Lehrtext>Jsi hoden, Pane a Bože náš, přijmout slávu, čest i moc, neboť ty jsi stvořil všechno a tvou vůlí
+            všechno povstalo a jest.
+        </Lehrtext>
+        <Lehrtextvers>Zjevení 4,11</Lehrtextvers>
+    </Losungen>
+    <Losungen>
+        <Datum>2019-08-24</Datum>
+        <Sonntag/>
+        <Wtag>Sobota</Wtag>
+        <Losungstext>Budete mě hledat a naleznete mě, když se mne budete dotazovat celým svým srdcem. Dám se vám nalézt,
+            je výrok Hospodinův.
+        </Losungstext>
+        <Losungsvers>Jeremiáš 29,13-14</Losungsvers>
+        <Lehrtext>Na to myslete, co pochází shůry, ne na to, co je na zemi.</Lehrtext>
+        <Lehrtextvers>Kolosanům 3,2 P</Lehrtextvers>
+    </Losungen>
+    <Losungen>
+        <Datum>2019-08-25</Datum>
+        <Sonntag>10. neděle po sv. Trojici</Sonntag>
+        <Wtag>Neděle</Wtag>
+        <Losungstext>Ostatek domu Judova, kterýž pozůstal, vpustí zase kořeny své hluboce, a vydá užitek nahoru.
+        </Losungstext>
+        <Losungsvers>2.Královská 19,30 K</Losungsvers>
+        <Lehrtext>Je-li kořen svatý, jsou svaté i větve.</Lehrtext>
+        <Lehrtextvers>Římanům 11,16</Lehrtextvers>
+    </Losungen>
+    <Losungen>
+        <Datum>2019-08-26</Datum>
+        <Sonntag/>
+        <Wtag>Pondělí</Wtag>
+        <Losungstext>Toto praví Hospodin: V čas milosti vyslyším tě a ve dni spasení spomohu tobě.</Losungstext>
+        <Losungsvers>Izaiáš 49,8 K</Losungsvers>
+        <Lehrtext>Je jeden a týž Pán všech, štědrý ke všem, kdo ho vzývají.</Lehrtext>
+        <Lehrtextvers>Římanům 10,12</Lehrtextvers>
+    </Losungen>
+    <Losungen>
+        <Datum>2019-08-27</Datum>
+        <Sonntag/>
+        <Wtag>Úterý</Wtag>
+        <Losungstext>Hle, posílám svého posla, aby připravil přede mnou cestu.</Losungstext>
+        <Losungsvers>Malachiáš 3,1</Losungsvers>
+        <Lehrtext>Anděl řekl pastýřům: Nebojte se, hle, zvěstuji vám velikou radost, která bude pro všechen lid.
+        </Lehrtext>
+        <Lehrtextvers>Lukáš 2,10</Lehrtextvers>
+    </Losungen>
+    <Losungen>
+        <Datum>2019-08-28</Datum>
+        <Sonntag/>
+        <Wtag>Středa</Wtag>
+        <Losungstext>Mojžíš Bohu namítal: Kdo jsem já, abych šel k faraónovi a vyvedl Izraelce z Egypta? Bůh odpověděl:
+            Já budu s tebou!
+        </Losungstext>
+        <Losungsvers>2.Mojžíšova 3,11-12</Losungsvers>
+        <Lehrtext>Stačí, když máš mou milost; vždyť v slabosti se projeví má síla.</Lehrtext>
+        <Lehrtextvers>2.Korintským 12,9</Lehrtextvers>
+    </Losungen>
+    <Losungen>
+        <Datum>2019-08-29</Datum>
+        <Sonntag/>
+        <Wtag>Čtvrtek</Wtag>
+        <Losungstext>Bázeň před Hospodinem napomíná k moudrosti.</Losungstext>
+        <Losungsvers>Přísloví 15,33</Losungsvers>
+        <Lehrtext>Jestliže si někdo myslí, že něco už plně poznal, ten ještě nepoznal tak, jak je třeba. Kdo však miluje
+            Boha, je od něho poznán.
+        </Lehrtext>
+        <Lehrtextvers>1.Korintským 8,2-3</Lehrtextvers>
+    </Losungen>
+    <Losungen>
+        <Datum>2019-08-30</Datum>
+        <Sonntag/>
+        <Wtag>Pátek</Wtag>
+        <Losungstext>Kdo ví, neobrátí-li se a nebude-li želeti toho Bůh; neodvrátí-li se, pravím, od prchlivosti hněvu
+            svého, abychom nezahynuli.
+        </Losungstext>
+        <Losungsvers>Jonáš 3,9 K</Losungsvers>
+        <Lehrtext>Pán má s námi trpělivost, protože si nepřeje, aby někdo zahynul, ale chce, aby všichni dospěli k
+            pokání.
+        </Lehrtext>
+        <Lehrtextvers>2.Petrova 3,9</Lehrtextvers>
+    </Losungen>
+    <Losungen>
+        <Datum>2019-08-31</Datum>
+        <Sonntag/>
+        <Wtag>Sobota</Wtag>
+        <Losungstext>Naše pomoc je ve jménu Hospodina, jenž učinil nebesa a zemi.</Losungstext>
+        <Losungsvers>Žalm 124,8 Z</Losungsvers>
+        <Lehrtext>Váš Otec ví, co potřebujete, dříve než ho prosíte.</Lehrtext>
+        <Lehrtextvers>Matouš 6,8</Lehrtextvers>
+    </Losungen>
+    <Losungen>
+        <Datum>2019-09-01</Datum>
+        <Sonntag>11. neděle po sv. Trojici</Sonntag>
+        <Wtag>Neděle</Wtag>
+        <Losungstext>Chválu vzdejte Pánu pánů, jeho milosrdenství je věčné. Jedině on koná velké divy, jeho
+            milosrdenství je věčné.
+        </Losungstext>
+        <Losungsvers>Žalm 136,3.4</Losungsvers>
+        <Lehrtext>Dík budiž Bohu z nevymluvného daru jeho.</Lehrtext>
+        <Lehrtextvers>2.Korintským 9,15 K</Lehrtextvers>
+    </Losungen>
+    <Losungen>
+        <Datum>2019-09-02</Datum>
+        <Sonntag/>
+        <Wtag>Pondělí</Wtag>
+        <Losungstext>Hospodin praví:Smiluji se, nad kýmž se smiluji, a slituji se, nad kýmž se slituji.</Losungstext>
+        <Losungsvers>2.Mojžíšova 33,19 K</Losungsvers>
+        <Lehrtext>Není rozdílu: všichni zhřešili a jsou daleko od Boží slávy; jsou ospravedlňováni zadarmo jeho
+            milostí.
+        </Lehrtext>
+        <Lehrtextvers>Římanům 3,22-24</Lehrtextvers>
+    </Losungen>
+    <Losungen>
+        <Datum>2019-09-03</Datum>
+        <Sonntag/>
+        <Wtag>Úterý</Wtag>
+        <Losungstext>Budu očekávat Hospodina, ačkoli skryl tvář před domem Jákobovým.</Losungstext>
+        <Losungsvers>Izaiáš 8,17</Losungsvers>
+        <Lehrtext>Jsme tedy stále plni důvěry, neboť víme, že pokud jsme doma v tomto těle, nejsme doma u Pána - žijeme
+            přece z víry, ne z toho, co vidíme.
+        </Lehrtext>
+        <Lehrtextvers>2.Korintským 5,6-7</Lehrtextvers>
+    </Losungen>
+    <Losungen>
+        <Datum>2019-09-04</Datum>
+        <Sonntag/>
+        <Wtag>Středa</Wtag>
+        <Losungstext>To, co jsme slyšeli, poznali my, co nám otcové vyprávěli, nemáme před dětmi zamlčet.</Losungstext>
+        <Losungsvers>Žalm 78,3-4 R</Losungsvers>
+        <Lehrtext>Když někdo zapálí lampu, nepostaví ji pod kbelec, nýbrž na svícen, i svítí všem v domě.</Lehrtext>
+        <Lehrtextvers>Matouš 5,15 Ž</Lehrtextvers>
+    </Losungen>
+    <Losungen>
+        <Datum>2019-09-05</Datum>
+        <Sonntag/>
+        <Wtag>Čtvrtek</Wtag>
+        <Losungstext>Raduj se nebe! Jásej země! Mezi pohany říkejte: To Jahve vládne!</Losungstext>
+        <Losungsvers>1.Paralipomenon 16,31 J</Losungsvers>
+        <Lehrtext>Při Ježíšově jménu má pokleknout každé koleno na nebi, na zemi i v podsvětí.</Lehrtext>
+        <Lehrtextvers>Filipským 2,10 P</Lehrtextvers>
+    </Losungen>
+    <Losungen>
+        <Datum>2019-09-06</Datum>
+        <Sonntag/>
+        <Wtag>Pátek</Wtag>
+        <Losungstext>Aj, jak dobré a jak utěšené, když bratří v jednomyslnosti přebývají! Nebo tu udílí Hospodin
+            požehnání i života až na věky.
+        </Losungstext>
+        <Losungsvers>Žalm 133,1.3 K</Losungsvers>
+        <Lehrtext>Milujte se navzájem bratrskou láskou, v úctě dávejte přednost jeden druhému.</Lehrtext>
+        <Lehrtextvers>Římanům 12,10</Lehrtextvers>
+    </Losungen>
+    <Losungen>
+        <Datum>2019-09-07</Datum>
+        <Sonntag/>
+        <Wtag>Sobota</Wtag>
+        <Losungstext>Aj ten, kdož se zpíná, tohoť duše není upřímá v něm, ale spravedlivý z víry své živ bude.
+        </Losungstext>
+        <Losungsvers>Abakuk 2,4 K</Losungsvers>
+        <Lehrtext>Vezměte na sebe mé jho a učte se ode mne, neboť jsem tichý a pokorného srdce: a naleznete odpočinutí
+            svým duším.
+        </Lehrtext>
+        <Lehrtextvers>Matouš 11,29</Lehrtextvers>
+    </Losungen>
+    <Losungen>
+        <Datum>2019-09-08</Datum>
+        <Sonntag>12. neděle po sv. Trojici</Sonntag>
+        <Wtag>Neděle</Wtag>
+        <Losungstext>Vložil jsem na svého služebníka svého ducha, aby vyhlásil soud pronárodům.</Losungstext>
+        <Losungsvers>Izaiáš 42,1</Losungsvers>
+        <Lehrtext>Ježíš praví: Já jsem se proto narodil a proto jsem přišel na svět, abych vydal svědectví pravdě.
+        </Lehrtext>
+        <Lehrtextvers>Jan 18,37</Lehrtextvers>
+    </Losungen>
+    <Losungen>
+        <Datum>2019-09-09</Datum>
+        <Sonntag/>
+        <Wtag>Pondělí</Wtag>
+        <Losungstext>Lide můj, co jsem ti udělal? Jaké potíže jsem ti působil? Odpověz mi.</Losungstext>
+        <Losungsvers>Micheáš 6,3</Losungsvers>
+        <Lehrtext>Otec řekl svému staršímu synovi: Synu, ty jsi stále se mnou a všecko, co mám, je tvé. Ale máme proč se
+            veselit a radovat, poněvadž tento tvůj bratr byl mrtev, a zase žije, ztratil se, a je nalezen.
+        </Lehrtext>
+        <Lehrtextvers>Lukáš 15,31-32</Lehrtextvers>
+    </Losungen>
+    <Losungen>
+        <Datum>2019-09-10</Datum>
+        <Sonntag/>
+        <Wtag>Úterý</Wtag>
+        <Losungstext>Bůh jest slunce a pavéza.</Losungstext>
+        <Losungsvers>Žalm 84,12 K</Losungsvers>
+        <Lehrtext>Pavel píše: Můj Bůh vám dá všechno, co potřebujete, podle svého bohatství v slávě v Kristu Ježíši.
+        </Lehrtext>
+        <Lehrtextvers>Filipským 4,19</Lehrtextvers>
+    </Losungen>
+    <Losungen>
+        <Datum>2019-09-11</Datum>
+        <Sonntag/>
+        <Wtag>Středa</Wtag>
+        <Losungstext>Nepřevrátíš právo, nebudeš nikomu stranit, nepřijmeš úplatek. Úplatek oslepuje oči moudrých a
+            překrucuje slova spravedlivých.
+        </Losungstext>
+        <Losungsvers>5.Mojžíšova 16,19</Losungsvers>
+        <Lehrtext>Odstup od nepravosti každý, kdož vzývá jméno Kristovo.</Lehrtext>
+        <Lehrtextvers>2.Timoteovi 2,19 K</Lehrtextvers>
+    </Losungen>
+    <Losungen>
+        <Datum>2019-09-12</Datum>
+        <Sonntag/>
+        <Wtag>Čtvrtek</Wtag>
+        <Losungstext>Eliáš prosil:Odpověz mi, Hospodine! Odpověz mi, ať pozná tento lid, že ty, Hospodine, jsi Bůh. Ty
+            sám obrať jejich srdce zpět k sobě.
+        </Losungstext>
+        <Losungsvers>1.Královská 18,37</Losungsvers>
+        <Lehrtext>Pavel píše: Za to se modlím, aby se vaše láska ještě víc a více rozhojňovala a s ní i poznání a
+            hluboká vnímavost; abyste rozpoznali, na čem záleží.
+        </Lehrtext>
+        <Lehrtextvers>Filipským 1,9-10</Lehrtextvers>
+    </Losungen>
+    <Losungen>
+        <Datum>2019-09-13</Datum>
+        <Sonntag/>
+        <Wtag>Pátek</Wtag>
+        <Losungstext>Proč dopřává Bůh bědnému světlo, život těm, kdo mají v duši hořkost, kdo toužebně čekají na smrt -
+            a ona nejde?
+        </Losungstext>
+        <Losungsvers>Jób 3,20-21</Losungsvers>
+        <Lehrtext>Protože Ježíš prošel zkouškou utrpení, může pomoci těm, na které přicházejí zkoušky.</Lehrtext>
+        <Lehrtextvers>Židům 2,18</Lehrtextvers>
+    </Losungen>
+    <Losungen>
+        <Datum>2019-09-14</Datum>
+        <Sonntag/>
+        <Wtag>Sobota</Wtag>
+        <Losungstext>Vzbudím nad nimi pastýře jednoho, kterýž je pásti bude.</Losungstext>
+        <Losungsvers>Ezechiel 34,23 K</Losungsvers>
+        <Lehrtext>Ježíš praví: Já jsem dobrý pastýř; znám své ovce a ony znají mne.</Lehrtext>
+        <Lehrtextvers>Jan 10,14</Lehrtextvers>
+    </Losungen>
+    <Losungen>
+        <Datum>2019-09-15</Datum>
+        <Sonntag>13. neděle po sv. Trojici</Sonntag>
+        <Wtag>Neděle</Wtag>
+        <Losungstext>Miluji tě z hloubi srdce svého, Bože, ty sílo má!</Losungstext>
+        <Losungsvers>Žalm 18,2 F</Losungsvers>
+        <Lehrtext>V tom městě byla žena hříšnice. Začala Ježíšovy nohy smáčet slzami a otírat svými vlasy, líbala je a
+            mazala vzácným olejem.
+        </Lehrtext>
+        <Lehrtextvers>Lukáš 7,37.38</Lehrtextvers>
+    </Losungen>
+    <Losungen>
+        <Datum>2019-09-16</Datum>
+        <Sonntag/>
+        <Wtag>Pondělí</Wtag>
+        <Losungstext>Hledejte dobrého a ne zlého, abyste živi byli.</Losungstext>
+        <Losungsvers>Amos 5,14 K</Losungsvers>
+        <Lehrtext>Nechť je mezi vámi takové smýšlení jako v Kristu Ježíši.</Lehrtext>
+        <Lehrtextvers>Filipským 2,5</Lehrtextvers>
+    </Losungen>
+    <Losungen>
+        <Datum>2019-09-17</Datum>
+        <Sonntag/>
+        <Wtag>Úterý</Wtag>
+        <Losungstext>Kde jsou tví bohové, které sis udělal? Ať vstanou a zachrání tě ve zlý čas, vždyť máš tolik bohů,
+            kolik měst, Judo.
+        </Losungstext>
+        <Losungsvers>Jeremiáš 2,28</Losungsvers>
+        <Lehrtext>Ježíš vstal, pohrozil větrům i moři; a nastalo veliké ticho.</Lehrtext>
+        <Lehrtextvers>Matouš 8,26</Lehrtextvers>
+    </Losungen>
+    <Losungen>
+        <Datum>2019-09-18</Datum>
+        <Sonntag/>
+        <Wtag>Středa</Wtag>
+        <Losungstext>Z cesty svědectví tvých raduji se více, než z největšího zboží.</Losungstext>
+        <Losungsvers>Žalm 119,14 K</Losungsvers>
+        <Lehrtext>Každý zákoník, který se stal učedníkem království nebeského, je jako hospodář, který vynáší ze svého
+            pokladu nové i staré.
+        </Lehrtext>
+        <Lehrtextvers>Matouš 13,52</Lehrtextvers>
+    </Losungen>
+    <Losungen>
+        <Datum>2019-09-19</Datum>
+        <Sonntag/>
+        <Wtag>Čtvrtek</Wtag>
+        <Losungstext>Hospodin šel před nimi ve dne v sloupu oblakovém, a tak je cestou vedl, v noci ve sloupu ohnivém, a
+            tak jim svítil.
+        </Losungstext>
+        <Losungsvers>2.Mojžíšova 13,21</Losungsvers>
+        <Lehrtext>Tím více se musíme držet toho, co jsme slyšeli, abychom nebyli strženi proudem.</Lehrtext>
+        <Lehrtextvers>Židům 2,1</Lehrtextvers>
+    </Losungen>
+    <Losungen>
+        <Datum>2019-09-20</Datum>
+        <Sonntag/>
+        <Wtag>Pátek</Wtag>
+        <Losungstext>Pokorní se znovu budou radovat z Hospodina a nejubožejší z lidí budou jásat vstříc Svatému
+            Izraele.
+        </Losungstext>
+        <Losungsvers>Izaiáš 29,19</Losungsvers>
+        <Lehrtext>Farizeové řekli učedníkům: "Proč váš Mistr jí s celníky a hříšníky?"</Lehrtext>
+        <Lehrtextvers>Matouš 9,11 P</Lehrtextvers>
+    </Losungen>
+    <Losungen>
+        <Datum>2019-09-21</Datum>
+        <Sonntag/>
+        <Wtag>Sobota</Wtag>
+        <Losungstext>Bůh pravil Jákobovi: Já jsem Bůh, Bůh tvého otce. Já sestoupím do Egypta s tebou a já tě také
+            určitě vyvedu.
+        </Losungstext>
+        <Losungsvers>1.Mojžíšova 46,3.4</Losungsvers>
+        <Lehrtext>Posilněte proto své zemdlené ruce i klesající kolena a vykročte jistým krokem.</Lehrtext>
+        <Lehrtextvers>Židům 12,12-13</Lehrtextvers>
+    </Losungen>
+    <Losungen>
+        <Datum>2019-09-22</Datum>
+        <Sonntag>14. neděle po sv. Trojici</Sonntag>
+        <Wtag>Neděle</Wtag>
+        <Losungstext>Veď mě cestou své pravdy a vyučuj mě!</Losungstext>
+        <Losungsvers>Žalm 25,5</Losungsvers>
+        <Lehrtext>Váš učitel je jeden, Kristus.</Lehrtext>
+        <Lehrtextvers>Matouš 23,10</Lehrtextvers>
+    </Losungen>
+    <Losungen>
+        <Datum>2019-09-23</Datum>
+        <Sonntag/>
+        <Wtag>Pondělí</Wtag>
+        <Losungstext>Luk mocného je zlomen, leč slábnoucí jsou opásáni silou.</Losungstext>
+        <Losungsvers>1.Samuelova 2,4 J</Losungsvers>
+        <Lehrtext>Pavel píše: Ve všem se chováme jakožto Boží služebníci, v slovu pravdy, v moci Boží, skrze odění
+            spravedlnosti, napravo i nalevo.
+        </Lehrtext>
+        <Lehrtextvers>2.Korintským 6,4.7 K</Lehrtextvers>
+    </Losungen>
+    <Losungen>
+        <Datum>2019-09-24</Datum>
+        <Sonntag/>
+        <Wtag>Úterý</Wtag>
+        <Losungstext>Dám jim srdce, aby poznali, že já jsem Hospodin.</Losungstext>
+        <Losungsvers>Jeremiáš 24,7</Losungsvers>
+        <Lehrtext>Ten, kdo nás spolu s vámi staví na pevný základ v Kristu a kdo si nás posvětil, je Bůh. On nám také
+            vtiskl svou pečeť a do srdce nám dal svého Ducha jako závdavek.
+        </Lehrtext>
+        <Lehrtextvers>2.Korintským 1,21-22</Lehrtextvers>
+    </Losungen>
+    <Losungen>
+        <Datum>2019-09-25</Datum>
+        <Sonntag/>
+        <Wtag>Středa</Wtag>
+        <Losungstext>Budeš usilovat o spravedlnost, abys zůstal naživu.</Losungstext>
+        <Losungsvers>5.Mojžíšova 16,20</Losungsvers>
+        <Lehrtext>Buďte pevně zakotveni ve víře a nedejte se odtrhnout od naděje evangelia, jež jste slyšeli, jež bylo
+            kázáno všemu stvoření pod nebem.
+        </Lehrtext>
+        <Lehrtextvers>Koloským 1,23</Lehrtextvers>
+    </Losungen>
+    <Losungen>
+        <Datum>2019-09-26</Datum>
+        <Sonntag/>
+        <Wtag>Čtvrtek</Wtag>
+        <Losungstext>V bázni před Hospodinem má člověk pevné bezpečí.</Losungstext>
+        <Losungsvers>Přísloví 14,26</Losungsvers>
+        <Lehrtext>Vím, komu jsem uvěřil. Jsem přesvědčen, že on má moc chránit, co mi svěřil, až do onoho dne.
+        </Lehrtext>
+        <Lehrtextvers>2.Timoteovi 1,12</Lehrtextvers>
+    </Losungen>
+    <Losungen>
+        <Datum>2019-09-27</Datum>
+        <Sonntag/>
+        <Wtag>Pátek</Wtag>
+        <Losungstext>Když člověk jí, pije a nalézá štěstí ve své práci, je to Boží dar.</Losungstext>
+        <Losungsvers>Kazatel 3,13 J</Losungsvers>
+        <Lehrtext>Chléb náš vezdejší dej nám dnes.</Lehrtext>
+        <Lehrtextvers>Matouš 6,11 K</Lehrtextvers>
+    </Losungen>
+    <Losungen>
+        <Datum>2019-09-28</Datum>
+        <Sonntag/>
+        <Wtag>Sobota</Wtag>
+        <Losungstext>Na Hospodina slož svoji starost, postará se o tebe.</Losungstext>
+        <Losungsvers>Žalm 55,23</Losungsvers>
+        <Lehrtext>Neztrácejte odvahu, neboť bude bohatě odměněna.</Lehrtext>
+        <Lehrtextvers>Židům 10,35</Lehrtextvers>
+    </Losungen>
+    <Losungen>
+        <Datum>2019-09-29</Datum>
+        <Sonntag>15. neděle po sv. Trojici</Sonntag>
+        <Wtag>Neděle</Wtag>
+        <Losungstext>Nepomůže králi množství vojska, nezachrání síla hrdinu.</Losungstext>
+        <Losungsvers>Žalm 33,16 R</Losungsvers>
+        <Lehrtext>Když Herodes umřel, hle, anděl Hospodinův se ukázal ve snu Josefovi v Egyptě a řekl: Vstaň, vezmi dítě
+            i jeho matku a jdi do země izraelské; neboť již zemřeli ti, kteří ukládali dítěti o život.
+        </Lehrtext>
+        <Lehrtextvers>Matouš 2,19-20</Lehrtextvers>
+    </Losungen>
+    <Losungen>
+        <Datum>2019-09-30</Datum>
+        <Sonntag/>
+        <Wtag>Pondělí</Wtag>
+        <Losungstext>Ukládej si do měchu mé slzy; což je v svých záznamech nemáš?</Losungstext>
+        <Losungsvers>Žalm 56,9</Losungsvers>
+        <Lehrtext>Veleben budiž Bůh a Otec našeho Pána Ježíše Krista, Otec milosrdenství a Bůh veškeré útěchy, který nás
+            těší v naší veškeré tísni, abychom my také mohli těšiti ty, kteří se octli v rozmanité tísni.
+        </Lehrtext>
+        <Lehrtextvers>2.Korintským 1,3-4 Ž</Lehrtextvers>
+    </Losungen>
+    <Losungen>
+        <Datum>2019-10-01</Datum>
+        <Sonntag/>
+        <Wtag>Úterý</Wtag>
+        <Losungstext>V Boha skládám naději, nebudu se bát, že by mi lidé mohli učinit co zlého.</Losungstext>
+        <Losungsvers>Žalm 56,12 F</Losungsvers>
+        <Lehrtext>Pavel píše: Všecko mohu v Kristu, kterýž mne posiluje.</Lehrtext>
+        <Lehrtextvers>Filipským 4,13 K</Lehrtextvers>
+    </Losungen>
+    <Losungen>
+        <Datum>2019-10-02</Datum>
+        <Sonntag/>
+        <Wtag>Středa</Wtag>
+        <Losungstext>O všem tom zlém, co Jóba potkalo, se doslechli jeho tři přátelé, přišli a seděli potom spolu s ním
+            na zemi po sedm dní a nocí a slova k němu žádný nepromluvil; neboť viděli, že jeho bolest je nesmírná.
+        </Losungstext>
+        <Losungsvers>Jób 2,11.13</Losungsvers>
+        <Lehrtext>Láska všechno snáší.</Lehrtext>
+        <Lehrtextvers>1.Korintským 13,7 Ž</Lehrtextvers>
+    </Losungen>
+    <Losungen>
+        <Datum>2019-10-03</Datum>
+        <Sonntag/>
+        <Wtag>Čtvrtek</Wtag>
+        <Losungstext>Bůh nebeský vzbudí království, kteréž na věky nebude zkaženo.</Losungstext>
+        <Losungsvers>Daniel 2,44 K</Losungsvers>
+        <Lehrtext>Tvé jest království, i moc, i sláva, na věky. Amen.</Lehrtext>
+        <Lehrtextvers>Matouš 6,13 K</Lehrtextvers>
+    </Losungen>
+    <Losungen>
+        <Datum>2019-10-04</Datum>
+        <Sonntag/>
+        <Wtag>Pátek</Wtag>
+        <Losungstext>Hospodine, jen ty jsi s to pomoci, postaví-li se mocný proti bezmocnému.</Losungstext>
+        <Losungsvers>2.Paralipomenon 14,10</Losungsvers>
+        <Lehrtext>Pavel píše: Velmi rád se budu chlubiti svými slabostmi, aby na mně spočinula Kristova moc.</Lehrtext>
+        <Lehrtextvers>2.Korintským 12,9 P</Lehrtextvers>
+    </Losungen>
+    <Losungen>
+        <Datum>2019-10-05</Datum>
+        <Sonntag/>
+        <Wtag>Sobota</Wtag>
+        <Losungstext>Bůh praví:Můj záměr se splní, vykonám, co se mi zlíbí.</Losungstext>
+        <Losungsvers>Izaiáš 46,10 J</Losungsvers>
+        <Lehrtext>Tak budou poslední první a první poslední.</Lehrtext>
+        <Lehrtextvers>Matouš 20,16</Lehrtextvers>
+    </Losungen>
+    <Losungen>
+        <Datum>2019-10-06</Datum>
+        <Sonntag>Den díkůvzdání za úrodu</Sonntag>
+        <Wtag>Neděle</Wtag>
+        <Losungstext>Na tomto místě způsobím pokoj, praví Hospodin zástupů.</Losungstext>
+        <Losungsvers>Aggeus 2,10 K</Losungsvers>
+        <Lehrtext>Pavel píše: Čemu jste se u mne naučili, co jste přijali a uslyšeli i spatřili, to čiňte. A Bůh pokoje
+            bude s vámi.
+        </Lehrtext>
+        <Lehrtextvers>Filipským 4,9</Lehrtextvers>
+    </Losungen>
+    <Losungen>
+        <Datum>2019-10-07</Datum>
+        <Sonntag/>
+        <Wtag>Pondělí</Wtag>
+        <Losungstext>Hospodin skála má a hrad můj, i vysvoboditel můj se mnou.</Losungstext>
+        <Losungsvers>2.Samuelova 22,2 K</Losungsvers>
+        <Lehrtext>V něj skládáme naději, že nás i nadále bude zachraňovat.</Lehrtext>
+        <Lehrtextvers>2.Korintským 1,10 P</Lehrtextvers>
+    </Losungen>
+    <Losungen>
+        <Datum>2019-10-08</Datum>
+        <Sonntag/>
+        <Wtag>Úterý</Wtag>
+        <Losungstext>Hledal jsem Hospodina a odpověděl mi a ze všech mých obav mne vytrhl.</Losungstext>
+        <Losungsvers>Žalm 34,5 Z</Losungsvers>
+        <Lehrtext>Ježíš praví: Má-li nějaká žena deset stříbrných mincí a ztratí jednu z nich, což nerozsvítí lampu,
+            nevymete dům a nehledá pečlivě, dokud ji nenajde?
+        </Lehrtext>
+        <Lehrtextvers>Lukáš 15,8</Lehrtextvers>
+    </Losungen>
+    <Losungen>
+        <Datum>2019-10-09</Datum>
+        <Sonntag/>
+        <Wtag>Středa</Wtag>
+        <Losungstext>Jákob řekl:Vstupme do Betelu! Já tam postavím oltář Bohu, jenž mne vyslyšel, když jsem byl v tísni,
+            a pomáhal mi během cesty.
+        </Losungstext>
+        <Losungsvers>1.Mojžíšova 35,3 J</Losungsvers>
+        <Lehrtext>Za všecko vzdávejte díky Bohu a Otci ve jménu našeho Pána Ježíše Krista.</Lehrtext>
+        <Lehrtextvers>Efezským 5,20</Lehrtextvers>
+    </Losungen>
+    <Losungen>
+        <Datum>2019-10-10</Datum>
+        <Sonntag/>
+        <Wtag>Čtvrtek</Wtag>
+        <Losungstext>Jejich odvrácení uzdravím, rád si je zamiluji.</Losungstext>
+        <Losungsvers>Ozeáš 14,5</Losungsvers>
+        <Lehrtext>S těmi, kdo pochybují, mějte slitování.</Lehrtext>
+        <Lehrtextvers>Judova 1,22</Lehrtextvers>
+    </Losungen>
+    <Losungen>
+        <Datum>2019-10-11</Datum>
+        <Sonntag/>
+        <Wtag>Pátek</Wtag>
+        <Losungstext>Běda těm, kdo na koně spoléhají, doufají ve vozy, že jich je mnoho, a nedotazují se Hospodina!
+        </Losungstext>
+        <Losungsvers>Izaiáš 31,1</Losungsvers>
+        <Lehrtext>Naše způsobilost je od Boha.</Lehrtext>
+        <Lehrtextvers>2.Korintským 3,5</Lehrtextvers>
+    </Losungen>
+    <Losungen>
+        <Datum>2019-10-12</Datum>
+        <Sonntag/>
+        <Wtag>Sobota</Wtag>
+        <Losungstext>Nad hukot mohutných vodstev, nad vznosné příboje mořské je vznešenější Hospodin na výšině.
+        </Losungstext>
+        <Losungsvers>Žalm 93,4</Losungsvers>
+        <Lehrtext>Ježíš řekl učedníkům: Kde je vaše víra? Oni se zděsili a užasli. Říkali mezi sebou: Kdo to jen je, že
+            rozkazuje i větru a vodám, a poslouchají ho?
+        </Lehrtext>
+        <Lehrtextvers>Lukáš 8,25</Lehrtextvers>
+    </Losungen>
+    <Losungen>
+        <Datum>2019-10-13</Datum>
+        <Sonntag>17. neděle po sv. Trojici</Sonntag>
+        <Wtag>Neděle</Wtag>
+        <Losungstext>Bůh dává moudrost moudrým, poznání těm, kdo mají rozum.</Losungstext>
+        <Losungsvers>Daniel 2,21</Losungsvers>
+        <Lehrtext>Moudrost shůry je především čistá, dále mírumilovná, ohleduplná, ochotná dát se přesvědčit, plná
+            slitování a dobrého ovoce, bez předsudků a bez přetvářky.
+        </Lehrtext>
+        <Lehrtextvers>Jakubova 3,17</Lehrtextvers>
+    </Losungen>
+    <Losungen>
+        <Datum>2019-10-14</Datum>
+        <Sonntag/>
+        <Wtag>Pondělí</Wtag>
+        <Losungstext>Zachráním vás ze všech vašich nečistot.</Losungstext>
+        <Losungsvers>Ezechiel 36,29</Losungsvers>
+        <Lehrtext>Není žádného odsouzení pro ty, kteří jsou v Kristu Ježíši.</Lehrtext>
+        <Lehrtextvers>Římanům 8,1</Lehrtextvers>
+    </Losungen>
+    <Losungen>
+        <Datum>2019-10-15</Datum>
+        <Sonntag/>
+        <Wtag>Úterý</Wtag>
+        <Losungstext>Dělám z tebe světlo národů, aby má spása dosáhla do končin země.</Losungstext>
+        <Losungsvers>Izaiáš 49,6 J</Losungsvers>
+        <Lehrtext>Bůh Krista Ježíše vyvýšil nade vše a dal mu jméno nad každé jméno.</Lehrtext>
+        <Lehrtextvers>Filipským 2,9</Lehrtextvers>
+    </Losungen>
+    <Losungen>
+        <Datum>2019-10-16</Datum>
+        <Sonntag/>
+        <Wtag>Středa</Wtag>
+        <Losungstext>Nezdržujte mě, když Hospodin dopřál mé cestě zdaru.</Losungstext>
+        <Losungsvers>1.Mojžíšova 24,56</Losungsvers>
+        <Lehrtext>Ježíš viděl v celnici sedět člověka jménem Matouš a řekl mu: Pojď za mnou! On vstal a šel za ním.
+        </Lehrtext>
+        <Lehrtextvers>Matouš 9,9</Lehrtextvers>
+    </Losungen>
+    <Losungen>
+        <Datum>2019-10-17</Datum>
+        <Sonntag/>
+        <Wtag>Čtvrtek</Wtag>
+        <Losungstext>Když budete prodávat něco svému bližnímu nebo něco od něho budeš kupovat, nepoškozujte jeden
+            druhého.
+        </Losungstext>
+        <Losungsvers>3.Mojžíšova 25,14</Losungsvers>
+        <Lehrtext>Jak byste chtěli, aby lidé jednali s vámi, tak vy ve všem jednejte s nimi; v tom je celý Zákon i
+            Proroci.
+        </Lehrtext>
+        <Lehrtextvers>Matouš 7,12</Lehrtextvers>
+    </Losungen>
+    <Losungen>
+        <Datum>2019-10-18</Datum>
+        <Sonntag/>
+        <Wtag>Pátek</Wtag>
+        <Losungstext>Kdo jde za spravedlností a milosrdenstvím, najde život a slávu.</Losungstext>
+        <Losungsvers>Přísloví 21,21</Losungsvers>
+        <Lehrtext>Království Boží není pokrm a nápoj, ale spravedlnost, pokoj a radost v Duchu svatém.</Lehrtext>
+        <Lehrtextvers>Římanům 14,17 K</Lehrtextvers>
+    </Losungen>
+    <Losungen>
+        <Datum>2019-10-19</Datum>
+        <Sonntag/>
+        <Wtag>Sobota</Wtag>
+        <Losungstext>Pane, povstaň, ať nenabude vrchu člověk!</Losungstext>
+        <Losungsvers>Žalm 9,20 Ku</Losungsvers>
+        <Lehrtext>Ježíš se modlil: Neprosím, abys je vzal ze světa, ale abys je zachoval od zlého.</Lehrtext>
+        <Lehrtextvers>Jan 17,15</Lehrtextvers>
+    </Losungen>
+    <Losungen>
+        <Datum>2019-10-20</Datum>
+        <Sonntag>18. neděle po sv. Trojici</Sonntag>
+        <Wtag>Neděle</Wtag>
+        <Losungstext>Uzavřu s nimi smlouvu věčnou, že už jim nepřestanu prokazovat dobro.</Losungstext>
+        <Losungsvers>Jeremiáš 32,40</Losungsvers>
+        <Lehrtext>Neníť vyvolování na tom, jenž chce, ani na tom, jenž běží, ale na Bohu, jenž se smilovává.</Lehrtext>
+        <Lehrtextvers>Římanům 9,16 K</Lehrtextvers>
+    </Losungen>
+    <Losungen>
+        <Datum>2019-10-21</Datum>
+        <Sonntag/>
+        <Wtag>Pondělí</Wtag>
+        <Losungstext>Běda pastýřům Izraele, kteří pasou sami sebe. Což pastýři nemají pást ovce?</Losungstext>
+        <Losungsvers>Ezechiel 34,2</Losungsvers>
+        <Lehrtext>Nehledejte jeden každý svých věcí, ale každý také toho, což jest jiných.</Lehrtext>
+        <Lehrtextvers>Filipským 2,4 K</Lehrtextvers>
+    </Losungen>
+    <Losungen>
+        <Datum>2019-10-22</Datum>
+        <Sonntag/>
+        <Wtag>Úterý</Wtag>
+        <Losungstext>Elijáš řekl všemu lidu: Přistupte ke mně! Všechen lid k němu přistoupil a on opravil pobořený
+            Hospodinův oltář.
+        </Losungstext>
+        <Losungsvers>1.Královská 18,30</Losungsvers>
+        <Lehrtext>A tak usilujme o to, co slouží pokoji a společnému růstu.</Lehrtext>
+        <Lehrtextvers>Římanům 14,19</Lehrtextvers>
+    </Losungen>
+    <Losungen>
+        <Datum>2019-10-23</Datum>
+        <Sonntag/>
+        <Wtag>Středa</Wtag>
+        <Losungstext>Navrať se ke svému Bohu, dbej na milosrdenství a právo, s nadějí vytrvale čekej na svého Boha.
+        </Losungstext>
+        <Losungsvers>Ozeáš 12,7</Losungsvers>
+        <Lehrtext>Odstraňte veškerou špínu a přemíru špatnosti a v tichosti přijměte zaseté slovo, které má moc spasit
+            vaše duše.
+        </Lehrtext>
+        <Lehrtextvers>Jakubova 1,21</Lehrtextvers>
+    </Losungen>
+    <Losungen>
+        <Datum>2019-10-24</Datum>
+        <Sonntag/>
+        <Wtag>Čtvrtek</Wtag>
+        <Losungstext>Nechals lidi nám přes hlavu cválat. Prošli jsme ohněm, prošli vodou: vyvedls nás však do
+            volnosti!
+        </Losungstext>
+        <Losungsvers>Žalm 66,12 R</Losungsvers>
+        <Lehrtext>Vítězství, které přemohlo svět, je naše víra.</Lehrtext>
+        <Lehrtextvers>1.Janova 5,4</Lehrtextvers>
+    </Losungen>
+    <Losungen>
+        <Datum>2019-10-25</Datum>
+        <Sonntag/>
+        <Wtag>Pátek</Wtag>
+        <Losungstext>Bůh dělá veliké věci, nad naše poznání.</Losungstext>
+        <Losungsvers>Jób 37,5</Losungsvers>
+        <Lehrtext>Z něho a skrze něho a pro něho je všecko! Jemu buď sláva na věky. Amen.</Lehrtext>
+        <Lehrtextvers>Římanům 11,36</Lehrtextvers>
+    </Losungen>
+    <Losungen>
+        <Datum>2019-10-26</Datum>
+        <Sonntag/>
+        <Wtag>Sobota</Wtag>
+        <Losungstext>Jsi svatý lid Hospodina, svého Boha. Tebe si Hospodin vyvolil ze všech lidských pokolení, která
+            jsou na tváři země, abys byl jeho zvláštním vlastnictvím.
+        </Losungstext>
+        <Losungsvers>5.Mojžíšova 14,2</Losungsvers>
+        <Lehrtext>Je jenom jeden Bůh, a on židy ospravedlňuje na základě víry, pohany skrze víru.</Lehrtext>
+        <Lehrtextvers>Římanům 3,30 P</Lehrtextvers>
+    </Losungen>
+    <Losungen>
+        <Datum>2019-10-27</Datum>
+        <Sonntag>19. neděle po sv. Trojici</Sonntag>
+        <Wtag>Neděle</Wtag>
+        <Losungstext>Hospodin ochuzuje i zbohacuje, ponižuje a též povyšuje.</Losungstext>
+        <Losungsvers>1.Samuelova 2,7</Losungsvers>
+        <Lehrtext>Stále nosíme na sobě znamení Ježíšovy smrti, aby i život Ježíšův byl na nás zjeven.</Lehrtext>
+        <Lehrtextvers>2.Korintským 4,10</Lehrtextvers>
+    </Losungen>
+    <Losungen>
+        <Datum>2019-10-28</Datum>
+        <Sonntag/>
+        <Wtag>Pondělí</Wtag>
+        <Losungstext>Lid, ti, kteří se znají ke svému Bohu, zůstanou pevní a budou podle toho jednat.</Losungstext>
+        <Losungsvers>Daniel 11,32</Losungsvers>
+        <Lehrtext>Ježíš praví: Ať svítí vaše světlo před lidmi, aby viděli vaše dobré skutky a vzdali slávu vašemu Otci
+            v nebesích.
+        </Lehrtext>
+        <Lehrtextvers>Matouš 5,16</Lehrtextvers>
+    </Losungen>
+    <Losungen>
+        <Datum>2019-10-29</Datum>
+        <Sonntag/>
+        <Wtag>Úterý</Wtag>
+        <Losungstext>Ti, kdo se šalebných přeludů drží, o milosrdenství se připravují.</Losungstext>
+        <Losungsvers>Jonáš 2,9</Losungsvers>
+        <Lehrtext>Nikdo nemůže sloužit dvěma pánům. Neboť jednoho bude nenávidět a druhého milovat, k jednomu se přidá a
+            druhým pohrdne. Nemůžete sloužit Bohu i majetku.
+        </Lehrtext>
+        <Lehrtextvers>Matouš 6,24</Lehrtextvers>
+    </Losungen>
+    <Losungen>
+        <Datum>2019-10-30</Datum>
+        <Sonntag/>
+        <Wtag>Středa</Wtag>
+        <Losungstext>Vzpomeňte si na divy, jež koná, znamení a soudy z jeho úst!</Losungstext>
+        <Losungsvers>Žalm 105,5 R</Losungsvers>
+        <Lehrtext>Ježíš vzdal díky, lámal chleby a dával učedníkům a učedníci zástupům. I jedli všichni a nasytili se.
+        </Lehrtext>
+        <Lehrtextvers>Matouš 14,19-20</Lehrtextvers>
+    </Losungen>
+    <Losungen>
+        <Datum>2019-10-31</Datum>
+        <Sonntag>Den reformace</Sonntag>
+        <Wtag>Čtvrtek</Wtag>
+        <Losungstext>Díky Bohu vzdávejte, vzývejte jméno jeho. Skutky jeho mezi lidmi v známost uvádějte.</Losungstext>
+        <Losungsvers>Žalm 105,1 F</Losungsvers>
+        <Lehrtext>Spatřili jsme a dosvědčujeme, že Otec poslal Syna, aby byl Spasitelem světa.</Lehrtext>
+        <Lehrtextvers>1.Janova 4,14</Lehrtextvers>
+    </Losungen>
+    <Losungen>
+        <Datum>2019-11-01</Datum>
+        <Sonntag/>
+        <Wtag>Pátek</Wtag>
+        <Losungstext>Pro své jméno, Hospodine, odpusť mi mou nepravost, je velká.</Losungstext>
+        <Losungsvers>Žalm 25,11</Losungsvers>
+        <Lehrtext>V Ježíši Kristu jsme vykoupeni jeho krví a naše hříchy jsou nám odpuštěny pro přebohatou milost.
+        </Lehrtext>
+        <Lehrtextvers>Efezským 1,7</Lehrtextvers>
+    </Losungen>
+    <Losungen>
+        <Datum>2019-11-02</Datum>
+        <Sonntag/>
+        <Wtag>Sobota</Wtag>
+        <Losungstext>Šíří pomluvy, kdo odhaluje tajemství, spolehlivý duch je, kdo věc ukrývá.</Losungstext>
+        <Losungsvers>Přísloví 11,13 J</Losungsvers>
+        <Lehrtext>Opatruj, co ti bylo svěřeno, vyhýbej se bezbožným řečem.</Lehrtext>
+        <Lehrtextvers>1.Timoteovi 6,20</Lehrtextvers>
+    </Losungen>
+    <Losungen>
+        <Datum>2019-11-03</Datum>
+        <Sonntag>20. neděle po sv. Trojici</Sonntag>
+        <Wtag>Neděle</Wtag>
+        <Losungstext>Pane můj, otevři mé rty, i budou ústa má zvěstovat všem tvou chválu.</Losungstext>
+        <Losungsvers>Žalm 51,17 F</Losungsvers>
+        <Lehrtext>Boží moc provázela svědectví apoštolů o vzkříšení Pána Ježíše a na všech spočívala veliká milost.
+        </Lehrtext>
+        <Lehrtextvers>Skutky 4,33</Lehrtextvers>
+    </Losungen>
+    <Losungen>
+        <Datum>2019-11-04</Datum>
+        <Sonntag/>
+        <Wtag>Pondělí</Wtag>
+        <Losungstext>Hospodinovo milosrdenství je od věků na věky s těmi, kteří se ho bojí, jeho spravedlnost i se syny
+            synů, s těmi, kteří dodržují jeho smlouvu.
+        </Losungstext>
+        <Losungsvers>Žalm 103,17-18</Losungsvers>
+        <Lehrtext>Chovejte se tak, jak je to hodné evangelia Kristova.</Lehrtext>
+        <Lehrtextvers>Filipským, 1,27 P</Lehrtextvers>
+    </Losungen>
+    <Losungen>
+        <Datum>2019-11-05</Datum>
+        <Sonntag/>
+        <Wtag>Úterý</Wtag>
+        <Losungstext>Povstaň, rozjasni se, protože ti vzešlo světlo, vzešla nad tebou Hospodinova sláva.</Losungstext>
+        <Losungsvers>Izaiáš 60,1</Losungsvers>
+        <Lehrtext>Ježíš praví: Já jsem přišel na svět jako světlo, aby nikdo, kdo ve mne věří, nezůstal ve tmě.
+        </Lehrtext>
+        <Lehrtextvers>Jan 12,46</Lehrtextvers>
+    </Losungen>
+    <Losungen>
+        <Datum>2019-11-06</Datum>
+        <Sonntag/>
+        <Wtag>Středa</Wtag>
+        <Losungstext>Všechny národy, které jsi učinil, přicházeti a klaněti se budou před tebou, i uctívati budou jméno
+            tvé.
+        </Losungstext>
+        <Losungsvers>Žalm 86,9 F</Losungsvers>
+        <Lehrtext>Toto evangelium o království bude kázáno po celém světě na svědectví všem národům, a teprve potom
+            přijde konec.
+        </Lehrtext>
+        <Lehrtextvers>Matouš 24,14</Lehrtextvers>
+    </Losungen>
+    <Losungen>
+        <Datum>2019-11-07</Datum>
+        <Sonntag/>
+        <Wtag>Čtvrtek</Wtag>
+        <Losungstext>Příchozí jsme před tebou a hosté, jako i všickni otcové naši; dnové naši jsou jako stín běžící po
+            zemi beze vší zástavy.
+        </Losungstext>
+        <Losungsvers>1.Paralipomenon 29,15 K</Losungsvers>
+        <Lehrtext>Ježíš praví: V domě mého Otce je mnoho příbytků.</Lehrtext>
+        <Lehrtextvers>Jan 14,2</Lehrtextvers>
+    </Losungen>
+    <Losungen>
+        <Datum>2019-11-08</Datum>
+        <Sonntag/>
+        <Wtag>Pátek</Wtag>
+        <Losungstext>Synové Izraelští řekli Samuelovi: Nepřestávej volati za nás k Hospodinu Bohu našemu, aby nás
+            vysvobodil z ruky Filistinských.
+        </Losungstext>
+        <Losungsvers>1.Samuelova 7,8 K</Losungsvers>
+        <Lehrtext>Vyznávejte hříchy jeden druhému a modlete se jeden za druhého, abyste byli uzdraveni.</Lehrtext>
+        <Lehrtextvers>Jakubova 5,16</Lehrtextvers>
+    </Losungen>
+    <Losungen>
+        <Datum>2019-11-09</Datum>
+        <Sonntag/>
+        <Wtag>Sobota</Wtag>
+        <Losungstext>Kdo změřil Hospodinova ducha a byl mu rádcem a vedl ho k poznání?</Losungstext>
+        <Losungsvers>Izaiáš 40,13</Losungsvers>
+        <Lehrtext>Nemůžeme si myslet, že božstvo se podobá něčemu, co bylo vyrobeno ze zlata, stříbra nebo z kamene
+            lidskou zručností a důmyslem.
+        </Lehrtext>
+        <Lehrtextvers>Skutky 17,29</Lehrtextvers>
+    </Losungen>
+    <Losungen>
+        <Datum>2019-11-10</Datum>
+        <Sonntag>21. neděle po sv. Trojici</Sonntag>
+        <Wtag>Neděle</Wtag>
+        <Losungstext>Nestřeží-li město Hospodin, nadarmo bdí strážný.</Losungstext>
+        <Losungsvers>Žalm 127,1</Losungsvers>
+        <Lehrtext>Nic neznamená ten, kdo sází, ani kdo zalévá, nýbrž Bůh, který dává vzrůst.</Lehrtext>
+        <Lehrtextvers>1.Korintským 3,7</Lehrtextvers>
+    </Losungen>
+    <Losungen>
+        <Datum>2019-11-11</Datum>
+        <Sonntag/>
+        <Wtag>Pondělí</Wtag>
+        <Losungstext>Jestliže nebudete Hospodina poslouchat a budete se Hospodinovým rozkazům vzpírat, dolehne
+            Hospodinova ruka na vás i na vaše otce.
+        </Losungstext>
+        <Losungsvers>1.Samuelova 12,15</Losungsvers>
+        <Lehrtext>Přeji si, abyste byli moudří v dobru a nezkušení ve zlu.</Lehrtext>
+        <Lehrtextvers>Římanům 16,19</Lehrtextvers>
+    </Losungen>
+    <Losungen>
+        <Datum>2019-11-12</Datum>
+        <Sonntag/>
+        <Wtag>Úterý</Wtag>
+        <Losungstext>Hle, já sám vyhledám své ovce a budu o ně pečovat.</Losungstext>
+        <Losungsvers>Ezechiel 34,11</Losungsvers>
+        <Lehrtext>Když Ježíš viděl zástupy, bylo mu jich líto, protože byli vysílení a skleslí jako ovce bez pastýře.
+        </Lehrtext>
+        <Lehrtextvers>Matouš 9,36</Lehrtextvers>
+    </Losungen>
+    <Losungen>
+        <Datum>2019-11-13</Datum>
+        <Sonntag/>
+        <Wtag>Středa</Wtag>
+        <Losungstext>Velikomocný bude až do končin země.</Losungstext>
+        <Losungsvers>Micheáš 5,4 K</Losungsvers>
+        <Lehrtext>V Ježíši Kristu je vtělena všechna plnost božství; v něm jste i vy dosáhli plnosti. On je hlavou všech
+            mocností a sil.
+        </Lehrtext>
+        <Lehrtextvers>Koloským 2,9-10</Lehrtextvers>
+    </Losungen>
+    <Losungen>
+        <Datum>2019-11-14</Datum>
+        <Sonntag/>
+        <Wtag>Čtvrtek</Wtag>
+        <Losungstext>Ach, Hospodine, pomoz přece!</Losungstext>
+        <Losungsvers>Žalm 118,25 Z</Losungsvers>
+        <Lehrtext>Bůh ve vás působí, že chcete i činíte, co se mu líbí.</Lehrtext>
+        <Lehrtextvers>Filipským 2,13</Lehrtextvers>
+    </Losungen>
+    <Losungen>
+        <Datum>2019-11-15</Datum>
+        <Sonntag/>
+        <Wtag>Pátek</Wtag>
+        <Losungstext>Mnohomluvnost nezůstává bez přestoupení, kdežto kdo krotí své rty, je prozíravý.</Losungstext>
+        <Losungsvers>Přísloví 10,19</Losungsvers>
+        <Lehrtext>Jazykem chválíme Pána a Otce, jím však také proklínáme lidi, kteří byli stvořeni k Boží podobě. Z
+            týchž úst vychází žehnání i proklínání. Tak tomu být nemá, bratří moji.
+        </Lehrtext>
+        <Lehrtextvers>Jakubova 3,9-10</Lehrtextvers>
+    </Losungen>
+    <Losungen>
+        <Datum>2019-11-16</Datum>
+        <Sonntag/>
+        <Wtag>Sobota</Wtag>
+        <Losungstext>Hospodin povede při i s dálavami země. Udělí moc svému králi.</Losungstext>
+        <Losungsvers>1.Samuelova 2,10</Losungsvers>
+        <Lehrtext>Až přijde Syn člověka ve své slávě a všichni andělé s ním, posadí se na trůnu své slávy; a budou před
+            něho shromážděny všechny národy.
+        </Lehrtext>
+        <Lehrtextvers>Matouš 25,31-32</Lehrtextvers>
+    </Losungen>
+    <Losungen>
+        <Datum>2019-11-17</Datum>
+        <Sonntag>22. neděle po sv. Trojici</Sonntag>
+        <Wtag>Neděle</Wtag>
+        <Losungstext>I úpěli Izraelci k Hospodinu: Zhřešili jsme proti tobě, opustili jsme svého Boha.</Losungstext>
+        <Losungsvers>Soudců 10,10</Losungsvers>
+        <Lehrtext>On nás vysvobodil z moci tmy a přenesl do království svého milovaného Syna. V něm máme vykoupení a
+            odpuštění hříchů.
+        </Lehrtext>
+        <Lehrtextvers>Koloským 1,13-14</Lehrtextvers>
+    </Losungen>
+    <Losungen>
+        <Datum>2019-11-18</Datum>
+        <Sonntag/>
+        <Wtag>Pondělí</Wtag>
+        <Losungstext>Sevřel jsi mě zezadu i zpředu, svou dlaň jsi položil na mě.</Losungstext>
+        <Losungsvers>Žalm 139,5</Losungsvers>
+        <Lehrtext>Kdo nás odloučí od lásky Kristovy? Snad soužení nebo úzkost, pronásledování nebo hlad, bída, nebezpečí
+            nebo meč?
+        </Lehrtext>
+        <Lehrtextvers>Římanům 8,35</Lehrtextvers>
+    </Losungen>
+    <Losungen>
+        <Datum>2019-11-19</Datum>
+        <Sonntag/>
+        <Wtag>Úterý</Wtag>
+        <Losungstext>Budou proti tobě bojovat, ale nic proti tobě nezmohou, neboť já budu s tebou a vysvobodím tě, je
+            výrok Hospodinův.
+        </Losungstext>
+        <Losungsvers>Jeremiáš 1,19</Losungsvers>
+        <Lehrtext>Království Boží nezáleží v slovech, nýbrž v moci.</Lehrtext>
+        <Lehrtextvers>1.Korintským 4,20</Lehrtextvers>
+    </Losungen>
+    <Losungen>
+        <Datum>2019-11-20</Datum>
+        <Sonntag>Den přímluv a modliteb</Sonntag>
+        <Wtag>Středa</Wtag>
+        <Losungstext>Ať plesají mé rty, když ti zpívám žalmy, i má duše tebou vykoupená.</Losungstext>
+        <Losungsvers>Žalm 71,23</Losungsvers>
+        <Lehrtext>Plni Ducha zpívejte společně žalmy, chvalozpěvy a duchovní písně.</Lehrtext>
+        <Lehrtextvers>Efezským 5,19</Lehrtextvers>
+    </Losungen>
+    <Losungen>
+        <Datum>2019-11-21</Datum>
+        <Sonntag/>
+        <Wtag>Čtvrtek</Wtag>
+        <Losungstext>Hle, já jsem Hospodin, Bůh veškerého tvorstva. Je pro mne něco nemožného?</Losungstext>
+        <Losungsvers>Jeremiáš 32,27</Losungsvers>
+        <Lehrtext>Pavel píše: Tomu, jenž může vás utvrditi podle evangelium mého a kázání Ježíše Krista, podle zjevení
+            tajemství od časů věčných skrytého, tomu samému moudrému Bohu sláva skrze Jezukrista na věky.
+        </Lehrtext>
+        <Lehrtextvers>Římanům 16,25.27 K</Lehrtextvers>
+    </Losungen>
+    <Losungen>
+        <Datum>2019-11-22</Datum>
+        <Sonntag/>
+        <Wtag>Pátek</Wtag>
+        <Losungstext>I pták nachází svůj domov, hnízdo vlaštovka, kam si ukládá své mladé, u tvých oltářů, Pane zástupů,
+            Králi, Bože můj!
+        </Losungstext>
+        <Losungsvers>Žalm 84,4 R</Losungsvers>
+        <Lehrtext>Ježíš praví: Kdežkoli shromáždí se dva nebo tři ve jménu mém, tuť jsem já uprostřed nich.</Lehrtext>
+        <Lehrtextvers>Matouš 18,20 K</Lehrtextvers>
+    </Losungen>
+    <Losungen>
+        <Datum>2019-11-23</Datum>
+        <Sonntag/>
+        <Wtag>Sobota</Wtag>
+        <Losungstext>Hospodin jest můj pastýř, nebudu míti nedostatku.</Losungstext>
+        <Losungsvers>Žalm 23,1 K</Losungsvers>
+        <Lehrtext>Pavel píše: Ve všem se prokazujeme jako Boží služebníci, v mnohé vytrvalosti, v souženích, tísni,
+            úzkostech, máme proč se rmoutit, a přece se stále radujeme; jsme chudí, a přece mnohé obohacujeme; nic
+            nemáme, a přece nám patří vše.
+        </Lehrtext>
+        <Lehrtextvers>2.Korintským 6,4.10</Lehrtextvers>
+    </Losungen>
+    <Losungen>
+        <Datum>2019-11-24</Datum>
+        <Sonntag>Poslední neděle církevního roku</Sonntag>
+        <Wtag>Neděle</Wtag>
+        <Losungstext>Pro spravedlivého je zaseto světlo, radost pro ty, kteří mají přímé srdce.</Losungstext>
+        <Losungsvers>Žalm 97,11</Losungsvers>
+        <Lehrtext>Blaze těm, kdo pláčou, neboť oni budou potěšeni.</Lehrtext>
+        <Lehrtextvers>Matouš 5,4</Lehrtextvers>
+    </Losungen>
+    <Losungen>
+        <Datum>2019-11-25</Datum>
+        <Sonntag/>
+        <Wtag>Pondělí</Wtag>
+        <Losungstext>Ty i tvoje potomstvo budete mou smlouvu zachovávat ve všech pokoleních.</Losungstext>
+        <Losungsvers>1.Mojžíšova 17,9</Losungsvers>
+        <Lehrtext>Bůh nás učinil způsobilými sloužit nové smlouvě.</Lehrtext>
+        <Lehrtextvers>2.Korintským 3,6</Lehrtextvers>
+    </Losungen>
+    <Losungen>
+        <Datum>2019-11-26</Datum>
+        <Sonntag/>
+        <Wtag>Úterý</Wtag>
+        <Losungstext>Stezku života mi dáváš poznat.</Losungstext>
+        <Losungsvers>Žalm 16,11</Losungsvers>
+        <Lehrtext>Nedbám na to, co je za mnou a ženu se k tomu, co je přede mnou.</Lehrtext>
+        <Lehrtextvers>Filipským 3,13 P</Lehrtextvers>
+    </Losungen>
+    <Losungen>
+        <Datum>2019-11-27</Datum>
+        <Sonntag/>
+        <Wtag>Středa</Wtag>
+        <Losungstext>Buďte svatí, neboť já Hospodin, váš Bůh, jsem svatý.</Losungstext>
+        <Losungsvers>3.Mojžíšova 19,2</Losungsvers>
+        <Lehrtext>Z vlastní vůle nám dal zroditi se slovem pravdy, abychom byli prvotinou jeho tvorů.</Lehrtext>
+        <Lehrtextvers>Jakubova 1,18 Ž</Lehrtextvers>
+    </Losungen>
+    <Losungen>
+        <Datum>2019-11-28</Datum>
+        <Sonntag/>
+        <Wtag>Čtvrtek</Wtag>
+        <Losungstext>Navrať se, Hospodine, vysvoboď mou duši, pomoz mi pro své milosrdenství!</Losungstext>
+        <Losungsvers>Žalm 6,5 Z</Losungsvers>
+        <Lehrtext>Jestliže tedy vy, ač jste zlí, umíte svým dětem dávat dobré dary, čím spíše váš Otec v nebesích dá
+            dobré těm, kdo ho prosí!
+        </Lehrtext>
+        <Lehrtextvers>Matouš 7,11</Lehrtextvers>
+    </Losungen>
+    <Losungen>
+        <Datum>2019-11-29</Datum>
+        <Sonntag/>
+        <Wtag>Pátek</Wtag>
+        <Losungstext>Jako se slitovává otec nad dětmi, tak se Pán slitovává nad těmi, kdo se ho bojí.</Losungstext>
+        <Losungsvers>Žalm 103,13 Ku</Losungsvers>
+        <Lehrtext>Ježíš praví: Pravím vám, že mnozí od východu i západu přijdou a budou stolovat s Abrahamem, Izákem a
+            Jákobem v království nebeském.
+        </Lehrtext>
+        <Lehrtextvers>Matouš 8,11</Lehrtextvers>
+    </Losungen>
+    <Losungen>
+        <Datum>2019-11-30</Datum>
+        <Sonntag/>
+        <Wtag>Sobota</Wtag>
+        <Losungstext>Poznáš, že jsem já Hospodin, a že nebývají zahanbeni, kteříž na mne očekávají.</Losungstext>
+        <Losungsvers>Izaiáš 49,23 K</Losungsvers>
+        <Lehrtext>Z naděje se radujte, v soužení buďte trpěliví, v modlitbách vytrvalí.</Lehrtext>
+        <Lehrtextvers>Římanům 12,12</Lehrtextvers>
+    </Losungen>
+    <Losungen>
+        <Datum>2019-12-01</Datum>
+        <Sonntag>1. neděle adventní</Sonntag>
+        <Wtag>Neděle</Wtag>
+        <Losungstext>Kdož by se nebál tebe, králi národů? Na tebeť zajisté to sluší.</Losungstext>
+        <Losungsvers>Jeremiáš 10,7 K</Losungsvers>
+        <Lehrtext>Bůh pokoje nechť vás posílí ve všem dobrém, abyste plnili jeho vůli; on v nás působí to, co se mu
+            líbí, skrze Ježíše Krista.
+        </Lehrtext>
+        <Lehrtextvers>Židům 13,20.21</Lehrtextvers>
+    </Losungen>
+    <Losungen>
+        <Datum>2019-12-02</Datum>
+        <Sonntag/>
+        <Wtag>Pondělí</Wtag>
+        <Losungstext>Neboj se a neděs!</Losungstext>
+        <Losungsvers>Jozue 8,1</Losungsvers>
+        <Lehrtext>Bázně není v lásce, ale láska dokonalá ven vyhání bázeň.</Lehrtext>
+        <Lehrtextvers>1.Janova 4,18 K</Lehrtextvers>
+    </Losungen>
+    <Losungen>
+        <Datum>2019-12-03</Datum>
+        <Sonntag/>
+        <Wtag>Úterý</Wtag>
+        <Losungstext>Pomoz nám, Hospodine Bože náš, neboť v tebe doufáme.</Losungstext>
+        <Losungsvers>2.Paralipomenon 14,11 K</Losungsvers>
+        <Lehrtext>Každý, kdo prosí, dostává, a kdo hledá, nalézá, a kdo tluče, tomu bude otevřeno.</Lehrtext>
+        <Lehrtextvers>Matouš 7,8</Lehrtextvers>
+    </Losungen>
+    <Losungen>
+        <Datum>2019-12-04</Datum>
+        <Sonntag/>
+        <Wtag>Středa</Wtag>
+        <Losungstext>Hospodin řekl:Chrániti budu města tohoto, abych je zachoval pro sebe.</Losungstext>
+        <Losungsvers>2.Královská 19,34 K</Losungsvers>
+        <Lehrtext>Církev v celém Judsku, Galileji a Samaří měla klid, vnitřně i navenek rostla, žila v bázni Páně a
+            vzrůstala počtem, protože ji Duch svatý posiloval.
+        </Lehrtext>
+        <Lehrtextvers>Skutky 9,31</Lehrtextvers>
+    </Losungen>
+    <Losungen>
+        <Datum>2019-12-05</Datum>
+        <Sonntag/>
+        <Wtag>Čtvrtek</Wtag>
+        <Losungstext>Před Bohem veliký a silný vítr rozervávající hory a tříštící skály, ale Bůh v tom větru nebyl. Po
+            větru zemětřesení, ale Bůh v tom zemětřesení nebyl. Po zemětřesení oheň, ale Bůh ani v tom ohni nebyl. Po
+            ohni hlas tichý, jemný.
+        </Losungstext>
+        <Losungsvers>1.Královská 19,11-12</Losungsvers>
+        <Lehrtext>Bůh je Duch a ti, kdo ho uctívají, mají tak činit v Duchu a v pravdě.</Lehrtext>
+        <Lehrtextvers>Jan 4,24</Lehrtextvers>
+    </Losungen>
+    <Losungen>
+        <Datum>2019-12-06</Datum>
+        <Sonntag/>
+        <Wtag>Pátek</Wtag>
+        <Losungstext>Požehnaný Pán, den co den nese za nás břímě, on je naše pomoc.</Losungstext>
+        <Losungsvers>Žalm 68,20 Z</Losungsvers>
+        <Lehrtext>Víme, že milujícím Boha všecky věci napomáhají k dobrému.</Lehrtext>
+        <Lehrtextvers>Římanům 8,28 K</Lehrtextvers>
+    </Losungen>
+    <Losungen>
+        <Datum>2019-12-07</Datum>
+        <Sonntag/>
+        <Wtag>Sobota</Wtag>
+        <Losungstext>Sešli své světlo a svoji věrnost; ty ať mě vedou, ty ať mě přivedou k tvé svaté hoře, k příbytku
+            tvému.
+        </Losungstext>
+        <Losungsvers>Žalm 43,3</Losungsvers>
+        <Lehrtext>Toto je zvěst, kterou jsme od něho slyšeli a vám ji oznamujeme: Bůh je světlo a není v něm nejmenší
+            tmy.
+        </Lehrtext>
+        <Lehrtextvers>1.Janova 1,5</Lehrtextvers>
+    </Losungen>
+    <Losungen>
+        <Datum>2019-12-08</Datum>
+        <Sonntag>2. neděle adventní</Sonntag>
+        <Wtag>Neděle</Wtag>
+        <Losungstext>Budeš jako zahrada zavlažovaná, jako vodní zřídlo, jemuž se vody neztrácejí.</Losungstext>
+        <Losungsvers>Izaiáš 58,11</Losungsvers>
+        <Lehrtext>Ježíš volá: Kdo věří ve mne, proudy živé vody poplynou z jeho nitra, jak praví Písmo.</Lehrtext>
+        <Lehrtextvers>Jan 7,38</Lehrtextvers>
+    </Losungen>
+    <Losungen>
+        <Datum>2019-12-09</Datum>
+        <Sonntag/>
+        <Wtag>Pondělí</Wtag>
+        <Losungstext>Při soudu nebuďte straničtí, vyslechněte jak malého, tak velkého a nikoho se nelekejte; soud je
+            věcí Boží.
+        </Losungstext>
+        <Losungsvers>5.Mojžíšova 1,17</Losungsvers>
+        <Lehrtext>Jakým soudem soudíte, takovým budete souzeni, a jakou měrou měříte, takovou Bůh naměří vám.</Lehrtext>
+        <Lehrtextvers>Matouš 7,2</Lehrtextvers>
+    </Losungen>
+    <Losungen>
+        <Datum>2019-12-10</Datum>
+        <Sonntag/>
+        <Wtag>Úterý</Wtag>
+        <Losungstext>Všechen lid, uprostřed něhož jsi, uvidí Hospodinovo dílo.</Losungstext>
+        <Losungsvers>2.Mojžíšova 34,10</Losungsvers>
+        <Lehrtext>Ježíš chodil po celé Galileji, učil v jejich synagógách, kázal evangelium království Božího a
+            uzdravoval každou nemoc a každou chorobu v lidu.
+        </Lehrtext>
+        <Lehrtextvers>Matouš 4,23</Lehrtextvers>
+    </Losungen>
+    <Losungen>
+        <Datum>2019-12-11</Datum>
+        <Sonntag/>
+        <Wtag>Středa</Wtag>
+        <Losungstext>Noé našel milost před Hospodinem.</Losungstext>
+        <Losungsvers>1.Mojžíšova 6,8 K</Losungsvers>
+        <Lehrtext>Poněvadž jste tedy přijali Krista Ježíše za Pána, žijte v něm; buďte zakořeněni a vybudováni na něm,
+            utvrzeni ve víře.
+        </Lehrtext>
+        <Lehrtextvers>Koloským 2,6-7 Ž</Lehrtextvers>
+    </Losungen>
+    <Losungen>
+        <Datum>2019-12-12</Datum>
+        <Sonntag/>
+        <Wtag>Čtvrtek</Wtag>
+        <Losungstext>Dej si pozor na každý krok, když jdeš do Božího domu a pohotov buď k slyšení.</Losungstext>
+        <Losungsvers>Kazatel 4,17</Losungsvers>
+        <Lehrtext>Při modlitbě nemluvte naprázdno jako pohané; oni si myslí, že budou vyslyšeni pro množství svých
+            slov.
+        </Lehrtext>
+        <Lehrtextvers>Matouš 6,7</Lehrtextvers>
+    </Losungen>
+    <Losungen>
+        <Datum>2019-12-13</Datum>
+        <Sonntag/>
+        <Wtag>Pátek</Wtag>
+        <Losungstext>Hospodin lid svůj neodvrhne, své dědictví neopustí.</Losungstext>
+        <Losungsvers>Žalm 94,14</Losungsvers>
+        <Lehrtext>Máme občanství v nebesích, odkud očekáváme i Spasitele, Pána Ježíše Krista.</Lehrtext>
+        <Lehrtextvers>Filipským 3,20</Lehrtextvers>
+    </Losungen>
+    <Losungen>
+        <Datum>2019-12-14</Datum>
+        <Sonntag/>
+        <Wtag>Sobota</Wtag>
+        <Losungstext>Bože, ze země mrtvých vyvedl jsi mne a vyvolils mne ze zástupu do hrobu sestupujících.
+        </Losungstext>
+        <Losungsvers>Žalm 30,40 F</Losungsvers>
+        <Lehrtext>Darem Boží milosti je život věčný v Kristu Ježíši, našem Pánu.</Lehrtext>
+        <Lehrtextvers>Římanům 6,23</Lehrtextvers>
+    </Losungen>
+    <Losungen>
+        <Datum>2019-12-15</Datum>
+        <Sonntag>3. neděle adventní</Sonntag>
+        <Wtag>Neděle</Wtag>
+        <Losungstext>Naše viny nás hnětou, ty je však odpouštíš.</Losungstext>
+        <Losungsvers>Žalm 65,4 Ku</Losungsvers>
+        <Lehrtext>Zachariáš řekl: Ty, synu, budeš nazván prorokem Nejvyššího, neboť půjdeš před Pánem, abys mu připravil
+            cestu a dal jeho lidu poznat spásu v odpuštění hříchů, pro slitování a milosrdenství našeho Boha, jímž nás
+            navštíví Vycházející z výsosti.
+        </Lehrtext>
+        <Lehrtextvers>Lukáš 1,76-78</Lehrtextvers>
+    </Losungen>
+    <Losungen>
+        <Datum>2019-12-16</Datum>
+        <Sonntag/>
+        <Wtag>Pondělí</Wtag>
+        <Losungstext>Cožpak může zapomenout žena na své pacholátko, neslitovat se nad synem vlastního života? I kdyby
+            některé zapomněly, já na tebe nezapomenu.
+        </Losungstext>
+        <Losungsvers>Izaiáš 49,15</Losungsvers>
+        <Lehrtext>Jsem jist, že ani smrt ani život, ani andělé ani mocnosti, ani přítomnost ani budoucnost, ani žádná
+            moc, ani výšiny ani hlubiny, ani co jiného v celém tvorstvu nedokáže nás odloučit od lásky Boží, která je v
+            Kristu Ježíši, našem Pánu.
+        </Lehrtext>
+        <Lehrtextvers>Římanům 8,38-39</Lehrtextvers>
+    </Losungen>
+    <Losungen>
+        <Datum>2019-12-17</Datum>
+        <Sonntag/>
+        <Wtag>Úterý</Wtag>
+        <Losungstext>Zasnoubím si tě navěky, zasnoubím si tě spravedlností a právem, milosrdenstvím a slitováním.
+        </Losungstext>
+        <Losungsvers>Ozeáš 2,21</Losungsvers>
+        <Lehrtext>Bůh tak miloval svět, že dal svého jediného Syna, aby žádný, kdo v něho věří, nezahynul, ale měl život
+            věčný.
+        </Lehrtext>
+        <Lehrtextvers>Jan 3,16</Lehrtextvers>
+    </Losungen>
+    <Losungen>
+        <Datum>2019-12-18</Datum>
+        <Sonntag/>
+        <Wtag>Středa</Wtag>
+        <Losungstext>Oči mé na tebe obráceny budou.</Losungstext>
+        <Losungsvers>Žalm 32,8 F</Losungsvers>
+        <Lehrtext>Anděl jí řekl: Neboj se, Maria, vždyť jsi nalezla milost u Boha.</Lehrtext>
+        <Lehrtextvers>Lukáš 1,30</Lehrtextvers>
+    </Losungen>
+    <Losungen>
+        <Datum>2019-12-19</Datum>
+        <Sonntag/>
+        <Wtag>Čtvrtek</Wtag>
+        <Losungstext>Pozvedám své oči k horám: Odkud mi přijde pomoc? Pomoc mi přichází od Hospodina, on učinil nebesa i
+            zemi.
+        </Losungstext>
+        <Losungsvers>Žalm 121,1-2</Losungsvers>
+        <Lehrtext>I vy tedy trpělivě čekejte, posilněte svá srdce, vždyť příchod Páně je blízko.</Lehrtext>
+        <Lehrtextvers>Jakubova 5,8</Lehrtextvers>
+    </Losungen>
+    <Losungen>
+        <Datum>2019-12-20</Datum>
+        <Sonntag/>
+        <Wtag>Pátek</Wtag>
+        <Losungstext>Což je má ruka tak krátká k vykoupení? Nemá k vysvobození dost síly?</Losungstext>
+        <Losungsvers>Izaiáš 50,2</Losungsvers>
+        <Lehrtext>Bůh kéž osvítí oči vašeho srdce, abyste věděli, k jaké naději vás povolává, jaké bohatství svého
+            slavného dědictví dává svým svatým, jakou nesmírnou velikost své moci projevuje na nás.
+        </Lehrtext>
+        <Lehrtextvers>Efezským 1,18-19 Ž</Lehrtextvers>
+    </Losungen>
+    <Losungen>
+        <Datum>2019-12-21</Datum>
+        <Sonntag/>
+        <Wtag>Sobota</Wtag>
+        <Losungstext>Nebuď daleko ode mne, nebo tíseň je blízko a není spomocníka.</Losungstext>
+        <Losungsvers>Žalm 22,12 Z</Losungsvers>
+        <Lehrtext>Sestry Ježíšovi vzkázaly: Pane, ten, kterého máš rád, je nemocen.</Lehrtext>
+        <Lehrtextvers>Jan 11,3</Lehrtextvers>
+    </Losungen>
+    <Losungen>
+        <Datum>2019-12-22</Datum>
+        <Sonntag>4. neděle adventní</Sonntag>
+        <Wtag>Neděle</Wtag>
+        <Losungstext>Dávej štědře a nebuď skoupý, když máš chudému bratru něco dát.</Losungstext>
+        <Losungsvers>5.Mojžíšova 15,10</Losungsvers>
+        <Lehrtext>Vaše mírnost ať je známa všem lidem. Pán je blízko.</Lehrtext>
+        <Lehrtextvers>Filipským 4,5</Lehrtextvers>
+    </Losungen>
+    <Losungen>
+        <Datum>2019-12-23</Datum>
+        <Sonntag/>
+        <Wtag>Pondělí</Wtag>
+        <Losungstext>Očistím je ode všech jejich nepravostí, jimiž proti mně hřešili, a odpustím jim.</Losungstext>
+        <Losungsvers>Jeremiáš 33,8</Losungsvers>
+        <Lehrtext>Anděl řekl Josefovi: Maria porodí syna a dáš mu jméno Ježíš; neboť on vysvobodí svůj lid z jeho
+            hříchů.
+        </Lehrtext>
+        <Lehrtextvers>Matouš 1,21</Lehrtextvers>
+    </Losungen>
+    <Losungen>
+        <Datum>2019-12-24</Datum>
+        <Sonntag>Štědrý den</Sonntag>
+        <Wtag>Úterý</Wtag>
+        <Losungstext>Brány, zvedněte výše svá nadpraží, výše se zvedněte, vchody věčné, ať může vejít Král slávy.
+        </Losungstext>
+        <Losungsvers>Žalm 24,7</Losungsvers>
+        <Lehrtext>Hle, člověk!</Lehrtext>
+        <Lehrtextvers>Jan 19,5</Lehrtextvers>
+    </Losungen>
+    <Losungen>
+        <Datum>2019-12-25</Datum>
+        <Sonntag>1. svátek vánoční</Sonntag>
+        <Wtag>Středa</Wtag>
+        <Losungstext>Dvojí zlo spáchal můj lid: opustili mne, zdroj živých vod, a vytesali si cisterny, cisterny
+            rozpukané, jež vodu neudrží.
+        </Losungstext>
+        <Losungsvers>Jeremiáš 2,13</Losungsvers>
+        <Lehrtext>V tom je láska: ne že my jsme si zamilovali Boha, ale že on si zamiloval nás a poslal svého Syna jako
+            oběť smíření za naše hříchy.
+        </Lehrtext>
+        <Lehrtextvers>1.Janova 4,10</Lehrtextvers>
+    </Losungen>
+    <Losungen>
+        <Datum>2019-12-26</Datum>
+        <Sonntag>2. svátek vánoční</Sonntag>
+        <Wtag>Čtvrtek</Wtag>
+        <Losungstext>Slyšte, králové, poslouchejte, hodnostáři, já budu pět Hospodinu, já mu budu zpívat, zpívat žalmy
+            Hospodinu, Bohu Izraele.
+        </Losungstext>
+        <Losungsvers>Soudců 5,3</Losungsvers>
+        <Lehrtext>Pastýři pověděli, co jim bylo řečeno o tom dítěti. Všichni, kdo to uslyšeli, užasli nad tím, co jim
+            pastýři vyprávěli.
+        </Lehrtext>
+        <Lehrtextvers>Lukáš 2,17-18</Lehrtextvers>
+    </Losungen>
+    <Losungen>
+        <Datum>2019-12-27</Datum>
+        <Sonntag/>
+        <Wtag>Pátek</Wtag>
+        <Losungstext>Uslyšíte-li dnes jeho hlas, nezatvrzujte svá srdce.</Losungstext>
+        <Losungsvers>Žalm 95,7-8</Losungsvers>
+        <Lehrtext>Naplněni buďte Duchem svatým.</Lehrtext>
+        <Lehrtextvers>Efezským 5,18 K</Lehrtextvers>
+    </Losungen>
+    <Losungen>
+        <Datum>2019-12-28</Datum>
+        <Sonntag/>
+        <Wtag>Sobota</Wtag>
+        <Losungstext>Poznají, že já jsem Hospodin, až rozlámu břevno jejich jha a vysvobodím je.</Losungstext>
+        <Losungsvers>Ezechiel 34,27</Losungsvers>
+        <Lehrtext>Kde je Duch Páně, tam je svoboda.</Lehrtext>
+        <Lehrtextvers>2.Korintským 3,17</Lehrtextvers>
+    </Losungen>
+    <Losungen>
+        <Datum>2019-12-29</Datum>
+        <Sonntag>1. neděle po Vánocích</Sonntag>
+        <Wtag>Neděle</Wtag>
+        <Losungstext>Mladíci jsou zemdlení a unavení, jinoši se potácejí, klopýtají. Ale ti, kdo skládají naději v
+            Hospodina, nabývají nové síly; vznášejí se jak orlové, běží bez únavy, jdou bez umdlení.
+        </Losungstext>
+        <Losungsvers>Izaiáš 40,30-31</Losungsvers>
+        <Lehrtext>Bůh nám nedal ducha bázlivosti, nýbrž ducha síly, lásky a rozvahy.</Lehrtext>
+        <Lehrtextvers>2.Timoteovi 1,7</Lehrtextvers>
+    </Losungen>
+    <Losungen>
+        <Datum>2019-12-30</Datum>
+        <Sonntag/>
+        <Wtag>Pondělí</Wtag>
+        <Losungstext>Celé toto shromáždění pozná, že Hospodin nezachraňuje mečem a kopím.</Losungstext>
+        <Losungsvers>1.Samuelova 17,47</Losungsvers>
+        <Lehrtext>Ovoce spravedlnosti sklidí u Boha ti, kdo rozsévají pokoj.</Lehrtext>
+        <Lehrtextvers>Jakubova 3,18</Lehrtextvers>
+    </Losungen>
+    <Losungen>
+        <Datum>2019-12-31</Datum>
+        <Sonntag>Závěr roku</Sonntag>
+        <Wtag>Úterý</Wtag>
+        <Losungstext>Od slova lživého vzdálíš se.</Losungstext>
+        <Losungsvers>2.Mojžíšova 23,7 K</Losungsvers>
+        <Lehrtext>Přemýšlejte o všem, co je pravdivé, čestné, spravedlivé, čisté, cokoli je hodné lásky, co má dobrou
+            pověst, co se považuje za ctnost a co sklízí pochvalu.
+        </Lehrtext>
+        <Lehrtextvers>Filipským 4,8</Lehrtextvers>
+    </Losungen>
+</FreeXml>

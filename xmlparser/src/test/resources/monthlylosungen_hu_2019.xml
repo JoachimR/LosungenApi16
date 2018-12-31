@@ -1,0 +1,63 @@
+﻿<?xml version="1.0" standalone="yes"?>
+<FreeXml xmlns="http://tempuri.org/FreeXml.xsd">
+    <MonatsLosungen>
+        <Datum>2019-01-01</Datum>
+        <Losungstext>Isten ezt mondta: Szivárványívemet helyezem a felhőkre, az lesz a jele a szövetségnek, amelyet most a földdel megkötök.</Losungstext>
+        <Losungsvers>1Móz 9,13</Losungsvers>
+    </MonatsLosungen>
+    <MonatsLosungen>
+        <Datum>2019-02-01</Datum>
+        <Losungstext>Mert azt tartom, hogy a jelen szenvedései nem hasonlíthatók ahhoz a dicsőséghez, amely láthatóvá lesz rajtunk.</Losungstext>
+        <Losungsvers>Róm 8,18</Losungsvers>
+    </MonatsLosungen>
+    <MonatsLosungen>
+        <Datum>2019-03-01</Datum>
+        <Losungstext>Ragaszkodjatok szívből az Úrhoz, egyedül neki szolgáljatok.</Losungstext>
+        <Losungsvers>1Sám 7,3</Losungsvers>
+    </MonatsLosungen>
+    <MonatsLosungen>
+        <Datum>2019-04-01</Datum>
+        <Losungstext>Jézus Krisztus mondja: Íme, én veletek vagyok minden napon a világ végezetéig.</Losungstext>
+        <Losungsvers>Mt 28,20</Losungsvers>
+    </MonatsLosungen>
+    <MonatsLosungen>
+        <Datum>2019-05-01</Datum>
+        <Losungstext>Senki sincs hozzád fogható, sőt nincs is rajtad kívül isten.</Losungstext>
+        <Losungsvers>2Sám 7,22</Losungsvers>
+    </MonatsLosungen>
+    <MonatsLosungen>
+        <Datum>2019-06-01</Datum>
+        <Losungstext>Lépes méz a kedves beszéd: édes a léleknek és gyógyulás a testnek.</Losungstext>
+        <Losungsvers>Péld 16,24</Losungsvers>
+    </MonatsLosungen>
+    <MonatsLosungen>
+        <Datum>2019-07-01</Datum>
+        <Losungstext>Legyen minden ember gyors a hallásra, késedelmes a szólásra, késedelmes a haragra.</Losungstext>
+        <Losungsvers>Jak 1,19</Losungsvers>
+    </MonatsLosungen>
+    <MonatsLosungen>
+        <Datum>2019-08-01</Datum>
+        <Losungstext>Menjetek el, és hirdessétek: elközelített a mennyek országa!</Losungstext>
+        <Losungsvers>Mt 10,7</Losungsvers>
+    </MonatsLosungen>
+    <MonatsLosungen>
+        <Datum>2019-09-01</Datum>
+        <Losungstext>Mert mit használ az embernek, ha az egész világot megnyeri, lelkében pedig kárt vall?</Losungstext>
+        <Losungsvers>Mt 16,26a</Losungsvers>
+    </MonatsLosungen>
+    <MonatsLosungen>
+        <Datum>2019-10-01</Datum>
+        <Losungstext>Adjátok el vagyonotokat és adjátok alamizsnául, szerezzetek magatoknak el nem avuló erszényeket, kifogyhatatlan kincset a mennyben.</Losungstext>
+        <Losungsvers>Lk 12,33</Losungsvers>
+    </MonatsLosungen>
+    <MonatsLosungen>
+        <Datum>2019-11-01</Datum>
+        <Losungstext>Én tudom, hogy az én megváltóm él.</Losungstext>
+        <Losungsvers>Jób 19,25</Losungsvers>
+    </MonatsLosungen>
+    <MonatsLosungen>
+        <Datum>2019-12-01</Datum>
+        <Losungstext>Aki sötétségben jár, és nem ragyog rá fény, bízzon az Úr nevében, és támaszkodjon Istenére!</Losungstext>
+        <Losungsvers>Ézs 50,10b</Losungsvers>
+    </MonatsLosungen>
+</FreeXml>

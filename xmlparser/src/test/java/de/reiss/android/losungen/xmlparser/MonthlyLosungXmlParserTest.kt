@@ -10,23 +10,23 @@ import org.junit.Test
 class MonthlyLosungXmlParserTest {
 
     @Test
-    fun `parse monthlylosungen_cz_2018`() {
+    fun `parse monthlylosungen_cz_2019`() {
         check(
-                fileName = "monthlylosungen_cz_2018.xml",
-                month = 2018
+                fileName = "monthlylosungen_cz_2019.xml",
+                year = 2019
         )
     }
 
     @Test
-    fun `parse monthlylosungen_hu_2018`() {
+    fun `parse monthlylosungen_hu_2019`() {
         check(
-                fileName = "monthlylosungen_hu_2018.xml",
-                month = 2018
+                fileName = "monthlylosungen_hu_2019.xml",
+                year = 2019
         )
     }
 
     private fun check(fileName: String,
-                      month: Int) {
+                      year: Int) {
 
         val rawString = loadXmlString(fileName, javaClass.classLoader)
         val parsed = MonthlyLosungXmlParser.parse(rawString)
@@ -36,7 +36,7 @@ class MonthlyLosungXmlParserTest {
 
         for ((index, xmlItem) in parsed.withIndex()) {
             with(xmlItem) {
-                assertEquals(expectedMonth(year = month, month = index), Datum)
+                assertEquals(expectedMonth(year = year, month = index), Datum)
                 assertFalse(Losungstext.isEmpty())
                 assertFalse(Losungsvers.isEmpty())
             }

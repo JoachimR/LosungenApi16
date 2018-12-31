@@ -108,7 +108,7 @@
     <string name="note_list_title">All Notes</string>
     <string name="language_activity_title">@string/app_name</string>
     <string name="main_activity_title">@string/app_name</string>
-    <string name="losung_change_translation">Change Translation</string>
+    <string name="losung_check_for_update">Check for update</string>
     <string name="cd_no_notes">no notes</string>
     <string name="share_dialog_title">Share</string>
     <string name="share_dialog_ok">Share</string>

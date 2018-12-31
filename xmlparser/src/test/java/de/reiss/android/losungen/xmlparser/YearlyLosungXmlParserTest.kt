@@ -10,18 +10,18 @@ import java.util.*
 class YearlyLosungXmlParserTest {
 
     @Test
-    fun `parse yearlylosungen_cz_2018`() {
+    fun `parse yearlylosungen_cz_2019`() {
         check(
-                fileName = "yearlylosungen_cz_2018.xml",
-                year = 2018
+                fileName = "yearlylosungen_cz_2019.xml",
+                year = 2019
         )
     }
 
     @Test
-    fun `parse yearlylosungen_hu_2018`() {
+    fun `parse yearlylosungen_hu_2019`() {
         check(
-                fileName = "yearlylosungen_hu_2018.xml",
-                year = 2018
+                fileName = "yearlylosungen_hu_2019.xml",
+                year = 2019
         )
     }
 

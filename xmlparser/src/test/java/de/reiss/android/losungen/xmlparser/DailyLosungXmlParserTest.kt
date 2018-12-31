@@ -10,18 +10,18 @@ import org.junit.Test
 class DailyLosungXmlParserTest {
 
     @Test
-    fun `parse dailylosungen_cz_2018`() {
+    fun `parse dailylosungen_cz_2019`() {
         check(
-                fileName = "dailylosungen_cz_2018.xml",
-                year = 2018
+                fileName = "dailylosungen_cz_2019.xml",
+                year = 2019
         )
     }
 
     @Test
-    fun `parse dailylosungen_hu_2018`() {
+    fun `parse dailylosungen_hu_2019`() {
         check(
-                fileName = "dailylosungen_hu_2018.xml",
-                year = 2018
+                fileName = "dailylosungen_hu_2019.xml",
+                year = 2019
         )
     }
 

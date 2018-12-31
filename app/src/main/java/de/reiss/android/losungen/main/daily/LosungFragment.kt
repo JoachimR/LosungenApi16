@@ -33,6 +33,8 @@ import de.reiss.android.losungen.util.htmlize
 import de.reiss.android.losungen.util.view.FadingProgressBar
 import org.greenrobot.eventbus.Subscribe
 import org.greenrobot.eventbus.ThreadMode
+import android.content.Intent
+import android.net.Uri
 
 
 @Suppress("PropertyName", "PrivatePropertyName")
@@ -55,7 +57,7 @@ abstract class LosungFragment(@LayoutRes private val fragmentLayout: Int)
     protected lateinit var date: TextView
     protected lateinit var loading: FadingProgressBar
     private lateinit var empty_root: View
-    private lateinit var change_translation: TextView
+    private lateinit var check_for_update: TextView
     private lateinit var content_root: View
     protected lateinit var note_root: View
     private lateinit var note_header: TextView
@@ -138,9 +140,14 @@ abstract class LosungFragment(@LayoutRes private val fragmentLayout: Int)
             }
         }
 
-        change_translation.onClick {
+        check_for_update.onClick {
             activity?.let {
-                it.startActivity(AppPreferencesActivity.createIntent(it))
+                val appPackageName = it.getPackageName()
+                try {
+                    it.startActivity(Intent(Intent.ACTION_VIEW, Uri.parse("market://details?id=$appPackageName")))
+                } catch (anfe: android.content.ActivityNotFoundException) {
+                    it.startActivity(Intent(Intent.ACTION_VIEW, Uri.parse("https://play.google.com/store/apps/details?id=$appPackageName")))
+                }
             }
         }
 
@@ -176,7 +183,7 @@ abstract class LosungFragment(@LayoutRes private val fragmentLayout: Int)
         date = layout.findViewById(R.id.losung_date)
         loading = layout.findViewById(R.id.losung_loading)
         empty_root = layout.findViewById(R.id.losung_empty_root)
-        change_translation = layout.findViewById(R.id.losung_change_translation)
+        check_for_update = layout.findViewById(R.id.losung_check_for_update)
         content_root = layout.findViewById(R.id.losung_content_root)
         note_root = layout.findViewById(R.id.losung_note_root)
         note_header = layout.findViewById(R.id.losung_note_header)
@@ -268,7 +275,7 @@ abstract class LosungFragment(@LayoutRes private val fragmentLayout: Int)
     }
 
     open fun setFontColor(fontColor: Int) {
-        change_translation.setTextColor(fontColor)
+        check_for_update.setTextColor(fontColor)
         date.setTextColor(fontColor)
         text1.setTextColor(fontColor)
         source1.setTextColor(fontColor)
@@ -279,7 +286,7 @@ abstract class LosungFragment(@LayoutRes private val fragmentLayout: Int)
     }
 
     open fun setTypeFace(typeface: Typeface) {
-        change_translation.typeface = typeface
+        check_for_update.typeface = typeface
         date.typeface = typeface
         text1.typeface = typeface
         source1.typeface = typeface

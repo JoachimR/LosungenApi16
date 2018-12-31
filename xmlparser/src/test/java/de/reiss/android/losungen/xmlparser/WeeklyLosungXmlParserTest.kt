@@ -10,18 +10,18 @@ import java.util.*
 class WeeklyLosungXmlParserTest {
 
     @Test
-    fun `parse weeklylosungen_cz_2018`() {
+    fun `parse weeklylosungen_cz_2019`() {
         check(
-                fileName = "weeklylosungen_cz_2018.xml",
-                year = 2018
+                fileName = "weeklylosungen_cz_2019.xml",
+                year = 2019
         )
     }
 
     @Test
-    fun `parse weeklylosungen_hu_2018`() {
+    fun `parse weeklylosungen_hu_2019`() {
         check(
-                fileName = "weeklylosungen_hu_2018.xml",
-                year = 2018
+                fileName = "weeklylosungen_hu_2019.xml",
+                year = 2019
         )
     }
 

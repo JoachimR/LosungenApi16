@@ -108,7 +108,7 @@
     <string name="note_list_title">Összes jegyzet</string>
     <string name="language_activity_title">@string/app_name</string>
     <string name="main_activity_title">@string/app_name</string>
-    <string name="losung_change_translation">Más fordítás</string>
+    <string name="losung_check_for_update">keresse meg a frissítést</string>
     <string name="cd_no_notes">Nincs jegyzet</string>
     <string name="share_dialog_title">Megosztás</string>
     <string name="share_dialog_ok">Megosztás</string>

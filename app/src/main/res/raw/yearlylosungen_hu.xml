@@ -34,6 +34,11 @@
         </Losungstext>
         <Losungsvers>Jel 21,6c</Losungsvers>
     </JahresLosungen>
+    <JahresLosungen>
+        <Datum>2019-01-01</Datum>
+        <Losungstext>Törekedj békességre, és kövesd azt!</Losungstext>
+        <Losungsvers>Zsolt 34,15</Losungsvers>
+    </JahresLosungen>
 </FreeXml>
 
 
