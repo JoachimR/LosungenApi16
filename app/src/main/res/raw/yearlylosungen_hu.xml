@@ -39,8 +39,10 @@
         <Losungstext>Törekedj békességre, és kövesd azt!</Losungstext>
         <Losungsvers>Zsolt 34,15</Losungsvers>
     </JahresLosungen>
+    <JahresLosungen>
+        <Datum>2020-01-01</Datum>
+        <Losungstext>Hiszek! Segíts a hitetlenségemen!</Losungstext>
+        <Losungsvers>Mk 9,24</Losungsvers>
+    </JahresLosungen>
 </FreeXml>
-
-
-
 
