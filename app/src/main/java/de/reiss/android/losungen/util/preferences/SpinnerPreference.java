@@ -3,8 +3,6 @@ package de.reiss.android.losungen.util.preferences;
 import android.content.Context;
 import android.content.res.TypedArray;
 import android.database.DataSetObserver;
-import android.support.v7.preference.Preference;
-import android.support.v7.preference.PreferenceViewHolder;
 import android.text.TextUtils;
 import android.util.AttributeSet;
 import android.view.View;
@@ -12,6 +10,9 @@ import android.view.ViewGroup;
 import android.widget.AdapterView;
 import android.widget.Spinner;
 import android.widget.SpinnerAdapter;
+
+import androidx.preference.Preference;
+import androidx.preference.PreferenceViewHolder;
 
 import de.reiss.android.losungen.R;
 

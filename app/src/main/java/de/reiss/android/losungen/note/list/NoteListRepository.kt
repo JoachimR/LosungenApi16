@@ -1,6 +1,6 @@
 package de.reiss.android.losungen.note.list
 
-import android.arch.lifecycle.MutableLiveData
+import androidx.lifecycle.MutableLiveData
 import de.reiss.android.losungen.architecture.AsyncLoad
 import de.reiss.android.losungen.database.NoteItemDao
 import de.reiss.android.losungen.database.converter.Converter

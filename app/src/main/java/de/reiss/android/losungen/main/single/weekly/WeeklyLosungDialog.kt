@@ -1,11 +1,11 @@
 package de.reiss.android.losungen.main.single.weekly
 
-import android.arch.lifecycle.Observer
-import android.arch.lifecycle.ViewModelProvider
-import android.arch.lifecycle.ViewModelProviders
 import android.content.Context
 import android.view.View.GONE
 import android.view.View.VISIBLE
+import androidx.lifecycle.Observer
+import androidx.lifecycle.ViewModelProvider
+import androidx.lifecycle.ViewModelProviders
 import de.reiss.android.losungen.App
 import de.reiss.android.losungen.R
 import de.reiss.android.losungen.architecture.AsyncLoad
@@ -77,7 +77,7 @@ class WeeklyLosungDialog : LosungDialog<WeeklyLosungViewModel>() {
                 text.text = losung.bibleText.text
                 source.text = losung.bibleText.source
 
-                dialog.setTitle(dateText(context, losung))
+                dialog!!.setTitle(dateText(context, losung))
                 shareButton()?.isEnabled = true
             }
         }

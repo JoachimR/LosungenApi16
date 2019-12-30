@@ -1,8 +1,8 @@
 package de.reiss.android.losungen.rawdata.insert
 
 import android.content.Context
-import android.support.annotation.RawRes
-import android.support.annotation.WorkerThread
+import androidx.annotation.RawRes
+import androidx.annotation.WorkerThread
 import de.reiss.android.losungen.database.LanguageItemDao
 import de.reiss.android.losungen.database.MonthlyLosungDatabaseItem
 import de.reiss.android.losungen.database.MonthlyLosungItemDao

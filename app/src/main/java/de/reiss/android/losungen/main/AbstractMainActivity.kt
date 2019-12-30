@@ -3,10 +3,10 @@ package de.reiss.android.losungen.main
 import android.content.Context
 import android.content.Intent
 import android.os.Bundle
-import android.support.design.widget.NavigationView
-import android.support.v4.view.GravityCompat
-import android.support.v4.widget.DrawerLayout
 import android.view.MenuItem
+import androidx.core.view.GravityCompat
+import androidx.drawerlayout.widget.DrawerLayout
+import com.google.android.material.navigation.NavigationView
 import de.reiss.android.losungen.App
 import de.reiss.android.losungen.DaysPositionUtil
 import de.reiss.android.losungen.R

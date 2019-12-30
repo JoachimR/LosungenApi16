@@ -3,7 +3,7 @@ package de.reiss.android.losungen
 import android.content.Context
 import android.content.Intent
 import android.os.Bundle
-import android.support.v7.app.AppCompatActivity
+import androidx.appcompat.app.AppCompatActivity
 import de.reiss.android.losungen.language.LanguageActivity
 import de.reiss.android.losungen.main.MainActivity
 import de.reiss.android.losungen.main.MainActivityNoToolbar

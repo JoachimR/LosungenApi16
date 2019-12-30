@@ -1,6 +1,6 @@
 package de.reiss.android.losungen.note.edit
 
-import android.arch.lifecycle.MutableLiveData
+import androidx.lifecycle.MutableLiveData
 import de.reiss.android.losungen.architecture.AsyncLoad
 import de.reiss.android.losungen.database.NoteItem
 import de.reiss.android.losungen.database.NoteItemDao

@@ -1,7 +1,7 @@
 package de.reiss.android.losungen.rawdata.insert
 
 import android.content.Context
-import android.support.annotation.RawRes
+import androidx.annotation.RawRes
 import de.reiss.android.losungen.database.LosungDatabaseItem
 import de.reiss.android.losungen.logger.logWarnWithCrashlytics
 import de.reiss.android.losungen.xmlparser.LosungXmlItem

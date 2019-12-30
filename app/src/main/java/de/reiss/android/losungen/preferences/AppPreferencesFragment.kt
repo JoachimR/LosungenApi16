@@ -3,10 +3,10 @@ package de.reiss.android.losungen.preferences
 import android.content.Intent
 import android.content.SharedPreferences
 import android.os.Bundle
-import android.support.v7.preference.ListPreference
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
+import androidx.preference.ListPreference
 import com.takisoft.fix.support.v7.preference.PreferenceFragmentCompatDividers
 import de.reiss.android.losungen.App
 import de.reiss.android.losungen.R

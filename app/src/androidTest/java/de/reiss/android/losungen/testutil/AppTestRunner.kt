@@ -2,7 +2,7 @@ package de.reiss.android.losungen.testutil
 
 import android.app.Application
 import android.content.Context
-import android.support.test.runner.AndroidJUnitRunner
+import androidx.test.runner.AndroidJUnitRunner
 import de.reiss.android.losungen.TestApp
 
 

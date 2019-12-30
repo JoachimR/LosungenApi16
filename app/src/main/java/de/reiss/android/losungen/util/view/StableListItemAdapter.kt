@@ -1,15 +1,13 @@
 package de.reiss.android.losungen.util.view
 
-import android.support.annotation.LayoutRes
-import android.support.v7.util.DiffUtil
-import android.support.v7.widget.RecyclerView
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
-import java.lang.IllegalArgumentException
+import androidx.annotation.LayoutRes
+import androidx.recyclerview.widget.DiffUtil
 
 
-abstract class StableListItemAdapter : RecyclerView.Adapter<ListItemViewHolder>() {
+abstract class StableListItemAdapter : androidx.recyclerview.widget.RecyclerView.Adapter<ListItemViewHolder>() {
 
     init {
         setHasStableIds(true)

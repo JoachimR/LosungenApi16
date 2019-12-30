@@ -2,10 +2,10 @@ package de.reiss.android.losungen.main.daily
 
 import android.app.Dialog
 import android.os.Bundle
-import android.support.v4.app.DialogFragment
-import android.support.v7.app.AlertDialog
 import android.view.View
 import android.widget.SeekBar
+import androidx.appcompat.app.AlertDialog
+import androidx.fragment.app.DialogFragment
 import de.reiss.android.losungen.App
 import de.reiss.android.losungen.R
 import de.reiss.android.losungen.preferences.AppPreferences

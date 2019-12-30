@@ -1,6 +1,6 @@
 package de.reiss.android.losungen.note.export
 
-import android.support.annotation.WorkerThread
+import androidx.annotation.WorkerThread
 import de.reiss.android.losungen.database.NoteItem
 import de.reiss.android.losungen.logger.logErrorWithCrashlytics
 import de.reiss.android.losungen.util.extensions.asDateString
