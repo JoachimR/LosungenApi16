@@ -36,4 +36,9 @@
         <Losungstext>Hledej pouze mír, jak lovec za ním jdi.</Losungstext>
         <Losungsvers>Žalm 34, 15b F</Losungsvers>
     </JahresLosungen>
+    <JahresLosungen>
+        <Datum>2020-01-01</Datum>
+        <Losungstext>Věřím, pomoz mé nedověře.</Losungstext>
+        <Losungsvers>Marek 9,24b</Losungsvers>
+    </JahresLosungen>
 </FreeXml>
