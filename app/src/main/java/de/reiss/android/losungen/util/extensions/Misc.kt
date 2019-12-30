@@ -1,7 +1,7 @@
 package de.reiss.android.losungen.util.extensions
 
 import android.app.Activity
-import android.support.v4.app.Fragment
+import androidx.fragment.app.Fragment
 import de.reiss.android.losungen.events.eventBus
 
 fun Activity.registerToEventBus() {

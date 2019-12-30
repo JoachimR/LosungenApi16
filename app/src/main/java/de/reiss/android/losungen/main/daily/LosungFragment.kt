@@ -1,12 +1,10 @@
 package de.reiss.android.losungen.main.daily
 
-import android.arch.lifecycle.Observer
-import android.arch.lifecycle.ViewModelProvider
-import android.arch.lifecycle.ViewModelProviders
 import android.content.Context
+import android.content.Intent
 import android.graphics.Typeface
+import android.net.Uri
 import android.os.Bundle
-import android.support.annotation.LayoutRes
 import android.view.Menu
 import android.view.MenuInflater
 import android.view.MenuItem
@@ -14,6 +12,10 @@ import android.view.View
 import android.view.View.GONE
 import android.view.View.VISIBLE
 import android.widget.TextView
+import androidx.annotation.LayoutRes
+import androidx.lifecycle.Observer
+import androidx.lifecycle.ViewModelProvider
+import androidx.lifecycle.ViewModelProviders
 import de.reiss.android.losungen.App
 import de.reiss.android.losungen.DaysPositionUtil
 import de.reiss.android.losungen.R
@@ -26,15 +28,12 @@ import de.reiss.android.losungen.model.DailyLosung
 import de.reiss.android.losungen.model.Note
 import de.reiss.android.losungen.note.edit.EditNoteActivity
 import de.reiss.android.losungen.preferences.AppPreferences
-import de.reiss.android.losungen.preferences.AppPreferencesActivity
 import de.reiss.android.losungen.util.copyToClipboard
 import de.reiss.android.losungen.util.extensions.*
 import de.reiss.android.losungen.util.htmlize
 import de.reiss.android.losungen.util.view.FadingProgressBar
 import org.greenrobot.eventbus.Subscribe
 import org.greenrobot.eventbus.ThreadMode
-import android.content.Intent
-import android.net.Uri
 
 
 @Suppress("PropertyName", "PrivatePropertyName")

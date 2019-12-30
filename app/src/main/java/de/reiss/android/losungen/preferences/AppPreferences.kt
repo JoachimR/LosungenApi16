@@ -5,9 +5,9 @@ import android.content.SharedPreferences
 import android.content.SharedPreferences.OnSharedPreferenceChangeListener
 import android.graphics.Typeface
 import android.preference.PreferenceManager
-import android.support.annotation.StringRes
-import android.support.v4.content.ContextCompat
-import android.support.v4.content.res.ResourcesCompat
+import androidx.annotation.StringRes
+import androidx.core.content.ContextCompat
+import androidx.core.content.res.ResourcesCompat
 import de.reiss.android.losungen.R
 import de.reiss.android.losungen.events.AppStyleChanged
 import de.reiss.android.losungen.events.postMessageEvent

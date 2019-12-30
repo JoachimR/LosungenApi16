@@ -3,11 +3,11 @@ package de.reiss.android.losungen.widget
 import android.content.Context
 import android.content.Intent
 import android.os.Build
-import android.support.annotation.WorkerThread
 import android.util.TypedValue
 import android.view.View
 import android.widget.RemoteViews
 import android.widget.RemoteViewsService
+import androidx.annotation.WorkerThread
 import de.reiss.android.losungen.App
 import de.reiss.android.losungen.R
 import de.reiss.android.losungen.logger.logErrorWithCrashlytics

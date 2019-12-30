@@ -1,9 +1,9 @@
 package de.reiss.android.losungen.util.extensions
 
 import android.content.Context
-import android.support.annotation.StringRes
-import android.support.v4.app.Fragment
 import android.widget.Toast
+import androidx.annotation.StringRes
+import androidx.fragment.app.Fragment
 
 
 fun Context.showShortToast(message: String) {

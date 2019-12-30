@@ -1,7 +1,7 @@
 package de.reiss.android.losungen
 
 import android.app.Application
-import android.support.v7.preference.PreferenceManager
+import androidx.preference.PreferenceManager
 import com.crashlytics.android.Crashlytics
 import com.crashlytics.android.core.CrashlyticsCore
 import de.reiss.android.losungen.architecture.di.ApplicationComponent

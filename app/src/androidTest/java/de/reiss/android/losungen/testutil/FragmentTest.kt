@@ -2,13 +2,12 @@ package de.reiss.android.losungen.testutil
 
 import android.annotation.SuppressLint
 import android.app.Activity
-import android.support.test.InstrumentationRegistry
-import android.support.test.rule.ActivityTestRule
-import android.support.v4.app.Fragment
+import androidx.fragment.app.Fragment
+import androidx.test.platform.app.InstrumentationRegistry
+import androidx.test.rule.ActivityTestRule
 import de.reiss.android.losungen.R
 import de.reiss.android.losungen.UnderTestAppActivity
 import org.junit.Rule
-import java.lang.RuntimeException
 
 
 abstract class FragmentTest<T : Fragment> {
@@ -38,7 +37,7 @@ abstract class FragmentTest<T : Fragment> {
                     fragment = createFragment()
                     fragmentManager
                             .beginTransaction()
-                            .replace(R.id.under_test_content_view, fragment, FRAGMENT_TAG)
+                            .replace(R.id.under_test_content_view, fragment!!, FRAGMENT_TAG)
                             .commitNow()
                 })
     }

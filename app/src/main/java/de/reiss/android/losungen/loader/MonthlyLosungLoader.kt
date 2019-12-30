@@ -1,6 +1,6 @@
 package de.reiss.android.losungen.loader
 
-import android.support.annotation.WorkerThread
+import androidx.annotation.WorkerThread
 import de.reiss.android.losungen.database.LanguageItemDao
 import de.reiss.android.losungen.database.MonthlyLosungItemDao
 import de.reiss.android.losungen.database.converter.Converter

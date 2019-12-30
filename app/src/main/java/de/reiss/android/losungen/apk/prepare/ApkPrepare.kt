@@ -1,7 +1,7 @@
 package de.reiss.android.losungen.apk.prepare
 
 import android.content.Context
-import android.support.annotation.WorkerThread
+import androidx.annotation.WorkerThread
 import de.reiss.android.losungen.allLanguages
 import de.reiss.android.losungen.database.LanguageItem
 import de.reiss.android.losungen.database.LanguageItemDao

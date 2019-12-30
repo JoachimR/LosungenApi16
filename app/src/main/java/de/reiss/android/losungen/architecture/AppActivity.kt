@@ -1,8 +1,8 @@
 package de.reiss.android.losungen.architecture
 
 import android.os.Bundle
-import android.support.v7.app.AppCompatActivity
 import android.view.MenuItem
+import androidx.appcompat.app.AppCompatActivity
 import de.reiss.android.losungen.App
 
 abstract class AppActivity : AppCompatActivity() {

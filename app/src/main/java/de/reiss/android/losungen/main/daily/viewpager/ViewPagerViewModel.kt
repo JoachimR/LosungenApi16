@@ -1,8 +1,8 @@
 package de.reiss.android.losungen.main.daily.viewpager
 
-import android.arch.lifecycle.MutableLiveData
-import android.arch.lifecycle.ViewModel
-import android.arch.lifecycle.ViewModelProvider
+import androidx.lifecycle.MutableLiveData
+import androidx.lifecycle.ViewModel
+import androidx.lifecycle.ViewModelProvider
 import de.reiss.android.losungen.architecture.AsyncLoad
 import de.reiss.android.losungen.architecture.AsyncLoadStatus
 import de.reiss.android.losungen.util.extensions.firstDayOfYear

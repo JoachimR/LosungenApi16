@@ -1,7 +1,7 @@
 package de.reiss.android.losungen.widget.yearly
 
 import android.content.Context
-import android.support.annotation.WorkerThread
+import androidx.annotation.WorkerThread
 import de.reiss.android.losungen.App
 import de.reiss.android.losungen.widget.WidgetRemoteViewsFactory
 

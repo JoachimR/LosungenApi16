@@ -1,6 +1,6 @@
 package de.reiss.android.losungen.note.export
 
-import android.arch.lifecycle.MutableLiveData
+import androidx.lifecycle.MutableLiveData
 import de.reiss.android.losungen.database.NoteItemDao
 import java.util.concurrent.Executor
 import javax.inject.Inject

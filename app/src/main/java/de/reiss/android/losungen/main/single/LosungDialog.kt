@@ -2,11 +2,11 @@ package de.reiss.android.losungen.main.single
 
 import android.annotation.SuppressLint
 import android.app.Activity
-import android.arch.lifecycle.ViewModel
 import android.os.Bundle
-import android.support.v7.app.AlertDialog
 import android.view.View
 import android.widget.TextView
+import androidx.appcompat.app.AlertDialog
+import androidx.lifecycle.ViewModel
 import de.reiss.android.losungen.R
 import de.reiss.android.losungen.architecture.AppDialogFragment
 import de.reiss.android.losungen.util.view.FadingProgressBar

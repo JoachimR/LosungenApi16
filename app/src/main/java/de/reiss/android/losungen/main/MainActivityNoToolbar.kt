@@ -3,8 +3,8 @@ package de.reiss.android.losungen.main
 import android.content.Context
 import android.content.Intent
 import android.os.Build
-import android.support.design.widget.NavigationView
 import android.view.WindowManager
+import com.google.android.material.navigation.NavigationView
 import de.reiss.android.losungen.R
 
 

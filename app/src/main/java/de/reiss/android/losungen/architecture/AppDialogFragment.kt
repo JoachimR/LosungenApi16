@@ -1,10 +1,10 @@
 package de.reiss.android.losungen.architecture
 
 import android.app.Activity
-import android.arch.lifecycle.ViewModel
-import android.arch.lifecycle.ViewModelProvider
-import android.support.v4.app.DialogFragment
 import android.view.View
+import androidx.fragment.app.DialogFragment
+import androidx.lifecycle.ViewModel
+import androidx.lifecycle.ViewModelProvider
 
 
 abstract class AppDialogFragment<T : ViewModel> : DialogFragment() {

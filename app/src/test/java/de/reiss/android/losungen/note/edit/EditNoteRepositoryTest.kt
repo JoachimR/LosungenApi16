@@ -1,7 +1,7 @@
 package de.reiss.android.losungen.note.edit
 
-import android.arch.core.executor.testing.InstantTaskExecutorRule
-import android.arch.lifecycle.MutableLiveData
+import androidx.arch.core.executor.testing.InstantTaskExecutorRule
+import androidx.lifecycle.MutableLiveData
 import com.nhaarman.mockito_kotlin.*
 import de.reiss.android.losungen.architecture.AsyncLoad
 import de.reiss.android.losungen.architecture.AsyncLoadStatus
@@ -15,7 +15,6 @@ import org.junit.Assert.assertEquals
 import org.junit.Before
 import org.junit.Rule
 import org.junit.Test
-import java.lang.RuntimeException
 import java.util.*
 
 @Suppress("IllegalIdentifier")

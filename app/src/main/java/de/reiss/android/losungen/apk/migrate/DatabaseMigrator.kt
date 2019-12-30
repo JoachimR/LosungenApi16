@@ -4,7 +4,7 @@ import android.content.Context
 import android.database.Cursor
 import android.database.sqlite.SQLiteDatabase
 import android.database.sqlite.SQLiteOpenHelper
-import android.support.annotation.WorkerThread
+import androidx.annotation.WorkerThread
 import de.reiss.android.losungen.database.NoteItem
 import de.reiss.android.losungen.database.NoteItemDao
 import de.reiss.android.losungen.model.BibleTextPair

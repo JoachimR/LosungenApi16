@@ -2,8 +2,8 @@ package de.reiss.android.losungen.util.extensions
 
 import android.app.Activity
 import android.content.Context
-import android.support.annotation.UiThread
 import android.view.inputmethod.InputMethodManager
+import androidx.annotation.UiThread
 
 
 @UiThread

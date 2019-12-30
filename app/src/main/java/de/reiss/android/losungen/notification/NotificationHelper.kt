@@ -7,8 +7,8 @@ import android.content.Context
 import android.content.Intent
 import android.graphics.BitmapFactory
 import android.os.Build
-import android.support.annotation.RequiresApi
-import android.support.v4.app.NotificationCompat
+import androidx.annotation.RequiresApi
+import androidx.core.app.NotificationCompat
 import de.reiss.android.losungen.R
 import de.reiss.android.losungen.SplashScreenActivity
 import de.reiss.android.losungen.formattedDate

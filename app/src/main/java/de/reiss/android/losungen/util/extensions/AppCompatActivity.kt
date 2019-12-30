@@ -1,9 +1,9 @@
 package de.reiss.android.losungen.util.extensions
 
-import android.support.annotation.IdRes
-import android.support.v4.app.DialogFragment
-import android.support.v4.app.Fragment
-import android.support.v7.app.AppCompatActivity
+import androidx.annotation.IdRes
+import androidx.appcompat.app.AppCompatActivity
+import androidx.fragment.app.DialogFragment
+import androidx.fragment.app.Fragment
 
 fun AppCompatActivity.replaceFragmentIn(@IdRes container: Int, fragment: Fragment) {
     supportFragmentManager

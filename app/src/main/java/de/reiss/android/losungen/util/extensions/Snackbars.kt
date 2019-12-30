@@ -1,10 +1,10 @@
 package de.reiss.android.losungen.util.extensions
 
 import android.app.Activity
-import android.support.annotation.StringRes
-import android.support.design.widget.BaseTransientBottomBar
-import android.support.design.widget.Snackbar
-import android.support.v4.app.Fragment
+import androidx.annotation.StringRes
+import androidx.fragment.app.Fragment
+import com.google.android.material.snackbar.BaseTransientBottomBar
+import com.google.android.material.snackbar.Snackbar
 import de.reiss.android.losungen.R
 
 

@@ -1,7 +1,7 @@
 package de.reiss.android.losungen.rawdata
 
 import android.content.Context
-import android.support.annotation.WorkerThread
+import androidx.annotation.WorkerThread
 import de.reiss.android.losungen.R
 import de.reiss.android.losungen.logger.logError
 import de.reiss.android.losungen.logger.logInfo

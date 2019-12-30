@@ -1,6 +1,6 @@
 package de.reiss.android.losungen.main.single.yearly
 
-import android.arch.lifecycle.MutableLiveData
+import androidx.lifecycle.MutableLiveData
 import de.reiss.android.losungen.architecture.AsyncLoad
 import de.reiss.android.losungen.loader.YearlyLosungLoader
 import de.reiss.android.losungen.model.YearlyLosung

@@ -1,7 +1,7 @@
 package de.reiss.android.losungen.main.daily.viewpager
 
-import android.support.v4.app.FragmentManager
-import android.support.v4.app.FragmentStatePagerAdapter
+import androidx.fragment.app.FragmentManager
+import androidx.fragment.app.FragmentStatePagerAdapter
 import de.reiss.android.losungen.App
 import de.reiss.android.losungen.DaysPositionUtil
 import de.reiss.android.losungen.main.daily.LosungFragmentNoCards
