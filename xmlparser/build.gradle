@@ -23,7 +23,7 @@ dependencies {
     implementation project(':model')
     implementation project(':logger')
 
-    implementation "org.jsoup:jsoup:1.11.3"
+    implementation 'org.jsoup:jsoup:1.13.1'
 
     testImplementation "junit:junit:4.13.1"
 }

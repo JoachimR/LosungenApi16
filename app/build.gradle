@@ -73,17 +73,17 @@ dependencies {
     implementation 'androidx.recyclerview:recyclerview:1.1.0'
     implementation 'androidx.cardview:cardview:1.0.0'
 
-    implementation "com.takisoft.fix:preference-v7:28.0.0.0"
-    implementation "com.takisoft.fix:preference-v7-extras:28.0.0.0"
+    implementation 'androidx.preference:preference:1.1.1'
+    implementation 'com.github.kizitonwose.colorpreference:support:1.1.0'
 
-    implementation 'androidx.lifecycle:lifecycle-runtime:2.2.0'
+    implementation 'androidx.lifecycle:lifecycle-runtime-ktx:2.2.0'
     implementation 'androidx.lifecycle:lifecycle-extensions:2.2.0'
     kapt 'androidx.lifecycle:lifecycle-compiler:2.2.0'
 
     implementation "com.google.android.gms:play-services-gcm:17.0.0"
 
-    implementation "com.google.dagger:dagger:2.25.2"
-    kapt "com.google.dagger:dagger-compiler:2.25.2"
+    implementation 'com.google.dagger:dagger:2.30.1'
+    kapt 'com.google.dagger:dagger-compiler:2.30.1'
     compileOnly "org.glassfish:javax.annotation:10.0-b28"
 
     testImplementation "junit:junit:4.13.1"

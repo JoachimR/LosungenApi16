@@ -4,7 +4,7 @@ import android.content.Context
 import android.content.SharedPreferences
 import android.content.SharedPreferences.OnSharedPreferenceChangeListener
 import android.graphics.Typeface
-import android.preference.PreferenceManager
+import androidx.preference.PreferenceManager
 import androidx.annotation.StringRes
 import androidx.core.content.ContextCompat
 import androidx.core.content.res.ResourcesCompat
@@ -116,7 +116,7 @@ open class AppPreferences(val context: Context) : OnSharedPreferenceChangeListen
         }
 
     fun currentTheme(): AppTheme {
-        val chosenTheme = prefString(R.string.pref_theme_key, R.string.pref_theme_default)
+        val chosenTheme = prefString(R.string.pref_theme_key, R.string.pref_theme_default) ?: return AppTheme.ORANGE_BLUE
         return AppTheme.find(context, chosenTheme) ?: AppTheme.ORANGE_BLUE
     }
 
@@ -165,7 +165,7 @@ open class AppPreferences(val context: Context) : OnSharedPreferenceChangeListen
     fun widgetCentered() = prefBoolean(R.string.pref_widget_centered_text_key, true)
 
     fun widgetBackground(): String = prefString(R.string.pref_widget_background_color_key,
-            R.string.pref_widget_background_color_default)
+            R.string.pref_widget_background_color_default)!!
 
     fun changeFontSize(newFontSize: Int) {
         val min = Integer.parseInt(str(R.string.pref_font_size_min))

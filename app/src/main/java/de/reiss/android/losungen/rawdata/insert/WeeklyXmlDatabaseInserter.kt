@@ -6,7 +6,7 @@ import androidx.annotation.WorkerThread
 import de.reiss.android.losungen.database.LanguageItemDao
 import de.reiss.android.losungen.database.WeeklyLosungDatabaseItem
 import de.reiss.android.losungen.database.WeeklyLosungItemDao
-import de.reiss.android.losungen.logger.logWarnWithCrashlytics
+import de.reiss.android.losungen.logger.logWarn
 import de.reiss.android.losungen.util.extensions.withZeroDayTime
 import de.reiss.android.losungen.xmlparser.WeeklyLosungXmlItem
 import de.reiss.android.losungen.xmlparser.WeeklyLosungXmlParser
@@ -25,7 +25,7 @@ class WeeklyXmlDatabaseInserter @Inject constructor(private val context: Context
         val databaseItems = loadFromRaw(context, rawResId, languageId)
 
         if (databaseItems.isEmpty()) {
-            logWarnWithCrashlytics {
+            logWarn {
                 "Loaded weekly data for language '$language' was empty"
             }
         } else {

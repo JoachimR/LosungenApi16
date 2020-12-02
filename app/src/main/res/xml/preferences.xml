@@ -10,7 +10,7 @@
             android:summary="%s"
             android:title="@string/pref_language_title" />
 
-        <SwitchPreferenceCompat
+        <androidx.preference.SwitchPreferenceCompat
             android:defaultValue="true"
             android:key="@string/pref_show_daily_notification_key"
             android:summaryOff="@string/pref_app_show_daily_notification_summary_off"
@@ -21,7 +21,7 @@
 
     <PreferenceCategory android:title="@string/pref_display_category_title">
 
-        <SwitchPreferenceCompat
+        <androidx.preference.SwitchPreferenceCompat
             android:defaultValue="true"
             android:key="@string/pref_show_notes_key"
             android:summaryOff="@string/pref_show_notes_summary_off"
@@ -36,7 +36,7 @@
             android:summary="%s"
             android:title="@string/pref_theme_title" />
 
-        <SwitchPreferenceCompat
+        <androidx.preference.SwitchPreferenceCompat
             android:defaultValue="true"
             android:key="@string/pref_show_toolbar_key"
             android:summaryOff="@string/pref_show_toolbar_summary_off"
@@ -61,42 +61,46 @@
             app:entries="@array/pref_font_typeface_displayed"
             app:entryValues="@array/pref_font_typeface_values" />
 
-        <com.takisoft.fix.support.v7.preference.ColorPickerPreference
+        <com.kizitonwose.colorpreferencecompat.ColorPreferenceCompat
             android:defaultValue="@color/default_font_color"
-            android:dialogTitle="@string/pref_font_color_title"
             android:key="@string/pref_font_color_key"
             android:title="@string/pref_font_color_title"
-            app:pref_colors="@array/pref_font_colors"
-            app:pref_size="large" />
+            app:colorChoices="@array/pref_font_colors"
+            app:colorShape="circle"
+            app:numColumns="5"
+            app:showDialog="true"
+            app:viewSize="large" />
 
-
-        <com.takisoft.fix.support.v7.preference.ColorPickerPreference
+        <com.kizitonwose.colorpreferencecompat.ColorPreferenceCompat
             android:defaultValue="@color/default_background_color"
-            android:dialogTitle="@string/pref_background_color_title"
             android:key="@string/pref_background_color_key"
             android:title="@string/pref_background_color_title"
-            app:pref_colors="@array/pref_background_colors"
-            app:pref_size="large" />
+            app:colorChoices="@array/pref_background_colors"
+            app:colorShape="circle"
+            app:numColumns="5"
+            app:showDialog="true"
+            app:viewSize="large" />
 
     </PreferenceCategory>
 
     <PreferenceCategory android:title="@string/pref_cards_category_title">
 
-        <SwitchPreferenceCompat
+        <androidx.preference.SwitchPreferenceCompat
             android:defaultValue="true"
             android:key="@string/pref_show_cards_key"
             android:summaryOff="@string/pref_show_cards_summary_off"
             android:summaryOn="@string/pref_show_cards_summary_on"
             android:title="@string/pref_show_cards_title" />
 
-        <com.takisoft.fix.support.v7.preference.ColorPickerPreference
+        <com.kizitonwose.colorpreferencecompat.ColorPreferenceCompat
             android:defaultValue="@color/default_card_background_color"
-            android:dependency="@string/pref_show_cards_key"
-            android:dialogTitle="@string/pref_card_background_color_title"
             android:key="@string/pref_card_background_color_key"
             android:title="@string/pref_card_background_color_title"
-            app:pref_colors="@array/pref_card_background_color_colors"
-            app:pref_size="large" />
+            app:colorChoices="@array/pref_card_background_color_colors"
+            app:colorShape="circle"
+            app:numColumns="5"
+            app:showDialog="true"
+            app:viewSize="large" />
 
     </PreferenceCategory>
 
@@ -110,13 +114,15 @@
             android:summary="%s"
             android:title="@string/pref_widget_background_color_title" />
 
-        <com.takisoft.fix.support.v7.preference.ColorPickerPreference
+        <com.kizitonwose.colorpreferencecompat.ColorPreferenceCompat
             android:defaultValue="@color/default_widget_font_color"
-            android:dialogTitle="@string/pref_widget_font_color_title"
             android:key="@string/pref_widget_font_color_key"
             android:title="@string/pref_widget_font_color_title"
-            app:pref_colors="@array/pref_font_colors"
-            app:pref_size="large" />
+            app:colorChoices="@array/pref_font_colors"
+            app:colorShape="circle"
+            app:numColumns="5"
+            app:showDialog="true"
+            app:viewSize="large" />
 
         <SeekBarPreference
             android:defaultValue="@string/pref_widget_font_size_default"
@@ -126,12 +132,12 @@
             app:min="@string/pref_widget_font_size_min"
             app:showSeekBarValue="true" />
 
-        <SwitchPreferenceCompat
+        <androidx.preference.SwitchPreferenceCompat
             android:defaultValue="true"
             android:key="@string/pref_widget_show_date_key"
             android:title="@string/pref_widget_show_date_title" />
 
-        <SwitchPreferenceCompat
+        <androidx.preference.SwitchPreferenceCompat
             android:defaultValue="true"
             android:key="@string/pref_widget_centered_text_key"
             android:title="@string/pref_widget_centered_text_title" />

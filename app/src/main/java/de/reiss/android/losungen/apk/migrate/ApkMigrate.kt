@@ -3,7 +3,7 @@ package de.reiss.android.losungen.apk.migrate
 import android.content.Context
 import de.reiss.android.losungen.R
 import de.reiss.android.losungen.apk.prepare.ApkPrepare
-import de.reiss.android.losungen.logger.logErrorWithCrashlytics
+import de.reiss.android.losungen.logger.logError
 import de.reiss.android.losungen.preferences.AppPreferences
 import javax.inject.Inject
 
@@ -60,7 +60,7 @@ class ApkMigrate @Inject constructor(private val context: Context,
                 }
             }
         } catch (e: Exception) {
-            logErrorWithCrashlytics(e) {
+            logError(e) {
                 "error when trying to migrate preferences to version app 126"
             }
         }

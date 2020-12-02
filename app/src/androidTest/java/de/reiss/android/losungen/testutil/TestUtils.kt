@@ -16,7 +16,6 @@ import androidx.appcompat.widget.AppCompatImageButton
 import androidx.appcompat.widget.Toolbar
 import androidx.fragment.app.FragmentActivity
 import androidx.recyclerview.widget.RecyclerView
-import androidx.swiperefreshlayout.widget.SwipeRefreshLayout
 import androidx.test.espresso.*
 import androidx.test.espresso.Espresso.onData
 import androidx.test.espresso.Espresso.onView
@@ -473,25 +472,3 @@ class RecyclerViewMatcher(private val recyclerViewId: Int) {
 
 }
 
-fun assertSwipeToRefreshState(@IdRes resId: Int,
-                              shouldBeRefreshing: Boolean) {
-    onView(withId(resId))
-            .check(matches(
-                    if (shouldBeRefreshing) {
-                        isRefreshing()
-                    } else {
-                        not(isRefreshing())
-                    }
-            ))
-}
-
-private fun isRefreshing() = object : TypeSafeMatcher<View>() {
-
-    override fun describeTo(description: Description) {
-        description.appendText("is a SwipeRefreshLayout that is currently refreshing")
-    }
-
-    override fun matchesSafely(item: View?) =
-            (item as? SwipeRefreshLayout)?.isRefreshing ?: false
-
-}

@@ -3,7 +3,7 @@ package de.reiss.android.losungen.rawdata.insert
 import android.content.Context
 import androidx.annotation.RawRes
 import de.reiss.android.losungen.database.LosungDatabaseItem
-import de.reiss.android.losungen.logger.logWarnWithCrashlytics
+import de.reiss.android.losungen.logger.logWarn
 import de.reiss.android.losungen.xmlparser.LosungXmlItem
 import de.reiss.android.losungen.xmlparser.LosungXmlParser
 import java.io.BufferedReader
@@ -40,7 +40,7 @@ abstract class XmlConverter<XmlItem : LosungXmlItem, out DatabaseItem : LosungDa
                 line = bufferedReader.readLine()
             }
         } catch (e: IOException) {
-            logWarnWithCrashlytics(e) { "Could not load raw file" }
+            logWarn(e) { "Could not load raw file" }
             return null
         }
         return stringBuilder.toString()

@@ -19,7 +19,7 @@ class ConfirmDeleteDialog : DialogFragment() {
 
     }
 
-    override fun onCreateDialog(savedInstanceState: Bundle?): AlertDialog = activity!!.let { activity ->
+    override fun onCreateDialog(savedInstanceState: Bundle?): AlertDialog = requireActivity().let { activity ->
         AlertDialog.Builder(activity)
                 .setTitle(getString(R.string.confirm_delete_dialog_title))
                 .setCancelable(true)

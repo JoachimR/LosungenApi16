@@ -3,11 +3,10 @@ package de.reiss.android.losungen.preferences
 import android.content.Intent
 import android.content.SharedPreferences
 import android.os.Bundle
-import android.view.LayoutInflater
 import android.view.View
-import android.view.ViewGroup
 import androidx.preference.ListPreference
-import com.takisoft.fix.support.v7.preference.PreferenceFragmentCompatDividers
+import androidx.preference.PreferenceFragmentCompat
+import androidx.preference.SwitchPreferenceCompat
 import de.reiss.android.losungen.App
 import de.reiss.android.losungen.R
 import de.reiss.android.losungen.SplashScreenActivity
@@ -15,7 +14,7 @@ import de.reiss.android.losungen.model.Language
 import de.reiss.android.losungen.util.extensions.isPlayServiceAvailable
 
 
-class AppPreferencesFragment : PreferenceFragmentCompatDividers(),
+class AppPreferencesFragment : PreferenceFragmentCompat(),
         SharedPreferences.OnSharedPreferenceChangeListener {
 
     companion object {
@@ -43,31 +42,19 @@ class AppPreferencesFragment : PreferenceFragmentCompatDividers(),
         languages = arguments?.getParcelableArrayList(LIST_LANGUAGES) ?: arrayListOf()
     }
 
-    override fun onCreatePreferencesFix(savedInstanceState: Bundle?, rootKey: String?) {
+    override fun onCreatePreferences(savedInstanceState: Bundle?, rootKey: String?) {
         setPreferencesFromResource(R.xml.preferences, rootKey)
-    }
-
-    override fun onCreateView(inflater: LayoutInflater,
-                              container: ViewGroup?,
-                              savedInstanceState: Bundle?): View? {
-        try {
-            return super.onCreateView(inflater, container, savedInstanceState)
-        } finally {
-            setDividerPreferences(PreferenceFragmentCompatDividers.DIVIDER_PADDING_CHILD
-                    or PreferenceFragmentCompatDividers.DIVIDER_CATEGORY_AFTER_LAST
-                    or PreferenceFragmentCompatDividers.DIVIDER_CATEGORY_BETWEEN)
-        }
     }
 
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
         super.onViewCreated(view, savedInstanceState)
-        (findPreference(getString(R.string.pref_language_key)) as ListPreference).apply {
+        (findPreference(getString(R.string.pref_language_key)) as ListPreference?)?.apply {
             entries = languages.map { it.name }.toTypedArray()
             entryValues = languages.map { it.key }.toTypedArray()
         }
 
-        findPreference(getString(R.string.pref_show_daily_notification_key)).apply {
-            val playServiceAvailable = context.isPlayServiceAvailable()
+        (findPreference(getString(R.string.pref_show_daily_notification_key)) as SwitchPreferenceCompat?)?.apply {
+            val playServiceAvailable = requireContext().isPlayServiceAvailable()
             isVisible = playServiceAvailable
             setDefaultValue(playServiceAvailable)
         }
