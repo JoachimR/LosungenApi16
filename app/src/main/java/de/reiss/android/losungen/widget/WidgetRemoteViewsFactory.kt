@@ -10,8 +10,8 @@ import android.widget.RemoteViewsService
 import androidx.annotation.WorkerThread
 import de.reiss.android.losungen.App
 import de.reiss.android.losungen.R
-import de.reiss.android.losungen.logger.logErrorWithCrashlytics
-import de.reiss.android.losungen.logger.logWarnWithCrashlytics
+import de.reiss.android.losungen.logger.logError
+import de.reiss.android.losungen.logger.logWarn
 import de.reiss.android.losungen.preferences.AppPreferences
 import de.reiss.android.losungen.util.htmlize
 import java.util.*
@@ -58,7 +58,7 @@ abstract class WidgetRemoteViewsFactory(private val context: Context) : RemoteVi
         try {
             applyUi(remoteViewRow)
         } catch (e: Exception) {
-            logErrorWithCrashlytics(e) { "Error when trying to set widget" }
+            logError(e) { "Error when trying to set widget" }
         }
         return remoteViewRow
     }
@@ -66,7 +66,7 @@ abstract class WidgetRemoteViewsFactory(private val context: Context) : RemoteVi
     private fun applyUi(remoteViewRow: RemoteViews) {
         val list = list
         val item = if (list.isNotEmpty()) list.first() else {
-            logWarnWithCrashlytics { "widget list is empty when trying to apply" }
+            logWarn { "widget list is empty when trying to apply" }
             return
         }
 

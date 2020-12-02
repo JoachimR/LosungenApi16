@@ -323,9 +323,9 @@ abstract class LosungFragment(@LayoutRes private val fragmentLayout: Int)
 
     private fun dateTopPadding() =
             if (appPreferences.showToolbar())
-                dateTopPaddingWithToolbar(context!!)
+                dateTopPaddingWithToolbar(requireContext())
             else
-                dateTopPaddingNoToolbar(context!!)
+                dateTopPaddingNoToolbar(requireContext())
 
     private fun dateTopPaddingWithToolbar(context: Context) = context.dipToPx(16f)
 

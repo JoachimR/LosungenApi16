@@ -92,7 +92,7 @@
             android:layout_height="wrap_content"
             android:layout_marginTop="8dp"
             android:contentDescription="@string/language_no_languages"
-            android:tint="@color/md_grey_500"
+            app:tint="@color/md_grey_500"
             app:srcCompat="@drawable/ic_block_black_24dp" />
 
     </LinearLayout>

@@ -2,7 +2,7 @@ package de.reiss.android.losungen.note.export
 
 import androidx.annotation.WorkerThread
 import de.reiss.android.losungen.database.NoteItem
-import de.reiss.android.losungen.logger.logErrorWithCrashlytics
+import de.reiss.android.losungen.logger.logError
 import de.reiss.android.losungen.util.extensions.asDateString
 import java.io.BufferedOutputStream
 import java.io.IOException
@@ -21,7 +21,7 @@ open class NotesExporter(private val fileProvider: FileProvider) {
             doExport(exporter, notes)
             return true
         } catch (e: IOException) {
-            logErrorWithCrashlytics(e) { "Error when trying to export notes database" }
+            logError(e) { "Error when trying to export notes database" }
         } finally {
             try {
                 exporter.close()

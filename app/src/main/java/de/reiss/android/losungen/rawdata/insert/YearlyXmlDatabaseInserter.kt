@@ -6,7 +6,7 @@ import androidx.annotation.WorkerThread
 import de.reiss.android.losungen.database.LanguageItemDao
 import de.reiss.android.losungen.database.YearlyLosungDatabaseItem
 import de.reiss.android.losungen.database.YearlyLosungItemDao
-import de.reiss.android.losungen.logger.logWarnWithCrashlytics
+import de.reiss.android.losungen.logger.logWarn
 import de.reiss.android.losungen.util.extensions.withZeroDayTime
 import de.reiss.android.losungen.xmlparser.YearlyLosungXmlItem
 import de.reiss.android.losungen.xmlparser.YearlyLosungXmlParser
@@ -25,7 +25,7 @@ class YearlyXmlDatabaseInserter @Inject constructor(private val context: Context
         val databaseItems = loadFromRaw(context, rawResId, languageId)
 
         if (databaseItems.isEmpty()) {
-            logWarnWithCrashlytics {
+            logWarn {
                 "Loaded yearly data for language '$language' was empty"
             }
         } else {

@@ -95,6 +95,7 @@ class NoteListActivity : AppActivity() {
             }
 
     override fun onNewIntent(intent: Intent?) {
+        super.onNewIntent(intent)
         if (Intent.ACTION_SEARCH == intent?.action) {
             search(intent.getStringExtra(SearchManager.QUERY) ?: "")
         }

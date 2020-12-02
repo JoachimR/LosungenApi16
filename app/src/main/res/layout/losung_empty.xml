@@ -18,7 +18,7 @@
         android:layout_width="48dp"
         android:layout_height="48dp"
         android:contentDescription="@string/cd_losung_no_content"
-        android:tint="@color/md_grey_300"
+        app:tint="@color/md_grey_300"
         app:srcCompat="@drawable/ic_block_black_24dp" />
 
     <TextView

@@ -5,7 +5,7 @@ import androidx.annotation.WorkerThread
 import de.reiss.android.losungen.allLanguages
 import de.reiss.android.losungen.database.LanguageItem
 import de.reiss.android.losungen.database.LanguageItemDao
-import de.reiss.android.losungen.logger.logErrorWithCrashlytics
+import de.reiss.android.losungen.logger.logError
 import de.reiss.android.losungen.preferences.AppPreferences
 import javax.inject.Inject
 
@@ -30,7 +30,7 @@ class ApkPrepare @Inject constructor(val context: Context,
                 initDatabase()
             }
         } catch (e: Exception) {
-            logErrorWithCrashlytics(e) {
+            logError(e) {
                 "error when trying to init app"
             }
             preferences.edit().putBoolean(initKey, false).apply()
@@ -44,7 +44,7 @@ class ApkPrepare @Inject constructor(val context: Context,
                 languageItemDao.insert(LanguageItem(it.key, it.name, it.languageCode))
             }
         } catch (e: Exception) {
-            logErrorWithCrashlytics(e) {
+            logError(e) {
                 "error when trying to init database"
             }
         }

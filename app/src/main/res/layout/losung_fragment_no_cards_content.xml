@@ -175,7 +175,7 @@
                     android:layout_marginRight="8dp"
                     android:background="?selectableItemBackgroundBorderless"
                     android:padding="8dp"
-                    android:tint="?attr/colorAccent"
+                    app:tint="?attr/colorAccent"
                     app:srcCompat="@drawable/ic_edit_black_24dp" />
 
             </LinearLayout>

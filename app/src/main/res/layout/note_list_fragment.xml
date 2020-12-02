@@ -27,7 +27,7 @@
             android:layout_width="match_parent"
             android:layout_height="80dp"
             android:contentDescription="@string/cd_no_notes"
-            android:tint="@color/md_grey_300"
+            app:tint="@color/md_grey_300"
             app:srcCompat="@drawable/ic_block_black_24dp" />
 
         <TextView

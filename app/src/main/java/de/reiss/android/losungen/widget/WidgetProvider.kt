@@ -10,7 +10,7 @@ import android.widget.RemoteViews
 import de.reiss.android.losungen.App
 import de.reiss.android.losungen.R
 import de.reiss.android.losungen.SplashScreenActivity
-import de.reiss.android.losungen.logger.logErrorWithCrashlytics
+import de.reiss.android.losungen.logger.logError
 import de.reiss.android.losungen.preferences.AppPreferences
 
 abstract class WidgetProvider : AppWidgetProvider() {
@@ -35,7 +35,7 @@ abstract class WidgetProvider : AppWidgetProvider() {
                 appWidgetManager.updateAppWidget(id, createRemoteViews(context, id))
             }
         } catch (e: Exception) {
-            logErrorWithCrashlytics(e) { "Error when updating widget" }
+            logError(e) { "Error when updating widget" }
         }
         super.onUpdate(context, appWidgetManager, appWidgetIds)
     }

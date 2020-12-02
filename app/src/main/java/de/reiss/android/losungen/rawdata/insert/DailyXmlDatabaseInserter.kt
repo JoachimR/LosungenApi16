@@ -6,7 +6,7 @@ import androidx.annotation.WorkerThread
 import de.reiss.android.losungen.database.DailyLosungDatabaseItem
 import de.reiss.android.losungen.database.DailyLosungItemDao
 import de.reiss.android.losungen.database.LanguageItemDao
-import de.reiss.android.losungen.logger.logWarnWithCrashlytics
+import de.reiss.android.losungen.logger.logWarn
 import de.reiss.android.losungen.preferences.AppPreferences
 import de.reiss.android.losungen.util.extensions.withZeroDayTime
 import de.reiss.android.losungen.xmlparser.DailyLosungXmlItem
@@ -35,12 +35,12 @@ class DailyXmlDatabaseInserter @Inject constructor(val context: Context,
         val databaseItems = loadFromRaw(context, rawResId, languageId)
 
         if (databaseItems.isEmpty()) {
-            logWarnWithCrashlytics {
+            logWarn {
                 "Loaded daily data for language '$language' was empty"
             }
         } else {
             if (databaseItems.size != expectedItemsForDaily) {
-                logWarnWithCrashlytics {
+                logWarn {
                     "Loaded daily data for language '$language'" +
                             " had ${databaseItems.size} items" +
                             " rather than ${expectedItemsForDaily} items"

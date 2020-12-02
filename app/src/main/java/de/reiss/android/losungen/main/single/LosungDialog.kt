@@ -20,7 +20,7 @@ abstract class LosungDialog<T : ViewModel> : AppDialogFragment<T>() {
     protected lateinit var loading: FadingProgressBar
 
     override fun onCreateDialog(savedInstanceState: Bundle?): AlertDialog =
-            activity!!.let { activity ->
+            requireActivity().let { activity ->
                 AlertDialog.Builder(activity)
                         .setTitle(title())
                         .setNeutralButton(R.string.dialog_share, { _, _ ->

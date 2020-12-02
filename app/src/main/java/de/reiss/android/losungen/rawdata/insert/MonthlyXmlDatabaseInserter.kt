@@ -6,7 +6,7 @@ import androidx.annotation.WorkerThread
 import de.reiss.android.losungen.database.LanguageItemDao
 import de.reiss.android.losungen.database.MonthlyLosungDatabaseItem
 import de.reiss.android.losungen.database.MonthlyLosungItemDao
-import de.reiss.android.losungen.logger.logWarnWithCrashlytics
+import de.reiss.android.losungen.logger.logWarn
 import de.reiss.android.losungen.util.extensions.withZeroDayTime
 import de.reiss.android.losungen.xmlparser.MonthlyLosungXmlItem
 import de.reiss.android.losungen.xmlparser.MonthlyLosungXmlParser
@@ -25,7 +25,7 @@ class MonthlyXmlDatabaseInserter @Inject constructor(private val context: Contex
         val databaseItems = loadFromRaw(context, rawResId, languageId)
 
         if (databaseItems.isEmpty()) {
-            logWarnWithCrashlytics {
+            logWarn {
                 "Loaded monthly data for language '$language' was empty"
             }
         } else {

@@ -55,8 +55,7 @@ fun contentAsString(context: Context, time: Long, bibleTextPair: BibleTextPair, 
         }.toString()
 
 fun copyToClipboard(context: Context, text: String) {
-    clipboardManager.primaryClip =
-            ClipData.newPlainText(context.getString(R.string.app_name), text)
+    clipboardManager.setPrimaryClip(ClipData.newPlainText(context.getString(R.string.app_name), text))
 }
 
 private val clipboardManager: ClipboardManager by lazy {

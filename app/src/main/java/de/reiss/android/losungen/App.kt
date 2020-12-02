@@ -2,14 +2,11 @@ package de.reiss.android.losungen
 
 import android.app.Application
 import androidx.preference.PreferenceManager
-import com.crashlytics.android.Crashlytics
-import com.crashlytics.android.core.CrashlyticsCore
 import de.reiss.android.losungen.architecture.di.ApplicationComponent
 import de.reiss.android.losungen.architecture.di.ContextModule
 import de.reiss.android.losungen.architecture.di.DaggerApplicationComponent
 import de.reiss.android.losungen.architecture.di.DatabaseModule
 import de.reiss.android.losungen.notification.NotificationService
-import io.fabric.sdk.android.Fabric
 
 open class App : Application() {
 
@@ -27,11 +24,6 @@ open class App : Application() {
     }
 
     open fun initApp() {
-        Fabric.with(this, Crashlytics.Builder()
-                .core(CrashlyticsCore.Builder()
-                        .disabled(BuildConfig.DEBUG)
-                        .build())
-                .build())
         NotificationService.schedule(this)
         initPrefs()
     }
