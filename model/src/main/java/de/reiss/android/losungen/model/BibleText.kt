@@ -5,24 +5,27 @@ import android.os.Parcelable
 
 data class BibleText(val text: String,
                      val source: String) : Parcelable {
-
-    constructor(source: Parcel) : this(
-            source.readString(),
-            source.readString()
-    )
-
-    override fun describeContents() = 0
-
-    override fun writeToParcel(dest: Parcel, flags: Int) = with(dest) {
-        writeString(text)
-        writeString(source)
+    constructor(parcel: Parcel) : this(
+            parcel.readString()!!,
+            parcel.readString()!!) {
     }
 
-    companion object {
-        @JvmField
-        val CREATOR: Parcelable.Creator<BibleText> = object : Parcelable.Creator<BibleText> {
-            override fun createFromParcel(source: Parcel): BibleText = BibleText(source)
-            override fun newArray(size: Int): Array<BibleText?> = arrayOfNulls(size)
+    override fun writeToParcel(parcel: Parcel, flags: Int) {
+        parcel.writeString(text)
+        parcel.writeString(source)
+    }
+
+    override fun describeContents(): Int {
+        return 0
+    }
+
+    companion object CREATOR : Parcelable.Creator<BibleText> {
+        override fun createFromParcel(parcel: Parcel): BibleText {
+            return BibleText(parcel)
+        }
+
+        override fun newArray(size: Int): Array<BibleText?> {
+            return arrayOfNulls(size)
         }
     }
 }
