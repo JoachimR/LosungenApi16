@@ -8,7 +8,6 @@ apply plugin: "kotlin-android-extensions"
 android {
 
     compileSdkVersion 29
-    buildToolsVersion "29.0.2"
 
     defaultConfig {
         applicationId "de.reiss.android.losungen"
@@ -61,7 +60,7 @@ android {
 }
 
 dependencies {
-    implementation "org.jetbrains.kotlin:kotlin-stdlib-jdk7:1.4.20"
+    implementation "org.jetbrains.kotlin:kotlin-stdlib-jdk7:1.4.21"
 
     implementation project(":database")
     implementation project(":logger")
@@ -73,7 +72,7 @@ dependencies {
     implementation 'androidx.recyclerview:recyclerview:1.1.0'
     implementation 'androidx.cardview:cardview:1.0.0'
 
-    implementation 'androidx.preference:preference:1.1.1'
+    implementation 'androidx.preference:preference-ktx:1.1.1'
     implementation 'com.github.kizitonwose.colorpreference:support:1.1.0'
 
     implementation 'androidx.lifecycle:lifecycle-runtime-ktx:2.2.0'

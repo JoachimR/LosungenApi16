@@ -5,7 +5,6 @@ apply plugin: 'kotlin-kapt'
 android {
 
     compileSdkVersion 29
-    buildToolsVersion "29.0.2"
 
     defaultConfig {
         minSdkVersion 16
@@ -15,10 +14,10 @@ android {
 }
 
 dependencies {
-    implementation "org.jetbrains.kotlin:kotlin-stdlib-jdk7:1.4.20"
+    implementation "org.jetbrains.kotlin:kotlin-stdlib-jdk7:1.4.21"
 
     api project(':model')
 
-    api 'androidx.room:room-runtime:2.2.5'
-    kapt 'androidx.room:room-compiler:2.2.5'
+    api 'androidx.room:room-runtime:2.2.6'
+    kapt 'androidx.room:room-compiler:2.2.6'
 }
