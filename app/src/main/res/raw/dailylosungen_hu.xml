@@ -1,6 +1,16 @@
 <?xml version="1.0" standalone="yes"?>
 <FreeXml xmlns="http://tempuri.org/FreeXml.xsd">
     <Losungen>
+        <Datum>2020-12-30</Datum>
+        <Wtag>szerda</Wtag>
+        <Sonntag>
+        </Sonntag>
+        <Losungstext>Mert én új eget és új földet teremtek, a régire nem is emlékeznek… </Losungstext>
+        <Losungsvers>Ézs 65,17</Losungsvers>
+        <Lehrtext>Jöjjön el a te országod, legyen meg a te akaratod, amint a mennyben, úgy a földön is… </Lehrtext>
+        <Lehrtextvers>Mt 6,10</Lehrtextvers>
+    </Losungen>
+    <Losungen>
         <Datum>2020-12-31</Datum>
         <Wtag>csütörtök</Wtag>
         <Sonntag>Óév este</Sonntag>

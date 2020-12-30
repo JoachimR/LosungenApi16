@@ -1,6 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <FreeXml xmlns="http://tempuri.org/FreeXml.xsd">
     <Losungen>
+        <Datum>2020-12-30</Datum>
+        <Sonntag/>
+        <Wtag>Středa</Wtag>
+        <Losungstext>Hle, já stvořím nová nebesa a novou zemi. Věci minulé nebudou připomínány. </Losungstext>
+        <Losungsvers>Izaiáš 65,17</Losungsvers>
+        <Lehrtext> Přijď království tvé. Buď vůle tvá jako v nebi tak i na zemi. </Lehrtext>
+        <Lehrtextvers>Matouš 6,10 K</Lehrtextvers>
+    </Losungen>
+    <Losungen>
         <Datum>2020-12-31</Datum>
         <Sonntag>Závěr roku  </Sonntag>
         <Wtag>Čtvrtek</Wtag>
