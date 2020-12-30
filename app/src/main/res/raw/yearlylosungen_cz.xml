@@ -41,4 +41,9 @@
         <Losungstext>Věřím, pomoz mé nedověře.</Losungstext>
         <Losungsvers>Marek 9,24b</Losungsvers>
     </JahresLosungen>
+    <JahresLosungen>
+        <Datum>2021-01-01</Datum>
+        <Losungstext>Buďte milosrdní, jako je milosrdný váš Otec.</Losungstext>
+        <Losungsvers>Lukáš 6,36</Losungsvers>
+    </JahresLosungen>
 </FreeXml>

@@ -910,4 +910,508 @@
         <Losungstext>Kezedben van sorsom. </Losungstext>
         <Losungsvers>Zsolt 31,16</Losungsvers>
     </WochenLosungen>
+    <WochenLosungen>
+        <StartDatum>2021-01-01</StartDatum>
+        <EndDatum>2021-01-02</EndDatum>
+        <Sonntag>Újév</Sonntag>
+        <Losungstext>Jézus Krisztus tegnap, ma és mindörökké ugyanaz. </Losungstext>
+        <Losungsvers>Zsid 13,8</Losungsvers>
+    </WochenLosungen>
+    <WochenLosungen>
+        <StartDatum>2021-01-03</StartDatum>
+        <EndDatum>2021-01-05</EndDatum>
+        <Sonntag>Az esztendő első vasárnapja</Sonntag>
+        <Losungstext>Láttuk az ő dicsőségét, mint az Atya egyszülöttjének dicsőségét, telve kegyelemmel és igazsággal. </Losungstext>
+        <Losungsvers>Jn 1,14</Losungsvers>
+    </WochenLosungen>
+    <WochenLosungen>
+        <StartDatum>2021-01-06</StartDatum>
+        <EndDatum>2021-01-09</EndDatum>
+        <Sonntag>Vízkereszt ünnepe</Sonntag>
+        <Losungstext>Múlik a sötétség, és már fénylik az igazi világosság. </Losungstext>
+        <Losungsvers>1Jn 2,8</Losungsvers>
+    </WochenLosungen>
+    <WochenLosungen>
+        <StartDatum>2021-01-10</StartDatum>
+        <EndDatum>2021-01-16</EndDatum>
+        <Sonntag>Vízkereszt ünnepe utáni 1. vasárnap</Sonntag>
+        <Losungstext>Akiket Isten Lelke vezérel, azok Isten fiai. </Losungstext>
+        <Losungsvers>Róm 8,14</Losungsvers>
+    </WochenLosungen>
+    <WochenLosungen>
+        <StartDatum>2021-01-17</StartDatum>
+        <EndDatum>2021-01-23</EndDatum>
+        <Sonntag>Vízkereszt ünnepe utáni 2. vasárnap</Sonntag>
+        <Losungstext>Mi pedig valamennyien az ő teljességéből kaptunk kegyelmet kegyelemre. </Losungstext>
+        <Losungsvers>Jn 1,16</Losungsvers>
+    </WochenLosungen>
+    <WochenLosungen>
+        <StartDatum>2021-01-24</StartDatum>
+        <EndDatum>2021-01-30</EndDatum>
+        <Sonntag>Vízkereszt ünnepe utáni utolsó vasárnap</Sonntag>
+        <Losungstext>Fölötted ott ragyog az Úr, dicsősége meglátszik rajtad. </Losungstext>
+        <Losungsvers>Ézs 60,2</Losungsvers>
+    </WochenLosungen>
+    <WochenLosungen>
+        <StartDatum>2021-01-31</StartDatum>
+        <EndDatum>2021-02-01</EndDatum>
+        <Sonntag>Hetvened vasárnap</Sonntag>
+        <Losungstext>Nem a magunk igaz tetteiben, hanem a te nagy irgalmadban bízva visszük eléd könyörgéseinket. </Losungstext>
+        <Losungsvers>Dán 9,18c</Losungsvers>
+    </WochenLosungen>
+    <WochenLosungen>
+        <StartDatum>2021-02-02</StartDatum>
+        <EndDatum>2021-02-06</EndDatum>
+        <Sonntag>Jézus bemutatása a templomban</Sonntag>
+        <Losungstext>De amikor eljött az idő teljessége, Isten elküldte Fiát, aki asszonytól született a törvénynek alávetve. </Losungstext>
+        <Losungsvers>Gal 4,4</Losungsvers>
+    </WochenLosungen>
+    <WochenLosungen>
+        <StartDatum>2021-02-07</StartDatum>
+        <EndDatum>2021-02-13</EndDatum>
+        <Sonntag>Hatvanad vasárnap</Sonntag>
+        <Losungstext>Ma, ha az ő szavát halljátok, ne keményítsétek meg a szíveteket… </Losungstext>
+        <Losungsvers>Zsid 3,15</Losungsvers>
+    </WochenLosungen>
+    <WochenLosungen>
+        <StartDatum>2021-02-14</StartDatum>
+        <EndDatum>2021-02-16</EndDatum>
+        <Sonntag>Ötvened vasárnap (Esto mihi)</Sonntag>
+        <Losungstext>Jézus így szólt a tanítványokhoz: Íme, felmegyünk Jeruzsálembe, és beteljesedik mindaz, amit a próféták az Emberfiáról megírtak. </Losungstext>
+        <Losungsvers>Lk 18,31</Losungsvers>
+    </WochenLosungen>
+    <WochenLosungen>
+        <StartDatum>2021-02-17</StartDatum>
+        <EndDatum>2021-02-20</EndDatum>
+        <Sonntag>Hamvazószerda</Sonntag>
+        <Losungstext>Azért jelent meg az Isten Fia, hogy az ördög munkáit lerombolja. </Losungstext>
+        <Losungsvers>1Jn 3,8b</Losungsvers>
+    </WochenLosungen>
+    <WochenLosungen>
+        <StartDatum>2021-02-21</StartDatum>
+        <EndDatum>2021-02-27</EndDatum>
+        <Sonntag>Böjt első vasárnapja (Invocavit)</Sonntag>
+        <Losungstext>Azért jelent meg az Isten Fia, hogy az ördög munkáit lerombolja. </Losungstext>
+        <Losungsvers>1Jn 3,8b</Losungsvers>
+    </WochenLosungen>
+    <WochenLosungen>
+        <StartDatum>2021-02-28</StartDatum>
+        <EndDatum>2021-03-06</EndDatum>
+        <Sonntag>Böjt második vasárnapja (Reminiscere)</Sonntag>
+        <Losungstext>Isten azonban a maga szeretetét mutatta meg irántunk, mert Krisztus már akkor meghalt értünk, amikor még bűnösök voltunk. </Losungstext>
+        <Losungsvers>Róm 5,8</Losungsvers>
+    </WochenLosungen>
+    <WochenLosungen>
+        <StartDatum>2021-03-07</StartDatum>
+        <EndDatum>2021-03-13</EndDatum>
+        <Sonntag>Böjt harmadik vasárnapja (Oculi)</Sonntag>
+        <Losungstext>Aki az eke szarvára teszi a kezét, és hátratekint, nem alkalmas az Isten országára. </Losungstext>
+        <Losungsvers>Lk 9,62</Losungsvers>
+    </WochenLosungen>
+    <WochenLosungen>
+        <StartDatum>2021-03-14</StartDatum>
+        <EndDatum>2021-03-20</EndDatum>
+        <Sonntag>Böjt negyedik vasárnapja (Laetare)</Sonntag>
+        <Losungstext>Ha a földbe vetett búzaszem nem hal meg, egymaga marad; de ha meghal, sokszoros termést hoz. </Losungstext>
+        <Losungsvers>Jn 12,24</Losungsvers>
+    </WochenLosungen>
+    <WochenLosungen>
+        <StartDatum>2021-03-21</StartDatum>
+        <EndDatum>2021-03-24</EndDatum>
+        <Sonntag>Böjt ötödik vasárnapja (Judica)</Sonntag>
+        <Losungstext>Az Emberfia nem azért jött, hogy neki szolgáljanak, hanem hogy ő szolgáljon, és életét adja váltságul sokakért. </Losungstext>
+        <Losungsvers>Mt 20,28</Losungsvers>
+    </WochenLosungen>
+    <WochenLosungen>
+        <StartDatum>2021-03-25</StartDatum>
+        <EndDatum>2021-03-27</EndDatum>
+        <Sonntag>Örömhírvétel</Sonntag>
+        <Losungstext>De amikor eljött az idő teljessége, Isten elküldte Fiát, aki asszonytól született a törvénynek alávetve. </Losungstext>
+        <Losungsvers>Gal 4,4</Losungsvers>
+    </WochenLosungen>
+    <WochenLosungen>
+        <StartDatum>2021-03-28</StartDatum>
+        <EndDatum>2021-03-31</EndDatum>
+        <Sonntag>Böjt hatodik vasárnapja (Palmarum)</Sonntag>
+        <Losungstext>Ahogyan Mózes felemelte a kígyót a pusztában, úgy kell az Emberfiának is felemeltetnie, hogy aki hisz, annak örök élete legyen őbenne. </Losungstext>
+        <Losungsvers>Jn 3,14–15</Losungsvers>
+    </WochenLosungen>
+    <WochenLosungen>
+        <StartDatum>2021-04-01</StartDatum>
+        <EndDatum>2021-04-01</EndDatum>
+        <Sonntag>Nagycsütörtök</Sonntag>
+        <Losungstext>Emlékezetessé tette csodáit, kegyelmes és irgalmas az Úr. </Losungstext>
+        <Losungsvers>Zsolt 111,4</Losungsvers>
+    </WochenLosungen>
+    <WochenLosungen>
+        <StartDatum>2021-04-02</StartDatum>
+        <EndDatum>2021-04-02</EndDatum>
+        <Sonntag>Nagypéntek</Sonntag>
+        <Losungstext>Úgy szerette Isten a világot, hogy egyszülött Fiát adta, hogy aki hisz őbenne, el ne vesszen, hanem örök élete legyen. </Losungstext>
+        <Losungsvers>Jn 3,16</Losungsvers>
+    </WochenLosungen>
+    <WochenLosungen>
+        <StartDatum>2021-04-03</StartDatum>
+        <EndDatum>2021-04-03</EndDatum>
+        <Sonntag>Nagyszombat</Sonntag>
+        <Losungstext>Hallgasd meg, Uram, imádságomat, jusson el hozzád kiáltásom! </Losungstext>
+        <Losungsvers>Zsolt 102,2</Losungsvers>
+    </WochenLosungen>
+    <WochenLosungen>
+        <StartDatum>2021-04-04</StartDatum>
+        <EndDatum>2021-04-04</EndDatum>
+        <Sonntag>Húsvét ünnepe</Sonntag>
+        <Losungstext>Krisztus mondja: Halott voltam, de íme, élek örökkön-örökké, és nálam vannak a halál és a pokol kulcsai. </Losungstext>
+        <Losungsvers>Jel 1,18</Losungsvers>
+    </WochenLosungen>
+    <WochenLosungen>
+        <StartDatum>2021-04-05</StartDatum>
+        <EndDatum>2021-04-10</EndDatum>
+        <Sonntag>Húsvét 2. napja</Sonntag>
+        <Losungstext>Nem halok meg, hanem élek, halleluja, és hirdetem az Úr tetteit, halleluja! </Losungstext>
+        <Losungsvers>Zsolt 118,17</Losungsvers>
+    </WochenLosungen>
+    <WochenLosungen>
+        <StartDatum>2021-04-11</StartDatum>
+        <EndDatum>2021-04-17</EndDatum>
+        <Sonntag>Húsvét ünnepe után 1. vasárnap (Quasi modo geniti)</Sonntag>
+        <Losungstext>Áldott a mi Urunk Jézus Krisztus Istene és Atyja, aki nagy irgalmából újjá szült minket Jézus Krisztusnak a halottak közül való feltámadása által élő reménységre… </Losungstext>
+        <Losungsvers>1Pt 1,3</Losungsvers>
+    </WochenLosungen>
+    <WochenLosungen>
+        <StartDatum>2021-04-18</StartDatum>
+        <EndDatum>2021-04-24</EndDatum>
+        <Sonntag>Húsvét ünnepe után 2. vasárnap (Misericordia Domini)</Sonntag>
+        <Losungstext>Jézus Krisztus mondja: Én vagyok a jó pásztor. Az én juhaim hallgatnak a hangomra, és én ismerem őket, ők pedig követnek engem. Én örök életet adok nekik… </Losungstext>
+        <Losungsvers>Jn 10,11.27–28</Losungsvers>
+    </WochenLosungen>
+    <WochenLosungen>
+        <StartDatum>2021-04-25</StartDatum>
+        <EndDatum>2021-05-01</EndDatum>
+        <Sonntag>Húsvét ünnepe után 3. vasárnap (Jubilate)</Sonntag>
+        <Losungstext>Ha valaki Krisztusban van, új teremtés az: a régi elmúlt, és íme: új jött létre. </Losungstext>
+        <Losungsvers>2Kor 5,17</Losungsvers>
+    </WochenLosungen>
+    <WochenLosungen>
+        <StartDatum>2021-05-02</StartDatum>
+        <EndDatum>2021-05-08</EndDatum>
+        <Sonntag>Húsvét ünnepe után 4. vasárnap (Cantate)</Sonntag>
+        <Losungstext>Énekeljetek az Úrnak új éneket, mert csodákat tett, és jobbja szabadulást szerzett! </Losungstext>
+        <Losungsvers>Zsolt 98,1</Losungsvers>
+    </WochenLosungen>
+    <WochenLosungen>
+        <StartDatum>2021-05-09</StartDatum>
+        <EndDatum>2021-05-12</EndDatum>
+        <Sonntag>Húsvét ünnepe után 5. vasárnap (Rogate)</Sonntag>
+        <Losungstext>Áldott legyen Isten, mert nem utasította el imádságomat, szeretetét nem vonta meg tőlem. </Losungstext>
+        <Losungsvers>Zsolt 66,20 </Losungsvers>
+    </WochenLosungen>
+    <WochenLosungen>
+        <StartDatum>2021-05-13</StartDatum>
+        <EndDatum>2021-05-15</EndDatum>
+        <Sonntag>Mennybemenetel ünnepe</Sonntag>
+        <Losungstext>Jézus Krisztus mondja: Ha felemeltetem a földről, magamhoz vonzok mindeneket. </Losungstext>
+        <Losungsvers>Jn 12,32</Losungsvers>
+    </WochenLosungen>
+    <WochenLosungen>
+        <StartDatum>2021-05-16</StartDatum>
+        <EndDatum>2021-05-22</EndDatum>
+        <Sonntag>Húsvét ünnepe után 6. vasárnap (Exaudi)</Sonntag>
+        <Losungstext>Jézus Krisztus mondja: Ha felemeltetem a földről, magamhoz vonzok mindeneket. </Losungstext>
+        <Losungsvers>Jn 12,32</Losungsvers>
+    </WochenLosungen>
+    <WochenLosungen>
+        <StartDatum>2021-05-23</StartDatum>
+        <EndDatum>2021-05-23</EndDatum>
+        <Sonntag>Pünkösd ünnepe</Sonntag>
+        <Losungstext>Nem hatalommal és nem erőszakkal, hanem az én lelkemmel! – mondja a Seregek Ura. </Losungstext>
+        <Losungsvers>Zak 4,6</Losungsvers>
+    </WochenLosungen>
+    <WochenLosungen>
+        <StartDatum>2021-05-24</StartDatum>
+        <EndDatum>2021-05-29</EndDatum>
+        <Sonntag>Pünkösd 2. napja</Sonntag>
+        <Losungstext>Istenünk, ha kiárasztod Lelkedet, élet támad, halleluja! Új teremtés jön létre, megújul a földkerekség, halleluja! </Losungstext>
+        <Losungsvers>Zsolt 104,30</Losungsvers>
+    </WochenLosungen>
+    <WochenLosungen>
+        <StartDatum>2021-05-30</StartDatum>
+        <EndDatum>2021-06-05</EndDatum>
+        <Sonntag>Szentháromság ünnepe</Sonntag>
+        <Losungstext>Az Úr Jézus Krisztus kegyelme, Isten szeretete és a Szentlélek közössége legyen mindnyájatokkal! </Losungstext>
+        <Losungsvers>2Kor 13,13</Losungsvers>
+    </WochenLosungen>
+    <WochenLosungen>
+        <StartDatum>2021-06-06</StartDatum>
+        <EndDatum>2021-06-12</EndDatum>
+        <Sonntag>Szentháromság ünnepe után 1. vasárnap</Sonntag>
+        <Losungstext>Jézus Krisztus mondja: Aki titeket hallgat, engem hallgat, és aki titeket elutasít, engem utasít el. </Losungstext>
+        <Losungsvers>Lk 10,16</Losungsvers>
+    </WochenLosungen>
+    <WochenLosungen>
+        <StartDatum>2021-06-13</StartDatum>
+        <EndDatum>2021-06-19</EndDatum>
+        <Sonntag>Szentháromság ünnepe után 2. vasárnap</Sonntag>
+        <Losungstext>Jézus Krisztus mondja: Jöjjetek énhozzám mindnyájan, akik megfáradtatok, és meg vagytok terhelve, és én megnyugvást adok nektek. </Losungstext>
+        <Losungsvers>Mt 11,28</Losungsvers>
+    </WochenLosungen>
+    <WochenLosungen>
+        <StartDatum>2021-06-20</StartDatum>
+        <EndDatum>2021-06-23</EndDatum>
+        <Sonntag>Szentháromság ünnepe után 3. vasárnap</Sonntag>
+        <Losungstext>Az Emberfia azért jött, hogy megkeresse és megtartsa az elveszettet. </Losungstext>
+        <Losungsvers>Lk 19,10</Losungsvers>
+    </WochenLosungen>
+    <WochenLosungen>
+        <StartDatum>2021-06-24</StartDatum>
+        <EndDatum>2021-06-24</EndDatum>
+        <Sonntag>Keresztelő János születése</Sonntag>
+        <Losungstext>Neki növekednie kell, nekem pedig kisebbé lennem. </Losungstext>
+        <Losungsvers>Jn 3,30</Losungsvers>
+    </WochenLosungen>
+    <WochenLosungen>
+        <StartDatum>2021-06-25</StartDatum>
+        <EndDatum>2021-06-26</EndDatum>
+        <Sonntag>Az Ágostai hitvallás emléknapja</Sonntag>
+        <Losungstext>Királyoknak is elmondom intelmeidet, és nem vallok szégyent. </Losungstext>
+        <Losungsvers>Zsolt 119,46</Losungsvers>
+    </WochenLosungen>
+    <WochenLosungen>
+        <StartDatum>2021-06-27</StartDatum>
+        <EndDatum>2021-07-01</EndDatum>
+        <Sonntag>Szentháromság ünnepe után 4. vasárnap</Sonntag>
+        <Losungstext>Egymás terhét hordozzátok, és így töltsétek be Krisztus törvényét. </Losungstext>
+        <Losungsvers>Gal 6,2</Losungsvers>
+    </WochenLosungen>
+    <WochenLosungen>
+        <StartDatum>2021-07-02</StartDatum>
+        <EndDatum>2021-07-03</EndDatum>
+        <Sonntag>Mária és Erzsébet találkozása</Sonntag>
+        <Losungstext>De amikor eljött az idő teljessége, Isten elküldte Fiát, aki asszonytól született a törvénynek alávetve. </Losungstext>
+        <Losungsvers>Gal 4,4</Losungsvers>
+    </WochenLosungen>
+    <WochenLosungen>
+        <StartDatum>2021-07-04</StartDatum>
+        <EndDatum>2021-07-10</EndDatum>
+        <Sonntag>Szentháromság ünnepe után 5. vasárnap</Sonntag>
+        <Losungstext>Kegyelemből van üdvösségetek hit által, és ez nem tőletek van: Isten ajándéka. </Losungstext>
+        <Losungsvers>Ef 2,8</Losungsvers>
+    </WochenLosungen>
+    <WochenLosungen>
+        <StartDatum>2021-07-11</StartDatum>
+        <EndDatum>2021-07-17</EndDatum>
+        <Sonntag>Szentháromság ünnepe után 6. vasárnap</Sonntag>
+        <Losungstext>Így szól az Úr, a te teremtőd (…): Ne félj, mert megváltottalak, neveden szólítottalak, enyém vagy! </Losungstext>
+        <Losungsvers>Ézs 43,1</Losungsvers>
+    </WochenLosungen>
+    <WochenLosungen>
+        <StartDatum>2021-07-18</StartDatum>
+        <EndDatum>2021-07-24</EndDatum>
+        <Sonntag>Szentháromság ünnepe után 7. vasárnap</Sonntag>
+        <Losungstext>Nem vagytok többé idegenek és jövevények, hanem polgártársai a szenteknek és háza népe Istennek. </Losungstext>
+        <Losungsvers>Ef 2,19</Losungsvers>
+    </WochenLosungen>
+    <WochenLosungen>
+        <StartDatum>2021-07-25</StartDatum>
+        <EndDatum>2021-07-31</EndDatum>
+        <Sonntag>Szentháromság ünnepe után 8. vasárnap</Sonntag>
+        <Losungstext>Éljetek úgy, mint a világosság gyermekei. A világosság gyümölcse ugyanis csupa jóság, igazság és egyenesség. </Losungstext>
+        <Losungsvers>Ef 5,8–9</Losungsvers>
+    </WochenLosungen>
+    <WochenLosungen>
+        <StartDatum>2021-08-01</StartDatum>
+        <EndDatum>2021-08-07</EndDatum>
+        <Sonntag>Szentháromság ünnepe után 9. vasárnap</Sonntag>
+        <Losungstext>Akinek sokat adtak, attól sokat kívánnak, és akire sokat bíztak, attól többet kérnek számon. </Losungstext>
+        <Losungsvers>Lk 12,48b</Losungsvers>
+    </WochenLosungen>
+    <WochenLosungen>
+        <StartDatum>2021-08-08</StartDatum>
+        <EndDatum>2021-08-14</EndDatum>
+        <Sonntag>Szentháromság ünnepe után 10. vasárnap (Jeruzsálem pusztulásának emlékünnepe)</Sonntag>
+        <Losungstext>Boldog az a nemzet, amelynek Istene az Úr, az a nép, amelyet örökségül választott. </Losungstext>
+        <Losungsvers>Zsolt 33,12</Losungsvers>
+    </WochenLosungen>
+    <WochenLosungen>
+        <StartDatum>2021-08-15</StartDatum>
+        <EndDatum>2021-08-21</EndDatum>
+        <Sonntag>Szentháromság ünnepe után 11. vasárnap</Sonntag>
+        <Losungstext>Isten a gőgösöknek ellenáll, az alázatosaknak pedig kegyelmet ad. </Losungstext>
+        <Losungsvers>1Pt 5,5</Losungsvers>
+    </WochenLosungen>
+    <WochenLosungen>
+        <StartDatum>2021-08-22</StartDatum>
+        <EndDatum>2021-08-28</EndDatum>
+        <Sonntag>Szentháromság ünnepe után 12. vasárnap</Sonntag>
+        <Losungstext>A megrepedt nádszálat nem töri össze, a füstölgő mécsest nem oltja ki… </Losungstext>
+        <Losungsvers>Ézs 42,3</Losungsvers>
+    </WochenLosungen>
+    <WochenLosungen>
+        <StartDatum>2021-08-29</StartDatum>
+        <EndDatum>2021-09-04</EndDatum>
+        <Sonntag>Szentháromság ünnepe után 13. vasárnap</Sonntag>
+        <Losungstext>Jézus Krisztus mondja: Valahányszor megtettétek ezeket akár csak eggyel is az én legkisebb testvéreim közül, velem tettétek meg. </Losungstext>
+        <Losungsvers>Mt 25,40</Losungsvers>
+    </WochenLosungen>
+    <WochenLosungen>
+        <StartDatum>2021-09-05</StartDatum>
+        <EndDatum>2021-09-11</EndDatum>
+        <Sonntag>Szentháromság ünnepe után 14. vasárnap</Sonntag>
+        <Losungstext>Áldjad, lelkem, az Urat, és ne feledd el, mennyi jót tett veled! </Losungstext>
+        <Losungsvers>Zsolt 103,2</Losungsvers>
+    </WochenLosungen>
+    <WochenLosungen>
+        <StartDatum>2021-09-12</StartDatum>
+        <EndDatum>2021-09-18</EndDatum>
+        <Sonntag>Szentháromság ünnepe után 15. vasárnap</Sonntag>
+        <Losungstext>Minden gondotokat őreá vessétek, mert neki gondja van rátok. </Losungstext>
+        <Losungsvers>1Pt 5,7</Losungsvers>
+    </WochenLosungen>
+    <WochenLosungen>
+        <StartDatum>2021-09-19</StartDatum>
+        <EndDatum>2021-09-25</EndDatum>
+        <Sonntag>Szentháromság ünnepe után 16. vasárnap</Sonntag>
+        <Losungstext>Krisztus Jézus megtörte a halál erejét, és az evangélium által világosságra hozta az elmúlhatatlan életet. </Losungstext>
+        <Losungsvers>2Tim 1,10</Losungsvers>
+    </WochenLosungen>
+    <WochenLosungen>
+        <StartDatum>2021-09-26</StartDatum>
+        <EndDatum>2021-09-28</EndDatum>
+        <Sonntag>Szentháromság ünnepe után 17. vasárnap</Sonntag>
+        <Losungstext>Az a győzelem, amely legyőzte a világot, a mi hitünk. </Losungstext>
+        <Losungsvers>1Jn 5,4</Losungsvers>
+    </WochenLosungen>
+    <WochenLosungen>
+        <StartDatum>2021-09-29</StartDatum>
+        <EndDatum>2021-10-02</EndDatum>
+        <Sonntag>Mihály arkangyal ünnepe</Sonntag>
+        <Losungstext>Az Úr angyala őrt áll az istenfélők mellett, és megmenti őket. </Losungstext>
+        <Losungsvers>Zsolt 34,8</Losungsvers>
+    </WochenLosungen>
+    <WochenLosungen>
+        <StartDatum>2021-10-03</StartDatum>
+        <EndDatum>2021-10-09</EndDatum>
+        <Sonntag>Szentháromság ünnepe után 18. (hálaadó) vasárnap</Sonntag>
+        <Losungstext>Mindenki várakozva néz rád, és te idejében adsz nekik eledelt. </Losungstext>
+        <Losungsvers>Zsolt 145,15</Losungsvers>
+    </WochenLosungen>
+    <WochenLosungen>
+        <StartDatum>2021-10-10</StartDatum>
+        <EndDatum>2021-10-16</EndDatum>
+        <Sonntag>Szentháromság ünnepe után 19. vasárnap</Sonntag>
+        <Losungstext>Gyógyíts meg, Uram, akkor meggyógyulok, szabadíts meg, akkor megszabadulok… </Losungstext>
+        <Losungsvers>Jer 17,14</Losungsvers>
+    </WochenLosungen>
+    <WochenLosungen>
+        <StartDatum>2021-10-17</StartDatum>
+        <EndDatum>2021-10-23</EndDatum>
+        <Sonntag>Szentháromság ünnepe után 20. vasárnap</Sonntag>
+        <Losungstext>Ember, megmondta neked, hogy mi a jó, és hogy mit kíván tőled az Úr! Csak azt, hogy élj törvény szerint, törekedj szeretetre, és légy alázatos Isteneddel szemben. </Losungstext>
+        <Losungsvers>Mik 6,8</Losungsvers>
+    </WochenLosungen>
+    <WochenLosungen>
+        <StartDatum>2021-10-24</StartDatum>
+        <EndDatum>2021-10-30</EndDatum>
+        <Sonntag>Szentháromság ünnepe után 21. (Biblia-) vasárnap</Sonntag>
+        <Losungstext>Ne győzzön le téged a rossz, hanem te győzd le a jóval a rosszat. </Losungstext>
+        <Losungsvers>Róm 12,21</Losungsvers>
+    </WochenLosungen>
+    <WochenLosungen>
+        <StartDatum>2021-10-31</StartDatum>
+        <EndDatum>2021-11-06</EndDatum>
+        <Sonntag>Szentháromság ünnepe után 22. vasárnap – Reformáció ünnepe</Sonntag>
+        <Losungstext>Más alapot senki sem vethet a meglevőn kívül, amely a Jézus Krisztus. </Losungstext>
+        <Losungsvers>1Kor 3,11</Losungsvers>
+    </WochenLosungen>
+    <WochenLosungen>
+        <StartDatum>2021-11-07</StartDatum>
+        <EndDatum>2021-11-13</EndDatum>
+        <Sonntag>Az egyházi esztendő utolsó előtti vasárnapját megelőző (Ítélet) vasárnap</Sonntag>
+        <Losungstext>Boldogok, akik békét teremtenek, mert ők Isten fiainak neveztetnek. </Losungstext>
+        <Losungsvers>Mt 5,9</Losungsvers>
+    </WochenLosungen>
+    <WochenLosungen>
+        <StartDatum>2021-11-14</StartDatum>
+        <EndDatum>2021-11-20</EndDatum>
+        <Sonntag>Az egyházi esztendő utolsó előtti (Reménység) vasárnapja </Sonntag>
+        <Losungstext>Mindnyájunknak leplezetlenül kell odaállnunk Krisztus ítélőszéke elé… </Losungstext>
+        <Losungsvers>2Kor 5,10</Losungsvers>
+    </WochenLosungen>
+    <WochenLosungen>
+        <StartDatum>2021-11-21</StartDatum>
+        <EndDatum>2021-11-27</EndDatum>
+        <Sonntag>Az egyházi esztendő utolsó (Örök élet) vasárnapja </Sonntag>
+        <Losungstext>Legyen derekatok felövezve és lámpásotok meggyújtva. </Losungstext>
+        <Losungsvers>Lk 12,35</Losungsvers>
+    </WochenLosungen>
+    <WochenLosungen>
+        <StartDatum>2021-11-28</StartDatum>
+        <EndDatum>2021-12-04</EndDatum>
+        <Sonntag>Advent 1. vasárnapja</Sonntag>
+        <Losungstext>Királyod érkezik hozzád, aki igaz és diadalmas… </Losungstext>
+        <Losungsvers>Zak 9,9b</Losungsvers>
+    </WochenLosungen>
+    <WochenLosungen>
+        <StartDatum>2021-12-05</StartDatum>
+        <EndDatum>2021-12-11</EndDatum>
+        <Sonntag>Advent 2. vasárnapja</Sonntag>
+        <Losungstext>Egyenesedjetek fel, és emeljétek fel a fejeteket, mert közeledik a megváltásotok. </Losungstext>
+        <Losungsvers>Lk 21,28</Losungsvers>
+    </WochenLosungen>
+    <WochenLosungen>
+        <StartDatum>2021-12-12</StartDatum>
+        <EndDatum>2021-12-18</EndDatum>
+        <Sonntag>Advent 3. vasárnapja</Sonntag>
+        <Losungstext>Építsetek utat a pusztában az Úrnak! Az Úr jön hatalommal. </Losungstext>
+        <Losungsvers>Ézs 40,3.10</Losungsvers>
+    </WochenLosungen>
+    <WochenLosungen>
+        <StartDatum>2021-12-19</StartDatum>
+        <EndDatum>2021-12-23</EndDatum>
+        <Sonntag>Advent 4. vasárnapja</Sonntag>
+        <Losungstext>Örüljetek az Úrban mindenkor! Ismét mondom: örüljetek! Az Úr közel! </Losungstext>
+        <Losungsvers>Fil 4,4–5</Losungsvers>
+    </WochenLosungen>
+    <WochenLosungen>
+        <StartDatum>2021-12-24</StartDatum>
+        <EndDatum>2021-12-24</EndDatum>
+        <Sonntag>Szenteste</Sonntag>
+        <Losungstext>Ne féljetek, mert íme, nagy örömet hirdetek nektek, amely az egész nép öröme lesz: üdvözítő született ma nektek, aki az Úr Krisztus, a Dávid városában. </Losungstext>
+        <Losungsvers>Lk 2,10–11</Losungsvers>
+    </WochenLosungen>
+    <WochenLosungen>
+        <StartDatum>2021-12-25</StartDatum>
+        <EndDatum>2021-12-25</EndDatum>
+        <Sonntag>Karácsony ünnepe</Sonntag>
+        <Losungstext>Az Ige testté lett, közöttünk lakott, és láttuk az ő dicsőségét… </Losungstext>
+        <Losungsvers>Jn 1,14</Losungsvers>
+    </WochenLosungen>
+    <WochenLosungen>
+        <StartDatum>2021-12-26</StartDatum>
+        <EndDatum>2021-12-26</EndDatum>
+        <Sonntag>Karácsony 2. napja - István vértanú ünnepe</Sonntag>
+        <Losungstext>Drágának tekinti az Úr híveinek halálát. Hálaáldozatot mutatok be neked, és az Úr nevét hirdetem. </Losungstext>
+        <Losungsvers>Zsolt 116,15.17</Losungsvers>
+    </WochenLosungen>
+    <WochenLosungen>
+        <StartDatum>2021-12-27</StartDatum>
+        <EndDatum>2021-12-27</EndDatum>
+        <Sonntag>János evangélista ünnepe</Sonntag>
+        <Losungstext>Milyen kedves annak az érkezése, aki örömhírrel jön a hegyeken át! Békességet hirdet, örömhírt hoz, szabadulást hirdet. </Losungstext>
+        <Losungsvers>Ézs 52,7a</Losungsvers>
+    </WochenLosungen>
+    <WochenLosungen>
+        <StartDatum>2021-12-28</StartDatum>
+        <EndDatum>2021-12-30</EndDatum>
+        <Sonntag>Betlehemi gyermekek (aprószentek) ünnepe</Sonntag>
+        <Losungstext>Drágának tekinti az Úr híveinek halálát. Hálaáldozatot mutatok be neked, és az Úr nevét hirdetem. </Losungstext>
+        <Losungsvers>Zsolt 116,15.17</Losungsvers>
+    </WochenLosungen>
+    <WochenLosungen>
+        <StartDatum>2021-12-31</StartDatum>
+        <EndDatum>2021-12-31</EndDatum>
+        <Sonntag>Óév este</Sonntag>
+        <Losungstext>Kezedben van sorsom… </Losungstext>
+        <Losungsvers>Zsolt 31,16</Losungsvers>
+    </WochenLosungen>
 </FreeXml>

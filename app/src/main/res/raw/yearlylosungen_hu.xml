@@ -44,5 +44,9 @@
         <Losungstext>Hiszek! Segíts a hitetlenségemen!</Losungstext>
         <Losungsvers>Mk 9,24</Losungsvers>
     </JahresLosungen>
+    <JahresLosungen>
+        <Datum>2021-01-01</Datum>
+        <Losungstext>Jézus Krisztus mondja: Legyetek irgalmasok, amint a ti Atyátok is irgalmas!</Losungstext>
+        <Losungsvers>Lk 6,36</Losungsvers>
+    </JahresLosungen>
 </FreeXml>
-

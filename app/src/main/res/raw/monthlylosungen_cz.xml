@@ -1,128 +1,68 @@
 ﻿<?xml version="1.0" standalone="yes"?>
 <FreeXml xmlns="http://tempuri.org/FreeXml.xsd">
     <MonatsLosungen>
-        <Datum>2018-12-01</Datum>
-        <Losungstext>Když spatřili hvězdu, zaradovali se velikou radostí.</Losungstext>
-        <Losungsvers>Matouš 2,10</Losungsvers>
-    </MonatsLosungen>
-    <MonatsLosungen>
-        <Datum>2019-01-01</Datum>
-        <Losungstext>Položil jsem na oblak svou duhu, aby byla znamením smlouvy mezi mnou a zemí.</Losungstext>
-        <Losungsvers>1.Mojžíšova 9,13</Losungsvers>
-    </MonatsLosungen>
-    <MonatsLosungen>
-        <Datum>2019-02-01</Datum>
-        <Losungstext>Soudím, že utrpení nynějšího času se nedají srovnat s budoucí slávou, která má být na nás zjevena.</Losungstext>
-        <Losungsvers>Římanům 8,18</Losungsvers>
-    </MonatsLosungen>
-    <MonatsLosungen>
-        <Datum>2019-03-01</Datum>
-        <Losungstext>Upněte se srdcem k Hospodinu a služte jenom jemu.</Losungstext>
-        <Losungsvers>1.Samuelova 7,3</Losungsvers>
-    </MonatsLosungen>
-    <MonatsLosungen>
-        <Datum>2019-04-01</Datum>
-        <Losungstext>Hle, já jsem s vámi po všecky dny až do skonání tohoto věku.</Losungstext>
-        <Losungsvers>Matouš 28,20</Losungsvers>
-    </MonatsLosungen>
-    <MonatsLosungen>
-        <Datum>2019-05-01</Datum>
-        <Losungstext>Není žádného jako ty, není Boha kromě tebe.</Losungstext>
-        <Losungsvers>2.Samuelova 7,22</Losungsvers>
-    </MonatsLosungen>
-    <MonatsLosungen>
-        <Datum>2019-06-01</Datum>
-        <Losungstext>Pláství medu je řeč vlídná, lahodou duši a uzdravením kostem.</Losungstext>
-        <Losungsvers>Přísloví 16,24</Losungsvers>
-    </MonatsLosungen>
-    <MonatsLosungen>
-        <Datum>2019-07-01</Datum>
-        <Losungstext>Každý člověk ať je rychlý k naslouchání, ale pomalý k mluvení, pomalý k hněvu.</Losungstext>
-        <Losungsvers>Jakubova 1,19</Losungsvers>
-    </MonatsLosungen>
-    <MonatsLosungen>
-        <Datum>2019-08-01</Datum>
-        <Losungstext>Jděte a hlásejte: Přiblížilo se nebeské království.</Losungstext>
-        <Losungsvers>Matouš 10,7 P</Losungsvers>
-    </MonatsLosungen>
-    <MonatsLosungen>
-        <Datum>2019-09-01</Datum>
-        <Losungstext>Co jest platno člověku, by pak všecken svět získal, a své duši uškodil? </Losungstext>
-        <Losungsvers>Matouš 16,26 K</Losungsvers>
-    </MonatsLosungen>
-    <MonatsLosungen>
-        <Datum>2019-10-01</Datum>
-        <Losungstext>Prokazuj milosrdenství podle toho, jak hodně máš; máš-li málo, neboj se prokazovat milosrdenství i z mála.</Losungstext>
-        <Losungsvers>Tóbit 4,8</Losungsvers>
-    </MonatsLosungen>
-    <MonatsLosungen>
-        <Datum>2019-11-01</Datum>
-        <Losungstext>Já vím, že můj Vykupitel je živ a jako poslední se postaví nad prachem.</Losungstext>
-        <Losungsvers>Jób 19,25</Losungsvers>
-    </MonatsLosungen>
-    <MonatsLosungen>
-        <Datum>2019-12-01</Datum>
-        <Losungstext>Kdo chodí v temnotách, kde není žádná záře, ten ať doufá v Hospodinovo jméno a opře se o svého Boha.</Losungstext>
-        <Losungsvers>Izaiáš 50,10</Losungsvers>
-    </MonatsLosungen>
-    <MonatsLosungen>
-        <Datum>2020-01-01</Datum>
-        <Losungstext>Věrný je Bůh.</Losungstext>
-        <Losungsvers>1.Korintským 1,9</Losungsvers>
-    </MonatsLosungen>
-    <MonatsLosungen>
-        <Datum>2020-02-01</Datum>
-        <Losungstext>Bylo za vás zaplaceno výkupné, nebuďte otroky lidí!</Losungstext>
-        <Losungsvers>1.Korintským 7,23</Losungsvers>
-    </MonatsLosungen>
-    <MonatsLosungen>
-        <Datum>2020-03-01</Datum>
-        <Losungstext>Co vám říkám, říkám všem: Bděte!</Losungstext>
-        <Losungsvers>Marek 13,37</Losungsvers>
-    </MonatsLosungen>
-    <MonatsLosungen>
-        <Datum>2020-04-01</Datum>
-        <Losungstext>Co je zaseto jako pomíjitelné, vstává jako nepomíjitelné.</Losungstext>
-        <Losungsvers>1.Korintským 15,42</Losungsvers>
-    </MonatsLosungen>
-    <MonatsLosungen>
-        <Datum>2020-05-01</Datum>
-        <Losungstext>Každý ať slouží druhým tím darem milosti, který přijal.</Losungstext>
-        <Losungsvers>1.Petrova 4,10</Losungsvers>
-    </MonatsLosungen>
-    <MonatsLosungen>
-        <Datum>2020-06-01</Datum>
-        <Losungstext>Ty sám znáš srdce všech lidí.</Losungstext>
-        <Losungsvers>1.Královská 8,39 K</Losungsvers>
-    </MonatsLosungen>
-    <MonatsLosungen>
-        <Datum>2020-07-01</Datum>
-        <Losungstext>Hospodinův anděl se Eliáše dotkl a řekl: "Vstaň a jez, máš před sebou dlouhou cestu!"</Losungstext>
-        <Losungsvers>1.Královská 19,7</Losungsvers>
-    </MonatsLosungen>
-    <MonatsLosungen>
-        <Datum>2020-08-01</Datum>
-        <Losungstext>Díky ti vzdávám za to, jak zázračně jsi mne stvořil. Plna divů jsou tvá díla, a má duše to dobře ví.</Losungstext>
-        <Losungsvers>Žalm 139,14 F</Losungsvers>
-    </MonatsLosungen>
-    <MonatsLosungen>
-        <Datum>2020-09-01</Datum>
-        <Losungstext>V Kristu Bůh usmířil svět se sebou.</Losungstext>
-        <Losungsvers>2.Korintským 5,19</Losungsvers>
-    </MonatsLosungen>
-    <MonatsLosungen>
-        <Datum>2020-10-01</Datum>
-        <Losungstext>Usilujte o pokoj toho města, do něhož jsem vás přestěhoval, modlete se za ně k Hospodinu, neboť v jeho pokoji i vy budete mít pokoj.</Losungstext>
-        <Losungsvers>Jeremiáš 29,7</Losungsvers>
-    </MonatsLosungen>
-    <MonatsLosungen>
-        <Datum>2020-11-01</Datum>
-        <Losungstext>Přijdou s pláčem, ale já je utěším a povedu.</Losungstext>
-        <Losungsvers>Jeremiáš 31,9</Losungsvers>
-    </MonatsLosungen>
-    <MonatsLosungen>
         <Datum>2020-12-01</Datum>
         <Losungstext>Cožpak nemáš lámat svůj chléb hladovému, přijímat do domu utištěné, ty, kdo jsou bez přístřeší? Vidíš-li nahého, obléknout ho, nebýt netečný k vlastní krvi?</Losungstext>
         <Losungsvers>Izaiáš 58,7</Losungsvers>
+    </MonatsLosungen>
+    <MonatsLosungen>
+        <Datum>2021-01-01</Datum>
+        <Losungstext>Mnozí se ptají: Kdo ukáže nám, co je dobré? Dej dopadat na nás světlu tváře své, ó Bože.</Losungstext>
+        <Losungsvers>Žalm 4,7 F</Losungsvers>
+    </MonatsLosungen>
+    <MonatsLosungen>
+        <Datum>2021-02-01</Datum>
+        <Losungstext>Radujte se, že vaše jména jsou zapsána v nebesích.</Losungstext>
+        <Losungsvers>Lukáš 10,20</Losungsvers>
+    </MonatsLosungen>
+    <MonatsLosungen>
+        <Datum>2021-03-01</Datum>
+        <Losungstext>Pravím vám, budou-li oni mlčet, bude volat kamení.</Losungstext>
+        <Losungsvers>Lukáš 19,40</Losungsvers>
+    </MonatsLosungen>
+    <MonatsLosungen>
+        <Datum>2021-04-01</Datum>
+        <Losungstext>Kristus je obraz Boha neviditelného, prvorozený všeho stvoření.</Losungstext>
+        <Losungsvers>Koloským 1,15</Losungsvers>
+    </MonatsLosungen>
+    <MonatsLosungen>
+        <Datum>2021-05-01</Datum>
+        <Losungstext>Otevři svá ústa za němého, za právo všech postižených.</Losungstext>
+        <Losungsvers>Přísloví 31,8</Losungsvers>
+    </MonatsLosungen>
+    <MonatsLosungen>
+        <Datum>2021-06-01</Datum>
+        <Losungstext>Boha je třeba víc poslouchat než lidi.</Losungstext>
+        <Losungsvers>Skutky 5,29c</Losungsvers>
+    </MonatsLosungen>
+    <MonatsLosungen>
+        <Datum>2021-07-01</Datum>
+        <Losungstext>Bůh od nikoho z nás není daleko. V něm totiž žijeme, hýbáme se a jsme.</Losungstext>
+        <Losungsvers>Skutky 17,27 P</Losungsvers>
+    </MonatsLosungen>
+    <MonatsLosungen>
+        <Datum>2021-08-01</Datum>
+        <Losungstext>Nakloň, Hospodine, své ucho a slyš, otevři, Hospodine, své oči a viz!</Losungstext>
+        <Losungsvers>2.Královská 19,16</Losungsvers>
+    </MonatsLosungen>
+    <MonatsLosungen>
+        <Datum>2021-09-01</Datum>
+        <Losungstext>Sejete mnoho, a sklízí se málo. Jen jezte, nenasytíte se; jen pijte, žízeň neuhasíte; jen se oblékejte, nezahřejete se. Kdo se dává najmout za mzdu, ukládá ji do děravého váčku.</Losungstext>
+        <Losungsvers>Aggeus 1,6</Losungsvers>
+    </MonatsLosungen>
+    <MonatsLosungen>
+        <Datum>2021-10-01</Datum>
+        <Losungstext>Mějme zájem jeden o druhého a povzbuzujme se k lásce a k dobrým skutkům.</Losungstext>
+        <Losungsvers>Židům 10,24</Losungsvers>
+    </MonatsLosungen>
+    <MonatsLosungen>
+        <Datum>2021-11-01</Datum>
+        <Losungstext>Pán nechť řídí vaše srdce k Boží lásce a k trpělivosti Kristově.</Losungstext>
+        <Losungsvers>2.Tesalonickým 3,5</Losungsvers>
+    </MonatsLosungen>
+    <MonatsLosungen>
+        <Datum>2021-12-01</Datum>
+        <Losungstext>Plesej a raduj se, sijónská dcero, neboť už přicházím a budu bydlet uprostřed tebe, je výrok Hospodinův.</Losungstext>
+        <Losungsvers>Zachariáš 2,14</Losungsvers>
     </MonatsLosungen>
 </FreeXml>
