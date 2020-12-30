@@ -32,7 +32,7 @@ class NoteDetailsActivity : AppActivity(), ConfirmDeleteDialog.Listener {
             replaceFragmentIn(
                     container = R.id.note_details_fragment,
                     fragment = NoteDetailsFragment.createInstance(
-                            intent.getParcelableExtra(KEY_NOTE))
+                            intent.getParcelableExtra(KEY_NOTE)!!)
             )
         }
     }
