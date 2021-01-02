@@ -46,6 +46,8 @@ class AboutActivity : AppActivity() {
         about_developer_name.setTextColor(fontColor)
         about_developer_mail.setLinkTextColor(fontColor)
         about_developer_github.setLinkTextColor(fontColor)
+        hesla_info.setTextColor(fontColor)
+        hesla_info_url.setLinkTextColor(fontColor)
 
         about_privacy_policy_button.onClick {
             startActivity(PrivacyPolicyActivity.createIntent(this))

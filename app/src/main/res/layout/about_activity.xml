@@ -71,12 +71,12 @@
 
             <Button
                 android:id="@+id/about_privacy_policy_button"
-                android:layout_marginTop="16dp"
                 style="@style/Widget.AppCompat.Button.Borderless"
                 android:layout_width="wrap_content"
-                android:textColor="@color/colorPrimary"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="16dp"
                 android:text="@string/privacy_policy"
-                android:layout_height="wrap_content" />
+                android:textColor="@color/colorPrimary" />
 
             <LinearLayout
                 android:layout_width="match_parent"
@@ -142,6 +142,24 @@
                     android:layout_marginTop="4dp"
                     android:autoLink="web"
                     android:text="@string/developer_github"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/hesla_info"
+                    style="@style/TextAppearance.AppCompat.Subhead"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="56dp"
+                    android:autoLink="web"
+                    android:text="@string/hesla_info" />
+
+                <TextView
+                    android:id="@+id/hesla_info_url"
+                    style="@style/TextAppearance.AppCompat.Body1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:autoLink="web"
+                    android:text="@string/hesla_info_url"
                     android:textStyle="bold" />
 
             </LinearLayout>

@@ -5,4 +5,6 @@
     <string name="developer_mail" translatable="false">JoaReiss@gmail.com</string>
     <string name="developer_github" translatable="false">https://github.com/JoachimR</string>
     <string name="source_code_url" translatable="false">https://github.com/JoachimR/LosungenApi16</string>
+    <string name="hesla_info" translatable="false">XML soubor s českým textem Hesel poskytl jejich vydavatel Petr Heřman</string>
+    <string name="hesla_info_url" translatable="false">http://hesla.dulos.cz</string>
 </resources>
