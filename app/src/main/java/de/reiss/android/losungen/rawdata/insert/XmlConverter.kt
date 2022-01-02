@@ -16,14 +16,16 @@ abstract class XmlConverter<XmlItem : LosungXmlItem, out DatabaseItem : LosungDa
 
     abstract fun xmlItemToDatabaseItem(item: XmlItem, languageId: Int): DatabaseItem
 
-    fun loadFromRaw(context: Context,
-                    @RawRes resId: Int,
-                    languageId: Int): List<DatabaseItem> =
-            rawToString(context, resId)?.let { rawText ->
-                losungXmlParser.parse(rawText).map { xmlItem ->
-                    xmlItemToDatabaseItem(xmlItem, languageId)
-                }
-            } ?: emptyList()
+    fun loadFromRaw(
+        context: Context,
+        @RawRes resId: Int,
+        languageId: Int
+    ): List<DatabaseItem> =
+        rawToString(context, resId)?.let { rawText ->
+            losungXmlParser.parse(rawText).map { xmlItem ->
+                xmlItemToDatabaseItem(xmlItem, languageId)
+            }
+        } ?: emptyList()
 
     private fun rawToString(context: Context, @RawRes resId: Int): String? {
         val inputStream = context.resources.openRawResource(resId)

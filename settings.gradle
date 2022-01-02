@@ -1,1 +1,1 @@
-include ':app', ':model', ':database', ':logger', ':events', ':xmlparser'
+include ':app'

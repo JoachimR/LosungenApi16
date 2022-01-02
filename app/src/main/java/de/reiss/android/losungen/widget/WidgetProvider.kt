@@ -27,9 +27,11 @@ abstract class WidgetProvider : AppWidgetProvider() {
 
     abstract fun serviceIntent(context: Context, appWidgetId: Int): Intent
 
-    override fun onUpdate(context: Context,
-                          appWidgetManager: AppWidgetManager,
-                          appWidgetIds: IntArray) {
+    override fun onUpdate(
+        context: Context,
+        appWidgetManager: AppWidgetManager,
+        appWidgetIds: IntArray
+    ) {
         try {
             for (id in appWidgetIds) {
                 appWidgetManager.updateAppWidget(id, createRemoteViews(context, id))
@@ -56,14 +58,18 @@ abstract class WidgetProvider : AppWidgetProvider() {
     }
 
     private fun setClickMethod(context: Context, remoteViews: RemoteViews) {
-        val pendingIntent = PendingIntent.getActivity(context, REQUEST_CODE_CLICK_WIDGET,
-                SplashScreenActivity.createIntent(context), PendingIntent.FLAG_UPDATE_CURRENT)
+        val pendingIntent = PendingIntent.getActivity(
+            context, REQUEST_CODE_CLICK_WIDGET,
+            SplashScreenActivity.createIntent(context), PendingIntent.FLAG_UPDATE_CURRENT
+        )
         remoteViews.setPendingIntentTemplate(R.id.widget_list_view, pendingIntent)
     }
 
     private fun setBackground(context: Context, remoteViews: RemoteViews) {
-        val identifier = context.resources.getIdentifier(appPreferences.widgetBackground(),
-                "drawable", context.packageName)
+        val identifier = context.resources.getIdentifier(
+            appPreferences.widgetBackground(),
+            "drawable", context.packageName
+        )
         remoteViews.setImageViewResource(R.id.widget_background, identifier)
     }
 

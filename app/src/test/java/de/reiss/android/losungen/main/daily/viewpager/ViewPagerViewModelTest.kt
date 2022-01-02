@@ -40,10 +40,11 @@ class ViewPagerViewModelTest {
         val dateCaptor = argumentCaptor<Date>()
 
         verify(repository).loadItemsFor(
-                language = languageCaptor.capture(),
-                fromDate = dateCaptor.capture(),
-                toDate = dateCaptor.capture(),
-                result = any())
+            language = languageCaptor.capture(),
+            fromDate = dateCaptor.capture(),
+            toDate = dateCaptor.capture(),
+            result = any()
+        )
 
         assertEquals(language, languageCaptor.firstValue)
         assertEquals(date.firstDayOfYear(), dateCaptor.firstValue)

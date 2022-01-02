@@ -24,11 +24,14 @@ class WeeklyLosungDialog : LosungDialog<WeeklyLosungViewModel>() {
     }
 
     override fun defineViewModelProvider(): ViewModelProvider =
-            ViewModelProviders.of(this, WeeklyLosungViewModel.Factory(
-                    App.component.weeklyLosungRepository))
+        ViewModelProviders.of(
+            this, WeeklyLosungViewModel.Factory(
+                App.component.weeklyLosungRepository
+            )
+        )
 
     override fun defineViewModel(): WeeklyLosungViewModel =
-            loadViewModelProvider().get(WeeklyLosungViewModel::class.java)
+        loadViewModelProvider().get(WeeklyLosungViewModel::class.java)
 
     override fun title() = getString(R.string.weekly_dialog_title)
 
@@ -45,9 +48,12 @@ class WeeklyLosungDialog : LosungDialog<WeeklyLosungViewModel>() {
     override fun share() {
         val context = context ?: return
         viewModel.losung()?.let {
-            startActivity(shareIntent(
+            startActivity(
+                shareIntent(
                     text = contentAsString(dateText(context, it), it.bibleText),
-                    chooserTitle = context.getString(R.string.share_dialog_chooser_title)))
+                    chooserTitle = context.getString(R.string.share_dialog_chooser_title)
+                )
+            )
         }
     }
 
@@ -84,9 +90,13 @@ class WeeklyLosungDialog : LosungDialog<WeeklyLosungViewModel>() {
     }
 
     private fun dateText(context: Context, losung: WeeklyLosung) =
-            context.getString(R.string.weekly_dialog_title_with_date,
-                    context.getString(R.string.widget_weekly_date_range,
-                            formattedWeekDate(context = context, time = losung.startDate().time),
-                            formattedWeekDate(context = context, time = losung.endDate().time)))
+        context.getString(
+            R.string.weekly_dialog_title_with_date,
+            context.getString(
+                R.string.widget_weekly_date_range,
+                formattedWeekDate(context = context, time = losung.startDate().time),
+                formattedWeekDate(context = context, time = losung.endDate().time)
+            )
+        )
 
 }

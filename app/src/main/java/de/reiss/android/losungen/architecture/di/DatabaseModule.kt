@@ -13,36 +13,36 @@ open class DatabaseModule(private val application: Application) {
     @Provides
     @ApplicationScope
     open fun losungDatabase(): LosungDatabase =
-            getDatabase()
+        getDatabase()
 
     @Provides
     @ApplicationScope
     open fun dailyLosungItemDao(): DailyLosungItemDao =
-            getDatabase().dailyLosungItemDao()
+        getDatabase().dailyLosungItemDao()
 
     @Provides
     @ApplicationScope
     open fun weeklyLosungItemDao(): WeeklyLosungItemDao =
-            getDatabase().weeklyLosungItemDao()
+        getDatabase().weeklyLosungItemDao()
 
     @Provides
     @ApplicationScope
     open fun monthlyLosungItemDao(): MonthlyLosungItemDao =
-            getDatabase().monthlyLosungItemDao()
+        getDatabase().monthlyLosungItemDao()
 
     @Provides
     @ApplicationScope
     open fun yearlyLosungItemDao(): YearlyLosungItemDao =
-            getDatabase().yearlyLosungItemDao()
+        getDatabase().yearlyLosungItemDao()
 
     @Provides
     @ApplicationScope
     open fun languageItemDao(): LanguageItemDao =
-            getDatabase().languageItemDao()
+        getDatabase().languageItemDao()
 
     @Provides
     @ApplicationScope
     open fun noteItemDao(): NoteItemDao =
-            getDatabase().noteItemDao()
+        getDatabase().noteItemDao()
 
 }

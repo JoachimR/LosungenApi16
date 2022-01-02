@@ -34,10 +34,10 @@ open class App : Application() {
     }
 
     open fun createComponent(): ApplicationComponent =
-            DaggerApplicationComponent.builder()
-                    .contextModule(ContextModule(this))
-                    .databaseModule(DatabaseModule(this))
-                    .build()
+        DaggerApplicationComponent.builder()
+            .contextModule(ContextModule(this))
+            .databaseModule(DatabaseModule(this))
+            .build()
 
 }
 

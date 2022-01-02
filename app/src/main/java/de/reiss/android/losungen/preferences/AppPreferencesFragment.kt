@@ -15,19 +15,19 @@ import de.reiss.android.losungen.util.extensions.isPlayServiceAvailable
 
 
 class AppPreferencesFragment : PreferenceFragmentCompat(),
-        SharedPreferences.OnSharedPreferenceChangeListener {
+    SharedPreferences.OnSharedPreferenceChangeListener {
 
     companion object {
 
         private const val LIST_LANGUAGES = "LIST_LANGUAGES"
 
         fun createInstance(languages: List<Language>) =
-                AppPreferencesFragment().apply {
-                    arguments = Bundle().apply {
-                        putParcelableArrayList(LIST_LANGUAGES,
-                                arrayListOf<Language>().apply { addAll(languages) })
-                    }
+            AppPreferencesFragment().apply {
+                arguments = Bundle().apply {
+                    putParcelableArrayList(LIST_LANGUAGES,
+                        arrayListOf<Language>().apply { addAll(languages) })
                 }
+            }
 
     }
 
@@ -72,16 +72,19 @@ class AppPreferencesFragment : PreferenceFragmentCompat(),
 
     override fun onSharedPreferenceChanged(sharedPreferences: SharedPreferences, key: String) {
         if (key == getString(R.string.pref_theme_key)
-                || key == getString(R.string.pref_show_toolbar_key)
-                || key == getString(R.string.pref_show_cards_key)) {
+            || key == getString(R.string.pref_show_toolbar_key)
+            || key == getString(R.string.pref_show_cards_key)
+        ) {
             restartApp()
         }
     }
 
     private fun restartApp() {
         activity?.apply {
-            startActivity(SplashScreenActivity.createIntent(this)
-                    .setFlags(Intent.FLAG_ACTIVITY_NEW_TASK or Intent.FLAG_ACTIVITY_CLEAR_TASK))
+            startActivity(
+                SplashScreenActivity.createIntent(this)
+                    .setFlags(Intent.FLAG_ACTIVITY_NEW_TASK or Intent.FLAG_ACTIVITY_CLEAR_TASK)
+            )
             supportFinishAfterTransition()
         }
     }

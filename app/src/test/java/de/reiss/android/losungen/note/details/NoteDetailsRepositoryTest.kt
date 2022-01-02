@@ -11,7 +11,6 @@ import de.reiss.android.losungen.model.Note
 import de.reiss.android.losungen.testutil.TestExecutor
 import de.reiss.android.losungen.testutil.blockingObserve
 import de.reiss.android.losungen.testutil.sampleNoteItem
-import de.reiss.android.losungen.util.extensions.withZeroDayTime
 import org.junit.Assert.assertEquals
 import org.junit.Assert.assertNull
 import org.junit.Before

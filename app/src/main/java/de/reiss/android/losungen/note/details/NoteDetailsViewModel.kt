@@ -7,8 +7,10 @@ import de.reiss.android.losungen.architecture.AsyncLoad
 import de.reiss.android.losungen.architecture.AsyncLoadStatus.*
 import de.reiss.android.losungen.model.Note
 
-open class NoteDetailsViewModel(private val initialNote: Note,
-                                private val repository: NoteDetailsRepository) : ViewModel() {
+open class NoteDetailsViewModel(
+    private val initialNote: Note,
+    private val repository: NoteDetailsRepository
+) : ViewModel() {
 
     private val noteLiveData: MutableLiveData<AsyncLoad<Note>> = MutableLiveData()
 
@@ -51,8 +53,10 @@ open class NoteDetailsViewModel(private val initialNote: Note,
         }
     }
 
-    class Factory(private val note: Note,
-                  private val repository: NoteDetailsRepository) : ViewModelProvider.NewInstanceFactory() {
+    class Factory(
+        private val note: Note,
+        private val repository: NoteDetailsRepository
+    ) : ViewModelProvider.NewInstanceFactory() {
 
         override fun <T : ViewModel> create(modelClass: Class<T>): T {
 

@@ -5,6 +5,6 @@ import androidx.fragment.app.FragmentManager
 open class ViewPagerAdapterCreator {
 
     open fun create(fragmentManager: FragmentManager): ViewPagerAdapter =
-            ViewPagerAdapter(fragmentManager)
+        ViewPagerAdapter(fragmentManager)
 
 }

@@ -7,8 +7,10 @@ import de.reiss.android.losungen.model.Language
 import java.util.concurrent.Executor
 import javax.inject.Inject
 
-class LanguageRepository @Inject constructor(private val executor: Executor,
-                                             private val languageItemDao: LanguageItemDao) {
+class LanguageRepository @Inject constructor(
+    private val executor: Executor,
+    private val languageItemDao: LanguageItemDao
+) {
 
     fun loadLanguages(result: MutableLiveData<AsyncLoad<List<Language>>>) {
         val oldData = result.value?.data

@@ -5,9 +5,11 @@ import de.reiss.android.losungen.database.NoteItemDao
 import java.util.concurrent.Executor
 import javax.inject.Inject
 
-open class NoteExportRepository @Inject constructor(private val executor: Executor,
-                                                    private val noteItemDao: NoteItemDao,
-                                                    private val notesExporter: NotesExporter) {
+open class NoteExportRepository @Inject constructor(
+    private val executor: Executor,
+    private val noteItemDao: NoteItemDao,
+    private val notesExporter: NotesExporter
+) {
 
     open fun exportNotes(liveData: MutableLiveData<NoteExportStatus>) {
         if (notesExporter.isExternalStorageWritable().not()) {
@@ -26,11 +28,13 @@ open class NoteExportRepository @Inject constructor(private val executor: Execut
             } else {
                 val exportResult = notesExporter.exportNotes(notes = allNotes)
 
-                liveData.postValue(if (exportResult) {
-                    ExportSuccessStatus(notesExporter.directory, notesExporter.fileName)
-                } else {
-                    ExportErrorStatus(notesExporter.directory, notesExporter.fileName)
-                })
+                liveData.postValue(
+                    if (exportResult) {
+                        ExportSuccessStatus(notesExporter.directory, notesExporter.fileName)
+                    } else {
+                        ExportErrorStatus(notesExporter.directory, notesExporter.fileName)
+                    }
+                )
             }
         }
     }

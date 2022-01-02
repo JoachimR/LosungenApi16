@@ -12,8 +12,10 @@ import de.reiss.android.losungen.util.extensions.withZeroDayTime
 import de.reiss.android.losungen.xmlparser.dateFromString
 import javax.inject.Inject
 
-class DatabaseMigrator @Inject constructor(val context: Context,
-                                           val noteItemDao: NoteItemDao) {
+class DatabaseMigrator @Inject constructor(
+    val context: Context,
+    val noteItemDao: NoteItemDao
+) {
 
     @WorkerThread
     fun migrateNotesDatabase() {
@@ -36,13 +38,16 @@ class DatabaseMigrator @Inject constructor(val context: Context,
                 val item = noteItemDao.byDate(date)
                 if (item == null) {
                     noteItemDao.insertOrReplace(
-                            NoteItem(date.withZeroDayTime(),
-                                    BibleTextPair(
-                                            cursor.getString(cursor.getColumnIndex("text1")),
-                                            cursor.getString(cursor.getColumnIndex("source1")),
-                                            cursor.getString(cursor.getColumnIndex("text2")),
-                                            cursor.getString(cursor.getColumnIndex("source2"))),
-                                    cursor.getString(cursor.getColumnIndex("note")))
+                        NoteItem(
+                            date.withZeroDayTime(),
+                            BibleTextPair(
+                                cursor.getString(cursor.getColumnIndex("text1")),
+                                cursor.getString(cursor.getColumnIndex("source1")),
+                                cursor.getString(cursor.getColumnIndex("text2")),
+                                cursor.getString(cursor.getColumnIndex("source2"))
+                            ),
+                            cursor.getString(cursor.getColumnIndex("note"))
+                        )
                     )
                 }
             }
@@ -58,9 +63,11 @@ class DatabaseMigrator @Inject constructor(val context: Context,
         override fun onUpgrade(db: SQLiteDatabase?, oldVersion: Int, newVersion: Int) {
         }
 
-        fun cursorForAll(): Cursor = readableDatabase.query("notes", null, null, null, null, null, null)
+        fun cursorForAll(): Cursor =
+            readableDatabase.query("notes", null, null, null, null, null, null)
 
-        private val createTableStatement = "CREATE TABLE notes (  _id INTEGER PRIMARY KEY AUTOINCREMENT, date TEXT NOT NULL, language TEXT NOT NULL, text1 TEXT NOT NULL, source1 TEXT NOT NULL, text2 TEXT NOT NULL, source2 TEXT NOT NULL, note TEXT NOT NULL )  ; "
+        private val createTableStatement =
+            "CREATE TABLE notes (  _id INTEGER PRIMARY KEY AUTOINCREMENT, date TEXT NOT NULL, language TEXT NOT NULL, text1 TEXT NOT NULL, source1 TEXT NOT NULL, text2 TEXT NOT NULL, source2 TEXT NOT NULL, note TEXT NOT NULL )  ; "
 
     }
 

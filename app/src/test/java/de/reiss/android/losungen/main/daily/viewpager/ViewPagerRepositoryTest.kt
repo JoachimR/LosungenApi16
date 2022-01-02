@@ -37,17 +37,18 @@ class ViewPagerRepositoryTest {
     private val rawToDatabaseWriter = mock<RawToDatabase>()
 
     private val languageItem = LanguageItem("testLanguage", "testLanguageName", "testLanguageCode")
-            .apply { id = 1 }
+        .apply { id = 1 }
 
     private val date = Date().withZeroDayTime()
 
     @Before
     fun setUp() {
         repository = ViewPagerRepository(
-                TestExecutor(),
-                dailyLosungItemDao,
-                languageItemDao,
-                rawToDatabaseWriter)
+            TestExecutor(),
+            dailyLosungItemDao,
+            languageItemDao,
+            rawToDatabaseWriter
+        )
 
         mockLanguageDatabaseResult(languageItem)
     }
@@ -85,10 +86,11 @@ class ViewPagerRepositoryTest {
     private fun loadItemsFromRepo() {
         val liveData = MutableLiveData<AsyncLoad<String>>()
         repository.loadItemsFor(
-                language = languageItem.language,
-                fromDate = date.firstDayOfYear(),
-                toDate = date.lastDayOfYear(),
-                result = liveData)
+            language = languageItem.language,
+            fromDate = date.firstDayOfYear(),
+            toDate = date.lastDayOfYear(),
+            result = liveData
+        )
         val result = liveData.blockingObserve() ?: throw NullPointerException()
         assertEquals(AsyncLoadStatus.SUCCESS, result.loadStatus)
         assertEquals(languageItem.language, result.data)
@@ -96,10 +98,10 @@ class ViewPagerRepositoryTest {
 
     private fun mockLosungDatabaseResult(result: List<DailyLosungDatabaseItem>) {
         whenever(dailyLosungItemDao.range(any(), any(), any()))
-                .thenReturn(result)
+            .thenReturn(result)
 
         whenever(dailyLosungItemDao.all())
-                .thenReturn(result)
+            .thenReturn(result)
     }
 
     private fun mockLanguageDatabaseResult(item: LanguageItem) {

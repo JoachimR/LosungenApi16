@@ -23,7 +23,8 @@ open class YearlyLosungViewModel(private val repository: YearlyLosungRepository)
     fun isError() = losungLiveData().value?.loadStatus == AsyncLoadStatus.ERROR
     fun isSuccess() = losungLiveData().value?.loadStatus == AsyncLoadStatus.SUCCESS
 
-    class Factory(private val repository: YearlyLosungRepository) : ViewModelProvider.NewInstanceFactory() {
+    class Factory(private val repository: YearlyLosungRepository) :
+        ViewModelProvider.NewInstanceFactory() {
 
         override fun <T : ViewModel> create(modelClass: Class<T>): T {
 

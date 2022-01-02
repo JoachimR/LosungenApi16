@@ -24,13 +24,15 @@ import de.reiss.android.losungen.widget.weekly.WeeklyWidgetTextRefresher
 import de.reiss.android.losungen.widget.yearly.YearlyWidgetTextRefresher
 
 @ApplicationScope
-@Component(modules = [
-    ContextModule::class,
-    AndroidModule::class,
-    DatabaseModule::class,
-    PreferenceModule::class,
-    ExecutorModule::class,
-    NotesExportModule::class])
+@Component(
+    modules = [
+        ContextModule::class,
+        AndroidModule::class,
+        DatabaseModule::class,
+        PreferenceModule::class,
+        ExecutorModule::class,
+        NotesExportModule::class]
+)
 interface ApplicationComponent {
 
     val context: Context

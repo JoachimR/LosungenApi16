@@ -6,8 +6,10 @@ import de.reiss.android.losungen.allLanguages
 import de.reiss.android.losungen.preferences.AppPreferences
 import javax.inject.Inject
 
-class PreferencesMigrator @Inject constructor(val context: Context,
-                                              val appPreferences: AppPreferences) {
+class PreferencesMigrator @Inject constructor(
+    val context: Context,
+    val appPreferences: AppPreferences
+) {
 
     fun migrateAppPreferences() {
         val preferences = appPreferences.preferences
@@ -67,11 +69,11 @@ class PreferencesMigrator @Inject constructor(val context: Context,
         val preferences = appPreferences.preferences
         val edit = preferences.edit()
         preferences.all
-                .map { it.key }
-                .filterNot { keysToKeep.contains(it) }
-                .forEach {
-                    edit.remove(it)
-                }
+            .map { it.key }
+            .filterNot { keysToKeep.contains(it) }
+            .forEach {
+                edit.remove(it)
+            }
         edit.apply()
     }
 

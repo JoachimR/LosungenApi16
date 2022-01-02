@@ -6,6 +6,6 @@ import android.widget.RemoteViewsService
 class DailyWidgetService : RemoteViewsService() {
 
     override fun onGetViewFactory(intent: Intent): RemoteViewsService.RemoteViewsFactory =
-            DailyWidgetRemoteViewsFactory(this.applicationContext)
+        DailyWidgetRemoteViewsFactory(this.applicationContext)
 
 }

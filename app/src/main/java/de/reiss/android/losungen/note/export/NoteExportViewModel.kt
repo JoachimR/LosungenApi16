@@ -16,7 +16,8 @@ open class NoteExportViewModel(private val repository: NoteExportRepository) : V
 
     fun isExporting() = exportLiveData().value is ExportingStatus
 
-    class Factory(private val repository: NoteExportRepository) : ViewModelProvider.NewInstanceFactory() {
+    class Factory(private val repository: NoteExportRepository) :
+        ViewModelProvider.NewInstanceFactory() {
 
         override fun <T : ViewModel> create(modelClass: Class<T>): T {
 

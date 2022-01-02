@@ -17,12 +17,14 @@ class NotificationService : GcmTaskService() {
 
         fun schedule(context: Context) {
             GcmNetworkManager.getInstance(context)
-                    .schedule(PeriodicTask.Builder()
-                            .setService(NotificationService::class.java)
-                            .setTag(NOTIFICATION_TAG)
-                            .setPeriod(86400) // 24 hours
-                            .setFlex(3600) // 1 hour
-                            .build())
+                .schedule(
+                    PeriodicTask.Builder()
+                        .setService(NotificationService::class.java)
+                        .setTag(NOTIFICATION_TAG)
+                        .setPeriod(86400) // 24 hours
+                        .setFlex(3600) // 1 hour
+                        .build()
+                )
         }
 
     }

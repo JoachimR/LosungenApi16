@@ -11,13 +11,17 @@ import java.util.*
 import java.util.concurrent.Executor
 import javax.inject.Inject
 
-open class DailyLosungLoader @Inject constructor(private val dailyLosungItemDao: DailyLosungItemDao,
-                                                 private val languageItemDao: LanguageItemDao,
-                                                 private val appPreferences: AppPreferences) {
+open class DailyLosungLoader @Inject constructor(
+    private val dailyLosungItemDao: DailyLosungItemDao,
+    private val languageItemDao: LanguageItemDao,
+    private val appPreferences: AppPreferences
+) {
 
-    open fun loadForDate(date: Date,
-                         executor: Executor,
-                         onFinished: (DailyLosung?) -> Unit) {
+    open fun loadForDate(
+        date: Date,
+        executor: Executor,
+        onFinished: (DailyLosung?) -> Unit
+    ) {
         executor.execute {
             onFinished(loadForDate(date))
         }
@@ -25,8 +29,10 @@ open class DailyLosungLoader @Inject constructor(private val dailyLosungItemDao:
 
     open fun loadForDate(date: Date) = findLosung(date.withZeroDayTime())
 
-    open fun loadCurrent(executor: Executor,
-                         onFinished: (DailyLosung?) -> Unit) {
+    open fun loadCurrent(
+        executor: Executor,
+        onFinished: (DailyLosung?) -> Unit
+    ) {
         executor.execute {
             onFinished(loadCurrent())
         }
@@ -36,12 +42,12 @@ open class DailyLosungLoader @Inject constructor(private val dailyLosungItemDao:
 
     @WorkerThread
     private fun findLosung(date: Date): DailyLosung? =
-            appPreferences.chosenLanguage?.let { chosenLanguage ->
-                languageItemDao.find(chosenLanguage)?.let { languageItem ->
-                    dailyLosungItemDao.byDate(languageItem.id, date)?.let { losungItem ->
-                        return Converter.itemToDailyLosung(languageItem.language, losungItem)
-                    }
+        appPreferences.chosenLanguage?.let { chosenLanguage ->
+            languageItemDao.find(chosenLanguage)?.let { languageItem ->
+                dailyLosungItemDao.byDate(languageItem.id, date)?.let { losungItem ->
+                    return Converter.itemToDailyLosung(languageItem.language, losungItem)
                 }
             }
+        }
 
 }

@@ -24,11 +24,14 @@ class MonthlyLosungDialog : LosungDialog<MonthlyLosungViewModel>() {
     }
 
     override fun defineViewModelProvider(): ViewModelProvider =
-            ViewModelProviders.of(this, MonthlyLosungViewModel.Factory(
-                    App.component.monthlyLosungRepository))
+        ViewModelProviders.of(
+            this, MonthlyLosungViewModel.Factory(
+                App.component.monthlyLosungRepository
+            )
+        )
 
     override fun defineViewModel(): MonthlyLosungViewModel =
-            loadViewModelProvider().get(MonthlyLosungViewModel::class.java)
+        loadViewModelProvider().get(MonthlyLosungViewModel::class.java)
 
     override fun title() = getString(R.string.monthly_dialog_title)
 
@@ -45,9 +48,12 @@ class MonthlyLosungDialog : LosungDialog<MonthlyLosungViewModel>() {
     override fun share() {
         val context = context ?: return
         viewModel.losung()?.let {
-            startActivity(shareIntent(
+            startActivity(
+                shareIntent(
                     text = contentAsString(dateText(context, it), it.bibleText),
-                    chooserTitle = context.getString(R.string.share_dialog_chooser_title)))
+                    chooserTitle = context.getString(R.string.share_dialog_chooser_title)
+                )
+            )
         }
     }
 
@@ -85,7 +91,9 @@ class MonthlyLosungDialog : LosungDialog<MonthlyLosungViewModel>() {
     }
 
     private fun dateText(context: Context, losung: MonthlyLosung) =
-            getString(R.string.monthly_dialog_title_with_date,
-                    formattedMonthDate(context = context, time = losung.startDate().time))
+        getString(
+            R.string.monthly_dialog_title_with_date,
+            formattedMonthDate(context = context, time = losung.startDate().time)
+        )
 
 }

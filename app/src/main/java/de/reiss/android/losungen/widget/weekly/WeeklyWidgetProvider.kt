@@ -17,11 +17,14 @@ class WeeklyWidgetProvider : WidgetProvider() {
             val appWidgetManager = AppWidgetManager.getInstance(context)
 
             val appWidgetIds = appWidgetManager.getAppWidgetIds(
-                    ComponentName(context, WeeklyWidgetProvider::class.java))
+                ComponentName(context, WeeklyWidgetProvider::class.java)
+            )
 
-            context.sendBroadcast(Intent(context, WeeklyWidgetProvider::class.java)
+            context.sendBroadcast(
+                Intent(context, WeeklyWidgetProvider::class.java)
                     .putExtra(AppWidgetManager.EXTRA_APPWIDGET_IDS, appWidgetIds)
-                    .setAction("android.appwidget.action.APPWIDGET_UPDATE"))
+                    .setAction("android.appwidget.action.APPWIDGET_UPDATE")
+            )
 
             appWidgetManager.notifyAppWidgetViewDataChanged(appWidgetIds, R.id.widget_list_view)
         }
@@ -32,12 +35,13 @@ class WeeklyWidgetProvider : WidgetProvider() {
         super.onReceive(context, intent)
         val appWidgetManager = AppWidgetManager.getInstance(context)
         val appWidgetIds = appWidgetManager.getAppWidgetIds(
-                ComponentName(context, WeeklyWidgetProvider::class.java))
+            ComponentName(context, WeeklyWidgetProvider::class.java)
+        )
         appWidgetManager.notifyAppWidgetViewDataChanged(appWidgetIds, R.id.widget_list_view)
     }
 
     override fun serviceIntent(context: Context, appWidgetId: Int): Intent =
-            Intent(context, WeeklyWidgetService::class.java)
-                    .putExtra(AppWidgetManager.EXTRA_APPWIDGET_ID, appWidgetId)
+        Intent(context, WeeklyWidgetService::class.java)
+            .putExtra(AppWidgetManager.EXTRA_APPWIDGET_ID, appWidgetId)
 
 }

@@ -13,8 +13,10 @@ import java.util.*
 import java.util.concurrent.Executor
 import javax.inject.Inject
 
-open class EditNoteRepository @Inject constructor(private val executor: Executor,
-                                                  private val noteItemDao: NoteItemDao) {
+open class EditNoteRepository @Inject constructor(
+    private val executor: Executor,
+    private val noteItemDao: NoteItemDao
+) {
 
     open fun loadNote(date: Date, result: MutableLiveData<AsyncLoad<Note?>>) {
         val oldData = result.value?.data
@@ -31,10 +33,12 @@ open class EditNoteRepository @Inject constructor(private val executor: Executor
         }
     }
 
-    open fun updateNote(date: Date,
-                        text: String,
-                        bibleTextPair: BibleTextPair,
-                        result: MutableLiveData<AsyncLoad<Void>>) {
+    open fun updateNote(
+        date: Date,
+        text: String,
+        bibleTextPair: BibleTextPair,
+        result: MutableLiveData<AsyncLoad<Void>>
+    ) {
         result.postValue(AsyncLoad.loading())
         executor.execute {
             try {
@@ -43,7 +47,13 @@ open class EditNoteRepository @Inject constructor(private val executor: Executor
                         noteItemDao.delete(noteItem)
                     }
                 } else {
-                    noteItemDao.insertOrReplace(NoteItem(date.withZeroDayTime(), bibleTextPair, text))
+                    noteItemDao.insertOrReplace(
+                        NoteItem(
+                            date.withZeroDayTime(),
+                            bibleTextPair,
+                            text
+                        )
+                    )
                 }
                 result.postValue(AsyncLoad.success())
             } catch (e: Exception) {

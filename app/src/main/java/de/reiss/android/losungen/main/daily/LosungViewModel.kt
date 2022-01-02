@@ -34,7 +34,8 @@ open class LosungViewModel(private val repository: LosungRepository) : ViewModel
 
     fun isLoadingNote() = noteLiveData().value?.loadStatus == AsyncLoadStatus.LOADING
 
-    class Factory(private val repository: LosungRepository) : ViewModelProvider.NewInstanceFactory() {
+    class Factory(private val repository: LosungRepository) :
+        ViewModelProvider.NewInstanceFactory() {
 
         override fun <T : ViewModel> create(modelClass: Class<T>): T {
 

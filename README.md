@@ -1,6 +1,6 @@
-Watchwords / Losungen / Hesla / Napi ige
+Watchwords / Hesla
 =======================
-Unofficial Android app for Watchwords / Losungen / Hesla / Napi ige
+Unofficial Android app for Watchwords / Hesla
 
 <a href="https://play.google.com/store/apps/details?id=de.reiss.android.losungen"><img src="https://github.com/JoachimR/LosungenApi16/blob/master/art/github_promo.png"></a>
 
@@ -8,8 +8,7 @@ Unofficial Android app for Watchwords / Losungen / Hesla / Napi ige
 
 Currently supported languages (with legal permission):
  - <a href="http://hesla.dulos.cz/">Czech</a>
- - <a href="http://www.evangelikus.hu/lelki-taplalek/napiige">Hungarian</a>
- 
+
 For other languages to be added the legal permission needs to be given first.
 
 So far the content is provided <a href="https://github.com/JoachimR/LosungenApi16/tree/master/app/src/main/res/raw">by the app itself</a>.
@@ -21,6 +20,6 @@ If you want to provide a server from which the users could download the data dyn
 [![Download from Google Play](https://play.google.com/intl/en_us/badges/images/generic/en_badge_web_generic.png "Get it on Google Play")](https://play.google.com/store/apps/details?id=de.reiss.android.losungen)
 
 # License
-Copyright (C) 2014-2017 Joachim Reiß
+Copyright (C) 2014-2022 Joachim Reiß
 
 The license is [GnuGPLv3](https://github.com/JoachimR/LosungenApi16/blob/master/LICENSE). With contributing you agree to license your code under the same conditions.

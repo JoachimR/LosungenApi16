@@ -23,19 +23,19 @@ class FontSizePreferenceDialog : DialogFragment() {
     }
 
     override fun onCreateDialog(savedInstanceState: Bundle?): Dialog =
-            activity.let { activity ->
-                if (activity == null) {
-                    throw NullPointerException()
-                }
-                AlertDialog.Builder(activity)
-                        .setTitle(getString(R.string.fontsize_dialog_title))
-                        .setCancelable(true)
-                        .setPositiveButton(activity.getString(R.string.fontsize_dialog_ok)) { _, _ ->
-                            dismiss()
-                        }
-                        .setView(initDialogUi())
-                        .create()
+        activity.let { activity ->
+            if (activity == null) {
+                throw NullPointerException()
             }
+            AlertDialog.Builder(activity)
+                .setTitle(getString(R.string.fontsize_dialog_title))
+                .setCancelable(true)
+                .setPositiveButton(activity.getString(R.string.fontsize_dialog_ok)) { _, _ ->
+                    dismiss()
+                }
+                .setView(initDialogUi())
+                .create()
+        }
 
     private fun initDialogUi(): View {
         activity.let { activity ->
@@ -51,9 +51,11 @@ class FontSizePreferenceDialog : DialogFragment() {
 
                 setOnSeekBarChangeListener(object : SeekBar.OnSeekBarChangeListener {
 
-                    override fun onProgressChanged(seekBar: SeekBar,
-                                                   progress: Int,
-                                                   fromUser: Boolean) {
+                    override fun onProgressChanged(
+                        seekBar: SeekBar,
+                        progress: Int,
+                        fromUser: Boolean
+                    ) {
                         if (fromUser) {
                             appPreferences.changeFontSize(newFontSize = progress)
                         }

@@ -16,7 +16,8 @@ import de.reiss.android.losungen.preferences.AppPreferences
 import de.reiss.android.losungen.util.htmlize
 import java.util.*
 
-abstract class WidgetRemoteViewsFactory(private val context: Context) : RemoteViewsService.RemoteViewsFactory {
+abstract class WidgetRemoteViewsFactory(private val context: Context) :
+    RemoteViewsService.RemoteViewsFactory {
 
     private val list = ArrayList<CharSequence>()
 
@@ -79,17 +80,23 @@ abstract class WidgetRemoteViewsFactory(private val context: Context) : RemoteVi
             else
                 R.id.tv_widget_content_uncentered
 
-            setViewVisibility(R.id.tv_widget_content_centered,
-                    if (widgetCentered) View.VISIBLE else View.GONE)
-            setViewVisibility(R.id.tv_widget_content_uncentered,
-                    if (widgetCentered) View.GONE else View.VISIBLE)
+            setViewVisibility(
+                R.id.tv_widget_content_centered,
+                if (widgetCentered) View.VISIBLE else View.GONE
+            )
+            setViewVisibility(
+                R.id.tv_widget_content_uncentered,
+                if (widgetCentered) View.GONE else View.VISIBLE
+            )
 
             setTextViewText(textView, item)
 
             setTextColor(textView, appPreferences.widgetFontColor())
             if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.JELLY_BEAN) {
-                setTextViewTextSize(textView, TypedValue.COMPLEX_UNIT_SP,
-                        appPreferences.widgetFontSize())
+                setTextViewTextSize(
+                    textView, TypedValue.COMPLEX_UNIT_SP,
+                    appPreferences.widgetFontSize()
+                )
             } else {
                 setFloat(textView, "setTextSize", appPreferences.widgetFontSize())
             }

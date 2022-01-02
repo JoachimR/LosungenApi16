@@ -7,8 +7,10 @@ import de.reiss.android.losungen.model.YearlyLosung
 import java.util.concurrent.Executor
 import javax.inject.Inject
 
-open class YearlyLosungRepository @Inject constructor(private val executor: Executor,
-                                                      private val yearlyLosungLoader: YearlyLosungLoader) {
+open class YearlyLosungRepository @Inject constructor(
+    private val executor: Executor,
+    private val yearlyLosungLoader: YearlyLosungLoader
+) {
 
     open fun loadCurrent(result: MutableLiveData<AsyncLoad<YearlyLosung?>>) {
 
@@ -16,13 +18,13 @@ open class YearlyLosungRepository @Inject constructor(private val executor: Exec
         result.value = AsyncLoad.loading(oldData)
 
         yearlyLosungLoader.loadCurrent(executor = executor,
-                onFinished = { losung ->
-                    if (losung == null) {
-                        result.postValue(AsyncLoad.error(message = "Content not found"))
-                    } else {
-                        result.postValue(AsyncLoad.success(losung))
-                    }
-                })
+            onFinished = { losung ->
+                if (losung == null) {
+                    result.postValue(AsyncLoad.error(message = "Content not found"))
+                } else {
+                    result.postValue(AsyncLoad.success(losung))
+                }
+            })
     }
 
 }

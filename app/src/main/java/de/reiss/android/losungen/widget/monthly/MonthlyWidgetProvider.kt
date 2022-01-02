@@ -17,11 +17,14 @@ class MonthlyWidgetProvider : WidgetProvider() {
             val appWidgetManager = AppWidgetManager.getInstance(context)
 
             val appWidgetIds = appWidgetManager.getAppWidgetIds(
-                    ComponentName(context, MonthlyWidgetProvider::class.java))
+                ComponentName(context, MonthlyWidgetProvider::class.java)
+            )
 
-            context.sendBroadcast(Intent(context, MonthlyWidgetProvider::class.java)
+            context.sendBroadcast(
+                Intent(context, MonthlyWidgetProvider::class.java)
                     .putExtra(AppWidgetManager.EXTRA_APPWIDGET_IDS, appWidgetIds)
-                    .setAction("android.appwidget.action.APPWIDGET_UPDATE"))
+                    .setAction("android.appwidget.action.APPWIDGET_UPDATE")
+            )
 
             appWidgetManager.notifyAppWidgetViewDataChanged(appWidgetIds, R.id.widget_list_view)
         }
@@ -32,12 +35,13 @@ class MonthlyWidgetProvider : WidgetProvider() {
         super.onReceive(context, intent)
         val appWidgetManager = AppWidgetManager.getInstance(context)
         val appWidgetIds = appWidgetManager.getAppWidgetIds(
-                ComponentName(context, MonthlyWidgetProvider::class.java))
+            ComponentName(context, MonthlyWidgetProvider::class.java)
+        )
         appWidgetManager.notifyAppWidgetViewDataChanged(appWidgetIds, R.id.widget_list_view)
     }
 
     override fun serviceIntent(context: Context, appWidgetId: Int): Intent =
-            Intent(context, MonthlyWidgetService::class.java)
-                    .putExtra(AppWidgetManager.EXTRA_APPWIDGET_ID, appWidgetId)
+        Intent(context, MonthlyWidgetService::class.java)
+            .putExtra(AppWidgetManager.EXTRA_APPWIDGET_ID, appWidgetId)
 
 }

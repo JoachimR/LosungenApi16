@@ -8,9 +8,10 @@ import de.reiss.android.losungen.util.extensions.onClick
 import de.reiss.android.losungen.util.view.ListItemViewHolder
 import de.reiss.android.losungen.util.view.StableListItem
 
-class NoteListItemViewHolder(layout: View,
-                             private val noteClickListener: NoteClickListener)
-    : ListItemViewHolder(layout) {
+class NoteListItemViewHolder(
+    layout: View,
+    private val noteClickListener: NoteClickListener
+) : ListItemViewHolder(layout) {
 
     private val context = layout.context
     private val noteDate = layout.findViewById<TextView>(R.id.note_list_item_date)

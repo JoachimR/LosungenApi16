@@ -7,11 +7,12 @@ import android.os.Bundle
 import androidx.appcompat.app.AppCompatActivity
 import de.reiss.android.losungen.App
 import de.reiss.android.losungen.R
+import de.reiss.android.losungen.databinding.AboutActivityBinding
+import de.reiss.android.losungen.databinding.LanguageActivityBinding
 import de.reiss.android.losungen.main.MainActivity
 import de.reiss.android.losungen.main.MainActivityNoToolbar
 import de.reiss.android.losungen.util.extensions.findFragmentIn
 import de.reiss.android.losungen.util.extensions.replaceFragmentIn
-import kotlinx.android.synthetic.main.language_activity.*
 
 class LanguageActivity : AppCompatActivity() {
 
@@ -21,19 +22,23 @@ class LanguageActivity : AppCompatActivity() {
 
     }
 
+    private lateinit var binding: LanguageActivityBinding
+
+
     private val appPreferences by lazy {
         App.component.appPreferences
     }
 
     private val prefChangedListener: SharedPreferences.OnSharedPreferenceChangeListener =
-            SharedPreferences.OnSharedPreferenceChangeListener { _, _ ->
-                redirectIfLanguageChosen()
-            }
+        SharedPreferences.OnSharedPreferenceChangeListener { _, _ ->
+            redirectIfLanguageChosen()
+        }
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        setContentView(R.layout.language_activity)
-        setSupportActionBar(language_toolbar)
+        binding = LanguageActivityBinding.inflate(layoutInflater)
+        setContentView(binding.root)
+        setSupportActionBar(binding.languageToolbar)
 
         if (redirectIfLanguageChosen()) {
             return
@@ -55,8 +60,8 @@ class LanguageActivity : AppCompatActivity() {
     private fun initFragment() {
         if (findFragmentIn(R.id.language_fragment_container) == null) {
             replaceFragmentIn(
-                    container = R.id.language_fragment_container,
-                    fragment = LanguageFragment.createInstance()
+                container = R.id.language_fragment_container,
+                fragment = LanguageFragment.createInstance()
             )
         }
     }
@@ -64,8 +69,8 @@ class LanguageActivity : AppCompatActivity() {
     private fun redirectIfLanguageChosen(): Boolean {
         if (appPreferences.chosenLanguage != null) {
             startActivity(
-                    if (appPreferences.showToolbar()) MainActivity.createIntent(this)
-                    else MainActivityNoToolbar.createIntent(this)
+                if (appPreferences.showToolbar()) MainActivity.createIntent(this)
+                else MainActivityNoToolbar.createIntent(this)
             )
             supportFinishAfterTransition()
             return true

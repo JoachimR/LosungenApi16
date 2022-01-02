@@ -25,7 +25,8 @@ import de.reiss.android.losungen.util.extensions.replaceFragmentIn
 import java.util.*
 
 
-abstract class AbstractMainActivity : AppActivity(), NavigationView.OnNavigationItemSelectedListener {
+abstract class AbstractMainActivity : AppActivity(),
+    NavigationView.OnNavigationItemSelectedListener {
 
     companion object {
 
@@ -64,10 +65,10 @@ abstract class AbstractMainActivity : AppActivity(), NavigationView.OnNavigation
     private fun refreshFragment() {
         if (findFragmentIn(fragmentResId()) == null) {
             replaceFragmentIn(
-                    container = fragmentResId(),
-                    fragment = ViewPagerFragment.createInstance(
-                            DaysPositionUtil.positionFor(Calendar.getInstance())
-                    )
+                container = fragmentResId(),
+                fragment = ViewPagerFragment.createInstance(
+                    DaysPositionUtil.positionFor(Calendar.getInstance())
+                )
             )
         }
     }

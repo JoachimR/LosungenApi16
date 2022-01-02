@@ -9,39 +9,45 @@ import de.reiss.android.losungen.model.DailyLosung
 import de.reiss.android.losungen.preferences.AppPreferences
 import javax.inject.Inject
 
-open class DailyWidgetTextRefresher @Inject constructor(private val context: Context,
-                                                        private val appPreferences: AppPreferences,
-                                                        private val dailyLosungLoader: DailyLosungLoader) {
+open class DailyWidgetTextRefresher @Inject constructor(
+    private val context: Context,
+    private val appPreferences: AppPreferences,
+    private val dailyLosungLoader: DailyLosungLoader
+) {
 
     @WorkerThread
     open fun retrieveCurrentText(): String =
-            dailyLosungLoader.loadCurrent().let { losung ->
-                if (losung == null) {
-                    context.getString(R.string.no_content)
-                } else {
-                    widgetText(
-                            context = context,
-                            dailyLosung = losung,
-                            includeDate = appPreferences.widgetShowDate()
-                    )
-                }
+        dailyLosungLoader.loadCurrent().let { losung ->
+            if (losung == null) {
+                context.getString(R.string.no_content)
+            } else {
+                widgetText(
+                    context = context,
+                    dailyLosung = losung,
+                    includeDate = appPreferences.widgetShowDate()
+                )
+            }
+        }
+
+    private fun widgetText(
+        context: Context,
+        dailyLosung: DailyLosung,
+        includeDate: Boolean
+    ): String =
+        StringBuilder().apply {
+            if (includeDate) {
+                append(formattedDate(context = context, time = dailyLosung.startDate().time))
+                append("<br><br>")
             }
 
-    private fun widgetText(context: Context, dailyLosung: DailyLosung, includeDate: Boolean): String =
-            StringBuilder().apply {
-                if (includeDate) {
-                    append(formattedDate(context = context, time = dailyLosung.startDate().time))
-                    append("<br><br>")
-                }
+            append(dailyLosung.bibleTextPair.first.text)
+            append("<br>")
+            append(dailyLosung.bibleTextPair.first.source)
+            append("<br><br>")
 
-                append(dailyLosung.bibleTextPair.first.text)
-                append("<br>")
-                append(dailyLosung.bibleTextPair.first.source)
-                append("<br><br>")
-
-                append(dailyLosung.bibleTextPair.second.text)
-                append("<br>")
-                append(dailyLosung.bibleTextPair.second.source)
-            }.toString()
+            append(dailyLosung.bibleTextPair.second.text)
+            append("<br>")
+            append(dailyLosung.bibleTextPair.second.source)
+        }.toString()
 
 }

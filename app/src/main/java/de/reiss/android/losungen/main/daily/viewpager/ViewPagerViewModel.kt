@@ -9,8 +9,10 @@ import de.reiss.android.losungen.util.extensions.firstDayOfYear
 import de.reiss.android.losungen.util.extensions.lastDayOfYear
 import java.util.*
 
-open class ViewPagerViewModel(initialLanguage: String,
-                              private val repository: ViewPagerRepository) : ViewModel() {
+open class ViewPagerViewModel(
+    initialLanguage: String,
+    private val repository: ViewPagerRepository
+) : ViewModel() {
 
     private val loadYearLiveData: MutableLiveData<AsyncLoad<String>> = MutableLiveData()
 
@@ -22,10 +24,10 @@ open class ViewPagerViewModel(initialLanguage: String,
 
     open fun prepareContentFor(language: String, date: Date) {
         repository.loadItemsFor(
-                language = language,
-                fromDate = date.firstDayOfYear(),
-                toDate = date.lastDayOfYear(),
-                result = loadYearLiveData()
+            language = language,
+            fromDate = date.firstDayOfYear(),
+            toDate = date.lastDayOfYear(),
+            result = loadYearLiveData()
         )
     }
 
@@ -33,8 +35,10 @@ open class ViewPagerViewModel(initialLanguage: String,
 
     fun isLoadingContent() = loadYearLiveData().value?.loadStatus == AsyncLoadStatus.LOADING
 
-    class Factory(private val initialLanguage: String,
-                  private val repository: ViewPagerRepository) : ViewModelProvider.NewInstanceFactory() {
+    class Factory(
+        private val initialLanguage: String,
+        private val repository: ViewPagerRepository
+    ) : ViewModelProvider.NewInstanceFactory() {
 
         override fun <T : ViewModel> create(modelClass: Class<T>): T {
 

@@ -2,7 +2,9 @@ package de.reiss.android.losungen.main.daily.viewpager
 
 
 import android.os.Bundle
+import android.view.LayoutInflater
 import android.view.View
+import android.view.ViewGroup
 import androidx.lifecycle.Observer
 import androidx.lifecycle.ViewModelProvider
 import androidx.lifecycle.ViewModelProviders
@@ -11,17 +13,18 @@ import de.reiss.android.losungen.DaysPositionUtil
 import de.reiss.android.losungen.R
 import de.reiss.android.losungen.architecture.AppFragment
 import de.reiss.android.losungen.architecture.AsyncLoad
+import de.reiss.android.losungen.databinding.ViewPagerFragmentBinding
 import de.reiss.android.losungen.events.DatabaseRefreshed
 import de.reiss.android.losungen.events.ViewPagerMoveRequest
 import de.reiss.android.losungen.events.postMessageEvent
 import de.reiss.android.losungen.util.extensions.registerToEventBus
 import de.reiss.android.losungen.util.extensions.unregisterFromEventBus
-import kotlinx.android.synthetic.main.view_pager_fragment.*
 import org.greenrobot.eventbus.Subscribe
 import org.greenrobot.eventbus.ThreadMode
 import java.util.*
 
-class ViewPagerFragment : AppFragment<ViewPagerViewModel>(R.layout.view_pager_fragment) {
+class ViewPagerFragment :
+    AppFragment<ViewPagerFragmentBinding, ViewPagerViewModel>(R.layout.view_pager_fragment) {
 
     companion object {
 
@@ -74,7 +77,7 @@ class ViewPagerFragment : AppFragment<ViewPagerViewModel>(R.layout.view_pager_fr
         savedPosition = when {
             initialPos != INVALID_POSITION -> initialPos
             else -> savedInstanceState?.getInt(KEY_CURRENT_POSITION)
-                    ?: DaysPositionUtil.positionFor(Calendar.getInstance())
+                ?: DaysPositionUtil.positionFor(Calendar.getInstance())
         }
     }
 
@@ -83,23 +86,30 @@ class ViewPagerFragment : AppFragment<ViewPagerViewModel>(R.layout.view_pager_fr
         super.onSaveInstanceState(outState)
     }
 
-    override fun initViews(layout: View) {
+    override fun inflateViewBinding(inflater: LayoutInflater, container: ViewGroup?) =
+        ViewPagerFragmentBinding.inflate(inflater, container, false)
+
+    override fun initViews() {
         adapter = adapterCreator.create(childFragmentManager)
-        view_pager.adapter = adapter
+        binding.viewPager.adapter = adapter
     }
 
     override fun defineViewModelProvider(): ViewModelProvider =
-            appPreferences.chosenLanguage.let { chosenLanguage ->
-                if (chosenLanguage == null) {
-                    throw IllegalStateException("No language chosen")
-                }
-                return ViewModelProviders.of(this,
-                        ViewPagerViewModel.Factory(chosenLanguage,
-                                App.component.viewPagerRepository))
+        appPreferences.chosenLanguage.let { chosenLanguage ->
+            if (chosenLanguage == null) {
+                throw IllegalStateException("No language chosen")
             }
+            return ViewModelProviders.of(
+                this,
+                ViewPagerViewModel.Factory(
+                    chosenLanguage,
+                    App.component.viewPagerRepository
+                )
+            )
+        }
 
     override fun defineViewModel(): ViewPagerViewModel =
-            loadViewModelProvider().get(ViewPagerViewModel::class.java)
+        loadViewModelProvider().get(ViewPagerViewModel::class.java)
 
     override fun initViewModelObservers() {
         viewModel.loadYearLiveData().observe(this, Observer<AsyncLoad<String>> {
@@ -119,15 +129,16 @@ class ViewPagerFragment : AppFragment<ViewPagerViewModel>(R.layout.view_pager_fr
     }
 
     private fun goToPosition(positionInFocus: Int) {
-        view_pager.currentItem = positionInFocus
+        binding.viewPager.currentItem = positionInFocus
     }
 
     private fun tryRefresh() {
         if (viewModel.isLoadingContent().not()) {
             appPreferences.chosenLanguage?.let { chosenLanguage ->
                 viewModel.prepareContentFor(
-                        language = chosenLanguage,
-                        date = DaysPositionUtil.dayFor(savedPosition).time)
+                    language = chosenLanguage,
+                    date = DaysPositionUtil.dayFor(savedPosition).time
+                )
             }
         }
     }
@@ -138,19 +149,19 @@ class ViewPagerFragment : AppFragment<ViewPagerViewModel>(R.layout.view_pager_fr
                 if (it == null) {
                     throw IllegalStateException("Loading unknown content")
                 } else {
-                    view_pager_loading_text.text =
-                            getString(R.string.view_pager_loading_content, it)
+                    binding.viewPagerLoadingText.text =
+                        getString(R.string.view_pager_loading_content, it)
                 }
             }
-            view_pager_loading.visibility = View.VISIBLE
-            view_pager.visibility = View.GONE
+            binding.viewPagerLoading.visibility = View.VISIBLE
+            binding.viewPager.visibility = View.GONE
         } else {
-            view_pager_loading.visibility = View.GONE
-            view_pager.visibility = View.VISIBLE
+            binding.viewPagerLoading.visibility = View.GONE
+            binding.viewPager.visibility = View.VISIBLE
             postMessageEvent(DatabaseRefreshed())
         }
     }
 
-    private fun currentPosition() = view_pager.currentItem
+    private fun currentPosition() = binding.viewPager.currentItem
 
 }

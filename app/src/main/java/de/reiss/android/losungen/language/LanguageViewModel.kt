@@ -19,7 +19,8 @@ class LanguageViewModel(private val repository: LanguageRepository) : ViewModel(
 
     fun isLoadingLanguages() = languagesLiveData.value?.loadStatus == AsyncLoadStatus.LOADING
 
-    class Factory(private val repository: LanguageRepository) : ViewModelProvider.NewInstanceFactory() {
+    class Factory(private val repository: LanguageRepository) :
+        ViewModelProvider.NewInstanceFactory() {
 
         override fun <T : ViewModel> create(modelClass: Class<T>): T {
 

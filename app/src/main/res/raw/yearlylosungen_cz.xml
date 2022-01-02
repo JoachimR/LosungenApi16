@@ -46,4 +46,9 @@
         <Losungstext>Buďte milosrdní, jako je milosrdný váš Otec.</Losungstext>
         <Losungsvers>Lukáš 6,36</Losungsvers>
     </JahresLosungen>
+    <JahresLosungen>
+        <Datum>2022-01-01</Datum>
+        <Losungstext>Kdo ke mně přijde, toho nevyženu ven.</Losungstext>
+        <Losungsvers>Jan 6,37</Losungsvers>
+    </JahresLosungen>
 </FreeXml>

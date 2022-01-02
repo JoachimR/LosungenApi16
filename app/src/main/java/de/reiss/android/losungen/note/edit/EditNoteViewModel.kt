@@ -41,7 +41,8 @@ open class EditNoteViewModel(private val repository: EditNoteRepository) : ViewM
         }
     }
 
-    class Factory(private val repository: EditNoteRepository) : ViewModelProvider.NewInstanceFactory() {
+    class Factory(private val repository: EditNoteRepository) :
+        ViewModelProvider.NewInstanceFactory() {
 
         override fun <T : ViewModel> create(modelClass: Class<T>): T {
 

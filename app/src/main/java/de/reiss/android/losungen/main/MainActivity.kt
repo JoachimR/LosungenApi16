@@ -26,11 +26,13 @@ class MainActivity : AbstractMainActivity(), NavigationView.OnNavigationItemSele
     override fun initNavigation() {
         drawer = findViewById(R.id.main_drawer)
         navigationView = findViewById(R.id.main_nav)
-        val toggle = ActionBarDrawerToggle(this,
-                drawer,
-                toolbar(),
-                R.string.navigation_drawer_open,
-                R.string.navigation_drawer_close)
+        val toggle = ActionBarDrawerToggle(
+            this,
+            drawer,
+            toolbar(),
+            R.string.navigation_drawer_open,
+            R.string.navigation_drawer_close
+        )
         drawer.addDrawerListener(toggle)
         toggle.syncState()
         navigationView.setNavigationItemSelectedListener(this)

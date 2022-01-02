@@ -6,7 +6,7 @@ import de.reiss.android.losungen.util.view.StableListItem
 object LanguageListBuilder {
 
     fun buildList(languages: List<Language>): List<StableListItem> = languages
-            .sortedBy { it.key }
-            .map { LanguageListItem(it) }
+        .sortedBy { it.key }
+        .map { LanguageListItem(it) }
 
 }

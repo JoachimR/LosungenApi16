@@ -23,11 +23,14 @@ class YearlyLosungDialog : LosungDialog<YearlyLosungViewModel>() {
     }
 
     override fun defineViewModelProvider(): ViewModelProvider =
-            ViewModelProviders.of(this, YearlyLosungViewModel.Factory(
-                    App.component.yearlyLosungRepository))
+        ViewModelProviders.of(
+            this, YearlyLosungViewModel.Factory(
+                App.component.yearlyLosungRepository
+            )
+        )
 
     override fun defineViewModel(): YearlyLosungViewModel =
-            loadViewModelProvider().get(YearlyLosungViewModel::class.java)
+        loadViewModelProvider().get(YearlyLosungViewModel::class.java)
 
     override fun title() = getString(R.string.yearly_dialog_title)
 
@@ -44,9 +47,12 @@ class YearlyLosungDialog : LosungDialog<YearlyLosungViewModel>() {
     override fun share() {
         val context = context ?: return
         viewModel.losung()?.let {
-            startActivity(shareIntent(
+            startActivity(
+                shareIntent(
                     text = contentAsString(dateText(context, it), it.bibleText),
-                    chooserTitle = context.getString(R.string.share_dialog_chooser_title)))
+                    chooserTitle = context.getString(R.string.share_dialog_chooser_title)
+                )
+            )
         }
     }
 
@@ -83,7 +89,9 @@ class YearlyLosungDialog : LosungDialog<YearlyLosungViewModel>() {
     }
 
     private fun dateText(context: Context, losung: YearlyLosung) =
-            context.getString(R.string.yearly_dialog_title_with_date,
-                    losung.year)
+        context.getString(
+            R.string.yearly_dialog_title_with_date,
+            losung.year
+        )
 
 }

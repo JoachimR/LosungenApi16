@@ -9,11 +9,13 @@ import de.reiss.android.losungen.rawdata.insert.*
 import de.reiss.android.losungen.util.extensions.rawIdFor
 import javax.inject.Inject
 
-open class RawToDatabase @Inject constructor(private val context: Context,
-                                             private val dailyInserter: DailyXmlDatabaseInserter,
-                                             private val weeklyInserter: WeeklyXmlDatabaseInserter,
-                                             private val monthlyInserter: MonthlyXmlDatabaseInserter,
-                                             private val yearlyInserter: YearlyXmlDatabaseInserter) {
+open class RawToDatabase @Inject constructor(
+    private val context: Context,
+    private val dailyInserter: DailyXmlDatabaseInserter,
+    private val weeklyInserter: WeeklyXmlDatabaseInserter,
+    private val monthlyInserter: MonthlyXmlDatabaseInserter,
+    private val yearlyInserter: YearlyXmlDatabaseInserter
+) {
 
     companion object {
         const val prefixDaily = "daily"
@@ -28,31 +30,37 @@ open class RawToDatabase @Inject constructor(private val context: Context,
         val fileNames = findRawFileNamesFor(language)
 
         written = write(
-                fileNames = fileNames.filter { it.startsWith(prefixDaily) },
-                language = language,
-                databaseInserter = dailyInserter) or written
+            fileNames = fileNames.filter { it.startsWith(prefixDaily) },
+            language = language,
+            databaseInserter = dailyInserter
+        ) or written
 
         written = write(
-                fileNames = fileNames.filter { it.startsWith(prefixWeekly) },
-                language = language,
-                databaseInserter = weeklyInserter) or written
+            fileNames = fileNames.filter { it.startsWith(prefixWeekly) },
+            language = language,
+            databaseInserter = weeklyInserter
+        ) or written
 
         written = write(
-                fileNames = fileNames.filter { it.startsWith(prefixMonthly) },
-                language = language,
-                databaseInserter = monthlyInserter) or written
+            fileNames = fileNames.filter { it.startsWith(prefixMonthly) },
+            language = language,
+            databaseInserter = monthlyInserter
+        ) or written
 
         written = write(
-                fileNames = fileNames.filter { it.startsWith(prefixYearly) },
-                language = language,
-                databaseInserter = yearlyInserter) or written
+            fileNames = fileNames.filter { it.startsWith(prefixYearly) },
+            language = language,
+            databaseInserter = yearlyInserter
+        ) or written
 
         return written
     }
 
-    private fun write(fileNames: List<String>,
-                      language: String,
-                      databaseInserter: DatabaseInserter): Boolean {
+    private fun write(
+        fileNames: List<String>,
+        language: String,
+        databaseInserter: DatabaseInserter
+    ): Boolean {
         var written = false
         for (fileName in fileNames) {
             logInfo {
@@ -61,14 +69,15 @@ open class RawToDatabase @Inject constructor(private val context: Context,
                         " in order to write to sql database"
             }
             written = databaseInserter.insert(
-                    language = language,
-                    rawResId = context.rawIdFor(fileName)) or written
+                language = language,
+                rawResId = context.rawIdFor(fileName)
+            ) or written
         }
         return written
     }
 
     private fun findRawFileNamesFor(language: String): List<String> =
-            allRawFileNames().filter { it.contains(language) }
+        allRawFileNames().filter { it.contains(language) }
 
     private fun allRawFileNames(): List<String> {
         val result = mutableListOf<String>()

@@ -1,9 +1,10 @@
 package de.reiss.android.losungen.language
 
 
-import android.view.View
+import android.view.LayoutInflater
 import android.view.View.GONE
 import android.view.View.VISIBLE
+import android.view.ViewGroup
 import androidx.lifecycle.Observer
 import androidx.lifecycle.ViewModelProvider
 import androidx.lifecycle.ViewModelProviders
@@ -12,14 +13,16 @@ import de.reiss.android.losungen.App
 import de.reiss.android.losungen.R
 import de.reiss.android.losungen.architecture.AppFragment
 import de.reiss.android.losungen.architecture.AsyncLoad
+import de.reiss.android.losungen.databinding.LanguageFragmentBinding
 import de.reiss.android.losungen.language.list.LanguageListBuilder
 import de.reiss.android.losungen.language.list.LanguageListItemAdapter
 import de.reiss.android.losungen.model.Language
 import de.reiss.android.losungen.util.extensions.onClick
-import kotlinx.android.synthetic.main.language_fragment.*
 
 
-class LanguageFragment : AppFragment<LanguageViewModel>(R.layout.language_fragment), LanguageClickListener {
+class LanguageFragment :
+    AppFragment<LanguageFragmentBinding, LanguageViewModel>(R.layout.language_fragment),
+    LanguageClickListener {
 
     companion object {
 
@@ -33,25 +36,31 @@ class LanguageFragment : AppFragment<LanguageViewModel>(R.layout.language_fragme
 
     private lateinit var languageListItemAdapter: LanguageListItemAdapter
 
-    override fun initViews(layout: View) {
+    override fun inflateViewBinding(inflater: LayoutInflater, container: ViewGroup?) =
+        LanguageFragmentBinding.inflate(inflater, container, false)
+
+    override fun initViews() {
         languageListItemAdapter = LanguageListItemAdapter(languageClickListener = this)
 
-        with(language_recycler_view) {
+        with(binding.languageRecyclerView) {
             layoutManager = LinearLayoutManager(context)
             adapter = languageListItemAdapter
         }
 
-        language_no_languages.onClick {
+        binding.languageNoLanguages.onClick {
             tryRefresh()
         }
     }
 
     override fun defineViewModelProvider(): ViewModelProvider =
-            ViewModelProviders.of(this, LanguageViewModel.Factory(
-                    App.component.languageRepository))
+        ViewModelProviders.of(
+            this, LanguageViewModel.Factory(
+                App.component.languageRepository
+            )
+        )
 
     override fun defineViewModel(): LanguageViewModel =
-            loadViewModelProvider().get(LanguageViewModel::class.java)
+        loadViewModelProvider().get(LanguageViewModel::class.java)
 
     override fun initViewModelObservers() {
         viewModel.languagesLiveData.observe(this, Observer<AsyncLoad<List<Language>>> {
@@ -74,18 +83,18 @@ class LanguageFragment : AppFragment<LanguageViewModel>(R.layout.language_fragme
     }
 
     private fun onResourceChange() {
-        language_loading_languages.visibility = GONE
-        language_no_languages.visibility = GONE
-        language_recycler_view.visibility = GONE
+        binding.languageLoadingLanguages.visibility = GONE
+        binding.languageNoLanguages.visibility = GONE
+        binding.languageRecyclerView.visibility = GONE
 
         if (viewModel.isLoadingLanguages()) {
-            language_loading_languages.visibility = VISIBLE
+            binding.languageLoadingLanguages.visibility = VISIBLE
         } else {
             LanguageListBuilder.buildList(viewModel.languages()).let { listItems ->
                 if (listItems.isEmpty()) {
-                    language_no_languages.visibility = VISIBLE
+                    binding.languageNoLanguages.visibility = VISIBLE
                 } else {
-                    language_recycler_view.visibility = VISIBLE
+                    binding.languageRecyclerView.visibility = VISIBLE
                     languageListItemAdapter.updateContent(listItems)
                 }
             }

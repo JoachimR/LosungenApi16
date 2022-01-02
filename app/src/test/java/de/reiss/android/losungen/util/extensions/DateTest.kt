@@ -1,8 +1,6 @@
 package de.reiss.android.losungen.util.extensions
 
-import org.junit.Assert.assertEquals
 import org.junit.Test
-import java.util.*
 
 class DateTest {
 

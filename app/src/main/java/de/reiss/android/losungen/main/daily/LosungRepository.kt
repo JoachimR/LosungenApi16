@@ -12,9 +12,11 @@ import java.util.*
 import java.util.concurrent.Executor
 import javax.inject.Inject
 
-open class LosungRepository @Inject constructor(private val executor: Executor,
-                                                private val dailyLosungLoader: DailyLosungLoader,
-                                                private val noteItemDao: NoteItemDao) {
+open class LosungRepository @Inject constructor(
+    private val executor: Executor,
+    private val dailyLosungLoader: DailyLosungLoader,
+    private val noteItemDao: NoteItemDao
+) {
 
 
     open fun getLosungFor(date: Date, result: MutableLiveData<AsyncLoad<DailyLosung?>>) {
@@ -23,13 +25,13 @@ open class LosungRepository @Inject constructor(private val executor: Executor,
         result.value = AsyncLoad.loading(oldData)
 
         dailyLosungLoader.loadForDate(date = date, executor = executor,
-                onFinished = { losung ->
-                    if (losung == null) {
-                        result.postValue(AsyncLoad.error(message = "Content not found"))
-                    } else {
-                        result.postValue(AsyncLoad.success(losung))
-                    }
-                })
+            onFinished = { losung ->
+                if (losung == null) {
+                    result.postValue(AsyncLoad.error(message = "Content not found"))
+                } else {
+                    result.postValue(AsyncLoad.success(losung))
+                }
+            })
 
     }
 

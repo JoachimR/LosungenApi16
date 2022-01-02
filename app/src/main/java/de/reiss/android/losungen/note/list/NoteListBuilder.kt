@@ -6,7 +6,7 @@ import de.reiss.android.losungen.util.view.StableListItem
 object NoteListBuilder {
 
     fun buildList(notes: List<Note>): List<StableListItem> = notes
-            .sortedBy { it.date }
-            .map { NoteListItem(it) }
+        .sortedBy { it.date }
+        .map { NoteListItem(it) }
 
 }

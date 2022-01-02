@@ -20,23 +20,23 @@ abstract class LosungDialog<T : ViewModel> : AppDialogFragment<T>() {
     protected lateinit var loading: FadingProgressBar
 
     override fun onCreateDialog(savedInstanceState: Bundle?): AlertDialog =
-            requireActivity().let { activity ->
-                AlertDialog.Builder(activity)
-                        .setTitle(title())
-                        .setNeutralButton(R.string.dialog_share, { _, _ ->
-                            share()
-                            dismiss()
-                        })
-                        .setPositiveButton(R.string.dialog_close, { _, _ ->
-                            dismiss()
-                        })
-                        .setView(initLayout(activity))
-                        .create()
-            }
+        requireActivity().let { activity ->
+            AlertDialog.Builder(activity)
+                .setTitle(title())
+                .setNeutralButton(R.string.dialog_share, { _, _ ->
+                    share()
+                    dismiss()
+                })
+                .setPositiveButton(R.string.dialog_close, { _, _ ->
+                    dismiss()
+                })
+                .setView(initLayout(activity))
+                .create()
+        }
 
     @SuppressLint("InflateParams")
     override fun inflateLayout(activity: Activity): View =
-            activity.layoutInflater.inflate(R.layout.losung_dialog, null)
+        activity.layoutInflater.inflate(R.layout.losung_dialog, null)
 
     override fun initViews(layout: View) {
         contentEmpty = layout.findViewById<View>(R.id.losung_dialog_content_empty)
@@ -54,7 +54,7 @@ abstract class LosungDialog<T : ViewModel> : AppDialogFragment<T>() {
     }
 
     protected fun shareButton() =
-            (dialog as AlertDialog).getButton(AlertDialog.BUTTON_NEUTRAL)
+        (dialog as AlertDialog).getButton(AlertDialog.BUTTON_NEUTRAL)
 
     abstract fun share()
 

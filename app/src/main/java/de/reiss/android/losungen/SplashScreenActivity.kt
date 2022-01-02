@@ -14,7 +14,7 @@ class SplashScreenActivity : AppCompatActivity() {
     companion object {
 
         fun createIntent(context: Context): Intent =
-                Intent(context, SplashScreenActivity::class.java)
+            Intent(context, SplashScreenActivity::class.java)
 
     }
 
@@ -30,15 +30,16 @@ class SplashScreenActivity : AppCompatActivity() {
 
     private fun goToRightStart() {
         startActivity(
-                when {
-                    appPreferences.chosenLanguage == null -> {
-                        LanguageActivity.createIntent(this)
-                    }
-                    else -> {
-                        if (appPreferences.showToolbar()) MainActivity.createIntent(this)
-                        else MainActivityNoToolbar.createIntent(this)
-                    }
-                })
+            when {
+                appPreferences.chosenLanguage == null -> {
+                    LanguageActivity.createIntent(this)
+                }
+                else -> {
+                    if (appPreferences.showToolbar()) MainActivity.createIntent(this)
+                    else MainActivityNoToolbar.createIntent(this)
+                }
+            }
+        )
 
     }
 

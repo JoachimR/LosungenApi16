@@ -8,96 +8,136 @@ import com.google.android.material.snackbar.Snackbar
 import de.reiss.android.losungen.R
 
 
-fun Activity.showShortSnackbar(message: String,
-                               action: (() -> Unit)? = null,
-                               actionLabel: String? = null,
-                               callback: (() -> Unit)? = null) =
-        doShowSnackbar(this, message, Snackbar.LENGTH_SHORT, action, actionLabel, callback)
+fun Activity.showShortSnackbar(
+    message: String,
+    action: (() -> Unit)? = null,
+    actionLabel: String? = null,
+    callback: (() -> Unit)? = null
+) =
+    doShowSnackbar(this, message, Snackbar.LENGTH_SHORT, action, actionLabel, callback)
 
-fun Activity.showLongSnackbar(message: String,
-                              action: (() -> Unit)? = null,
-                              actionLabel: String? = null,
-                              callback: (() -> Unit)? = null) =
-        doShowSnackbar(this, message, Snackbar.LENGTH_LONG, action, actionLabel, callback)
+fun Activity.showLongSnackbar(
+    message: String,
+    action: (() -> Unit)? = null,
+    actionLabel: String? = null,
+    callback: (() -> Unit)? = null
+) =
+    doShowSnackbar(this, message, Snackbar.LENGTH_LONG, action, actionLabel, callback)
 
-fun Activity.showIndefiniteSnackbar(message: String,
-                                    action: (() -> Unit)? = null,
-                                    actionLabel: String? = null,
-                                    callback: (() -> Unit)? = null) =
-        doShowSnackbar(this, message, Snackbar.LENGTH_INDEFINITE, action, actionLabel, callback)
+fun Activity.showIndefiniteSnackbar(
+    message: String,
+    action: (() -> Unit)? = null,
+    actionLabel: String? = null,
+    callback: (() -> Unit)? = null
+) =
+    doShowSnackbar(this, message, Snackbar.LENGTH_INDEFINITE, action, actionLabel, callback)
 
-fun Fragment.showShortSnackbar(message: String,
-                               action: (() -> Unit)? = null,
-                               actionLabel: String? = null,
-                               callback: (() -> Unit)? = null) {
+fun Fragment.showShortSnackbar(
+    message: String,
+    action: (() -> Unit)? = null,
+    actionLabel: String? = null,
+    callback: (() -> Unit)? = null
+) {
     activity?.let {
         doShowSnackbar(it, message, Snackbar.LENGTH_SHORT, action, actionLabel, callback)
     }
 }
 
-fun Fragment.showLongSnackbar(message: String,
-                              action: (() -> Unit)? = null,
-                              actionLabel: String? = null,
-                              callback: (() -> Unit)? = null) {
+fun Fragment.showLongSnackbar(
+    message: String,
+    action: (() -> Unit)? = null,
+    actionLabel: String? = null,
+    callback: (() -> Unit)? = null
+) {
     activity?.let {
         doShowSnackbar(it, message, Snackbar.LENGTH_LONG, action, actionLabel, callback)
     }
 }
 
-fun Activity.showShortSnackbar(@StringRes message: Int,
-                               action: (() -> Unit)? = null,
-                               actionLabel: String? = null,
-                               callback: (() -> Unit)? = null) =
-        doShowSnackbar(this, getString(message), Snackbar.LENGTH_SHORT, action, actionLabel, callback)
+fun Activity.showShortSnackbar(
+    @StringRes message: Int,
+    action: (() -> Unit)? = null,
+    actionLabel: String? = null,
+    callback: (() -> Unit)? = null
+) =
+    doShowSnackbar(this, getString(message), Snackbar.LENGTH_SHORT, action, actionLabel, callback)
 
-fun Activity.showLongSnackbar(@StringRes message: Int,
-                              action: (() -> Unit)? = null,
-                              actionLabel: String? = null,
-                              callback: (() -> Unit)? = null) =
-        doShowSnackbar(this, getString(message), Snackbar.LENGTH_LONG, action, actionLabel, callback)
+fun Activity.showLongSnackbar(
+    @StringRes message: Int,
+    action: (() -> Unit)? = null,
+    actionLabel: String? = null,
+    callback: (() -> Unit)? = null
+) =
+    doShowSnackbar(this, getString(message), Snackbar.LENGTH_LONG, action, actionLabel, callback)
 
-fun Activity.showIndefiniteSnackbar(@StringRes message: Int,
-                                    action: (() -> Unit)? = null,
-                                    actionLabel: String? = null,
-                                    callback: (() -> Unit)? = null) =
-        doShowSnackbar(this, getString(message), Snackbar.LENGTH_INDEFINITE, action, actionLabel, callback)
+fun Activity.showIndefiniteSnackbar(
+    @StringRes message: Int,
+    action: (() -> Unit)? = null,
+    actionLabel: String? = null,
+    callback: (() -> Unit)? = null
+) =
+    doShowSnackbar(
+        this,
+        getString(message),
+        Snackbar.LENGTH_INDEFINITE,
+        action,
+        actionLabel,
+        callback
+    )
 
-fun Fragment.showShortSnackbar(@StringRes message: Int,
-                               action: (() -> Unit)? = null,
-                               actionLabel: String? = null,
-                               callback: (() -> Unit)? = null) = activity?.let {
+fun Fragment.showShortSnackbar(
+    @StringRes message: Int,
+    action: (() -> Unit)? = null,
+    actionLabel: String? = null,
+    callback: (() -> Unit)? = null
+) = activity?.let {
     doShowSnackbar(it, getString(message), Snackbar.LENGTH_SHORT, action, actionLabel, callback)
 }
 
-fun Fragment.showLongSnackbar(@StringRes message: Int,
-                              action: (() -> Unit)? = null,
-                              actionLabel: String? = null,
-                              callback: (() -> Unit)? = null) {
+fun Fragment.showLongSnackbar(
+    @StringRes message: Int,
+    action: (() -> Unit)? = null,
+    actionLabel: String? = null,
+    callback: (() -> Unit)? = null
+) {
     activity?.let {
         doShowSnackbar(it, getString(message), Snackbar.LENGTH_LONG, action, actionLabel, callback)
     }
 }
 
-fun Fragment.showIndefiniteSnackbar(@StringRes message: Int,
-                                    action: (() -> Unit)? = null,
-                                    actionLabel: String? = null,
-                                    callback: (() -> Unit)? = null) {
+fun Fragment.showIndefiniteSnackbar(
+    @StringRes message: Int,
+    action: (() -> Unit)? = null,
+    actionLabel: String? = null,
+    callback: (() -> Unit)? = null
+) {
     activity?.let {
-        doShowSnackbar(it, getString(message), Snackbar.LENGTH_INDEFINITE, action, actionLabel, callback)
+        doShowSnackbar(
+            it,
+            getString(message),
+            Snackbar.LENGTH_INDEFINITE,
+            action,
+            actionLabel,
+            callback
+        )
     }
 }
 
 
-private fun doShowSnackbar(activity: Activity,
-                           message: String,
-                           duration: Int,
-                           action: (() -> Unit)?,
-                           actionLabel: String? = null,
-                           callback: (() -> Unit)?) {
+private fun doShowSnackbar(
+    activity: Activity,
+    message: String,
+    duration: Int,
+    action: (() -> Unit)?,
+    actionLabel: String? = null,
+    callback: (() -> Unit)?
+) {
 
-    return Snackbar.make(activity.findViewById(android.R.id.content),
-            message,
-            duration).apply {
+    return Snackbar.make(
+        activity.findViewById(android.R.id.content),
+        message,
+        duration
+    ).apply {
 
         if (action != null) {
             if (actionLabel == null) {

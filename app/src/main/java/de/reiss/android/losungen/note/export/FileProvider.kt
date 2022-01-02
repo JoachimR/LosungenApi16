@@ -21,7 +21,7 @@ open class FileProvider {
     }
 
     open fun isExternalStorageWritable() =
-            Environment.MEDIA_MOUNTED == Environment.getExternalStorageState()
+        Environment.MEDIA_MOUNTED == Environment.getExternalStorageState()
 
     open fun createBufferedOutputStream(): BufferedOutputStream? {
         try {

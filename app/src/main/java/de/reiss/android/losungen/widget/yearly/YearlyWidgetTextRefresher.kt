@@ -8,33 +8,35 @@ import de.reiss.android.losungen.model.YearlyLosung
 import de.reiss.android.losungen.preferences.AppPreferences
 import javax.inject.Inject
 
-open class YearlyWidgetTextRefresher @Inject constructor(private val context: Context,
-                                                         private val appPreferences: AppPreferences,
-                                                         private val yearlyLosungLoader: YearlyLosungLoader) {
+open class YearlyWidgetTextRefresher @Inject constructor(
+    private val context: Context,
+    private val appPreferences: AppPreferences,
+    private val yearlyLosungLoader: YearlyLosungLoader
+) {
 
     @WorkerThread
     open fun retrieveCurrentText(): String =
-            yearlyLosungLoader.loadCurrent().let { losung ->
-                if (losung == null) {
-                    context.getString(R.string.no_content)
-                } else {
-                    widgetText(
-                            yearlyLosung = losung,
-                            includeDate = appPreferences.widgetShowDate()
-                    )
-                }
+        yearlyLosungLoader.loadCurrent().let { losung ->
+            if (losung == null) {
+                context.getString(R.string.no_content)
+            } else {
+                widgetText(
+                    yearlyLosung = losung,
+                    includeDate = appPreferences.widgetShowDate()
+                )
             }
+        }
 
     private fun widgetText(yearlyLosung: YearlyLosung, includeDate: Boolean): String =
-            StringBuilder().apply {
-                if (includeDate) {
-                    append(yearlyLosung.year)
-                    append("<br><br>")
-                }
+        StringBuilder().apply {
+            if (includeDate) {
+                append(yearlyLosung.year)
+                append("<br><br>")
+            }
 
-                append(yearlyLosung.bibleText.text)
-                append("<br>")
-                append(yearlyLosung.bibleText.source)
-            }.toString()
+            append(yearlyLosung.bibleText.text)
+            append("<br>")
+            append(yearlyLosung.bibleText.source)
+        }.toString()
 
 }

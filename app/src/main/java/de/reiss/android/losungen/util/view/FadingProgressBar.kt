@@ -12,7 +12,11 @@ class FadingProgressBar : ProgressBar {
 
     constructor(context: Context, attrs: AttributeSet) : super(context, attrs)
 
-    constructor(context: Context, attrs: AttributeSet, defStyleAttr: Int) : super(context, attrs, defStyleAttr)
+    constructor(context: Context, attrs: AttributeSet, defStyleAttr: Int) : super(
+        context,
+        attrs,
+        defStyleAttr
+    )
 
     var loading: Boolean = false
         set(value) {
@@ -30,19 +34,19 @@ class FadingProgressBar : ProgressBar {
 
     private fun hide() {
         this.animate()?.alpha(0f)?.setListener(
-                object : Animator.AnimatorListener {
+            object : Animator.AnimatorListener {
 
-                    override fun onAnimationStart(animation: Animator) {}
+                override fun onAnimationStart(animation: Animator) {}
 
-                    override fun onAnimationEnd(animation: Animator) {
-                        visibility = GONE
-                    }
+                override fun onAnimationEnd(animation: Animator) {
+                    visibility = GONE
+                }
 
-                    override fun onAnimationCancel(animation: Animator) {}
+                override fun onAnimationCancel(animation: Animator) {}
 
-                    override fun onAnimationRepeat(animation: Animator) {}
+                override fun onAnimationRepeat(animation: Animator) {}
 
-                })
+            })
     }
 
 }

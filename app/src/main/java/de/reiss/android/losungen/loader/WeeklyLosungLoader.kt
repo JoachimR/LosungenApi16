@@ -11,12 +11,16 @@ import java.util.*
 import java.util.concurrent.Executor
 import javax.inject.Inject
 
-open class WeeklyLosungLoader @Inject constructor(private val weeklyLosungItemDao: WeeklyLosungItemDao,
-                                                  private val languageItemDao: LanguageItemDao,
-                                                  private val appPreferences: AppPreferences) {
+open class WeeklyLosungLoader @Inject constructor(
+    private val weeklyLosungItemDao: WeeklyLosungItemDao,
+    private val languageItemDao: LanguageItemDao,
+    private val appPreferences: AppPreferences
+) {
 
-    open fun loadCurrent(executor: Executor,
-                         onFinished: (WeeklyLosung?) -> Unit) {
+    open fun loadCurrent(
+        executor: Executor,
+        onFinished: (WeeklyLosung?) -> Unit
+    ) {
         executor.execute {
             onFinished(loadCurrent())
         }
@@ -26,12 +30,12 @@ open class WeeklyLosungLoader @Inject constructor(private val weeklyLosungItemDa
 
     @WorkerThread
     private fun findLosung(startDate: Date): WeeklyLosung? =
-            appPreferences.chosenLanguage?.let { chosenLanguage ->
-                languageItemDao.find(chosenLanguage)?.let { languageItem ->
-                    weeklyLosungItemDao.byDate(languageItem.id, startDate)?.let { losungItem ->
-                        return Converter.itemToWeeklyLosung(languageItem.language, losungItem)
-                    }
+        appPreferences.chosenLanguage?.let { chosenLanguage ->
+            languageItemDao.find(chosenLanguage)?.let { languageItem ->
+                weeklyLosungItemDao.byDate(languageItem.id, startDate)?.let { losungItem ->
+                    return Converter.itemToWeeklyLosung(languageItem.language, losungItem)
                 }
             }
+        }
 
 }

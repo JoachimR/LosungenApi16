@@ -12,16 +12,20 @@ import java.util.*
 import java.util.concurrent.Executor
 import javax.inject.Inject
 
-open class ViewPagerRepository @Inject constructor(private val executor: Executor,
-                                                   private val dailyLosungItemDao: DailyLosungItemDao,
-                                                   private val languageItemDao: LanguageItemDao,
-                                                   private val rawToDatabase: RawToDatabase) {
+open class ViewPagerRepository @Inject constructor(
+    private val executor: Executor,
+    private val dailyLosungItemDao: DailyLosungItemDao,
+    private val languageItemDao: LanguageItemDao,
+    private val rawToDatabase: RawToDatabase
+) {
 
 
-    open fun loadItemsFor(language: String,
-                          fromDate: Date,
-                          toDate: Date,
-                          result: MutableLiveData<AsyncLoad<String>>) {
+    open fun loadItemsFor(
+        language: String,
+        fromDate: Date,
+        toDate: Date,
+        result: MutableLiveData<AsyncLoad<String>>
+    ) {
 
         // set value instead of post value on purpose
         // otherwise the fragment might invoke this twice

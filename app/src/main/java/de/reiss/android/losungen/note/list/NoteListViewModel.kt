@@ -28,7 +28,8 @@ open class NoteListViewModel(private val repository: NoteListRepository) : ViewM
 
     fun isLoadingNotes() = notesLiveData().value?.loadStatus == LOADING
 
-    class Factory(private val repository: NoteListRepository) : ViewModelProvider.NewInstanceFactory() {
+    class Factory(private val repository: NoteListRepository) :
+        ViewModelProvider.NewInstanceFactory() {
 
         override fun <T : ViewModel> create(modelClass: Class<T>): T {
 

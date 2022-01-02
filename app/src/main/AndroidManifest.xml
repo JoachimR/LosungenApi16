@@ -16,7 +16,8 @@
 
         <activity
             android:name=".SplashScreenActivity"
-            android:theme="@style/AppTheme.NoActionBar.Splash">
+            android:theme="@style/AppTheme.NoActionBar.Splash"
+            android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
                 <category android:name="android.intent.category.LAUNCHER" />
@@ -52,7 +53,8 @@
             android:name=".note.list.NoteListActivity"
             android:label="@string/note_list_title"
             android:launchMode="singleTop"
-            android:theme="@style/AppTheme.NoActionBar">
+            android:theme="@style/AppTheme.NoActionBar"
+            android:exported="true">
 
             <intent-filter>
                 <action android:name="android.intent.action.SEARCH" />
@@ -111,7 +113,8 @@
 
         <receiver
             android:name=".widget.daily.DailyWidgetProvider"
-            android:label="@string/widget_daily">
+            android:label="@string/widget_daily"
+            android:exported="true">
             <intent-filter>
                 <action android:name="android.appwidget.action.APPWIDGET_UPDATE" />
             </intent-filter>
@@ -122,7 +125,8 @@
 
         <receiver
             android:name=".widget.weekly.WeeklyWidgetProvider"
-            android:label="@string/widget_weekly">
+            android:label="@string/widget_weekly"
+            android:exported="true">
             <intent-filter>
                 <action android:name="android.appwidget.action.APPWIDGET_UPDATE" />
             </intent-filter>
@@ -133,7 +137,8 @@
 
         <receiver
             android:name=".widget.monthly.MonthlyWidgetProvider"
-            android:label="@string/widget_monthly">
+            android:label="@string/widget_monthly"
+            android:exported="true">
             <intent-filter>
                 <action android:name="android.appwidget.action.APPWIDGET_UPDATE" />
             </intent-filter>
@@ -144,7 +149,8 @@
 
         <receiver
             android:name=".widget.yearly.YearlyWidgetProvider"
-            android:label="@string/widget_yearly">
+            android:label="@string/widget_yearly"
+            android:exported="true">
             <intent-filter>
                 <action android:name="android.appwidget.action.APPWIDGET_UPDATE" />
             </intent-filter>

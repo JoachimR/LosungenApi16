@@ -12,10 +12,11 @@ import de.reiss.android.losungen.xmlparser.MonthlyLosungXmlItem
 import de.reiss.android.losungen.xmlparser.MonthlyLosungXmlParser
 import javax.inject.Inject
 
-class MonthlyXmlDatabaseInserter @Inject constructor(private val context: Context,
-                                                     private val monthlyLosungItemDao: MonthlyLosungItemDao,
-                                                     private val languageItemDao: LanguageItemDao)
-    : XmlConverter<MonthlyLosungXmlItem, MonthlyLosungDatabaseItem>(), DatabaseInserter {
+class MonthlyXmlDatabaseInserter @Inject constructor(
+    private val context: Context,
+    private val monthlyLosungItemDao: MonthlyLosungItemDao,
+    private val languageItemDao: LanguageItemDao
+) : XmlConverter<MonthlyLosungXmlItem, MonthlyLosungDatabaseItem>(), DatabaseInserter {
 
     override val losungXmlParser = MonthlyLosungXmlParser
 
@@ -36,13 +37,15 @@ class MonthlyXmlDatabaseInserter @Inject constructor(private val context: Contex
         return false
     }
 
-    override fun xmlItemToDatabaseItem(item: MonthlyLosungXmlItem,
-                                       languageId: Int): MonthlyLosungDatabaseItem =
-            MonthlyLosungDatabaseItem(
-                    languageId,
-                    item.Datum.withZeroDayTime(),
-                    item.Losungstext,
-                    item.Losungsvers
-            )
+    override fun xmlItemToDatabaseItem(
+        item: MonthlyLosungXmlItem,
+        languageId: Int
+    ): MonthlyLosungDatabaseItem =
+        MonthlyLosungDatabaseItem(
+            languageId,
+            item.Datum.withZeroDayTime(),
+            item.Losungstext,
+            item.Losungsvers
+        )
 
 }

@@ -9,9 +9,11 @@ import de.reiss.android.losungen.logger.logError
 import de.reiss.android.losungen.preferences.AppPreferences
 import javax.inject.Inject
 
-class ApkPrepare @Inject constructor(val context: Context,
-                                     val appPreferences: AppPreferences,
-                                     val languageItemDao: LanguageItemDao) {
+class ApkPrepare @Inject constructor(
+    val context: Context,
+    val appPreferences: AppPreferences,
+    val languageItemDao: LanguageItemDao
+) {
     companion object {
 
         const val initKey = "PERFORMED_INIT"

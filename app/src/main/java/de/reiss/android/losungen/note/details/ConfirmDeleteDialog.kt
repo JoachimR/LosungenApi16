@@ -19,8 +19,9 @@ class ConfirmDeleteDialog : DialogFragment() {
 
     }
 
-    override fun onCreateDialog(savedInstanceState: Bundle?): AlertDialog = requireActivity().let { activity ->
-        AlertDialog.Builder(activity)
+    override fun onCreateDialog(savedInstanceState: Bundle?): AlertDialog =
+        requireActivity().let { activity ->
+            AlertDialog.Builder(activity)
                 .setTitle(getString(R.string.confirm_delete_dialog_title))
                 .setCancelable(true)
                 .setPositiveButton(activity.getString(R.string.confirm_delete_dialog_ok)) { _, _ ->
@@ -31,6 +32,6 @@ class ConfirmDeleteDialog : DialogFragment() {
                     dismiss()
                 }
                 .create()
-    }
+        }
 
 }

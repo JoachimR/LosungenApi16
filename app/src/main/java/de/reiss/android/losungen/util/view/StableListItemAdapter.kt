@@ -7,7 +7,8 @@ import androidx.annotation.LayoutRes
 import androidx.recyclerview.widget.DiffUtil
 
 
-abstract class StableListItemAdapter : androidx.recyclerview.widget.RecyclerView.Adapter<ListItemViewHolder>() {
+abstract class StableListItemAdapter :
+    androidx.recyclerview.widget.RecyclerView.Adapter<ListItemViewHolder>() {
 
     init {
         setHasStableIds(true)
@@ -30,7 +31,7 @@ abstract class StableListItemAdapter : androidx.recyclerview.widget.RecyclerView
     }
 
     protected fun inflate(viewGroup: ViewGroup, @LayoutRes layoutResId: Int): View =
-            LayoutInflater.from(viewGroup.context).inflate(layoutResId, viewGroup, false)
+        LayoutInflater.from(viewGroup.context).inflate(layoutResId, viewGroup, false)
 
     override fun getItemId(position: Int): Long = getItem(position).stableId()
 
@@ -42,19 +43,20 @@ abstract class StableListItemAdapter : androidx.recyclerview.widget.RecyclerView
 
     protected fun getItem(position: Int): StableListItem = list[position]
 
-    private class StableDiffCallback(private val oldList: List<StableListItem>,
-                                     private val newList: List<StableListItem>)
-        : DiffUtil.Callback() {
+    private class StableDiffCallback(
+        private val oldList: List<StableListItem>,
+        private val newList: List<StableListItem>
+    ) : DiffUtil.Callback() {
 
         override fun getOldListSize() = oldList.size
 
         override fun getNewListSize() = newList.size
 
         override fun areItemsTheSame(oldItemPosition: Int, newItemPosition: Int) =
-                oldList[oldItemPosition].stableId() == newList[newItemPosition].stableId()
+            oldList[oldItemPosition].stableId() == newList[newItemPosition].stableId()
 
         override fun areContentsTheSame(oldItemPosition: Int, newItemPosition: Int) =
-                oldList[oldItemPosition] == newList[newItemPosition]
+            oldList[oldItemPosition] == newList[newItemPosition]
 
     }
 

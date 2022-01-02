@@ -8,7 +8,8 @@ import com.google.android.material.navigation.NavigationView
 import de.reiss.android.losungen.R
 
 
-class MainActivityNoToolbar : AbstractMainActivity(), NavigationView.OnNavigationItemSelectedListener {
+class MainActivityNoToolbar : AbstractMainActivity(),
+    NavigationView.OnNavigationItemSelectedListener {
 
     companion object {
 
@@ -21,8 +22,10 @@ class MainActivityNoToolbar : AbstractMainActivity(), NavigationView.OnNavigatio
     override fun setContent() {
         setContentView(R.layout.main_activity_no_toolbar)
         if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.KITKAT) {
-            window.setFlags(WindowManager.LayoutParams.FLAG_LAYOUT_NO_LIMITS,
-                    WindowManager.LayoutParams.FLAG_LAYOUT_NO_LIMITS)
+            window.setFlags(
+                WindowManager.LayoutParams.FLAG_LAYOUT_NO_LIMITS,
+                WindowManager.LayoutParams.FLAG_LAYOUT_NO_LIMITS
+            )
         }
     }
 

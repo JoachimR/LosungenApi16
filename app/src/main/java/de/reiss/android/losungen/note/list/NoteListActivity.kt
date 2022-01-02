@@ -10,18 +10,17 @@ import androidx.appcompat.widget.SearchView
 import de.reiss.android.losungen.App
 import de.reiss.android.losungen.R
 import de.reiss.android.losungen.architecture.AppActivity
-import de.reiss.android.losungen.note.export.NoteExportActivity
+import de.reiss.android.losungen.databinding.NoteListActivityBinding
 import de.reiss.android.losungen.util.extensions.findFragmentIn
 import de.reiss.android.losungen.util.extensions.hideKeyboard
 import de.reiss.android.losungen.util.extensions.replaceFragmentIn
-import kotlinx.android.synthetic.main.note_list_activity.*
 
 class NoteListActivity : AppActivity() {
 
     companion object {
 
         fun createIntent(context: Context): Intent =
-                Intent(context, NoteListActivity::class.java)
+            Intent(context, NoteListActivity::class.java)
 
     }
 
@@ -29,16 +28,20 @@ class NoteListActivity : AppActivity() {
         App.component.searchManager
     }
 
+    private lateinit var binding: NoteListActivityBinding
+
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        setContentView(R.layout.note_list_activity)
-        setSupportActionBar(note_list_toolbar)
+        binding = NoteListActivityBinding.inflate(layoutInflater)
+        setContentView(binding.root)
+        setSupportActionBar(binding.noteListToolbar)
         supportActionBar?.setDisplayHomeAsUpEnabled(true)
 
         if (findFragmentIn(R.id.note_list_fragment) == null) {
             replaceFragmentIn(
-                    container = R.id.note_list_fragment,
-                    fragment = NoteListFragment.createInstance())
+                container = R.id.note_list_fragment,
+                fragment = NoteListFragment.createInstance()
+            )
         }
     }
 
@@ -86,13 +89,13 @@ class NoteListActivity : AppActivity() {
     }
 
     override fun onOptionsItemSelected(item: MenuItem) =
-            when (item.itemId) {
-                R.id.menu_note_list_export -> {
-                    startActivity(NoteExportActivity.createIntent(this))
-                    true
-                }
-                else -> super.onOptionsItemSelected(item)
+        when (item.itemId) {
+            R.id.menu_note_list_export -> {
+                startActivity(NoteListActivity.createIntent(this))
+                true
             }
+            else -> super.onOptionsItemSelected(item)
+        }
 
     override fun onNewIntent(intent: Intent?) {
         super.onNewIntent(intent)

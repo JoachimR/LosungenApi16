@@ -12,10 +12,11 @@ import de.reiss.android.losungen.xmlparser.WeeklyLosungXmlItem
 import de.reiss.android.losungen.xmlparser.WeeklyLosungXmlParser
 import javax.inject.Inject
 
-class WeeklyXmlDatabaseInserter @Inject constructor(private val context: Context,
-                                                    private val weeklyLosungItemDao: WeeklyLosungItemDao,
-                                                    private val languageItemDao: LanguageItemDao)
-    : XmlConverter<WeeklyLosungXmlItem, WeeklyLosungDatabaseItem>(), DatabaseInserter {
+class WeeklyXmlDatabaseInserter @Inject constructor(
+    private val context: Context,
+    private val weeklyLosungItemDao: WeeklyLosungItemDao,
+    private val languageItemDao: LanguageItemDao
+) : XmlConverter<WeeklyLosungXmlItem, WeeklyLosungDatabaseItem>(), DatabaseInserter {
 
     override val losungXmlParser = WeeklyLosungXmlParser
 
@@ -36,15 +37,17 @@ class WeeklyXmlDatabaseInserter @Inject constructor(private val context: Context
         return false
     }
 
-    override fun xmlItemToDatabaseItem(item: WeeklyLosungXmlItem,
-                                       languageId: Int): WeeklyLosungDatabaseItem =
-            WeeklyLosungDatabaseItem(
-                    languageId,
-                    item.StartDatum.withZeroDayTime(),
-                    item.EndDatum.withZeroDayTime(),
-                    item.Sonntag,
-                    item.Losungstext,
-                    item.Losungsvers
-            )
+    override fun xmlItemToDatabaseItem(
+        item: WeeklyLosungXmlItem,
+        languageId: Int
+    ): WeeklyLosungDatabaseItem =
+        WeeklyLosungDatabaseItem(
+            languageId,
+            item.StartDatum.withZeroDayTime(),
+            item.EndDatum.withZeroDayTime(),
+            item.Sonntag,
+            item.Losungstext,
+            item.Losungsvers
+        )
 
 }

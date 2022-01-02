@@ -14,12 +14,13 @@ import de.reiss.android.losungen.xmlparser.DailyLosungXmlParser
 import java.util.concurrent.Executor
 import javax.inject.Inject
 
-class DailyXmlDatabaseInserter @Inject constructor(val context: Context,
-                                                   val executor: Executor,
-                                                   val dailyLosungItemDao: DailyLosungItemDao,
-                                                   val languageItemDao: LanguageItemDao,
-                                                   val appPreferences: AppPreferences)
-    : XmlConverter<DailyLosungXmlItem, DailyLosungDatabaseItem>(), DatabaseInserter {
+class DailyXmlDatabaseInserter @Inject constructor(
+    val context: Context,
+    val executor: Executor,
+    val dailyLosungItemDao: DailyLosungItemDao,
+    val languageItemDao: LanguageItemDao,
+    val appPreferences: AppPreferences
+) : XmlConverter<DailyLosungXmlItem, DailyLosungDatabaseItem>(), DatabaseInserter {
 
     companion object {
 
@@ -54,16 +55,18 @@ class DailyXmlDatabaseInserter @Inject constructor(val context: Context,
         return false
     }
 
-    override fun xmlItemToDatabaseItem(item: DailyLosungXmlItem,
-                                       languageId: Int): DailyLosungDatabaseItem =
-            DailyLosungDatabaseItem(
-                    languageId,
-                    item.Datum.withZeroDayTime(),
-                    item.Sonntag,
-                    item.Losungstext,
-                    item.Losungsvers,
-                    item.Lehrtext,
-                    item.Lehrtextvers
-            )
+    override fun xmlItemToDatabaseItem(
+        item: DailyLosungXmlItem,
+        languageId: Int
+    ): DailyLosungDatabaseItem =
+        DailyLosungDatabaseItem(
+            languageId,
+            item.Datum.withZeroDayTime(),
+            item.Sonntag,
+            item.Losungstext,
+            item.Losungsvers,
+            item.Lehrtext,
+            item.Lehrtextvers
+        )
 
 }

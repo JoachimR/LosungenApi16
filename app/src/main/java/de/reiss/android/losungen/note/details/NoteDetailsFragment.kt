@@ -2,10 +2,7 @@ package de.reiss.android.losungen.note.details
 
 
 import android.os.Bundle
-import android.view.Menu
-import android.view.MenuInflater
-import android.view.MenuItem
-import android.view.View
+import android.view.*
 import androidx.lifecycle.Observer
 import androidx.lifecycle.ViewModelProvider
 import androidx.lifecycle.ViewModelProviders
@@ -13,15 +10,15 @@ import de.reiss.android.losungen.App
 import de.reiss.android.losungen.R
 import de.reiss.android.losungen.architecture.AppFragment
 import de.reiss.android.losungen.architecture.AsyncLoad
+import de.reiss.android.losungen.databinding.NoteDetailsFragmentBinding
 import de.reiss.android.losungen.main.daily.ShareDialog
 import de.reiss.android.losungen.model.Note
 import de.reiss.android.losungen.note.edit.EditNoteActivity
 import de.reiss.android.losungen.util.contentAsString
 import de.reiss.android.losungen.util.extensions.showIndefiniteSnackbar
-import kotlinx.android.synthetic.main.note_details_fragment.*
 
-
-class NoteDetailsFragment : AppFragment<NoteDetailsViewModel>(R.layout.note_details_fragment) {
+class NoteDetailsFragment :
+    AppFragment<NoteDetailsFragmentBinding, NoteDetailsViewModel>(R.layout.note_details_fragment) {
 
     companion object {
 
@@ -52,31 +49,38 @@ class NoteDetailsFragment : AppFragment<NoteDetailsViewModel>(R.layout.note_deta
     }
 
     override fun onOptionsItemSelected(item: MenuItem) =
-            when (item.itemId) {
-                R.id.menu_note_details_share -> {
-                    onShareClicked()
-                    true
-                }
-                R.id.menu_note_details_edit -> {
-                    onEditClicked()
-                    true
-                }
-                R.id.menu_note_details_delete -> {
-                    onDeleteClicked()
-                    true
-                }
-                else -> super.onOptionsItemSelected(item)
+        when (item.itemId) {
+            R.id.menu_note_details_share -> {
+                onShareClicked()
+                true
             }
+            R.id.menu_note_details_edit -> {
+                onEditClicked()
+                true
+            }
+            R.id.menu_note_details_delete -> {
+                onDeleteClicked()
+                true
+            }
+            else -> super.onOptionsItemSelected(item)
+        }
 
-    override fun initViews(layout: View) {
+
+    override fun inflateViewBinding(inflater: LayoutInflater, container: ViewGroup?) =
+        NoteDetailsFragmentBinding.inflate(inflater, container, false)
+
+    override fun initViews() {
     }
 
     override fun defineViewModelProvider(): ViewModelProvider =
-            ViewModelProviders.of(this, NoteDetailsViewModel.Factory(
-                    requireArguments().getParcelable(KEY_NOTE)!!, App.component.noteDetailsRepository))
+        ViewModelProviders.of(
+            this, NoteDetailsViewModel.Factory(
+                requireArguments().getParcelable(KEY_NOTE)!!, App.component.noteDetailsRepository
+            )
+        )
 
     override fun defineViewModel(): NoteDetailsViewModel =
-            loadViewModelProvider().get(NoteDetailsViewModel::class.java)
+        loadViewModelProvider().get(NoteDetailsViewModel::class.java)
 
     override fun initViewModelObservers() {
         viewModel.noteLiveData().observe(this, Observer<AsyncLoad<Note>> {
@@ -107,20 +111,26 @@ class NoteDetailsFragment : AppFragment<NoteDetailsViewModel>(R.layout.note_deta
     private fun onShareClicked() {
         val context = context ?: return
         val note = viewModel.loadedNote()
-        displayDialog(ShareDialog.createInstance(
+        displayDialog(
+            ShareDialog.createInstance(
                 context = context,
                 time = note.date.time,
                 bibleTextPair = note.bibleTextPair,
-                note = note.noteText))
+                note = note.noteText
+            )
+        )
     }
 
     private fun onEditClicked() {
         val activity = activity ?: return
         val note = viewModel.loadedNote()
-        activity.startActivity(EditNoteActivity.createIntent(
+        activity.startActivity(
+            EditNoteActivity.createIntent(
                 context = activity,
                 date = note.date,
-                bibleTextPair = note.bibleTextPair))
+                bibleTextPair = note.bibleTextPair
+            )
+        )
     }
 
     private fun onDeleteClicked() {
@@ -138,45 +148,45 @@ class NoteDetailsFragment : AppFragment<NoteDetailsViewModel>(R.layout.note_deta
 
         when {
             viewModel.isDeleting() -> {
-                note_details_loading.loading = true
+                binding.noteDetailsLoading.loading = true
             }
             viewModel.successfullyDeleted() -> {
                 activity?.supportFinishAfterTransition()
             }
             viewModel.isLoading() -> {
-                note_details_loading.loading = true
+                binding.noteDetailsLoading.loading = true
             }
             else -> {
-                note_details_loading.loading = false
+                binding.noteDetailsLoading.loading = false
 
                 when {
                     viewModel.errorDeleting() -> showIndefiniteSnackbar(
-                            message = R.string.note_details_error_deleting_note,
-                            action = {
-                                tryDeleteNote()
-                            },
-                            callback = {
-                                viewModel.resetDeleteError()
-                            }
+                        message = R.string.note_details_error_deleting_note,
+                        action = {
+                            tryDeleteNote()
+                        },
+                        callback = {
+                            viewModel.resetDeleteError()
+                        }
                     )
                     viewModel.errorLoading() -> showIndefiniteSnackbar(
-                            message = R.string.note_details_error_reload_note,
-                            action = {
-                                tryLoadNote()
-                            },
-                            callback = {
-                                viewModel.resetLoadError()
-                            }
+                        message = R.string.note_details_error_reload_note,
+                        action = {
+                            tryLoadNote()
+                        },
+                        callback = {
+                            viewModel.resetLoadError()
+                        }
                     )
                     else -> {
                         val note = viewModel.loadedNote()
-                        note_details_losung.text = contentAsString(
-                                context = context,
-                                time = note.date.time,
-                                bibleTextPair = note.bibleTextPair,
-                                note = ""
+                        binding.noteDetailsLosung.text = contentAsString(
+                            context = context,
+                            time = note.date.time,
+                            bibleTextPair = note.bibleTextPair,
+                            note = ""
                         )
-                        note_details_note.text = note.noteText
+                        binding.noteDetailsNote.text = note.noteText
                     }
                 }
             }
