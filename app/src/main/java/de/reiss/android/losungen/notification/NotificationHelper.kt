@@ -79,7 +79,7 @@ open class NotificationHelper @Inject constructor(
             context, createUniqueRequestCode(),
             SplashScreenActivity.createIntent(context)
                 .setFlags(Intent.FLAG_ACTIVITY_NEW_TASK or Intent.FLAG_ACTIVITY_CLEAR_TOP),
-            PendingIntent.FLAG_UPDATE_CURRENT
+                     PendingIntent.FLAG_IMMUTABLE or PendingIntent.FLAG_UPDATE_CURRENT
         )
 
     private fun createUniqueRequestCode() = Random().nextInt(100)

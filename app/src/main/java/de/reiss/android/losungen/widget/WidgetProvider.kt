@@ -60,7 +60,8 @@ abstract class WidgetProvider : AppWidgetProvider() {
     private fun setClickMethod(context: Context, remoteViews: RemoteViews) {
         val pendingIntent = PendingIntent.getActivity(
             context, REQUEST_CODE_CLICK_WIDGET,
-            SplashScreenActivity.createIntent(context), PendingIntent.FLAG_UPDATE_CURRENT
+            SplashScreenActivity.createIntent(context),
+            PendingIntent.FLAG_IMMUTABLE or PendingIntent.FLAG_UPDATE_CURRENT
         )
         remoteViews.setPendingIntentTemplate(R.id.widget_list_view, pendingIntent)
     }
