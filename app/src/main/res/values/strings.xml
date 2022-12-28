@@ -115,7 +115,6 @@
     <string name="share_dialog_input_hint">Text to share</string>
     <string name="share_dialog_chooser_title">Share</string>
     <string name="pref_display_category_title">Display Settings</string>
-    <string name="pref_app_show_daily_notification_title">Daily Notification</string>
     <string name="can_not_write_to_sdcard">Can not write to sd card</string>
     <string name="note_export_subhead">Export all notes to the sdcard</string>
     <string name="note_export_title">Export Notes</string>
@@ -132,8 +131,6 @@
     <string name="developer_prefix">Android Developer:</string>
     <string name="info_prefix">Info:</string>
     <string name="share_app_title">Share app</string>
-    <string name="pref_app_show_daily_notification_summary_off">No Notifications</string>
-    <string name="pref_app_show_daily_notification_summary_on">Display daily text as a notification every day</string>
     <string name="pref_show_notes_summary_off">Notes hidden</string>
     <string name="pref_show_notes_summary_on">Notes visible below the language verses</string>
     <string name="pref_show_toolbar_summary_off">Toolbar hidden</string>

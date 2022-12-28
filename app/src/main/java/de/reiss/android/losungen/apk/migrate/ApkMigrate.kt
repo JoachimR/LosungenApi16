@@ -38,8 +38,7 @@ class ApkMigrate @Inject constructor(
             context.getString(R.string.pref_widget_font_color_key),
             context.getString(R.string.pref_widget_font_size_key),
             context.getString(R.string.pref_widget_show_date_key),
-            context.getString(R.string.pref_widget_centered_text_key),
-            context.getString(R.string.pref_show_daily_notification_key)
+            context.getString(R.string.pref_widget_centered_text_key)
         )
     }
 

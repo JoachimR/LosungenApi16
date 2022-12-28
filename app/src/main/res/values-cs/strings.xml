@@ -115,7 +115,6 @@
     <string name="share_dialog_input_hint">Text ke sdílení</string>
     <string name="share_dialog_chooser_title">Sdílet</string>
     <string name="pref_display_category_title">Zobrazení</string>
-    <string name="pref_app_show_daily_notification_title">Denní oznámení</string>
     <string name="can_not_write_to_sdcard">Nelze zapsat na SD kartu</string>
     <string name="note_export_subhead">Exportovat všechny poznámky na SD kartu</string>
     <string name="note_export_title">Exportovat poznámky</string>
@@ -132,8 +131,6 @@
     <string name="developer_prefix">Vývojář verze pro Android:</string>
     <string name="info_prefix">Info:</string>
     <string name="share_app_title">Sdílet aplikaci</string>
-    <string name="pref_app_show_daily_notification_summary_off">Bez oznámení</string>
-    <string name="pref_app_show_daily_notification_summary_on">Zobrazit denní heslo každý den jako oznámení</string>
     <string name="pref_show_notes_summary_off">Poznámky skryty</string>
     <string name="pref_show_notes_summary_on">Poznámky viditelné pod textem</string>
     <string name="pref_show_toolbar_summary_off">Panel nástrojů skrytý</string>

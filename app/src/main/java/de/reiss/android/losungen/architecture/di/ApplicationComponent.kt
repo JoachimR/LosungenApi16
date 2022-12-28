@@ -15,7 +15,6 @@ import de.reiss.android.losungen.note.details.NoteDetailsRepository
 import de.reiss.android.losungen.note.edit.EditNoteRepository
 import de.reiss.android.losungen.note.export.NoteExportRepository
 import de.reiss.android.losungen.note.list.NoteListRepository
-import de.reiss.android.losungen.notification.NotificationHelper
 import de.reiss.android.losungen.preferences.AppPreferences
 import de.reiss.android.losungen.preferences.AppPreferencesRepository
 import de.reiss.android.losungen.widget.daily.DailyWidgetTextRefresher
@@ -55,7 +54,6 @@ interface ApplicationComponent {
     val weeklyWidgetTextRefresher: WeeklyWidgetTextRefresher
     val yearlyWidgetTextRefresher: YearlyWidgetTextRefresher
 
-    val notificationHelper: NotificationHelper
     val appPreferences: AppPreferences
 
     val searchManager: SearchManager

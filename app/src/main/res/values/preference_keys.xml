@@ -3,7 +3,6 @@
 
 
     <string name="pref_language_key" translatable="false">language</string>
-    <string name="pref_show_daily_notification_key" translatable="false">show_daily_notification</string>
 
     <string name="pref_show_notes_key" translatable="false">show_notes</string>
     <string name="pref_theme_key" translatable="false">theme</string>

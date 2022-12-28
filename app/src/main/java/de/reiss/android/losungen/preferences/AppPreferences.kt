@@ -128,9 +128,6 @@ open class AppPreferences(val context: Context) : OnSharedPreferenceChangeListen
 
     fun showCards() = prefBoolean(R.string.pref_show_cards_key, true)
 
-    fun shouldShowDailyNotification() =
-        prefBoolean(R.string.pref_show_daily_notification_key, false)
-
     var typefaceString: String?
         get() = prefString(R.string.pref_font_typeface_key)
         set(chosenTypeface) = preferences.change {

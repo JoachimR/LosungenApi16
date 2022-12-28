@@ -6,12 +6,10 @@ import android.os.Bundle
 import android.view.View
 import androidx.preference.ListPreference
 import androidx.preference.PreferenceFragmentCompat
-import androidx.preference.SwitchPreferenceCompat
 import de.reiss.android.losungen.App
 import de.reiss.android.losungen.R
 import de.reiss.android.losungen.SplashScreenActivity
 import de.reiss.android.losungen.model.Language
-import de.reiss.android.losungen.util.extensions.isPlayServiceAvailable
 
 
 class AppPreferencesFragment : PreferenceFragmentCompat(),
@@ -53,11 +51,6 @@ class AppPreferencesFragment : PreferenceFragmentCompat(),
             entryValues = languages.map { it.key }.toTypedArray()
         }
 
-        (findPreference(getString(R.string.pref_show_daily_notification_key)) as SwitchPreferenceCompat?)?.apply {
-            val playServiceAvailable = requireContext().isPlayServiceAvailable()
-            isVisible = playServiceAvailable
-            setDefaultValue(playServiceAvailable)
-        }
     }
 
     override fun onPause() {

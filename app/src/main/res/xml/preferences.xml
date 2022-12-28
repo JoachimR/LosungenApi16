@@ -10,13 +10,6 @@
             android:summary="%s"
             android:title="@string/pref_language_title" />
 
-        <androidx.preference.SwitchPreferenceCompat
-            android:defaultValue="true"
-            android:key="@string/pref_show_daily_notification_key"
-            android:summaryOff="@string/pref_app_show_daily_notification_summary_off"
-            android:summaryOn="@string/pref_app_show_daily_notification_summary_on"
-            android:title="@string/pref_app_show_daily_notification_title" />
-
     </PreferenceCategory>
 
     <PreferenceCategory android:title="@string/pref_display_category_title">

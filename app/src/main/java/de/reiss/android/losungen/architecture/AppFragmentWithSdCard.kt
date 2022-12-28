@@ -14,7 +14,7 @@ abstract class AppFragmentWithSdCard<VB : ViewBinding, VM : ViewModel>(
     AppFragment<VB, VM>(fragmentLayout) {
 
     companion object {
-        private val REQUEST_WRITE_EXTERNAL_STORAGE = 11
+        private const val REQUEST_WRITE_EXTERNAL_STORAGE = 11
     }
 
     fun requestSdCardPermission() {

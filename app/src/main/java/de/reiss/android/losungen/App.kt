@@ -1,14 +1,13 @@
 package de.reiss.android.losungen
 
-import android.app.Application
+import androidx.multidex.MultiDexApplication
 import androidx.preference.PreferenceManager
 import de.reiss.android.losungen.architecture.di.ApplicationComponent
 import de.reiss.android.losungen.architecture.di.ContextModule
 import de.reiss.android.losungen.architecture.di.DaggerApplicationComponent
 import de.reiss.android.losungen.architecture.di.DatabaseModule
-import de.reiss.android.losungen.notification.NotificationService
 
-open class App : Application() {
+open class App : MultiDexApplication() {
 
     companion object {
 
@@ -24,7 +23,6 @@ open class App : Application() {
     }
 
     open fun initApp() {
-        NotificationService.schedule(this)
         initPrefs()
     }
 
