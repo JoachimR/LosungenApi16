@@ -1,68 +1,73 @@
 ﻿<?xml version="1.0" standalone="yes"?>
 <FreeXml xmlns="http://tempuri.org/FreeXml.xsd">
     <MonatsLosungen>
-        <Datum>2021-12-01</Datum>
-        <Losungstext>Plesej a raduj se, sijónská dcero, neboť už přicházím a budu bydlet uprostřed tebe, je výrok Hospodinův.</Losungstext>
-        <Losungsvers>Zachariáš 2,14</Losungsvers>
+        <Datum>2023-01-01</Datum>
+        <Losungstext>Bůh viděl, že všechno, co učinil, je velmi dobré.</Losungstext>
+        <Losungsvers>1.Mojžíšova 1,31</Losungsvers>
     </MonatsLosungen>
     <MonatsLosungen>
-        <Datum>2022-01-01</Datum>
-        <Losungstext>Ježíš Kristus praví: Pojďte a uvidíte!</Losungstext>
-        <Losungsvers>Jan 1,39</Losungsvers>
+        <Datum>2023-02-01</Datum>
+        <Losungstext>Tu Sára řekla: "Bůh mi dopřál, že se mohu smát."</Losungstext>
+        <Losungsvers>1.Mojžíšova 21,6</Losungsvers>
     </MonatsLosungen>
     <MonatsLosungen>
-        <Datum>2022-02-01</Datum>
-        <Losungstext>Hněváte-li se, nehřešte. Nenechte nad svým hněvem zapadnout slunce.</Losungstext>
-        <Losungsvers>Efezským 4,26</Losungsvers>
+        <Datum>2023-03-01</Datum>
+        <Losungstext>Kdo nás odloučí od lásky Kristovy?</Losungstext>
+        <Losungsvers>Římanům 8,35</Losungsvers>
     </MonatsLosungen>
     <MonatsLosungen>
-        <Datum>2022-03-01</Datum>
-        <Losungstext>V každý čas se v Duchu svatém modlete a proste, bděte na modlitbách a vytrvale se přimlouvejte za všechny bratry.</Losungstext>
-        <Losungsvers>Efezským 6,18</Losungsvers>
+        <Datum>2023-04-01</Datum>
+        <Losungstext>Proto Kristus umřel i ožil, aby se stal Pánem i mrtvých i živých.</Losungstext>
+        <Losungsvers>Římanům 14,9</Losungsvers>
     </MonatsLosungen>
     <MonatsLosungen>
-        <Datum>2022-04-01</Datum>
-        <Losungstext>Marie Magdalská šla k učedníkům a oznámila jim: Viděla jsem Pána a toto mi řekl.</Losungstext>
-        <Losungsvers>Jan 20,18</Losungsvers>
+        <Datum>2023-05-01</Datum>
+        <Losungstext>Neodpírej dobrodiní těm, kteří je potřebují, je-li v tvé moci je prokázat.
+        </Losungstext>
+        <Losungsvers>Přísloví 3,27</Losungsvers>
     </MonatsLosungen>
     <MonatsLosungen>
-        <Datum>2022-05-01</Datum>
-        <Losungstext>Modlím se za tebe, milovaný, aby se ti ve všem dobře dařilo a abys byl zdráv – tak jako se dobře daří tvé duši.</Losungstext>
-        <Losungsvers>3.Janova 1,2</Losungsvers>
+        <Datum>2023-06-01</Datum>
+        <Losungstext>Dej ti Bůh z rosy nebes a ze žírnosti země, i hojnost obilí a moštu.
+        </Losungstext>
+        <Losungsvers>1.Mojžíšova 27,28</Losungsvers>
     </MonatsLosungen>
     <MonatsLosungen>
-        <Datum>2022-06-01</Datum>
-        <Losungstext>Polož si mě na srdce jako pečeť, jako pečeť na své rámě. Vždyť silná jako smrt je láska.</Losungstext>
-        <Losungsvers>Píseň 8,6</Losungsvers>
+        <Datum>2023-07-01</Datum>
+        <Losungstext>Já však vám pravím: Milujte své nepřátele a modlete se za ty, kdo vás
+            pronásledují, abyste byli syny nebeského Otce.
+        </Losungstext>
+        <Losungsvers>Matouš 5,44-45</Losungsvers>
     </MonatsLosungen>
     <MonatsLosungen>
-        <Datum>2022-07-01</Datum>
-        <Losungstext>Po Bohu žízním, po živém Bohu.</Losungstext>
-        <Losungsvers>Žalm 42,3</Losungsvers>
+        <Datum>2023-08-01</Datum>
+        <Losungstext>Neboť ty jsi má pomoc, a proto ve stínu tvých křídel se budu radovat.
+        </Losungstext>
+        <Losungsvers>Žalm 63,8 F</Losungsvers>
     </MonatsLosungen>
     <MonatsLosungen>
-        <Datum>2022-08-01</Datum>
-        <Losungstext>Tehdy zaplesají stromy v lese vstříc Hospodinu, že přichází soudit zemi.</Losungstext>
-        <Losungsvers>1.Paralipomenon 16,33</Losungsvers>
+        <Datum>2023-09-01</Datum>
+        <Losungstext>Řekl jim: "A za koho mě pokládáte vy?"</Losungstext>
+        <Losungsvers>Matouš 16,15</Losungsvers>
     </MonatsLosungen>
     <MonatsLosungen>
-        <Datum>2022-09-01</Datum>
-        <Losungstext>Láska k Bohu je ta nejvznešenější moudrost.</Losungstext>
-        <Losungsvers>Sírachovec 1,10 L17</Losungsvers>
+        <Datum>2023-10-01</Datum>
+        <Losungstext>Podle slova však také jednejte, nebuďte jen posluchači – to byste klamali sami
+            sebe.
+        </Losungstext>
+        <Losungsvers>Jakubova 1,22</Losungsvers>
     </MonatsLosungen>
     <MonatsLosungen>
-        <Datum>2022-10-01</Datum>
-        <Losungstext>Veliké a podivuhodné jsou tvé činy, Pane Bože všemohoucí; spravedlivé a pravdivé jsou tvé cesty, Králi národů.</Losungstext>
-        <Losungsvers>Zjevení 15,3</Losungsvers>
+        <Datum>2023-11-01</Datum>
+        <Losungstext>Sám nebesa roztahuje, kráčí po hřebenech mořských vln, on udělal souhvězdí Lva,
+            Orióna i Plejády a souhvězdí jižní.
+        </Losungstext>
+        <Losungsvers>Jób 9,8-9</Losungsvers>
     </MonatsLosungen>
     <MonatsLosungen>
-        <Datum>2022-11-01</Datum>
-        <Losungstext>Běda těm, kdo říkají zlu dobro a dobru zlo, kdo vydávají tmu za světlo a světlo za tmu, kdo vydávají hořké za sladké a sladké za hořké!</Losungstext>
-        <Losungsvers>Izaiáš 5,20</Losungsvers>
-    </MonatsLosungen>
-    <MonatsLosungen>
-        <Datum>2022-12-01</Datum>
-        <Losungstext>Vlk bude pobývat s beránkem, levhart s kůzletem odpočívat. Tele a lvíče i žírný dobytek budou spolu a malý hoch je bude vodit.</Losungstext>
-        <Losungsvers>Izaiáš 11,6</Losungsvers>
+        <Datum>2023-12-01</Datum>
+        <Losungstext>Mé oči viděly tvé spasení, které jsi připravil přede všemi národy.
+        </Losungstext>
+        <Losungsvers>Lukáš 2,30-31</Losungsvers>
     </MonatsLosungen>
 </FreeXml>
